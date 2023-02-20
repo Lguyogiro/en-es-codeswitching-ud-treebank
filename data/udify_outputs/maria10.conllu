@@ -1,0 +1,2419 @@
+1	good	good	ADJ	_	Degree=Pos	2	amod	_	_
+2	morning	morning	NOUN	_	Number=Sing	0	root	_	_
+3	Martha	Martha	PROPN	_	Number=Sing	2	vocative	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	this	this	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	María	María	PROPN	_	Number=Sing	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+1	this	this	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Tom	Tom	PROPN	_	Number=Sing	0	root	_	_
+4	there	there	ADV	_	PronType=Dem	3	advmod	_	_
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+1	thank	thank	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	1	obj	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	heard	hear	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	_	Number=Sing|PronType=Dem	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mean	mean	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	discourse	_	_
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	heard	hear	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	you	you	PRON	_	_	4	obj	_	_
+6	explaining	explain	VERB	_	Tense=Pres|VerbForm=Part	4	xcomp	_	_
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+1	did	do	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	make	make	VERB	_	VerbForm=Inf	0	root	_	_
+4	sense	sense	NOUN	_	Number=Sing	3	obj	_	_
+5	?	?	PUNCT	_	_	3	punct	_	_
+
+1	Hey	hey	INTJ	_	_	0	root	_	_
+2	Tom	Tom	PROPN	_	Number=Sing	1	vocative	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+1	cómo	cómo	ADV	_	_	2	advmod	_	_
+2	estás	estar	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+1	bien	bien	ADV	_	_	2	advmod	_	_
+2	bien	bien	ADV	_	_	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	eh	eh	INTJ	_	_	5	discourse	_	_
+2	did	do	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+3	did	do	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	Aaron	Aaron	PROPN	_	Number=Sing	5	nsubj	_	_
+5	give	give	VERB	_	VerbForm=Inf	0	root	_	_
+6	yoy	yoy	NOUN	_	Number=Sing	5	iobj	_	_
+7	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	message	message	NOUN	_	Number=Sing	5	obj	_	_
+9	?	?	PUNCT	_	_	5	punct	_	_
+
+1	oh	oh	INTJ	_	_	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	eh	eh	X	_	_	12	discourse	_	_
+2	Sean	sean	PROPN	_	_	12	nsubj	_	_
+3	wants	wants	X	_	_	2	flat	_	_
+4	to	to	X	_	_	2	flat	_	_
+5	have	have	X	_	Foreign=Yes	2	flat	_	_
+6	a	a	X	_	Foreign=Yes	2	flat	_	_
+7	meeting	meeting	X	_	Foreign=Yes	2	flat	_	_
+8	at	at	X	_	_	9	case	_	_
+9	A-One	a-one	X	_	_	7	compound	_	_
+10	con	con	X	_	_	12	case	_	_
+11	todavía	todavía	ADV	_	_	12	advmod	_	_
+12	tienen	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	problemas	problema	NOUN	_	Gender=Masc|Number=Plur	12	obj	_	_
+14	con	con	ADP	_	_	16	case	_	_
+15	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+16	torre	torre	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	_
+17	de	de	ADP	_	_	19	case	_	_
+18	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+19	televisión	televisión	NOUN	_	Gender=Fem|Number=Sing	16	nmod	_	_
+20	.	.	PUNCT	_	_	12	punct	_	_
+
+1	and	and	CCONJ	_	_	4	cc	_	_
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	would	would	AUX	_	VerbForm=Fin	4	aux	_	_
+4	like	like	VERB	_	VerbForm=Inf	0	root	_	_
+5	for	for	SCONJ	_	_	10	mark	_	_
+6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+7	to	to	PART	_	_	10	mark	_	_
+8	be	be	AUX	_	VerbForm=Inf	10	cop	_	_
+9	an	a	DET	_	Definite=Ind|PronType=Art	10	det	_	_
+10	attendance	attendance	NOUN	_	Number=Sing	4	xcomp	_	_
+11	with	with	ADP	_	_	12	case	_	_
+12	NDR	NDR	PROPN	_	Number=Sing	10	nmod	_	_
+13	which	which	PRON	_	PronType=Rel	16	nsubj	_	_
+14	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	a	a	DET	_	Definite=Ind|PronType=Art	16	det	_	_
+16	subcontractor	subcontractor	NOUN	_	Number=Sing	12	acl:relcl	_	_
+17	for	for	ADP	_	_	19	case	_	_
+18	the	the	DET	_	Definite=Def|PronType=Art	19	det	_	_
+19	tower	tower	NOUN	_	Number=Sing	16	nmod	_	_
+20	and	and	CCONJ	_	_	26	cc	_	_
+21	Mario	Mario	PROPN	_	Number=Sing	26	nsubj	_	_
+22	wich	wich	PROPN	_	Number=Sing	21	flat	_	_
+23	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+24	the	the	DET	_	Definite=Def|PronType=Art	26	det	_	_
+25	WRN	WRN	PROPN	_	Number=Sing	26	compound	_	_
+26	guy	guy	NOUN	_	Number=Sing	4	conj	_	_
+27	.	.	PUNCT	_	_	4	punct	_	_
+
+1	so	so	ADV	_	_	10	mark	_	_
+2	that	that	SCONJ	_	_	1	fixed	_	_
+3	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+4	can	can	AUX	_	VerbForm=Fin	6	aux	_	_
+5	not	not	PART	_	_	6	advmod	_	_
+6	be	be	AUX	_	VerbForm=Inf	0	root	_	_
+7	on	on	ADP	_	_	10	case	_	_
+8	the	the	DET	_	Definite=Def|PronType=Art	10	det	_	_
+9	same	same	ADJ	_	Degree=Pos	10	amod	_	_
+10	page	page	NOUN	_	Number=Sing	6	obl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+1	porque	porque	SCONJ	_	_	3	mark	_	_
+2	uno	uno	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	3	nsubj	_	_
+3	dice	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
+7	otro	otro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	8	nsubj	_	_
+8	dice	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+9	otra	otro	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	8	obj	_	_
+10	and	and	X	_	_	3	dep	_	_
+11	apparently	apparently	X	_	_	10	flat	_	_
+12	it's	it's	X	_	_	10	flat	_	_
+13	been	been	PROPN	_	_	10	flat	_	_
+
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	just	just	ADV	_	_	4	advmod	_	_
+4	mincing	mince	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+5	by	by	ADP	_	_	6	case	_	_
+6	standards	standard	NOUN	_	Number=Plur	4	obl	_	_
+7	but	but	CCONJ	_	_	4	cc	_	_
+
+1	eh	eh	X	_	_	0	root	_	_
+2	next	next	X	_	_	1	dep	_	_
+3	tuesday	tuesday	PROPN	_	_	1	flat	_	_
+4	a	a	ADP	_	_	8	case	_	_
+5	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+6	a	a	ADP	_	_	8	case	_	_
+7	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	_
+8	nueve	nueve	NUM	_	Number=Plur|NumType=Card	1	nmod	_	_
+9	o	o	CCONJ	_	_	11	cc	_	_
+10	las	el	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	_
+11	diez	diez	NUM	_	Number=Plur|NumType=Card	8	conj	_	_
+12	.	.	PUNCT	_	_	1	punct	_	_
+
+1	qué	qué	DET	_	PronType=Int	2	det	_	_
+2	hora	hora	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	_
+3	prefieres	preferir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+1	ok	ok	X	_	Foreign=Yes	2	amod	_	_
+2	um	um	X	_	Foreign=Yes	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	next	next	ADJ	_	Degree=Pos	2	amod	_	_
+2	friday	friday	NOUN	_	Number=Sing	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	hablando	hablar	VERB	_	VerbForm=Ger	0	root	_	_
+2	de	de	ADP	_	_	4	case	_	_
+3	next	next	X	_	_	4	compound	_	_
+4	friday	friday	PROPN	_	_	1	obl	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	get	get	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	email	email	NOUN	_	Number=Sing	2	obj	_	_
+5	about	about	SCONJ	_	_	6	mark	_	_
+6	taking	take	VERB	_	VerbForm=Ger	2	advcl	_	_
+7	advantage	advantage	NOUN	_	Number=Sing	6	obj	_	_
+8	that	that	SCONJ	_	_	13	mark	_	_
+9	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+10	a	a	DET	_	Definite=Ind|PronType=Art	13	det	_	_
+11	teacher	teacher	NOUN	_	Number=Sing	12	compound	_	_
+12	planning	plann	VERB	_	VerbForm=Ger	13	compound	_	_
+13	day	day	NOUN	_	Number=Sing	6	advcl	_	_
+14	?	?	PUNCT	_	_	2	punct	_	_
+
+1	to	to	PART	_	_	5	mark	_	_
+2	do	do	AUX	_	VerbForm=Inf	5	aux	_	_
+3	do	do	VERB	_	VerbForm=Inf	5	compound	_	_
+4	punch	punch	NOUN	_	Number=Sing	5	compound	_	_
+5	list	list	NOUN	_	Number=Sing	0	root	_	_
+6	for	for	ADP	_	_	5	nmod	_	_
+7	for	for	ADP	_	_	9	case	_	_
+8	the	the	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	schools	school	NOUN	_	Number=Plur	5	nmod	_	_
+10	?	?	PUNCT	_	_	5	punct	_	_
+
+1	en	en	ADP	_	_	3	case	_	_
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
+3	dieciocho	dieciocho	NUM	_	Gender=Masc|Number=Sing	7	nmod	_	_
+4	de	de	ADP	_	_	6	case	_	_
+5	de	de	ADP	_	_	6	case	_	_
+6	enero	enero	PROPN	_	_	3	nmod	_	_
+7	it's	it's	PROPN	_	_	0	root	_	_
+8	teacher	teacher	PROPN	_	Number=Sing	7	flat	_	_
+9	planning	planning	PROPN	_	Number=Sing	7	flat	_	_
+10	day	day	PROPN	_	Number=Sing	7	flat	_	_
+11	.	.	PUNCT	_	_	7	punct	_	_
+
+1	so	so	ADV	_	_	3	advmod	_	_
+2	there	there	PRON	_	_	3	expl	_	_
+3	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	_	_	5	det	_	_
+5	kids	kid	NOUN	_	Number=Plur	3	nsubj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+1	right	right	ADJ	_	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	ok	ok	INTJ	_	_	5	discourse	_	_
+2	well	well	INTJ	_	Degree=Pos	5	discourse	_	_
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	might	might	AUX	_	VerbForm=Fin	5	aux	_	_
+5	call	call	VERB	_	VerbForm=Inf	0	root	_	_
+6	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	up	up	ADP	_	_	5	compound:prt	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+1	but	but	CCONJ	_	_	4	cc	_	_
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	don't	don't	PART	_	_	4	aux	_	_
+4	think	think	VERB	_	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	to	to	PART	_	_	8	mark	_	_
+8	be	be	VERB	_	VerbForm=Inf	6	xcomp	_	_
+9	there	there	ADV	_	PronType=Dem	8	advmod	_	_
+10	but	but	CCONJ	_	_	12	cc	_	_
+11	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	does	do	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+1	if	if	SCONJ	_	_	3	mark	_	_
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	doesn't	doesn't	VERB	_	_	0	root	_	_
+
+1	right	right	ADJ	_	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	right	right	ADJ	_	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	ok	ok	X	_	Degree=Pos	0	root	_	_
+2	ok	ok	X	_	Degree=Pos	1	goeswith	_	_
+3	ok	ok	X	_	Degree=Pos	1	list	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+1	but	but	CCONJ	_	_	4	cc	_	_
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	did	do	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	send	send	VERB	_	VerbForm=Inf	0	root	_	_
+5	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	4	iobj	_	_
+6	an	a	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+7	email	email	NOUN	_	Number=Sing	4	obj	_	_
+8	couple	couple	NOUN	_	Number=Sing	11	obl:npmod	_	_
+9	of	of	ADP	_	_	10	case	_	_
+10	days	day	NOUN	_	Number=Plur	8	nmod	_	_
+11	ago	ago	ADV	_	_	4	advmod	_	_
+12	that	that	SCONJ	_	PronType=Rel	21	mark	_	_
+13	friday	friday	PROPN	_	Number=Sing	21	nsubj	_	_
+14	January	January	PROPN	_	Number=Sing	21	nsubj	_	_
+15	the	the	DET	_	Definite=Def|PronType=Art	16	det	_	_
+16	eighteenth	eighteenth	ADJ	_	Number=Sing	13	appos	_	_
+17	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+18	a	a	DET	_	Definite=Ind|PronType=Art	21	det	_	_
+19	teacher	teacher	NOUN	_	Number=Sing	20	compound	_	_
+20	planning	planning	VERB	_	VerbForm=Ger	21	compound	_	_
+21	day	day	NOUN	_	Number=Sing	7	acl:relcl	_	_
+22	so	so	ADV	_	_	27	advmod	_	_
+23	it'd	it'd	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	nsubj	_	_
+24	be	be	AUX	_	VerbForm=Inf	27	cop	_	_
+25	a	a	DET	_	Definite=Ind|PronType=Art	27	det	_	_
+26	good	good	ADJ	_	Degree=Pos	27	amod	_	_
+27	day	day	NOUN	_	Number=Sing	4	parataxis	_	_
+28	to	to	PART	_	_	29	mark	_	_
+29	do	do	VERB	_	VerbForm=Inf	27	acl	_	_
+30	all	all	DET	_	_	32	det:predet	_	_
+31	the	the	DET	_	Definite=Def|PronType=Art	32	det	_	_
+32	schools	school	NOUN	_	Number=Plur	29	obj	_	_
+33	if	if	SCONJ	_	_	36	mark	_	_
+34	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	36	nsubj	_	_
+35	wanna	wannan	AUX	_	VerbForm=Fin	36	aux	_	_
+36	get	get	VERB	_	VerbForm=Inf	29	advcl	_	_
+37	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	36	obj	_	_
+38	over	over	ADP	_	_	39	case	_	_
+39	way	way	NOUN	_	Number=Sing	36	obl	_	_
+40	.	.	PUNCT	_	_	4	punct	_	_
+
+1	porque	porque	SCONJ	_	_	3	mark	_	_
+2	no	no	ADV	_	Polarity=Neg	3	advmod	_	_
+3	hay	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	_
+4	niños	niño	NOUN	_	Gender=Masc|Number=Plur	3	obj	_	_
+5	no	no	ADV	_	Polarity=Neg	6	advmod	_	_
+6	hay	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	nadie	nadie	PRON	_	Number=Sing|PronType=Ind	6	obj	_	_
+8	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
+
+1	right	right	ADJ	_	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	I'd	I'd	X	_	_	4	nsubj	_	_
+2	rather	rather	ADV	_	_	4	advmod	_	_
+3	not	not	PART	_	_	4	advmod	_	_
+4	do	do	VERB	_	VerbForm=Inf	0	root	_	_
+5	Monday	Monday	PROPN	_	Number=Sing	4	obj	_	_
+6	which	which	PRON	_	PronType=Rel	9	nsubj	_	_
+7	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	legal	legal	ADJ	_	Degree=Pos	9	amod	_	_
+9	holiday	holiday	NOUN	_	Number=Sing	5	acl:relcl	_	_
+10	be)cause	be)cause	INTJ	_	_	4	discourse	_	_
+11	then	then	ADV	_	PronType=Dem	14	advmod	_	_
+12	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	gotta	gotet	AUX	_	VerbForm=Fin	14	aux	_	_
+14	pay	pay	VERB	_	VerbForm=Inf	4	parataxis	_	_
+15	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	obj	_	_
+16	but	but	CCONJ	_	_	14	cc	_	_
+
+1	oh	oh	INTJ	_	_	4	discourse	_	_
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	guys	guy	NOUN	_	Number=Plur	2	appos	_	_
+4	call	call	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+5	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	obj	_	_
+6	gonna	gonnan	AUX	_	VerbForm=Fin	7	aux	_	_
+7	call	call	VERB	_	VerbForm=Inf	4	parataxis	_	_
+8	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+9	guys	guy	NOUN	_	Number=Plur	8	appos	_	_
+10	call	call	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+11	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+1	coño	coño	NOUN	_	_	0	root	_	_
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+1	pero	pero	CCONJ	_	_	4	cc	_	_
+2	ustedes	ustedes	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	_
+3	son	ser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	blanquitos	blanquito	ADJ	_	Gender=Masc|Number=Plur	0	root	_	_
+5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+
+1	qué	qué	PRON	_	Number=Sing|PronType=Int,Rel	2	obj	_	_
+2	hacen	hacer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	ustedes	ustedes	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	2	nsubj	_	_
+4	dando	dar	VERB	_	VerbForm=Ger	2	advcl	_	_
+5	ese	ese	DET	_	Gender=Masc|Number=Sing|PronType=Dem	6	det	_	_
+6	día	día	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	_
+7	?	?	PUNCT	_	_	2	punct	_	_
+
+1	h	h	INTJ	_	_	2	dep	_	_
+2	verdad	verdad	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+3	verdad	verdad	NOUN	_	Gender=Fem|Number=Sing	2	dep	_	_
+4	verdad	verdad	NOUN	_	Gender=Fem|Number=Sing	2	dep	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+1	so	so	ADV	_	_	2	advmod	_	_
+2	sorry	sorry	X	_	_	0	root	_	_
+3	so	so	ADV	_	_	4	advmod	_	_
+4	sorry	sorry	NOUN	_	_	2	conj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+1	right	right	X	_	_	0	root	_	_
+2	y	y	CCONJ	_	_	3	cc	_	_
+3	sí	sí	ADV	_	_	1	conj	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+1	A	a	X	_	_	3	nsubj	_	_
+2	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	cuestión	cuestión	NOUN	_	Gender=Fem|Number=Sing	0	root	_	_
+4	de	de	ADP	_	_	5	case	_	_
+5	check	check	X	_	_	3	nmod	_	_
+6	it	it	PROPN	_	Number=Sing	5	flat	_	_
+7	through	through	PROPN	_	Number=Sing	5	flat	_	_
+8	that	that	PROPN	_	_	5	flat	_	_
+9	everything	everything	PROPN	_	Number=Sing	5	flat	_	_
+10	is	is	PROPN	_	Number=Sing	5	flat	_	_
+11	ok	ok	PROPN	_	Number=Sing	5	flat	_	_
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+1	be)cause	be)cause	INTJ	_	_	4	discourse	_	_
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	trying	try	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	_	_	6	mark	_	_
+6	get	get	VERB	_	VerbForm=Inf	4	xcomp	_	_
+7	closer	closer	ADJ	_	Degree=Cmp	6	xcomp	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+1	right	right	ADJ	_	Degree=Pos	3	discourse	_	_
+2	you've	you've	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	done	do	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+4	punch	punch	NOUN	_	Number=Sing	5	compound	_	_
+5	list	list	NOUN	_	Number=Sing	3	obj	_	_
+6	right	right	ADV	_	_	3	discourse	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+1	now	now	ADV	_	_	4	advmod	_	_
+2	did	do	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	do	do	VERB	_	VerbForm=Inf	0	root	_	_
+5	punch	punch	NOUN	_	Number=Sing	6	compound	_	_
+6	list	list	NOUN	_	Number=Sing	4	obj	_	_
+7	for	for	ADP	_	_	8	case	_	_
+8	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	6	nmod	_	_
+9	?	?	PUNCT	_	_	4	punct	_	_
+
+1	did	do	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	send	send	VERB	_	VerbForm=Inf	0	root	_	_
+4	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	to	to	ADP	_	_	6	case	_	_
+6	Ana	Ana	PROPN	_	Number=Sing	3	obl	_	_
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	send	send	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	_
+4	to	to	ADP	_	_	5	case	_	_
+5	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obl	_	_
+6	yesterday	yesterday	NOUN	_	Number=Sing	2	obl:tmod	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	ok	ok	ADJ	_	Degree=Pos	0	root	_	_
+2	perfect	perfect	ADJ	_	Degree=Pos	1	flat:foreign	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+1	ok	ok	ADJ	_	Degree=Pos	0	root	_	_
+2	no	no	PART	_	_	3	discourse	_	_
+3	problem	problem	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	just	just	ADV	_	_	4	advmod	_	_
+3	didn't	didno	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	find	find	VERB	_	VerbForm=Inf	0	root	_	_
+5	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	obj	_	_
+6	in	in	ADP	_	_	8	case	_	_
+7	the	the	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	server	server	NOUN	_	Number=Sing	4	obl	_	_
+9	so	so	ADV	_	_	11	advmod	_	_
+10	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+11	wanted	want	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	parataxis	_	_
+12	to	to	PART	_	_	13	mark	_	_
+13	make	make	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	sure	sure	ADJ	_	Degree=Pos	13	xcomp	_	_
+15	with	with	ADP	_	_	16	case	_	_
+16	the	the	DET	_	Definite=Def|PronType=Art	13	obl	_	_
+
+1	and	and	CCONJ	_	_	6	cc	_	_
+2	the	the	DET	_	Definite=Def|PronType=Art	4	det	_	_
+3	next	next	ADJ	_	Degree=Pos	4	amod	_	_
+4	eh	eh	INTJ	_	_	6	nsubj	_	_
+5	didn't	didno	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+6	have	have	VERB	_	VerbForm=Inf	0	root	_	_
+7	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	so	so	ADV	_	_	10	advmod	_	_
+9	that's	that's	PRON	_	Number=Sing|PronType=Dem	10	nsubj	_	_
+10	why	why	ADV	_	PronType=Int	12	advmod	_	_
+11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	wanted	want	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	parataxis	_	_
+13	to	to	PART	_	_	12	xcomp	_	_
+14	.	.	PUNCT	_	_	6	punct	_	_
+
+1	so	so	ADV	_	_	5	advmod	_	_
+2	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	just	just	ADV	_	_	5	advmod	_	_
+4	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	matter	matter	NOUN	_	Number=Sing	0	root	_	_
+6	of	of	ADP	_	_	7	mark	_	_
+7	checking	check	VERB	_	VerbForm=Ger	5	acl	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	would	would	AUX	_	VerbForm=Fin	0	root	_	_
+3	U	u	PRON	_	_	4	obj	_	_
+4	last	last	VERB	_	Degree=Pos	2	advmod	_	_
+5	simply	simply	ADV	_	_	9	advmod	_	_
+6	because	because	SCONJ	_	_	9	mark	_	_
+7	that's	that's	PRON	_	Number=Sing|PronType=Dem	9	nsubj	_	_
+8	the	the	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	last	last	ADJ	_	Degree=Pos	2	advcl	_	_
+10	when	when	ADV	_	PronType=Int	12	mark	_	_
+11	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+12	finished	finish	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+1	you	you	X	_	_	2	nsubj	_	_
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	I'm	I'm	X	_	Foreign=Yes	2	obj	_	_
+4	saying	say	X	_	_	3	flat:foreign	_	_
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+1	because	because	X	_	_	4	dep	_	_
+2	A	a	ADP	_	AdpType=Prep	1	dep	_	_
+3	ya	ya	ADV	_	_	4	advmod	_	_
+4	llevan	llevar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	ahí	ahí	ADV	_	_	4	advmod	_	_
+6	ocupados	ocupado	ADJ	_	Gender=Masc|Number=Plur|VerbForm=Part	4	obj	_	_
+7	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+
+1	like	like	ADP	_	_	5	case	_	_
+2	three	three	NUM	_	NumType=Card	5	nummod	_	_
+3	or	or	CCONJ	_	_	4	cc	_	_
+4	four	four	NUM	_	NumType=Card	2	conj	_	_
+5	months	month	NOUN	_	Number=Plur	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+1	B	B	PROPN	_	_	0	root	_	_
+2	lo	el	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
+3	mismo	mismo	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	1	obj	_	_
+4	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	occupied	occupie	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+4	two	two	NUM	_	NumType=Card	5	nummod	_	_
+5	thirds	third	NOUN	_	Number=Plur	3	obj	_	_
+6	of	of	ADP	_	_	8	case	_	_
+7	the	the	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	facilities	facility	NOUN	_	Number=Plur	5	nmod	_	_
+9	for	for	ADP	_	_	11	case	_	_
+10	a	a	DET	_	Definite=Ind|PronType=Art	11	det	_	_
+11	month	month	NOUN	_	Number=Sing	3	obl	_	_
+12	so	so	ADV	_	_	15	advmod	_	_
+13	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+14	would	would	AUX	_	VerbForm=Fin	15	aux	_	_
+15	do	do	VERB	_	VerbForm=Inf	3	conj	_	_
+16	U	u	PROPN	_	Number=Sing	15	obj	_	_
+17	as	as	ADP	_	_	20	case	_	_
+18	the	the	DET	_	Definite=Def|PronType=Art	20	det	_	_
+19	last	last	ADJ	_	Degree=Pos	20	amod	_	_
+20	one	one	NUM	_	NumType=Card	15	obl	_	_
+21	.	.	PUNCT	_	_	3	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	si	si	SCONJ	_	_	6	mark	_	_
+2	two	two	NUM	_	NumType=Card	4	nummod	_	_
+3	two	two	NUM	_	NumType=Card	4	nummod	_	_
+4	guys	guy	NOUN	_	Number=Plur	7	nsubj	_	_
+5	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+6	wanna	wannan	AUX	_	VerbForm=Fin	7	advcl	_	_
+7	do	do	VERB	_	VerbForm=Inf	0	root	_	_
+8	offering	offer	VERB	_	VerbForm=Ger	7	xcomp	_	_
+9	one	one	NUM	_	NumType=Card	10	nummod	_	_
+10	day	day	NOUN	_	Number=Sing	8	obj	_	_
+11	fine	fine	ADV	_	Degree=Pos	7	advmod	_	_
+12	.	.	PUNCT	_	_	7	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	_	VerbForm=Fin	3	aux	_	_
+3	do	do	VERB	_	VerbForm=Inf	0	root	_	_
+4	U	U	PROPN	_	Number=Sing	3	obj	_	_
+5	one	one	NUM	_	NumType=Card	4	nummod	_	_
+6	a	a	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+7	different	different	ADJ	_	Degree=Pos	8	amod	_	_
+8	day	day	NOUN	_	Number=Sing	3	obl:tmod	_	_
+9	because	because	SCONJ	_	_	12	mark	_	_
+10	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+11	still	still	ADV	_	_	12	advmod	_	_
+12	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	_
+13	work	work	NOUN	_	Number=Sing	12	obj	_	_
+14	to	to	PART	_	_	15	mark	_	_
+15	do	do	VERB	_	VerbForm=Inf	13	acl	_	_
+16	.	.	PUNCT	_	_	3	punct	_	_
+
+1	so	so	ADV	_	_	3	advmod	_	_
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+1	there's	there's	PRON	_	_	2	expl	_	_
+2	no	no	DET	_	_	0	root	_	_
+3	to	to	ADP	_	_	4	case	_	_
+4	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+5	there's	there's	PRON	_	_	2	expl	_	_
+
+1	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	not	not	PART	_	_	0	root	_	_
+3	that	that	SCONJ	_	_	2	mark	_	_
+4	there's	there's	PRON	_	_	6	expl	_	_
+5	no	no	DET	_	_	6	det	_	_
+6	hurry	hurry	NOUN	_	Number=Sing	2	nsubj	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+2	just	just	ADV	_	_	4	advmod	_	_
+3	haven't	haven't	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	had	have	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+5	time	time	NOUN	_	Number=Sing	4	obj	_	_
+6	to	to	PART	_	_	7	mark	_	_
+7	do	do	VERB	_	VerbForm=Inf	5	acl	_	_
+8	the	the	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	stuff	stuff	NOUN	_	Number=Sing	7	obj	_	_
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+1	y	y	CCONJ	_	_	2	cc	_	_
+2	pa(ra	pa(ra	VERB	_	_	0	root	_	_
+3	qué	qué	PRON	_	PronType=Int	6	obj	_	_
+4	vas	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	a	a	ADP	_	_	6	mark	_	_
+6	ir	ir	VERB	_	VerbForm=Inf	2	ccomp	_	_
+7	pa(ra	pa(ra	VERB	_	_	6	case	_	_
+8	que	que	SCONJ	_	_	10	mark	_	_
+9	después	después	ADV	_	_	10	advmod	_	_
+10	digan	decir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+
+1	chico	chico	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	_
+2	no	no	ADV	_	Polarity=Neg	3	advmod	_	_
+3	hiciste	hicicar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+4	esto	este	PRON	_	Number=Sing|PronType=Dem	3	obj	_	_
+5	esto	este	PRON	_	Number=Sing|PronType=Dem	3	obj	_	_
+6	y	y	CCONJ	_	_	7	cc	_	_
+7	esto	este	PRON	_	Number=Sing|PronType=Dem	5	conj	_	_
+8	y	y	CCONJ	_	_	9	cc	_	_
+9	esto	este	PRON	_	Number=Sing|PronType=Dem	5	conj	_	_
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	right	right	ADV	_	_	0	root	_	_
+2	but	but	CCONJ	_	_	12	cc	_	_
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+4	but	but	CCONJ	_	_	5	cc	_	_
+5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	conj	_	_
+6	least	least	ADV	_	Degree=Sup	5	advmod	_	_
+7	for	for	ADP	_	_	8	case	_	_
+8	A	A	PROPN	_	Number=Sing	12	obl	_	_
+9	and	and	CCONJ	_	_	10	cc	_	_
+10	B	B	PROPN	_	Number=Sing	8	conj	_	_
+11	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+12	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+13	ninety	ninety	NUM	_	NumType=Card	14	nummod	_	_
+14	percent	percent	NOUN	_	Number=Sing	12	obj	_	_
+15	of	of	ADP	_	_	17	case	_	_
+16	the	the	DET	_	Definite=Def|PronType=Art	17	det	_	_
+17	staff	staff	NOUN	_	Number=Sing	14	nmod	_	_
+18	.	.	PUNCT	_	_	1	punct	_	_
+
+1	A	a	X	_	_	5	nsubj:pass	_	_
+2	should	should	AUX	_	VerbForm=Fin	5	aux	_	_
+3	all	all	PRON	_	_	5	obl	_	_
+4	be	be	AUX	_	VerbForm=Inf	5	aux:pass	_	_
+5	done	do	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+1	and	and	CCONJ	_	_	9	cc	_	_
+2	at	at	ADP	_	_	3	case	_	_
+3	B	B	PROPN	_	Number=Sing	9	obl	_	_
+4	most	most	ADJ	_	Degree=Sup	9	nsubj:pass	_	_
+5	of	of	ADP	_	_	6	case	_	_
+6	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
+7	should	should	AUX	_	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	_	VerbForm=Inf	9	aux:pass	_	_
+9	done	do	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	because	because	SCONJ	_	_	13	mark	_	_
+11	they've	they've	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	been	be	AUX	_	Tense=Past|VerbForm=Part	13	aux	_	_
+13	doing	do	VERB	_	Tense=Pres|VerbForm=Part	9	advcl	_	_
+14	a	a	DET	_	Definite=Ind|PronType=Art	15	det	_	_
+15	lot	lot	NOUN	_	Number=Sing	13	obj	_	_
+16	.	.	PUNCT	_	_	9	punct	_	_
+
+1	so	so	AUX	_	_	2	cop	_	_
+2-3	okey	_	_	_	_	_	_	_	_
+2	okey	okey	ADJ	_	Degree=Pos	0	root	_	_
+3	dok(ey)?	dok(ey)?	X	_	_	2	discourse	_	_
+
+1	thank	thank	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	1	obj	_	_
+3	much	much	ADV	_	_	1	advmod	_	_
+4	!	!	PUNCT	_	_	1	punct	_	_
+
+1	bye	bye	NOUN	_	Number=Sing	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	so	so	ADV	_	_	3	advmod	_	_
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	forwarded	forward	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	MEP	mep	NOUN	_	Number=Sing	3	obj	_	_
+6	to	to	ADP	_	_	7	case	_	_
+7	U-One	U-ONe	PROPN	_	Number=Sing	3	obl	_	_
+8	?	?	PUNCT	_	_	3	punct	_	_
+
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	sended	send	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	to	to	ADP	_	_	6	case	_	_
+6	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	4	obl	_	_
+7	yesterday	yesterday	NOUN	_	Number=Sing	4	obl:tmod	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+1	Craig	Craig	PROPN	_	Number=Sing	2	nsubj	_	_
+2	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	did	do	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	aux	_	_
+5	not	not	PART	_	_	6	advmod	_	_
+6	have	have	VERB	_	VerbForm=Inf	2	ccomp	_	_
+7	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+1	just	just	ADV	_	_	2	advmod	_	_
+2	forward	forward	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	because	because	SCONJ	_	_	13	mark	_	_
+2	according	accord	VERB	_	VerbForm=Ger	5	case	_	_
+3	to	to	ADP	_	_	2	fixed	_	_
+4	that	that	DET	_	Number=Sing|PronType=Dem	5	det	_	_
+5	email	email	NOUN	_	Number=Sing	13	obl	_	_
+6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	from	from	ADP	_	_	9	case	_	_
+9	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obl	_	_
+10	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+11	have	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+12	not	not	PART	_	_	13	advmod	_	_
+13	received	receive	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+14	an	a	DET	_	Definite=Ind|PronType=Art	15	det	_	_
+15	MEP	mep	NOUN	_	Number=Sing	13	obj	_	_
+16	.	.	PUNCT	_	_	13	punct	_	_
+
+1	but	but	CCONJ	_	_	7	cc	_	_
+2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+4	not	not	PART	_	_	7	advmod	_	_
+5	on	on	ADP	_	_	7	case	_	_
+6	our	we	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	system	system	NOUN	_	Number=Sing	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+1	no	no	INTJ	_	_	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	under	under	ADP	_	_	6	case	_	_
+4	U-One	U-ONe	PROPN	_	Number=Sing	6	compound	_	_
+5	punch	punch	NOUN	_	Number=Sing	6	compound	_	_
+6	list	list	NOUN	_	Number=Sing	2	obl	_	_
+7	with	with	ADP	_	_	8	case	_	_
+8	architecture	architecture	NOUN	_	Number=Sing	2	obl	_	_
+9	and	and	CCONJ	_	_	10	cc	_	_
+10	NDCPS	ndcps	NOUN	_	Number=Sing	8	conj	_	_
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+1	there	there	PRON	_	_	2	expl	_	_
+2	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	no	no	PRON	_	_	2	nsubj	_	_
+4	there	there	PRON	_	_	5	expl	_	_
+5	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	conj	_	_
+6	no	no	DET	_	_	7	det	_	_
+7	SDN	SDN	PROPN	_	Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+1	under	under	ADP	_	_	2	case	_	_
+2	architecture	architecture	NOUN	_	Number=Sing	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	where's	where's	ADV	_	PronType=Int	0	root	_	_
+2	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	S-D-Ns	s-d-ns	PROPN	_	Number=Plur	1	nsubj	_	_
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+1	where	where	ADV	_	PronType=Int	0	root	_	_
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+1	under	under	ADP	_	_	3	case	_	_
+2	punch	punch	NOUN	_	Foreign=Yes	3	compound	_	_
+3	list	list	NOUN	_	Number=Sing	0	root	_	_
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+1	and	and	CCONJ	_	_	3	cc	_	_
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+1	I'm	I'm	X	_	_	0	root	_	_
+2	in	in	X	_	_	1	flat:foreign	_	_
+3	there	there	X	_	_	1	flat:foreign	_	_
+4	.	$.	PUNCT	_	_	1	punct	_	_
+
+1	there's	there's	PRON	_	_	2	expl	_	_
+2	nothing	nothing	PRON	_	Number=Sing	0	root	_	_
+3	in	in	ADP	_	_	4	case	_	_
+4	there	there	ADV	_	PronType=Dem	2	nmod	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	U	U	PROPN	_	Number=Sing	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	don't	don't	X	_	_	1	flat:foreign	_	_
+3	need	need	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	B	b	NOUN	_	Number=Sing	3	obj	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	U	U	PROPN	_	Number=Sing	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	nothing	nothing	PRON	_	Number=Sing	2	obj	_	_
+4	for	for	ADP	_	_	5	case	_	_
+5	U	U	PROPN	_	Number=Sing	3	nmod	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+1	go	go	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	in	in	ADP	_	_	3	case	_	_
+3	there	there	ADV	_	PronType=Dem	1	obl	_	_
+4	an	a	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	U	u	NOUN	_	Number=Sing	1	obj	_	_
+6	and	and	CCONJ	_	_	7	cc	_	_
+7	tell	tell	VERB	_	Mood=Imp|VerbForm=Fin	1	conj	_	_
+8	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	where	where	ADV	_	PronType=Int	7	ccomp	_	_
+10	there	there	PRON	_	_	11	expl	_	_
+11	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+12	the	the	DET	_	Definite=Def|PronType=Art	13	det	_	_
+13	DMR	dmr	NOUN	_	Number=Sing	11	nsubj	_	_
+14	.	.	PUNCT	_	_	1	punct	_	_
+
+1	porque	porque	SCONJ	_	_	3	mark	_	_
+2	no	no	ADV	_	Polarity=Neg	3	advmod	_	_
+3	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	nada	nada	PRON	_	Number=Sing|PronType=Ind	3	nsubj	_	_
+5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	what	what	PRON	_	PronType=Int	0	root	_	_
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	sended	send	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	_
+5	again	again	ADV	_	_	4	advmod	_	_
+6	yesterday	yesterday	NOUN	_	Number=Sing	4	obl:tmod	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	but	but	CCONJ	_	_	4	cc	_	_
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+3	don't	don't	PART	_	_	4	aux	_	_
+4	know	know	VERB	_	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	_	_	10	mark	_	_
+6	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+7	have	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	been	be	AUX	_	Tense=Past|VerbForm=Part	10	cop	_	_
+9	to	to	ADP	_	_	10	case	_	_
+10	U	U	PROPN	_	Number=Sing	4	ccomp	_	_
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+1	listo	listo	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	tell	tell	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	obj	_	_
+3	that	that	SCONJ	_	_	5	mark	_	_
+4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
+6	new	new	ADJ	_	Degree=Pos	5	obj	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	don't	don't	PART	_	_	3	advmod	_	_
+3	think	think	VERB	_	VerbForm=Inf	0	root	_	_
+4	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	has	have	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	_
+6	been	be	AUX	_	Tense=Past|VerbForm=Part	8	cop	_	_
+7	to	to	ADP	_	_	8	case	_	_
+8	U	U	PROPN	_	Number=Sing	3	ccomp	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+1	now	now	ADV	_	_	7	advmod	_	_
+2	if	if	SCONJ	_	_	7	mark	_	_
+3	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+4	hasn't	hasn've	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+5	been	be	AUX	_	Tense=Past|VerbForm=Part	7	cop	_	_
+6	to	to	ADP	_	_	7	case	_	_
+7	U	U	PROPN	_	Number=Sing	0	root	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	this	this	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
+4	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	who	who	PRON	_	PronType=Int	6	nsubj	_	_
+6	says	say	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+7	first	first	ADJ	_	Degree=Pos|NumType=Ord	8	advmod	_	_
+8	watches	watch	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	ccomp	_	_
+9	out	out	ADP	_	_	8	compound:prt	_	_
+10	second	second	ADJ	_	_	8	advmod	_	_
+11	.	.	PUNCT	_	_	2	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	don't	don't	PART	_	_	3	advmod	_	_
+3	think	think	VERB	_	VerbForm=Inf	0	root	_	_
+4	he's	he's	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+5	been	be	AUX	_	Tense=Past|VerbForm=Part	7	cop	_	_
+6	to	to	ADP	_	_	7	case	_	_
+7	U	U	PROPN	_	Number=Sing	3	ccomp	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+1	if	if	SCONJ	_	_	5	mark	_	_
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	hasn't	hasn've	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	been	be	AUX	_	Tense=Past|VerbForm=Part	5	cop	_	_
+5	to	to	ADP	_	_	0	root	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	confused	confused	ADJ	_	Degree=Pos	2	ccomp	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+1	llámalo	llámalo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	_
+2	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	needs	need	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	_	_	4	mark	_	_
+4	go	go	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	to	to	ADP	_	_	6	case	_	_
+6	U	U	PROPN	_	Number=Sing	4	obl	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	has	have	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+3	not	not	PART	_	_	6	advmod	_	_
+4	been	be	AUX	_	Tense=Past|VerbForm=Part	6	cop	_	_
+5	to	to	ADP	_	_	6	case	_	_
+6	U	U	PROPN	_	Number=Sing	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+1	y	y	CCONJ	_	_	4	cc	_	_
+2	si	si	SCONJ	_	_	1	fixed	_	_
+3	no	no	ADV	_	Polarity=Neg	4	advmod	_	_
+4	ha	avere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+1	so	so	ADV	_	_	2	advmod	_	_
+2	ok	ok	ADJ	_	Degree=Pos	0	root	_	_
+3	then	then	ADV	_	PronType=Dem	5	advmod	_	_
+4	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	needs	need	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	to	to	PART	_	_	5	xcomp	_	_
+
+1	yes	yes	INTJ	_	_	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	there's	there's	PRON	_	_	3	expl	_	_
+2	no	no	DET	_	_	3	det	_	_
+3	one	one	NOUN	_	_	0	root	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	yes	yes	INTJ	_	_	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	hang	hang	VERB	_	Definite=Ind|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	on	on	ADP	_	_	1	compound:prt	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+1	I'll	I'LL	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	call	call	VERB	_	VerbForm=Inf	0	root	_	_
+3	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	2	obj	_	_
+4	right	right	ADV	_	_	5	advmod	_	_
+5	back	back	ADV	_	_	2	advmod	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+1	but	but	CCONJ	_	_	5	cc	_	_
+2	mechanical	mechanical	ADJ	_	Degree=Pos	5	amod	_	_
+3	and	and	CCONJ	_	_	4	cc	_	_
+4	electrical	electrical	ADJ	_	Degree=Pos	2	conj	_	_
+5	can	can	AUX	_	VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	U	u	PROPN	_	Number=Sing	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	somebody	somebody	NOUN	_	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	telling	tell	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+4	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	there's	there's	PRON	_	_	3	expl	_	_
+6	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+7	movie	movie	NOUN	_	Number=Sing	3	nsubj	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+1	forty	forty	NUM	_	NumType=Card	4	nummod	_	_
+2	forty	forty	NUM	_	NumType=Card	3	compound	_	_
+3	eight	eight	NUM	_	NumType=Card	1	nummod	_	_
+4	hours	hour	NOUN	_	Number=Plur	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	like	like	ADP	_	_	3	case	_	_
+2	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	one	one	PRON	_	Number=Sing	0	root	_	_
+4	that	that	PRON	_	PronType=Rel	6	nsubj:pass	_	_
+5	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	_
+6	filmed	film	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	_
+7	here	here	ADV	_	PronType=Dem	6	advmod	_	_
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+1	and	and	CCONJ	_	_	2	cc	_	_
+2	what's	what's	PRON	_	PronType=Int	0	root	_	_
+3	your	you	PRON	_	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	name	name	NOUN	_	Number=Sing	2	nsubj	_	_
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+1	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	0	root	_	_
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	hear	hear	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+4	movie	movie	NOUN	_	Number=Sing	2	obj	_	_
+5	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	_
+6	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	telling	tell	VERB	_	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
+8	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
+9	yesterday	yesterday	NOUN	_	Number=Sing	7	obl:tmod	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+1	what's	what's	PRON	_	PronType=Int	0	root	_	_
+2	your	you	PRON	_	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	name	name	NOUN	_	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+1	no	no	INTJ	_	_	2	discourse	_	_
+2	you	you	PRON	_	_	0	root	_	_
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+1	no	no	INTJ	_	_	2	discourse	_	_
+2	you	you	PRON	_	_	0	root	_	_
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+1	what's	what's	PRON	_	PronType=Int	0	root	_	_
+2	your	you	PRON	_	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	name	name	NOUN	_	Number=Sing	1	nsubj	_	_
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+1	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	0	root	_	_
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	_	_	4	mark	_	_
+4	listen	listen	VERB	_	VerbForm=Inf	2	xcomp	_	_
+5	to	to	ADP	_	_	8	mark	_	_
+6	whatever	whatever	PRON	_	PronType=Int	8	obj	_	_
+7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	advcl	_	_
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+1	what	what	PRON	_	PronType=Int	4	obj	_	_
+2	did	do	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	_	VerbForm=Inf	0	root	_	_
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+1	hi	hi	PRON	_	Person=3|PronType=Prs	2	cop	_	_
+2	Martha	Martha	PROPN	_	_	0	root	_	_
+3	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+
+1	this	this	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	Maria	Maria	PROPN	_	Number=Sing	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+1	how	how	ADV	_	PronType=Int	2	advmod	_	_
+2	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ahold	ahold	NOUN	_	Number=Sing	2	obj	_	_
+4	of	of	ADP	_	_	5	case	_	_
+5	Tom	Tom	PROPN	_	Number=Sing	3	nmod	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+1	and	and	CCONJ	_	_	7	cc	_	_
+2	for	for	ADP	_	_	7	case	_	_
+3	the	the	DET	_	Definite=Def|PronType=Art	7	det	_	_
+4	Double	double	ADJ	_	Degree=Pos	7	amod	_	_
+5	U	U	PROPN	_	Number=Sing	7	compound	_	_
+6	L	l	NOUN	_	Number=Sing	7	compound	_	_
+7	R	r	NOUN	_	Number=Sing	0	root	_	_
+
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	unfortunately	unfortunately	ADV	_	_	5	advmod	_	_
+4	he's	he's	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	work	work	VERB	_	VerbForm=Inf	2	ccomp	_	_
+6	every	every	DET	_	_	7	det	_	_
+7	morning	morning	NOUN	_	Number=Sing	5	obl:tmod	_	_
+8	on	on	ADP	_	_	10	case	_	_
+9	next	next	ADJ	_	Degree=Pos	10	amod	_	_
+10	week	week	NOUN	_	Number=Sing	5	obl	_	_
+11	until	until	ADP	_	_	12	case	_	_
+12	Friday	Friday	PROPN	_	Number=Sing	5	obl	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+1	but	but	CCONJ	_	_	3	cc	_	_
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	felt	feel	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	bad	bad	ADJ	_	Degree=Pos	3	xcomp	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+1	as	as	ADV	_	_	2	advmod	_	_
+2	long	long	ADV	_	Degree=Pos	0	root	_	_
+3	as	as	SCONJ	_	_	6	mark	_	_
+4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	there	there	ADV	_	PronType=Dem	2	advcl	_	_
+7	and	and	CCONJ	_	_	8	cc	_	_
+8	knew	know	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+9	when	when	ADV	_	PronType=Int	11	advmod	_	_
+10	ND	ND	NOUN	_	Number=Plur	11	nsubj	_	_
+11	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	8	ccomp	_	_
+12	if	if	SCONJ	_	_	16	mark	_	_
+13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+14	don't	don't	AUX	_	VerbForm=Fin	16	aux	_	_
+15	wanna	wanna	AUX	_	VerbForm=Fin	16	aux	_	_
+16	wait	wait	VERB	_	VerbForm=Inf	8	advcl	_	_
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	be)cause	be)cause	INTJ	_	_	3	discourse	_	_
+2	he's	he's	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	meetings	meeting	NOUN	_	Number=Plur	3	obj	_	_
+5	already	already	ADV	_	_	6	advmod	_	_
+6	scheduled	schedule	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+1	and	and	CCONJ	_	_	5	cc	_	_
+2	then	then	ADV	_	PronType=Dem	5	advmod	_	_
+3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	wanna	wannan	AUX	_	VerbForm=Fin	5	aux	_	_
+5	resolve	resolve	VERB	_	VerbForm=Inf	0	root	_	_
+6	that	that	PRON	_	Number=Sing|PronType=Dem	5	obj	_	_
+7	so	so	ADV	_	_	5	advmod	_	_
+
+1	up	up	ADP	_	_	3	case	_	_
+2	to	to	ADP	_	_	3	case	_	_
+3	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	0	root	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+1	right	right	ADJ	_	Degree=Pos	2	amod	_	_
+2	right	right	ADJ	_	Degree=Pos	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	that	that	PRON	_	Number=Sing|PronType=Dem	2	obj	_	_
+4	ah	ah	INTJ	_	_	2	discourse	_	_
+5	next	next	ADJ	_	Degree=Pos	6	amod	_	_
+6	Tuesday	Tuesday	PROPN	_	Number=Sing	2	obl:tmod	_	_
+7	the	the	DET	_	Definite=Def|PronType=Art	8	det	_	_
+8	fifteenth	fifteenth	NOUN	_	Number=Sing	6	appos	_	_
+9	either	either	CCONJ	_	_	10	cc:preconj	_	_
+10	nine	nine	NUM	_	NumType=Card	2	obj	_	_
+11	or	or	CCONJ	_	_	12	cc	_	_
+12	ten	ten	NUM	_	NumType=Card	10	conj	_	_
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	just	just	ADV	_	_	3	advmod	_	_
+3	tell	tell	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	what	what	DET	_	PronType=Int	6	det	_	_
+6	time	time	NOUN	_	Number=Sing	3	obj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+1	either	either	ADV	_	_	3	nsubj	_	_
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	fine	fine	ADJ	_	Degree=Pos	0	root	_	_
+4	with	with	ADP	_	_	5	case	_	_
+5	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obl	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+2	don't	don't	X	_	_	1	flat:foreign	_	_
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+4	don't	don't	X	_	_	5	advmod	_	_
+5	have	have	VERB	_	VerbForm=Inf	0	root	_	_
+6	problems	problem	NOUN	_	Number=Plur	5	obj	_	_
+7	with	with	ADP	_	_	6	nmod	_	_
+8	.	.	PUNCT	_	_	5	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	ah	ah	INTJ	_	_	2	discourse	_	_
+4	Tuesday	Tuesday	PROPN	_	Number=Sing	2	obl:tmod	_	_
+5	the	the	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	fifteenth	fifteenth	NOUN	_	Number=Sing	4	nmod:npmod	_	_
+7	?	?	PUNCT	_	_	2	punct	_	_
+
+1	yes	yes	INTJ	_	_	0	root	_	_
+2	next	next	ADJ	_	Degree=Pos	3	amod	_	_
+3	Tuesday	Tuesday	PROPN	_	Number=Sing	1	obl:tmod	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+1	either	either	CCONJ	_	_	3	cc:preconj	_	_
+2	at	at	ADP	_	_	3	case	_	_
+3	nine	nine	NUM	_	NumType=Card	0	root	_	_
+4	or	or	CCONJ	_	_	6	cc	_	_
+5	at	at	ADP	_	_	6	case	_	_
+6	ten	ten	NUM	_	NumType=Card	3	conj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+1	right	right	ADJ	_	Degree=Pos	0	root	_	_
+2	right	right	ADJ	_	Degree=Pos	1	conj	_	_
+3	right	right	ADJ	_	Degree=Pos	1	conj	_	_
+4	right	right	ADJ	_	Degree=Pos	1	conj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+1	not	not	PART	_	_	3	advmod	_	_
+2	a	a	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	problem	problem	NOUN	_	Number=Sing	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+1	nine	nine	NUM	_	NumType=Card	0	root	_	_
+2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	_
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+1	right	right	ADJ	_	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	at	at	ADP	_	_	3	case	_	_
+2	nine	nine	NUM	_	NumType=Card	3	nummod	_	_
+3	am	am	NOUN	_	Number=Sing	7	obl	_	_
+4	and	and	CCONJ	_	_	5	cc	_	_
+5	then	then	ADV	_	PronType=Dem	3	conj	_	_
+6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
+7	will	will	AUX	_	VerbForm=Fin	0	root	_	_
+8	wherever	wherever	ADV	_	PronType=Int	7	advmod	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	_	_	2	xcomp	_	_
+
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+4	can	can	AUX	_	VerbForm=Fin	5	aux	_	_
+5	call	call	VERB	_	VerbForm=Inf	2	ccomp	_	_
+6	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	at	at	ADP	_	_	8	case	_	_
+8	cell	cell	NOUN	_	Number=Sing	5	obl	_	_
+9	or	or	CCONJ	_	_	10	cc	_	_
+10	something	something	PRON	_	Number=Sing	8	conj	_	_
+11	but	but	CCONJ	_	_	13	cc	_	_
+12	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	_
+13	has	have	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+14	meetings	meeting	NOUN	_	Number=Plur	13	obj	_	_
+15	all	all	DET	_	_	17	det	_	_
+16	next	next	ADJ	_	Degree=Pos	17	amod	_	_
+17	week	week	NOUN	_	Number=Sing	13	obl:tmod	_	_
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	says	say	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	not	not	PART	_	_	4	advmod	_	_
+4	gonna	gonna	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+5	leave	leave	VERB	_	VerbForm=Inf	4	xcomp	_	_
+6	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
+7	but	but	CCONJ	_	_	10	cc	_	_
+8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	will	will	AUX	_	VerbForm=Fin	10	aux	_	_
+10	work	work	VERB	_	VerbForm=Inf	4	conj	_	_
+11	until	until	ADP	_	_	12	case	_	_
+12	friday	friday	PROPN	_	Number=Sing	10	obl	_	_
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+1	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	like	like	ADP	_	_	5	case	_	_
+3	oh	oh	INTJ	_	_	5	discourse	_	_
+4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	god	god	NOUN	_	Number=Sing	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+1	all	all	DET	_	_	2	det	_	_
+2	right	right	ADJ	_	Degree=Pos	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	thanks	thanks	NOUN	_	Number=Sing	0	root	_	_
+2	fine	fine	ADJ	_	Degree=Pos	1	advmod	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+1	qué	qué	PRON	_	Number=Sing|PronType=Int,Rel	3	obj	_	_
+2	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	3	iobj	_	_
+3	dijo	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	_
+3	like	like	SCONJ	_	_	6	mark	_	_
+4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	like	like	ADP	_	_	2	advcl	_	_
+
+1	it's	it's	X	_	_	0	root	_	_
+2	in	in	X	_	_	1	flat:foreign	_	_
+3	the	the	X	_	Foreign=Yes	1	flat:foreign	_	_
+4	server	server	X	_	Number=Sing	1	flat:foreign	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+1	I'm	I'm	X	_	_	0	root	_	_
+2	like	like	X	_	_	1	flat:foreign	_	_
+
+1	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	not	not	PART	_	_	2	advmod	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	I'm	i'm	X	_	_	0	root	_	_
+2	looking	look	X	_	VerbForm=Ger	1	flat:foreign	_	_
+3	at	at	ADP	_	_	5	case	_	_
+4	the	the	DET	_	Foreign=Yes	5	det	_	_
+5	server	server	NOUN	_	Number=Sing	2	obl	_	_
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	looked	look	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	and	and	CCONJ	_	_	9	cc	_	_
+4	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+5	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+6	already	already	ADV	_	_	9	advmod	_	_
+7	in	in	ADP	_	_	9	case	_	_
+8	the	the	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	system	system	NOUN	_	Number=Sing	2	conj	_	_
+10	of	of	ADV	_	_	9	advmod	_	_
+11	course	course	ADV	_	_	10	fixed	_	_
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+1	but	but	X	_	_	0	root	_	_
+2	did	did	X	_	_	1	flat	_	_
+3	you	you	X	_	_	1	flat	_	_
+4	tell	tell	X	_	VerbForm=Inf	1	flat	_	_
+5	him	him	X	_	_	1	flat	_	_
+6	que	que	SCONJ	_	_	8	mark	_	_
+7	Craig	craig	PROPN	_	_	8	nsubj	_	_
+8	dijo	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	acl:relcl	_	_
+9	that	that	X	_	_	8	obj	_	_
+10	they	they	X	_	_	9	flat	_	_
+11	are	are	X	_	_	9	flat	_	_
+12	already	already	X	_	_	9	flat	_	_
+13	been	been	X	_	_	9	flat	_	_
+14	altered	altered	PROPN	_	_	9	flat	_	_
+15	verdad	verdad	NOUN	_	_	9	flat	_	_
+16	?	?	PUNCT	_	_	1	punct	_	_
+
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	right	right	ADJ	_	Foreign=Yes	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	root	_	_
+
+1	on	on	ADP	_	_	3	case	_	_
+2	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	eighteen	eighteen	NUM	_	NumType=Card	8	obl	_	_
+4	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+5	a	a	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+6	teacher	teacher	NOUN	_	Number=Sing	8	compound	_	_
+7	plannig	plannig	ADJ	_	Degree=Pos	8	amod	_	_
+8	day	day	NOUN	_	Number=Sing	0	root	_	_
+9	so	so	ADV	_	_	11	advmod	_	_
+10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+11	should	should	AUX	_	VerbForm=Fin	8	parataxis	_	_
+
+1	eh	eh	INTJ	_	_	0	root	_	_
+2	la	él	PRON	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
+4	viernes	viernes	PROPN	_	_	1	nmod	_	_
+5	de	de	ADP	_	_	7	case	_	_
+6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
+7	semana	semana	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	_
+8	que	que	SCONJ	_	_	9	mark	_	_
+9	viene	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	_
+10	.	.	PUNCT	_	_	1	punct	_	_
+
+1	next	next	ADJ	_	Degree=Pos	2	amod	_	_
+2	Friday	Friday	PROPN	_	Number=Sing	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	there'll	there'll	PRON	_	_	2	expl	_	_
+2	be	be	VERB	_	VerbForm=Inf	0	root	_	_
+3	no	no	DET	_	_	4	det	_	_
+4	children	child	NOUN	_	Number=Plur	2	nsubj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	should	should	AUX	_	VerbForm=Fin	3	aux	_	_
+3	plan	plan	VERB	_	VerbForm=Inf	0	root	_	_
+4	to	to	PART	_	_	5	mark	_	_
+5	go	go	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	to	to	ADP	_	_	7	case	_	_
+7	A	A	PROPN	_	Number=Sing	5	obl	_	_
+8	and	and	CCONJ	_	_	9	cc	_	_
+9	B	B	PROPN	_	Number=Sing	7	conj	_	_
+10	at	at	ADV	_	_	11	case	_	_
+11	least	least	ADV	_	Degree=Sup	13	obl	_	_
+12	to	to	PART	_	_	13	mark	_	_
+13	review	review	VERB	_	VerbForm=Inf	5	advcl	_	_
+14	all	all	DET	_	_	17	det:predet	_	_
+15	our	we	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	punch	punch	NOUN	_	Number=Sing	17	compound	_	_
+17	list	list	NOUN	_	Number=Sing	13	obj	_	_
+18	to	to	PART	_	_	19	mark	_	_
+19	make	make	VERB	_	VerbForm=Inf	13	advcl	_	_
+20	sure	sure	ADJ	_	Degree=Pos	19	xcomp	_	_
+
+1	porque	porque	SCONJ	_	_	6	mark	_	_
+2	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	teacher	teacher	NOUN	_	Number=Sing	6	nsubj	_	_
+4	should	should	AUX	_	VerbForm=Fin	6	aux	_	_
+5	be	be	AUX	_	VerbForm=Inf	6	cop	_	_
+6	there	there	ADV	_	PronType=Dem	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+1	the	the	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	teachers	teacher	NOUN	_	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	there	there	ADV	_	PronType=Dem	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	there's	there's	X	_	_	0	root	_	_
+2	no	no	X	_	_	1	flat	_	_
+3	kids	kids	X	_	Number=Plur	1	flat	_	_
+4	so	so	X	_	_	1	flat	_	_
+5	we	we	X	_	_	1	dep	_	_
+6	podemos	poder	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	entrar	entrar	VERB	_	VerbForm=Inf	1	parataxis	_	_
+8	y	y	CCONJ	_	_	9	cc	_	_
+9	salir	salir	VERB	_	VerbForm=Inf	7	conj	_	_
+10	de	de	ADP	_	_	13	case	_	_
+11	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Tot	13	det	_	_
+12	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	_
+13	cuartos	cuarto	NOUN	_	Gender=Masc|Number=Plur	9	obl	_	_
+14	sin	sin	ADP	_	_	16	case	_	_
+15	ningún	ninguno	DET	_	Gender=Masc|Number=Sing|PronType=Neg	16	det	_	_
+16	problema	problema	NOUN	_	Gender=Masc|Number=Sing	9	obl	_	_
+17	.	.	PUNCT	_	_	1	punct	_	_
+
+1	uh	uh	INTJ	_	_	6	discourse	_	_
+2	Monday	Monday	PROPN	_	Number=Sing	6	nsubj	_	_
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+5	legal	legal	ADJ	_	Degree=Pos	6	amod	_	_
+6	holiday	holiday	NOUN	_	Number=Sing	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+1	I'd	I'd	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	rather	rather	ADV	_	_	4	advmod	_	_
+3	not	not	PART	_	_	4	advmod	_	_
+4	use	use	VERB	_	VerbForm=Inf	0	root	_	_
+5	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	unless	unless	SCONJ	_	_	8	mark	_	_
+7	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+9	to	to	PART	_	_	10	mark	_	_
+10	be)cause	be)cause	VERB	_	VerbForm=Inf	8	xcomp	_	_
+11	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+12	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+13	to	to	PART	_	_	15	mark	_	_
+14	get	get	AUX	_	VerbForm=Inf	15	aux:pass	_	_
+15	paid	pay	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	12	xcomp	_	_
+16	overtime	overtime	ADV	_	_	15	advmod	_	_
+17	.	.	PUNCT	_	_	4	punct	_	_
+
+1	but	but	CCONJ	_	_	9	cc	_	_
+2	that	that	DET	_	Number=Sing|PronType=Dem	3	det	_	_
+3	thing	thing	NOUN	_	Number=Sing	9	nsubj	_	_
+4	that	that	PRON	_	PronType=Rel	9	nsubj	_	_
+5	would	would	AUX	_	VerbForm=Fin	9	aux	_	_
+6	only	only	ADV	_	_	9	advmod	_	_
+7	be	be	AUX	_	VerbForm=Inf	9	cop	_	_
+8	at	at	ADP	_	_	9	case	_	_
+9	U-One	U-ONe	PROPN	_	Number=Sing	0	root	_	_
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+1	at	at	ADP	_	_	2	case	_	_
+2	A	A	X	_	_	4	obl	_	_
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	should	should	AUX	_	VerbForm=Fin	7	aux	_	_
+7	do	do	VERB	_	VerbForm=Inf	4	ccomp	_	_
+8	A	a	X	_	Number=Sing	7	obj	_	_
+9	first	first	ADV	_	_	7	advmod	_	_
+10	pa(ra)	pa(ra)	X	_	_	12	mark	_	_
+11	ya	ya	ADV	_	_	12	advmod	_	_
+12	acabar	acabar	VERB	_	VerbForm=Inf	7	advcl	_	_
+13	con	con	ADP	_	_	14	case	_	_
+14	A	a	X	_	Number=Sing	12	obl	_	_
+15	.	.	PUNCT	_	_	4	punct	_	_
+
+1	check	check	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	if	if	SCONJ	_	_	4	mark	_	_
+3	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+4	done	do	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	1	advcl	_	_
+5	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj:pass	_	_
+6	not	not	PART	_	_	7	advmod	_	_
+7	done	do	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+8	whatever	whatever	PRON	_	PronType=Int	7	xcomp	_	_
+9	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+10	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+11	.	.	PUNCT	_	_	1	punct	_	_
+
+1	then	then	ADV	_	PronType=Dem	3	advmod	_	_
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	go	go	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	_	_	5	case	_	_
+5	B	B	PROPN	_	Number=Sing	3	obl	_	_
+6	and	and	CCONJ	_	_	7	cc	_	_
+7	then	then	ADV	_	PronType=Dem	5	conj	_	_
+
+1	to	to	ADP	_	_	2	case	_	_
+2	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	obl	_	_
+3	U	U	PRON	_	Number=Sing	8	nsubj	_	_
+4	should	should	AUX	_	VerbForm=Fin	8	aux	_	_
+5	be	be	AUX	_	VerbForm=Inf	8	cop	_	_
+6	the	the	DET	_	Definite=Def|PronType=Art	8	det	_	_
+7	last	last	ADJ	_	Degree=Pos	8	amod	_	_
+8	one	one	NOUN	_	Number=Sing	0	root	_	_
+9	simply	simply	ADV	_	_	13	advmod	_	_
+10	because	because	SCONJ	_	_	13	mark	_	_
+11	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	just	just	ADV	_	_	13	advmod	_	_
+13	finished	finish	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+14	!	!	PUNCT	_	_	8	punct	_	_
+
+1	so	so	ADV	_	_	5	advmod	_	_
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	not	not	PART	_	_	5	advmod	_	_
+5	going	go	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+6	to	to	PART	_	_	7	mark	_	_
+7	have	have	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	time	time	NOUN	_	Number=Sing	7	obj	_	_
+9	to	to	PART	_	_	11	mark	_	_
+10	have	have	AUX	_	VerbForm=Inf	11	aux	_	_
+11	finish	finish	VERB	_	VerbForm=Inf	8	acl	_	_
+12	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	_	_
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+1	right	right	ADV	_	_	4	discourse	_	_
+2	and	and	CCONJ	_	_	4	cc	_	_
+3	that's	that's	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
+4	what	what	PRON	_	PronType=Int	0	root	_	_
+5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+6	and	and	CCONJ	_	_	8	cc	_	_
+7	that's	that's	PRON	_	Number=Sing|PronType=Dem	8	nsubj	_	_
+8	what	what	PRON	_	PronType=Int	4	conj	_	_
+9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+10	told	tell	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	Tom	Tom	PROPN	_	Number=Sing	10	obj	_	_
+12	and	and	CCONJ	_	_	13	cc	_	_
+13	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	_
+14	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	_
+15	would	would	AUX	_	VerbForm=Fin	13	ccomp	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	let's	let's	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	do	do	VERB	_	VerbForm=Inf	1	xcomp	_	_
+3	A	a	NOUN	_	Number=Sing	2	obj	_	_
+4	first	first	ADV	_	_	2	advmod	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+1	if	if	SCONJ	_	_	4	mark	_	_
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	_	VerbForm=Fin	4	aux	_	_
+4	do	do	VERB	_	VerbForm=Inf	9	advcl	_	_
+5	B	b	NOUN	_	Number=Sing	4	obj	_	_
+6	that	that	PRON	_	Number=Sing|PronType=Dem	9	nsubj	_	_
+7	would	would	AUX	_	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	_	VerbForm=Inf	9	cop	_	_
+9	great	great	ADJ	_	Degree=Pos	0	root	_	_
+10	so	so	ADV	_	_	13	advmod	_	_
+11	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	_	VerbForm=Fin	13	aux	_	_
+13	finish	finish	VERB	_	VerbForm=Inf	9	parataxis	_	_
+14	those	those	DET	_	Number=Plur|PronType=Dem	15	det	_	_
+15	two	two	NUM	_	NumType=Card	13	obj	_	_
+16	uh	uh	INTJ	_	_	13	discourse	_	_
+17	.	.	PUNCT	_	_	9	punct	_	_
+
+1	and	and	CCONJ	_	_	6	cc	_	_
+2	then	then	ADV	_	PronType=Dem	6	advmod	_	_
+3	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+4	just	just	ADV	_	_	6	advmod	_	_
+5	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	matter	matter	NOUN	_	Number=Sing	0	root	_	_
+7	of	of	ADP	_	_	8	mark	_	_
+8	waiting	wait	VERB	_	VerbForm=Ger	6	nmod	_	_
+9	when	when	ADV	_	PronType=Int	12	mark	_	_
+10	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	nsubj	_	_
+11	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	ready	ready	ADJ	_	Degree=Pos	8	advcl	_	_
+13	for	for	ADP	_	_	14	case	_	_
+14	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	12	obl	_	_
+15	be)cause	be)cause	INTJ	_	_	12	discourse	_	_
+16	the	the	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	nsubj	_	_
+17	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	not	not	PART	_	_	19	advmod	_	_
+19	going	go	VERB	_	Tense=Pres|VerbForm=Part	6	parataxis	_	_
+20	to	to	PART	_	_	22	mark	_	_
+21	be	be	AUX	_	VerbForm=Inf	22	cop	_	_
+22	ready	ready	ADJ	_	Degree=Pos	19	xcomp	_	_
+23	for	for	SCONJ	_	_	26	mark	_	_
+24	us	we	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	_
+25	to	to	PART	_	_	26	mark	_	_
+26	review	review	VERB	_	VerbForm=Inf	22	advcl	_	_
+27	U-One	U-ONe	PROPN	_	Number=Sing	26	obj	_	_
+28	be)cause	be)cause	NOUN	_	Number=Sing	26	obj	_	_
+29	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	31	nsubj	_	_
+30	haven't	haven't	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	done	do	VERB	_	Tense=Past|VerbForm=Part	6	parataxis	_	_
+32	anything	anything	PRON	_	Number=Sing	31	obj	_	_
+33	.	.	PUNCT	_	_	6	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	trying	try	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	_	_	5	mark	_	_
+5	get	get	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	the	the	DET	_	Definite=Def|PronType=Art	8	det	_	_
+7	damm	damm	ADJ	_	Degree=Pos	8	amod	_	_
+8	building	building	NOUN	_	Number=Sing	5	obj	_	_
+9	get	get	VERB	_	VerbForm=Inf	5	ccomp	_	_
+10	a	a	DET	_	Definite=Ind|PronType=Art	11	det	_	_
+11	water	water	NOUN	_	Number=Sing	9	obj	_	_
+12	with	with	SCONJ	_	_	13	case	_	_
+13	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nmod	_	_
+14	on	on	ADV	_	_	9	advmod	_	_
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+1	no	no	ADV	_	Polarity=Neg	2	advmod	_	_
+2	preguntes	pregunte	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	just	just	ADV	_	_	3	advmod	_	_
+3	run	run	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	bacterials	bacterial	NOUN	_	Number=Plur	3	obj	_	_
+6	and	and	CCONJ	_	_	7	cc	_	_
+7	like	like	VERB	_	_	3	conj	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	asked	ask	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	Peter	Peter	PROPN	_	Number=Sing	2	obj	_	_
+
+1	aren't	aren't	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	supposed	suppose	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+4	to	to	PART	_	_	5	mark	_	_
+5	have	have	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	bacterial	bacterial	ADJ	_	Degree=Pos	7	amod	_	_
+7	test	test	NOUN	_	Number=Sing	5	obj	_	_
+8	before	before	ADV	_	_	5	advmod	_	_
+9	?	?	PUNCT	_	_	3	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	did	do	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	neither	neither	ADV	_	_	2	obj	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	did	do	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+
+1	well	well	INTJ	_	_	4	discourse	_	_
+2	somehow	somehow	ADV	_	_	4	advmod	_	_
+3	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+4	some	some	DET	_	_	0	root	_	_
+
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	0	root	_	_
+
+1	right	right	ADJ	_	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	right	right	ADJ	_	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	what	what	PRON	_	PronType=Int	4	obj	_	_
+3	Martha	Martha	PROPN	_	Number=Sing	4	nsubj	_	_
+4	told	tell	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+1	right	right	ADJ	_	Degree=Pos	2	amod	_	_
+2	right	right	ADJ	_	Degree=Pos	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	and	and	CCONJ	_	_	4	cc	_	_
+2	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	bacterials	bacterial	NOUN	_	Number=Plur	4	nsubj	_	_
+4	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+6	limited	limited	ADJ	_	Degree=Pos	7	amod	_	_
+7	time	time	NOUN	_	Number=Sing	4	obj	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	only	only	ADV	_	_	3	advmod	_	_
+3	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	thirty	thirty	NUM	_	NumType=Card	5	nummod	_	_
+5	days	day	NOUN	_	Number=Plur	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+1	no	no	INTJ	_	_	4	discourse	_	_
+2	it's	it's	X	_	_	4	nsubj	_	_
+3	thirty	thirty	NUM	_	NumType=Card	4	nummod	_	_
+4	days	day	NOUN	_	Number=Plur	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	thirty	thirty	NUM	_	NumType=Card	2	nummod	_	_
+2	days	day	NOUN	_	Number=Plur	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	_
+2	bacterial	bacterial	ADJ	_	Degree=Pos	3	amod	_	_
+3	test	test	NOUN	_	Number=Sing	4	nsubj	_	_
+4	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	only	only	ADV	_	_	4	advmod	_	_
+6	the	the	DET	_	Definite=Def|PronType=Art	7	det	_	_
+7	result	result	NOUN	_	Number=Sing	10	nsubj	_	_
+8	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	only	only	ADV	_	_	10	advmod	_	_
+10	good	good	ADJ	_	Degree=Pos	4	parataxis	_	_
+11	for	for	ADP	_	_	13	case	_	_
+12	thirty	thirty	NUM	_	NumType=Card	13	nummod	_	_
+13	days	day	NOUN	_	Number=Plur	10	obl	_	_
+14	.	.	PUNCT	_	_	4	punct	_	_
+
+1	so	so	ADV	_	_	5	advmod	_	_
+2	if	if	SCONJ	_	_	5	mark	_	_
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	haven't	haven't	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	gone	go	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+6	but	but	CCONJ	_	_	8	cc	_	_
+7	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
+8	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	conj	_	_
+9	HRS	hrs	NOUN	_	Number=Sing	10	compound	_	_
+10	approval	approval	NOUN	_	Number=Sing	8	obj	_	_
+11	which	which	PRON	_	PronType=Rel	14	nsubj	_	_
+12	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	the	the	DET	_	Definite=Def|PronType=Art	14	det	_	_
+14	part	part	NOUN	_	Number=Sing	8	parataxis	_	_
+15	that	that	SCONJ	_	_	19	mark	_	_
+16	there's	there's	PRON	_	_	19	expl	_	_
+17	a	a	DET	_	Definite=Ind|PronType=Art	18	det	_	_
+18	little	little	ADJ	_	Degree=Pos	19	amod	_	_
+19	confusing	confusing	ADJ	_	VerbForm=Ger	14	acl	_	_
+20	.	.	PUNCT	_	_	8	punct	_	_
+
+1	because	because	SCONJ	_	_	5	mark	_	_
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+3	wouldn't	wouldn't	AUX	_	VerbForm=Fin	5	aux	_	_
+4	be	be	AUX	_	VerbForm=Inf	5	cop	_	_
+5	able	able	ADJ	_	Degree=Pos	0	root	_	_
+6	to	to	PART	_	_	7	mark	_	_
+7	cook	cook	VERB	_	VerbForm=Inf	5	xcomp	_	_
+8	if	if	SCONJ	_	_	10	mark	_	_
+9	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	_
+10	haven't	haven't	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	advcl	_	_
+11	HRS	hrs	NOUN	_	Number=Sing	12	compound	_	_
+12	approval	approval	NOUN	_	Number=Sing	10	obj	_	_
+13	.	.	PUNCT	_	_	5	punct	_	_
+
+1	or	or	CCONJ	_	_	5	cc	_	_
+2	maybe	maybe	ADV	_	_	5	advmod	_	_
+3	until	until	SCONJ	_	_	5	mark	_	_
+4	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+5	run	run	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+1	somebody	somebody	PRON	_	Number=Sing	5	nsubj	_	_
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+4	blind	blind	ADJ	_	Degree=Pos	5	amod	_	_
+5	eye	eye	NOUN	_	Number=Sing	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+1	no	no	INTJ	_	_	7	discourse	_	_
+2	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	_
+3	HRS	HRS	PROPN	_	Number=Sing	7	nsubj	_	_
+4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+5	health	health	NOUN	_	Number=Sing	7	compound	_	_
+6	eh	eh	INTJ	_	_	7	discourse	_	_
+7	department	department	NOUN	_	Number=Sing	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+1	HRS	hrs	NOUN	_	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	health	health	NOUN	_	Number=Sing	4	compound	_	_
+4	department	department	NOUN	_	Number=Sing	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	_
+2	the	the	DET	_	Definite=Def|PronType=Art	4	det	_	_
+3	big	big	ADJ	_	Degree=Pos	4	amod	_	_
+4	one	one	NUM	_	NumType=Card	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	oh	oh	INTJ	_	_	4	discourse	_	_
+2	so	so	ADV	_	_	4	advmod	_	_
+3	HRS	HRS	PROPN	_	Number=Sing	4	nsubj	_	_
+4	hasn't	hasn've	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	because	because	SCONJ	_	_	12	mark	_	_
+6	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+7	water	water	NOUN	_	Number=Sing	12	nsubj	_	_
+8	with	with	ADP	_	_	9	case	_	_
+9	steel	steel	NOUN	_	Number=Sing	7	nmod	_	_
+10	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	not	not	PART	_	_	12	advmod	_	_
+12	legal	legal	ADJ	_	Degree=Pos	4	advcl	_	_
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+1	oh	oh	INTJ	_	_	4	discourse	_	_
+2	so	so	ADV	_	_	4	advmod	_	_
+3	there	there	PRON	_	_	4	expl	_	_
+4	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	satelliting	satellit	VERB	_	Tense=Pres|VerbForm=Part	4	nsubj	_	_
+6	in	in	ADP	_	_	7	case	_	_
+7	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obl	_	_
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+1	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj:pass	_	_
+2	called	call	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+3	satelliting	satellit	VERB	_	VerbForm=Ger	2	xcomp	_	_
+4	in	in	ADP	_	_	3	obj	_	_
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	took	take	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	on	on	ADP	_	_	2	compound:prt	_	_
+4	on	on	ADP	_	_	5	case	_	_
+5	Monday	Monday	PROPN	_	Number=Sing	2	obl	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+1	maybe	maybe	ADV	_	_	4	advmod	_	_
+2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	Tuesday	Tuesday	PROPN	_	Number=Sing	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	maybe	maybe	ADV	_	_	4	advmod	_	_
+2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+4	Tuesday	Tuesday	PROPN	_	Number=Sing	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	be)cause	be)cause	INTJ	_	_	3	discourse	_	_
+2	Bob	Bob	PROPN	_	Number=Sing	3	nsubj	_	_
+3	sent	send	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	an	a	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+5	email	email	NOUN	_	Number=Sing	3	obj	_	_
+6	saying	say	VERB	_	VerbForm=Ger	5	acl	_	_
+7-8	Dan	_	_	_	_	_	_	_	_
+7	Dan	Dan	PROPN	_	Number=Sing	6	obj	_	_
+8	Beale	Beale	PROPN	_	Number=Sing	7	flat	_	_
+9	that	that	SCONJ	_	_	13	mark	_	_
+10	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+11	hadn't	hadn've	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+12	been	be	AUX	_	Tense=Past|VerbForm=Part	13	cop	_	_
+13	there	there	ADV	_	PronType=Dem	6	ccomp	_	_
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+1	and	and	CCONJ	_	_	4	cc	_	_
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	testing	test	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+5	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	_
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+1	and	and	CCONJ	_	_	2	cc	_	_
+2	that's	that's	PRON	_	Number=Sing|PronType=Dem	0	root	_	_
+3	when	when	ADV	_	PronType=Int	5	mark	_	_
+4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
+5	forwarded	forward	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+6	the	the	DET	_	Definite=Def|PronType=Art	8	det	_	_
+7	that	that	DET	_	Number=Sing|PronType=Dem	8	det	_	_
+8	information	information	NOUN	_	Number=Sing	5	obj	_	_
+9	to	to	ADP	_	_	10	case	_	_
+10	EAC	EAC	PROPN	_	Number=Sing	5	obl	_	_
+11	and	and	CCONJ	_	_	13	cc	_	_
+12	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	_
+13	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+
+1	I'm	I'm	X	_	_	0	root	_	_
+2	confused	confused	X	_	Foreign=Yes	1	flat:foreign	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+1	school	school	NOUN	_	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	open	open	ADJ	_	Degree=Pos	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+1	and	and	CCONJ	_	_	5	cc	_	_
+2	now	now	ADV	_	_	5	advmod	_	_
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	running	runn	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+6	bacterials	bacterial	NOUN	_	Number=Plur	5	obj	_	_
+7	?	?	PUNCT	_	_	5	punct	_	_
+
+1	and	and	CCONJ	_	_	3	cc	_	_
+2	he's	he's	X	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	like	like	ADP	_	_	0	root	_	_
+
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	confused	confused	ADJ	_	Degree=Pos	0	root	_	_
+4	too	too	ADV	_	_	3	advmod	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	confused	confused	ADJ	_	Degree=Pos	0	root	_	_
+4	too	too	ADV	_	_	3	advmod	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+1	apparently	apparently	ADV	_	_	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	a	a	DET	_	Definite=Ind|PronType=Art	3	det	_	_
+3	package	package	NOUN	_	Number=Sing	0	root	_	_
+4	that	that	PRON	_	PronType=Rel	5	nsubj	_	_
+5	goes	go	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	a	a	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+7	document	document	NOUN	_	Number=Sing	8	compound	_	_
+8	control	control	NOUN	_	Number=Sing	5	obj	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+5	to	to	PART	_	_	6	mark	_	_
+6	create	create	VERB	_	VerbForm=Inf	4	xcomp	_	_
+
+1	take	take	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	our	we	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	drawings	drawing	NOUN	_	Number=Plur	1	obj	_	_
+4	make	make	VERB	_	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+5	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+6	new	new	ADJ	_	Degree=Pos	7	amod	_	_
+7	one	one	NOUN	_	NumType=Card	4	obj	_	_
+8	as	as	ADP	_	_	10	case	_	_
+9	cold	cold	ADJ	_	Degree=Pos	10	amod	_	_
+10	fish	fish	NOUN	_	Number=Sing	7	nmod	_	_
+11	and	and	CCONJ	_	_	12	cc	_	_
+12	get	get	VERB	_	Mood=Imp|VerbForm=Fin	4	conj	_	_
+13	rid	rid	ADJ	_	Degree=Pos	12	xcomp	_	_
+14	of	of	ADP	_	_	15	case	_	_
+15	everything	everything	PRON	_	Number=Sing	13	obl	_	_
+16	but	but	CCONJ	_	_	19	cc	_	_
+17	the	the	DET	_	Definite=Def|PronType=Art	19	det	_	_
+18	fish	fish	NOUN	_	Number=Sing	19	compound	_	_
+19	number	number	NOUN	_	Number=Sing	15	nmod	_	_
+20	.	.	PUNCT	_	_	1	punct	_	_
+
+1	and	and	CCONJ	_	_	3	cc	_	_
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	guess	guess	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	furniture	furniture	NOUN	_	Number=Sing	3	obj	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+1	we've	we've	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	did	do	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	for	for	SCONJ	_	_	6	mark	_	_
+5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	did	do	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+7	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
+8	for	for	ADP	_	_	10	case	_	_
+9	simply	simply	ADV	_	_	13	advmod	_	_
+10	be)cause	be)cause	NOUN	_	_	6	obl	_	_
+11	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	_	_
+12	didn't	didno	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	13	aux	_	_
+13	give	give	VERB	_	VerbForm=Inf	3	parataxis	_	_
+14	us	we	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	iobj	_	_
+15	the	the	DET	_	Definite=Def|PronType=Art	16	det	_	_
+16	numbers	number	NOUN	_	Number=Plur	13	obj	_	_
+17	but	but	CCONJ	_	_	20	cc	_	_
+18	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj:pass	_	_
+19	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	aux:pass	_	_
+20	turned	turn	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	13	conj	_	_
+21	out	out	ADP	_	_	20	compound:prt	_	_
+22	convenient	convenient	ADJ	_	Degree=Pos	20	xcomp	_	_
+23	because	because	SCONJ	_	_	27	mark	_	_
+24	then	then	ADV	_	PronType=Dem	27	advmod	_	_
+25	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+26	already	already	ADV	_	_	27	advmod	_	_
+27	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	advcl	_	_
+28	the	the	DET	_	Definite=Def|PronType=Art	29	det	_	_
+29	drawing	drawing	NOUN	_	Number=Sing	27	obj	_	_
+30	.	.	PUNCT	_	_	3	punct	_	_
+
+1	the	the	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	drawing	drawing	NOUN	_	Number=Sing	5	nsubj	_	_
+3	already	already	ADV	_	_	5	advmod	_	_
+4	had	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	existed	exist	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+1	ask	ask	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	about	about	ADP	_	_	4	case	_	_
+4	that	that	PRON	_	Number=Sing|PronType=Dem	1	obl	_	_
+5	because	because	SCONJ	_	_	10	mark	_	_
+6	that	that	PRON	_	Number=Sing|PronType=Dem	10	nsubj	_	_
+7	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	just	just	ADV	_	_	10	advmod	_	_
+9	a	a	DET	_	Definite=Ind|PronType=Art	10	det	_	_
+10	matter	matter	NOUN	_	Number=Sing	1	advcl	_	_
+11	of	of	ADP	_	_	10	nmod	_	_
+
+1	change	change	VERB	_	VerbForm=Inf	0	root	_	_
+2	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	above	above	ADV	_	_	1	advmod	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+1	well	well	INTJ	_	_	5	discourse	_	_
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+3	could	could	AUX	_	VerbForm=Fin	5	aux	_	_
+4	actually	actually	ADV	_	_	5	advmod	_	_
+5	make	make	VERB	_	VerbForm=Inf	0	root	_	_
+6	a	a	DET	_	Definite=Ind|PronType=Art	8	det	_	_
+7	new	new	ADJ	_	Degree=Pos	8	amod	_	_
+8	one	one	NOUN	_	Number=Sing	5	obj	_	_
+9	because	because	SCONJ	_	_	14	mark	_	_
+10	the	the	DET	_	Definite=Def|PronType=Art	11	det	_	_
+11	blog	blog	NOUN	_	Number=Sing	14	nsubj	_	_
+12	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	an	a	DET	_	Definite=Ind|PronType=Art	14	det	_	_
+14	extra	extra	NOUN	_	Number=Sing	5	advcl	_	_
+15	.	.	PUNCT	_	_	5	punct	_	_
+
+1	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	_
+2	tag	tag	NOUN	_	Number=Sing	3	compound	_	_
+3	numbers	number	NOUN	_	Number=Plur	6	nsubj	_	_
+4	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	an	an	DET	_	Definite=Ind|PronType=Art	6	det	_	_
+6	extra	extra	ADJ	_	Degree=Pos	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	just	just	ADV	_	_	3	advmod	_	_
+3	edit	edit	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	blog	blog	NOUN	_	Number=Sing	3	obj	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	make	make	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	_
+4	new	new	ADJ	_	Degree=Pos	5	amod	_	_
+5	drawing	drawing	NOUN	_	Number=Sing	2	obj	_	_
+6	add	add	VERB	_	Mood=Imp|VerbForm=Fin	2	conj	_	_
+7	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	iobj	_	_
+8	the	the	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	blog	blog	NOUN	_	Number=Sing	6	obj	_	_
+10	and	and	CCONJ	_	_	12	cc	_	_
+11	all	all	DET	_	_	12	nsubj	_	_
+12	become	become	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	little	little	ADJ	_	Degree=Pos	14	amod	_	_
+14	fishies	fishy	NOUN	_	Number=Plur	12	xcomp	_	_
+15	.	.	PUNCT	_	_	2	punct	_	_
+
+1	ask	ask	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	obj	_	_
+3	ask	ask	VERB	_	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+4	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+1	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	didn't	didno	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	tell	tell	VERB	_	VerbForm=Inf	0	root	_	_
+4	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	whatever	whatever	PRON	_	PronType=Int	3	ccomp	_	_
+6	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+7	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+8	and	and	CCONJ	_	_	11	cc	_	_
+9	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+10	wasn't	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	aux	_	_
+11	supposed	suppose	VERB	_	Tense=Past|VerbForm=Part	3	conj	_	_
+12	to	to	PART	_	_	13	mark	_	_
+13	listen	listen	VERB	_	VerbForm=Inf	11	xcomp	_	_
+14	to	to	ADP	_	_	13	obl	_	_
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+1	now	now	ADV	_	_	3	advmod	_	_
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	want	want	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	PART	_	_	5	mark	_	_
+5	know	know	VERB	_	VerbForm=Inf	3	xcomp	_	_
+6	!	!	PUNCT	_	_	3	punct	_	_
+
+1	now	now	ADV	_	_	3	advmod	_	_
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
+5	curious	curious	ADJ	_	Degree=Pos	3	xcomp	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	curious	curious	ADJ	_	Degree=Pos	2	xcomp	_	_
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+1	I'm	I'M	X	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	gonna	gonna	VERB	_	VerbForm=Fin	3	aux	_	_
+3	do	do	VERB	_	VerbForm=Inf	0	root	_	_
+4	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+1	there	there	ADV	_	PronType=Dem	3	advmod	_	_
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	go	go	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+1	nothing	nothing	PRON	_	Number=Sing	0	root	_	_
+2	relating	relate	VERB	_	Tense=Pres|VerbForm=Part	1	acl	_	_
+3	the	the	DET	_	Definite=Def|PronType=Art	4	det	_	_
+4	flooring	flooring	NOUN	_	Number=Sing	2	obj	_	_
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+1	um	um	X	_	Foreign=Yes	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	good	good	ADJ	_	Degree=Pos	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	no	no	DET	_	_	3	advmod	_	_
+2	we'll	we'll	X	_	_	3	nsubj	_	_
+3	come	come	VERB	_	VerbForm=Inf	0	root	_	_
+4	set	set	ADJ	_	Degree=Pos	3	xcomp	_	_
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+1	I'm	I'M	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	gonna	gonnan	AUX	_	VerbForm=Fin	3	aux	_	_
+3	try	try	VERB	_	VerbForm=Inf	0	root	_	_
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	_
+5	library	library	NOUN	_	Number=Sing	3	obj	_	_
+6	rather	rather	ADV	_	_	8	cc	_	_
+7	than	than	ADP	_	_	6	fixed	_	_
+8	Bibles	Bibles	PROPN	_	Number=Plur	5	conj	_	_
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	don't	don't	PART	_	_	3	aux	_	_
+3	know	know	VERB	_	VerbForm=Inf	0	root	_	_
+4	any	any	DET	_	_	5	det	_	_
+5	place	place	NOUN	_	Number=Sing	3	obj	_	_
+6	to	to	PART	_	_	7	mark	_	_
+7	store	store	VERB	_	VerbForm=Inf	5	acl	_	_
+8	the	the	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	blogs	blog	NOUN	_	Number=Plur	7	obj	_	_
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	dilemma	dilemma	NOUN	_	Number=Sing	0	root	_	_
+4	!	!	PUNCT	_	_	3	punct	_	_
+
+1	you	you	PRON	_	_	6	nsubj	_	_
+2	you've	you've	X	_	_	6	nsubj	_	_
+3	been	be	AUX	_	Tense=Past|VerbForm=Part	6	cop	_	_
+4	to	to	ADP	_	_	6	case	_	_
+5	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	house	house	NOUN	_	Number=Sing	0	root	_	_
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	haven't	haven't	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	seen	see	VERB	_	Tense=Past|VerbForm=Part	0	root	_	_
+4	the	the	DET	_	Definite=Def|PronType=Art	6	det	_	_
+5	book	book	NOUN	_	Number=Sing	6	compound	_	_
+6	store	store	NOUN	_	Number=Sing	3	obj	_	_
+7	in	in	ADP	_	_	9	case	_	_
+8	the	the	DET	_	Definite=Def|PronType=Art	9	det	_	_
+9	garage	garage	NOUN	_	Number=Sing	6	nmod	_	_
+10	that	that	PRON	_	PronType=Rel	12	advmod	_	_
+11	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+13	no	no	DET	_	_	14	det	_	_
+14	place	place	NOUN	_	Number=Sing	12	obj	_	_
+15	to	to	PART	_	_	16	mark	_	_
+16	put	put	VERB	_	VerbForm=Inf	14	acl	_	_
+17	!	!	PUNCT	_	_	3	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	walked	walk	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	out	out	ADV	_	_	2	advmod	_	_
+4	the	the	DET	_	Definite=Def|PronType=Art	6	det	_	_
+5	other	other	ADJ	_	Degree=Pos	6	amod	_	_
+6	day	day	NOUN	_	Number=Sing	2	obl:tmod	_	_
+7	and	and	CCONJ	_	_	8	cc	_	_
+8	when	when	ADV	_	PronType=Int	6	conj	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	walked	walk	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	_	_	2	obj	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	don't	don't	X	_	_	3	aux	_	_
+3	care	care	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	_
+4	about	about	ADP	_	_	5	case	_	_
+5	architectural	architectural	ADJ	_	Degree=Pos	3	obl	_	_
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+1	no	no	INTJ	_	_	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+1	I	I	ADJ	_	NumType=Card	0	root	_	_
+
+1	hello	hello	INTJ	_	_	3	discourse	_	_
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	two	two	NUM	_	NumType=Card	6	nummod	_	_
+5	little	little	ADJ	_	Degree=Pos	6	amod	_	_
+6	ones	one	NOUN	_	Number=Plur	3	obj	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+1	I'm	I'M	X	_	_	3	nsubj	_	_
+2	getting	get	VERB	_	VerbForm=Ger	3	aux	_	_
+3	riding	rid	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+4	of	of	ADP	_	_	6	case	_	_
+5	no	no	DET	_	_	6	det	_	_
+6	books	book	NOUN	_	Number=Plur	3	obl	_	_
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+1	Judy	Judy	PROPN	_	Number=Sing	0	root	_	_
+2	Blume	Blume	PROPN	_	Number=Sing	1	flat	_	_
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+1	no	no	INTJ	_	_	8	discourse	_	_
+2	actually	actually	ADV	_	_	8	advmod	_	_
+3	actually	actually	ADV	_	_	8	advmod	_	_
+4	yeah	yeah	INTJ	_	_	8	discourse	_	_
+5	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+7	just	just	ADV	_	_	8	advmod	_	_
+8	keep	keep	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	obj	_	_
+10	for	for	ADP	_	_	11	case	_	_
+11	Danny	Danny	PROPN	_	Number=Sing	8	obl	_	_
+12	.	.	PUNCT	_	_	8	punct	_	_
+
+1	there	there	PRON	_	_	2	expl	_	_
+2	went	go	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	our	we	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	family	family	NOUN	_	Number=Sing	2	nsubj	_	_
+5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+6	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	much	much	ADV	_	_	9	advmod	_	_
+8	about	about	ADP	_	_	9	case	_	_
+9	recycling	recycle	NOUN	_	VerbForm=Ger	2	advcl	_	_
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+1	there	there	PRON	_	_	2	expl	_	_
+2	went	go	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	ADP	_	_	5	case	_	_
+4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	nephew	nephew	NOUN	_	Number=Sing	2	obl	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	came	come	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	back	back	ADV	_	_	2	advmod	_	_
+4	from	from	ADP	_	_	6	case	_	_
+5	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	nephew	nephew	NOUN	_	Number=Sing	2	obl	_	_
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+1	now	now	ADV	_	_	4	advmod	_	_
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_
+3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	going	go	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	ADP	_	_	6	case	_	_
+6	Max	Max	PROPN	_	Number=Sing	4	obl	_	_
+7	and	and	CCONJ	_	_	8	cc	_	_
+8	James	James	PROPN	_	Number=Sing	6	conj	_	_
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+1	when	when	ADV	_	PronType=Int	3	mark	_	_
+2	Danny	Danny	PROPN	_	Number=Sing	3	nsubj	_	_
+3	grows	grow	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+4	up	up	ADP	_	_	3	compound:prt	_	_
+5	the	the	DET	_	Definite=Def|PronType=Art	6	det	_	_
+6	one	one	NOUN	_	Number=Sing	3	obj	_	_
+7	who	who	PRON	_	PronType=Rel	9	nsubj	_	_
+8	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
+9	reading	read	VERB	_	Tense=Pres|VerbForm=Part	6	acl:relcl	_	_
+10	now	now	ADV	_	_	9	advmod	_	_
+11	be)cause	be)cause	INTJ	_	_	15	discourse	_	_
+12	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+13	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	_
+14	much	much	ADV	_	_	15	advmod	_	_
+15	older	older	ADJ	_	Degree=Cmp	0	root	_	_
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	all	all	DET	_	_	1	det	_	_
+3	go	go	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	_	_	3	obl	_	_
+
+1	my	I	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	sister	sister	NOUN	_	Number=Sing	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+1	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	nephew	nephew	NOUN	_	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	twenty	twenty	NUM	_	NumType=Card	5	compound	_	_
+5	four	four	NUM	_	NumType=Card	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+
+1	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	a	a	DET	_	Definite=Ind|PronType=Art	4	det	_	_
+3	good	good	ADJ	_	Degree=Pos	4	amod	_	_
+4	material	material	NOUN	_	Number=Sing	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	it's	it's	X	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	a	a	DET	_	Foreign=Yes	4	det	_	_
+3	good	good	ADJ	_	Degree=Pos	4	amod	_	_
+4	product	product	NOUN	_	Number=Sing	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+1	why	why	ADV	_	PronType=Int	4	advmod	_	_
+2	should	should	AUX	_	VerbForm=Fin	4	aux	_	_
+3	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	buy	buy	VERB	_	VerbForm=Inf	0	root	_	_
+5	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+6	new	new	ADJ	_	Degree=Pos	7	amod	_	_
+7	one	one	NOUN	_	Number=Sing	4	obj	_	_
+8	?	?	PUNCT	_	_	4	punct	_	_
+
+1	sixteenth	sixteenth	ADJ	_	Number=Sing	0	root	_	_
+2	of	of	ADP	_	_	3	case	_	_
+3	what	what	PRON	_	PronType=Int	1	nmod	_	_
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+1	the	the	DET	_	Definite=Def|PronType=Art	2	det	_	_
+2	sixth	sixth	NOUN	_	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	_	_	4	case	_	_
+4	January	January	PROPN	_	Number=Sing	2	nmod	_	_
+5	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+6	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	_
+7	Sunday	Sunday	PROPN	_	Number=Sing	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	where	where	ADV	_	PronType=Int	0	root	_	_
+3	your	you	PRON	_	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+4	DJ	dj	NOUN	_	Number=Sing	2	nsubj	_	_
+5	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+6	.	.	PUNCT	_	_	2	punct	_	_
+
