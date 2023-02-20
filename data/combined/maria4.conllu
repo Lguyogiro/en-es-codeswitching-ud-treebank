@@ -1,0 +1,3913 @@
+# sent_id = maria4:1
+# text = mira quien apareció .
+# text[orig] = [- spa] mira quien apareció . 4505_5712
+# gloss[orig] = look.V.2S.IMPER whom.PRON.REL appear.V.3S.PAST
+# speaker = MAR
+# labels =
+1	mira	mirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+2	quien	quien	PRON	_	Number=Sing|PronType=Rel	3	nsubj	_	Lang=spa
+3	apareció	aparecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	ccomp	_	Lang=spa
+4	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+# sent_id = maria4:2
+# text = I'm sorry .
+# text[orig] = I'm sorry . 6385_6966
+# gloss[orig] = I.PRON.SUB.1S+BE.V.PRES sorry.ADJ
+# speaker = MAR
+# labels =
+1	I'm	I'm	X	_	_	0	root	_	Lang=eng
+2	sorry	sorry	X	_	Foreign=Yes	1	flat:foreign	_	Lang=eng
+3	.	$.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:3
+# text = I am so full .
+# text[orig] = I am so full . 6873_7593
+# gloss[orig] = I.PRON.SUB.1S am.V.1S.PRES so.ADV full.ADJ
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=eng
+2	am	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=eng
+3	so	so	ADV	_	_	4	advmod	_	Lang=eng
+4	full	full	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:4
+# text = had lunch with my brother and my parents .
+# text[orig] = had lunch with my brother and my parents . 8847_10890
+# gloss[orig] = had.AV.PAST+P lunch.N.SG with.PREP my.ADJ.POSS.1S brother.N.SG and.CONJ my.ADJ.POSS.1S parent.N.PL
+# speaker = MAR
+# labels =
+1	had	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+2	lunch	lunch	NOUN	_	Number=Sing	1	obj	_	Lang=eng
+3	with	with	ADP	_	_	5	case	_	Lang=eng
+4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	Lang=eng
+5	brother	brother	NOUN	_	Number=Sing	1	obl	_	Lang=eng
+6	and	and	CCONJ	_	_	8	cc	_	Lang=eng
+7	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	Lang=eng
+8	parents	parent	NOUN	_	Number=Plur	5	conj	_	Lang=eng
+9	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:5
+# text = fuimos a Versailles .
+# text[orig] = fuimos@s:spa a@s:spa Versailles@s:eng&spa . 10937_12469
+# gloss[orig] = go.V.1P.PAST to.PREP name
+# speaker = MAR
+# labels =
+1	fuimos	fur	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+2	a	a	ADP	_	AdpType=Prep	3	case	_	Lang=spa
+3	Versailles	Versailles	PROPN	_	_	1	obl	_	Lang=eng&spa
+4	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+# sent_id = maria4:6
+# text = mi hermano es el que vive en en Europa .
+# text[orig] = [- spa] mi hermano es el que vive en [/] en Europa . 13955_16254
+# gloss[orig] = my.ADJ.POSS.MF.1S.SG brother.N.M.SG be.V.3S.PRES the.DET.DEF.M.SG that.PRON.REL live.V.3S.PRES in.PREP in.PREP name
+# speaker = MAR
+# labels =
+1	mi	mi	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	Lang=spa
+2	hermano	hermano	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	Lang=spa
+3	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	Lang=spa
+5	que	que	PRON	_	PronType=Rel	6	nsubj	_	Lang=spa
+6	vive	vivir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	Lang=spa
+7	en	en	ADP	_	AdpType=Prep	9	case	_	Lang=spa
+8	en	en	ADP	_	AdpType=Prep	9	case	_	Lang=spa
+9	Europa	Europa	PROPN	_	_	6	obl	_	Lang=spa
+10	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+
+# sent_id = maria4:7
+# text = yeah, he got here on the thirtieth .
+# text[orig] = yeah, he got here on the thirtieth . 17810_21455
+# gloss[orig] = yeah.ADV he.PRON.SUB.M.3S got.V.PAST here.ADV on.PREP the.DET.DEF thirtieth.ORD
+# speaker = MAR
+# labels =
+1	yeah,	yeah,	INTJ	_	_	3	discourse	_	Lang=eng
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+3	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	here	here	ADV	_	PronType=Dem	3	advmod	_	Lang=eng
+5	on	on	ADP	_	_	7	case	_	Lang=eng
+6	the	the	DET	_	Definite=Def|PronType=Art	7	det	_	Lang=eng
+7	thirtieth	thirtieth	NOUN	_	Number=Sing	3	obl	_	Lang=eng
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:8
+# text = no, both him and my other brother got here after Christmas bef(ore
+# text[orig] = no, both him and my other brother got here after Christmas bef(ore) +//. 24288_28235
+# gloss[orig] = no.ADV both.ADJ him.PRON.OBJ.M.3S and.CONJ my.ADJ.POSS.1S other.ADJ brother.N.SG got.AV.PAST+P here.ADV after.PREP name before.CONJ
+# speaker = MAR
+# labels =
+1	no,	no,	INTJ	_	_	8	discourse	_	Lang=eng
+2	both	both	CCONJ	_	_	3	cc:preconj	_	Lang=eng
+3	him	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Lang=eng
+4	and	and	CCONJ	_	_	7	cc	_	Lang=eng
+5	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	Lang=eng
+6	other	other	ADJ	_	Degree=Pos	7	amod	_	Lang=eng
+7	brother	brother	NOUN	_	Number=Sing	3	conj	_	Lang=eng
+8	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+9	here	here	ADV	_	PronType=Dem	8	advmod	_	Lang=eng
+10	after	after	ADP	_	_	11	case	_	Lang=eng
+11	Christmas	Christmas	PROPN	_	Number=Sing	8	obl	_	Lang=eng
+12	bef(ore	bef(ore	NOUN	_	Number=Sing	8	discourse	_	Lang=eng
+
+# sent_id = maria4:9
+# text = niña .
+# text[orig] = [- spa] niña . 28468_29350
+# gloss[orig] = kid.N.F.SG
+# speaker = MAR
+# labels =
+1	niña	niña	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Lang=spa
+2	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+# sent_id = maria4:10
+# text = right aft(er
+# text[orig] = right aft(er) +//. 29489_30093
+# gloss[orig] = right.ADJ after.PREP
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	2	amod	_	Lang=eng
+2	aft(er	aft(er	NOUN	_	Number=Sing	0	root	_	Lang=eng
+
+# sent_id = maria4:11
+# text = no queda nada .
+# text[orig] = [- spa] no queda nada . 30000_30975
+# gloss[orig] = not.ADV stay.V.3S.PRES nothing.PRON
+# speaker = MAR
+# labels =
+1	no	no	ADV	_	Polarity=Neg	2	advmod	_	Lang=spa
+2	queda	quedar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+3	nada	nada	PRON	_	Number=Sing|PronType=Ind	2	nsubj	_	Lang=spa
+4	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+
+# sent_id = maria4:12
+# text = and nobody throws the things away .
+# text[orig] = and nobody throws the things away . 31347_32694
+# gloss[orig] = and.CONJ nobody.PRON throw.V.3S.PRES the.DET.DEF thing.N.PL away.ADV
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	3	cc	_	Lang=eng
+2	nobody	nobody	PRON	_	Number=Sing	3	nsubj	_	Lang=eng
+3	throws	throw	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	Lang=eng
+5	things	thing	NOUN	_	Number=Plur	3	obj	_	Lang=eng
+6	away	away	ADV	_	_	3	advmod	_	Lang=eng
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:13
+# text = how shameful of them .
+# text[orig] = how shameful of them . 32461_34226
+# gloss[orig] = how.ADV shameful.ADJ of.PREP them.PRON.OBJ.3P
+# speaker = MAR
+# labels =
+1	how	how	ADV	_	PronType=Int	2	advmod	_	Lang=eng
+2	shameful	shameful	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+3	of	of	ADP	_	_	4	case	_	Lang=eng
+4	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obl	_	Lang=eng
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:14
+# text = so he'll be here until next week actually .
+# text[orig] = so he'll be here until next week actually . 36780_39056
+# gloss[orig] = so.ADV he.PRON.SUB.M.3S+BE.V.FUT be.V.3S.PRES here.ADV until.CONJ next.ADJ week.N.SG actual.ADJ+ADV
+# speaker = MAR
+# labels =
+1	so	so	ADV	_	_	4	advmod	_	Lang=eng
+2	he'll	he'll	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+3	be	be	AUX	_	VerbForm=Inf	4	cop	_	Lang=eng
+4	here	here	ADV	_	PronType=Dem	0	root	_	Lang=eng
+5	until	until	ADP	_	_	7	case	_	Lang=eng
+6	next	next	ADJ	_	Degree=Pos	7	amod	_	Lang=eng
+7	week	week	NOUN	_	Number=Sing	4	obl	_	Lang=eng
+8	actually	actually	ADV	_	_	4	advmod	_	Lang=eng
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:15
+# text = no .
+# text[orig] = no . 46904_47415
+# gloss[orig] = no.ADV
+# speaker = MAR
+# labels =
+1	no	no	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:16
+# text = hey yeah .
+# text[orig] = hey yeah . 47415_48205
+# gloss[orig] = hey.IM yeah.ADV
+# speaker = MAR
+# labels =
+1	hey	hey	INTJ	_	_	0	root	_	Lang=eng
+2	yeah	yeah	INTJ	_	_	1	discourse	_	Lang=eng
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:17
+# text = he's got like a shirt
+# text[orig] = he's got like a shirt +//. 47967_49157
+# gloss[orig] = he.PRON.SUB.M.3S+HAVE.V.3S.PRES got.V.PASTPART like.CONJ a.DET.INDEF shirt.N.SG
+# speaker = MAR
+# labels =
+1	he's	he's	X	_	_	2	nsubj	_	Lang=eng
+2	got	get	VERB	_	_	0	root	_	Lang=eng
+3	like	like	ADP	_	_	5	case	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=eng
+5	shirt	shirt	NOUN	_	Number=Sing	2	obl	_	Lang=eng
+
+# sent_id = maria4:18
+# text = my brother lives in Wales .
+# text[orig] = my brother lives in Wales . 49041_50759
+# gloss[orig] = my.ADJ.POSS.1S brother.N.SG lives.N.SG.[or].live.V.PRES.3S in.PREP name
+# speaker = MAR
+# labels =
+1	my	I	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	Lang=eng
+2	brother	brother	NOUN	_	Number=Sing	3	nsubj	_	Lang=eng
+3	lives	life	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	in	in	ADP	_	_	5	case	_	Lang=eng
+5	Wales	Wales	PROPN	_	Number=Sing	3	obl	_	Lang=eng
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:19
+# text = he's got like a shirt and a jacket .
+# text[orig] = he's got like a shirt and a jacket . 50294_51780
+# gloss[orig] = he.PRON.SUB.M.3S+HAVE.V.3S.PRES got.V.PASTPART like.CONJ a.DET.INDEF shirt.N.SG and.CONJ a.DET.INDEF jacket.N.SG
+# speaker = MAR
+# labels =
+1	he's	he's	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Lang=eng
+2	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	like	like	ADP	_	_	5	case	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=eng
+5	shirt	shirt	NOUN	_	Number=Sing	2	obl	_	Lang=eng
+6	and	and	CCONJ	_	_	8	cc	_	Lang=eng
+7	a	a	DET	_	Definite=Ind|PronType=Art	8	det	_	Lang=eng
+8	jacket	jacket	NOUN	_	Number=Sing	5	conj	_	Lang=eng
+9	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:20
+# text = uh .
+# text[orig] = &=laugh uh@s:eng . 52013_53592
+# gloss[orig] = uh.IM
+# speaker = MAR
+# labels =
+1	uh	uh	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:21
+# text = what to do .
+# text[orig] = what to do . 53499_54567
+# gloss[orig] = what.REL to.PREP do.V.INFIN
+# speaker = MAR
+# labels =
+1	what	what	PRON	_	PronType=Int	3	obj	_	Lang=eng
+2	to	to	PART	_	_	3	mark	_	Lang=eng
+3	do	do	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:22
+# text = and he is looking at me like
+# text[orig] = and he is looking at me like +"/. 54892_56378
+# gloss[orig] = and.CONJ he.PRON.SUB.M.3S is.V.3S.PRES look.V.PRESPART at.PREP me.PRON.OBJ.1S like.CONJ.[or].like.SV.INFIN
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	4	cc	_	Lang=eng
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	Lang=eng
+4	looking	look	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	Lang=eng
+5	at	at	ADP	_	_	6	case	_	Lang=eng
+6	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	Lang=eng
+7	like	like	ADP	_	_	6	case	_	Lang=eng
+
+# sent_id = maria4:23
+# text = you look like a balloon in a ski slope the the sunglasses the sweater the jacket .
+# text[orig] = you look like a balloon in a ski slope the xxx the sunglasses the sweater the jacket . 56239_63019
+# gloss[orig] = you.PRON.SUB.2SP look.V.2SP.PRES like.CONJ a.DET.INDEF balloon.N.SG in.PREP a.DET.INDEF ski.N.SG slope.N.SG the.DET.DEF the.DET.DEF sunglass.N.PL.[or].sunglasses.N.PL the.DET.DEF sweat.N.SG+COMP.AG.[or].sweater.N.SG the.DET.DEF jacket.N.SG
+# speaker = MAR
+# labels =
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	Lang=eng
+2	look	look	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	like	like	ADP	_	_	5	case	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=eng
+5	balloon	balloon	NOUN	_	Number=Sing	2	obl	_	Lang=eng
+6	in	in	ADP	_	_	9	case	_	Lang=eng
+7	a	a	DET	_	Definite=Ind|PronType=Art	9	det	_	Lang=eng
+8	ski	ski	NOUN	_	Number=Sing	9	compound	_	Lang=eng
+9	slope	slope	NOUN	_	Number=Sing	5	nmod	_	Lang=eng
+10	the	the	DET	_	Definite=Def|PronType=Art	12	det	_	Lang=eng
+11	the	the	DET	_	Definite=Def|PronType=Art	12	det	_	Lang=eng
+12	sunglasses	sunglasse	NOUN	_	Number=Plur	5	conj	_	Lang=eng
+13	the	the	DET	_	Definite=Def|PronType=Art	14	det	_	Lang=eng
+14	sweater	sweater	NOUN	_	Number=Sing	5	conj	_	Lang=eng
+15	the	the	DET	_	Definite=Def|PronType=Art	16	det	_	Lang=eng
+16	jacket	jacket	NOUN	_	Number=Sing	12	conj	_	Lang=eng
+17	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:24
+# text = like I don't live in the UK .
+# text[orig] = like I don't live in the U_K . 62647_65016
+# gloss[orig] = like.CONJ I.PRON.SUB.1S do.V.1S.PRES+NEG live.V.INFIN in.PREP the.DET.DEF name
+# speaker = MAR
+# labels =
+1	like	like	SCONJ	_	_	4	mark	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=eng
+3	don't	don't	X	_	Foreign=Yes	4	aux	_	Lang=eng
+4	live	live	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	in	in	ADP	_	_	7	case	_	Lang=eng
+6	the	the	DET	_	Definite=Def|PronType=Art	7	det	_	Lang=eng
+7	UK	UK	PROPN	_	Number=Sing	4	obl	_	Lang=eng
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:25
+# text = yes .
+# text[orig] = yes . 72678_73468
+# gloss[orig] = yes.ADV
+# speaker = MAR
+# labels =
+1	yes	yes	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:26
+# text = um .
+# text[orig] = um . 83545_84103
+# gloss[orig] = um.IM
+# speaker = MAR
+# labels =
+1	um	um	X	_	Foreign=Yes	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:27
+# text = dating moon or anything .
+# text[orig] = dating moon [?] or anything . 92137_94877
+# gloss[orig] = date.N.SG+ASV moon.N.SG or.CONJ anything.PRON
+# speaker = MAR
+# labels =
+1	dating	dat	VERB	_	VerbForm=Ger	2	compound	_	Lang=eng
+2	moon	moon	NOUN	_	Number=Sing	0	root	_	Lang=eng
+3	or	or	CCONJ	_	_	4	cc	_	Lang=eng
+4	anything	anything	PRON	_	Number=Sing	2	conj	_	Lang=eng
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:28
+# text = not a single comment came back from from them .
+# text[orig] = not a single comment came back from [/] from them . 103654_107183
+# gloss[orig] = not.ADV a.DET.INDEF single.ADJ comment.N.SG came.V.PAST back.ADV from.PREP from.PREP them.PRON.OBJ.3P
+# speaker = MAR
+# labels =
+1	not	not	PART	_	_	4	advmod	_	Lang=eng
+2	a	a	DET	_	Definite=Ind|PronType=Art	4	det	_	Lang=eng
+3	single	single	ADJ	_	Degree=Pos	4	amod	_	Lang=eng
+4	comment	comment	NOUN	_	Number=Sing	5	nsubj	_	Lang=eng
+5	came	come	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+6	back	back	ADV	_	_	5	advmod	_	Lang=eng
+7	from	from	ADP	_	_	9	case	_	Lang=eng
+8	from	from	ADP	_	_	9	case	_	Lang=eng
+9	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obl	_	Lang=eng
+10	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:29
+# text = there wasn't a single comment so I can only assume that the their A they were ok with the B with they needed them so it's nice to have them .
+# text[orig] = there wasn't a single comment so I can only assume that the [/] their A@s:eng&spa they were o_k with the B@s:eng&spa with they needed them so it's nice to have them . 111502_119211
+# gloss[orig] = there.ADV was.V.3S.PAST+NEG a.DET.INDEF single.ADJ comment.N.SG so.ADV I.PRON.SUB.1S can.V.1S.PRES only.ADJ.[or].on.PREP+ADV assume.SV.INFIN that.CONJ.[or].that.DEM.FAR the.DET.DEF their.ADJ.POSS.3P name they.PRON.SUB.3P were.V.3P.PAST OK.IM with.PREP the.DET.DEF name with.PREP they.PRON.SUB.3P need.V.PAST them.PRON.OBJ.3P so.ADV it.PRON.SUB.3S+BE.V.3S.PRES nice.ADJ to.PREP have.V.INFIN them.PRON.OBJ.3P
+# speaker = MAR
+# labels =
+1	there	there	PRON	_	_	2	expl	_	Lang=eng
+2	wasn't	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=eng
+4	single	single	ADJ	_	Degree=Pos	5	amod	_	Lang=eng
+5	comment	comment	NOUN	_	Number=Sing	2	nsubj	_	Lang=eng
+6	so	so	ADV	_	_	10	advmod	_	Lang=eng
+7	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Lang=eng
+8	can	can	AUX	_	VerbForm=Fin	10	aux	_	Lang=eng
+9	only	only	ADV	_	_	10	advmod	_	Lang=eng
+10	assume	assume	VERB	_	VerbForm=Inf	2	parataxis	_	Lang=eng
+11	that	that	SCONJ	_	_	17	mark	_	Lang=eng
+12	the	the	DET	_	_	14	det	_	Lang=eng
+13	their	they	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	nmod:poss	_	Lang=eng
+14	A	a	NOUN	_	Number=Sing	17	obl	_	Lang=eng&spa
+15	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	Lang=eng
+16	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	Lang=eng
+17	ok	ok	ADJ	_	Degree=Pos	10	ccomp	_	Lang=eng
+18	with	with	ADP	_	_	20	case	_	Lang=eng
+19	the	the	DET	_	Definite=Def|PronType=Art	20	det	_	Lang=eng
+20	B	b	NOUN	_	Number=Sing	17	obl	_	Lang=eng&spa
+21	with	with	ADP	_	_	20	case	_	Lang=eng
+22	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	23	nsubj	_	Lang=eng
+23	needed	need	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	17	advcl	_	Lang=eng
+24	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	obj	_	Lang=eng
+25	so	so	ADV	_	_	27	advmod	_	Lang=eng
+26	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	27	expl	_	Lang=eng
+27	nice	nice	ADJ	_	Degree=Pos	2	parataxis	_	Lang=eng
+28	to	to	PART	_	_	29	mark	_	Lang=eng
+29	have	have	VERB	_	VerbForm=Inf	27	csubj	_	Lang=eng
+30	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	29	obj	_	Lang=eng
+31	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:30
+# text = I don't know .
+# text[orig] = I don't know . 118886_120094
+# gloss[orig] = I.PRON.SUB.1S do.V.1S.PRES+NEG know.V.INFIN
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	don't	don't	X	_	_	3	advmod	_	Lang=eng
+3	know	know	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:31
+# text = we don't need him .
+# text[orig] = we don't need him . 133979_134629
+# gloss[orig] = we.PRON.SUB.1P do.V.12S13P.PRES+NEG need.V.INFIN him.PRON.OBJ.M.3S
+# speaker = MAR
+# labels =
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	don't	don't	AUX	_	_	3	aux	_	Lang=eng
+3	need	need	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	Lang=eng
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:32
+# text = he is correct .
+# text[orig] = he is correct . 134444_135094
+# gloss[orig] = he.PRON.SUB.M.3S is.V.3S.PRES correct.SV.INFIN
+# speaker = MAR
+# labels =
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=eng
+3	correct	correct	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:33
+# text = and I have told him to take them out .
+# text[orig] = and I have told him to take them out . 135697_136998
+# gloss[orig] = and.CONJ I.PRON.SUB.1S have.V.1S.PRES told.V.PASTPART him.PRON.OBJ.M.3S to.PREP take.V.INFIN them.PRON.OBJ.3P out.ADV
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	4	cc	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=eng
+3	have	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	Lang=eng
+4	told	tell	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=eng
+5	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	Lang=eng
+6	to	to	PART	_	_	7	mark	_	Lang=eng
+7	take	take	VERB	_	VerbForm=Inf	4	xcomp	_	Lang=eng
+8	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	Lang=eng
+9	out	out	ADV	_	_	7	advmod	_	Lang=eng
+10	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:34
+# text = and I took them out .
+# text[orig] = and I took them out . 137044_138066
+# gloss[orig] = and.CONJ I.PRON.SUB.1S take.V.PAST them.PRON.OBJ.3P out.ADV
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	3	cc	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	took	take	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	Lang=eng
+5	out	out	ADV	_	_	3	compound:prt	_	Lang=eng
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:35
+# text = buy I may have taken it out of R drawing not out of W .
+# text[orig] = buy I may have taken it out of R@s:eng&spa drawing not out of W@s:eng&spa . 139366_142663
+# gloss[orig] = buy.V.INFIN I.PRON.SUB.1S may.V.1S.PRES have.SV.INFIN taken.V.PAST it.PRON.OBJ.3S out.ADV of.PREP name draw.SV.INFIN+ASV not.ADV out.ADV of.PREP name
+# speaker = MAR
+# labels =
+1	buy	buy	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
+3	may	may	AUX	_	VerbForm=Fin	5	aux	_	Lang=eng
+4	have	have	AUX	_	VerbForm=Inf	5	aux	_	Lang=eng
+5	taken	take	VERB	_	Tense=Past|VerbForm=Part	1	parataxis	_	Lang=eng
+6	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	Lang=eng
+7	out	out	ADP	_	_	9	case	_	Lang=eng
+8	of	of	ADP	_	_	9	case	_	Lang=eng
+9	R	r	NOUN	_	Number=Sing	5	obl	_	Lang=eng&spa
+10	drawing	draw	VERB	_	VerbForm=Ger	5	advcl	_	Lang=eng
+11	not	not	PART	_	_	14	advmod	_	Lang=eng
+12	out	out	ADP	_	_	14	case	_	Lang=eng
+13	of	of	ADP	_	_	14	case	_	Lang=eng
+14	W	w	NOUN	_	Number=Sing	9	conj	_	Lang=eng&spa
+15	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:36
+# text = but we don't need him .
+# text[orig] = but we don't need him .
+# gloss[orig] = but.CONJ we.PRON.SUB.1P do.V.12S13P.PRES+NEG need.V.INFIN him.PRON.OBJ.M.3S
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	4	cc	_	Lang=eng
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Lang=eng
+3	don't	don't	PART	_	_	4	advmod	_	Lang=eng
+4	need	need	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	Lang=eng
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:37
+# text = we don't need him .
+# text[orig] = we don't need him . 148236_149444
+# gloss[orig] = we.PRON.SUB.1P do.V.12S13P.PRES+NEG need.V.INFIN him.PRON.OBJ.M.3S
+# speaker = MAR
+# labels =
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	don't	don't	AUX	_	_	3	aux	_	Lang=eng
+3	need	need	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	Lang=eng
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:38
+# text = my
+# text[orig] = my +//. 155481_155852
+# gloss[orig] = my.ADJ.POSS.1S
+# speaker = MAR
+# labels =
+1	my	my	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	root	_	Lang=eng
+
+# sent_id = maria4:39
+# text = mmhm .
+# text[orig] = mmhm . 155899_156410
+# gloss[orig] = mmhm.IM
+# speaker = MAR
+# labels =
+1	mmhm	mmhm	INTJ	_	_	0	root	_	Lang=eng
+2	.	$.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:40
+# text = they are probably change those on the architectural way U and B .
+# text[orig] = they are probably change those on the architectural way U@s:eng&spa and B@s:eng&spa . 157803_161797
+# gloss[orig] = they.PRON.SUB.3P are.V.3P.PRES probably.ADV change.SV.INFIN those.DEM.FAR.PL on.PREP the.DET.DEF architectural.ADJ way.N.SG name and.CONJ name
+# speaker = MAR
+# labels =
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+2	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	Lang=eng
+3	probably	probably	ADV	_	_	4	advmod	_	Lang=eng
+4	change	change	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	those	those	PRON	_	Number=Plur|PronType=Dem	4	obj	_	Lang=eng
+6	on	on	ADP	_	_	9	case	_	Lang=eng
+7	the	the	DET	_	Definite=Def|PronType=Art	9	det	_	Lang=eng
+8	architectural	architectural	ADJ	_	Degree=Pos	9	amod	_	Lang=eng
+9	way	way	NOUN	_	Number=Sing	5	nmod	_	Lang=eng
+10	U	u	NOUN	_	Number=Sing	9	appos	_	Lang=eng&spa
+11	and	and	CCONJ	_	_	12	cc	_	Lang=eng
+12	B	b	NOUN	_	Number=Sing	10	conj	_	Lang=eng&spa
+13	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:41
+# text = but Double U had already been issued or what have you told .
+# text[orig] = but Double_U@s:eng&spa had already been issued or what have you told . 161797_165837
+# gloss[orig] = but.CONJ name had.V.PAST already.ADV been.V.PASTPART issue.N.SG+AV or.CONJ what.REL have.SV.INFIN you.PRON.SUB.2SP told.V.PASTPART
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	6	cc	_	Lang=eng
+2	Double	double	NOUN	_	Number=Sing	3	compound	_	Lang=eng&spa
+3	U	u	NOUN	_	Number=Sing	6	nsubj:pass	_	Lang=eng&spa
+4	already	already	ADV	_	_	6	advmod	_	Lang=eng
+5	been	be	AUX	_	Tense=Past|VerbForm=Part	6	aux:pass	_	Lang=eng
+6	issued	issue	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Lang=eng
+7	or	or	CCONJ	_	_	11	cc	_	Lang=eng
+8	what	what	PRON	_	PronType=Int	11	obj	_	Lang=eng
+9	have	have	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	Lang=eng
+10	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	Lang=eng
+11	told	tell	VERB	_	Tense=Past|VerbForm=Part	6	conj	_	Lang=eng
+12	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = maria4:42
+# text = it probably never got picked up .
+# text[orig] = it probably never got picked up . 165883_168298
+# gloss[orig] = it.PRON.SUB.3S probably.ADV never.ADV got.AV.PAST+P pick.SV.INFIN+AV up.ADV
+# speaker = MAR
+# labels =
+1	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj:pass	_	Lang=eng
+2	probably	probably	ADV	_	_	5	advmod	_	Lang=eng
+3	never	never	ADV	_	_	5	advmod	_	Lang=eng
+4	got	get	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	Lang=eng
+5	picked	pick	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Lang=eng
+6	up	up	ADP	_	_	5	compound:prt	_	Lang=eng
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:43
+# text = they they aren't the the BCC .
+# text[orig] = they [/] they aren't the [/] the B_C_C@s:eng&spa . 179304_180883
+# gloss[orig] = they.PRON.SUB.3P they.PRON.SUB.3P are.V.3P.PRES+NEG the.DET.DEF the.DET.DEF name
+# speaker = MAR
+# labels =
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
+3	aren't	aren't	X	_	_	6	cop	_	Lang=eng
+4	the	the	X	_	_	6	det	_	Lang=eng
+5	the	the	DET	_	Definite=Def|PronType=Art	6	det	_	Lang=eng
+6	BCC	bcc	PROPN	_	Number=Sing	0	root	_	Lang=eng&spa
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = maria4:44
+# text = yeah .
+# text[orig] = yeah . 181209_181998
+# gloss[orig] = yeah.ADV
+# speaker = MAR
+# labels =
+1	yeah	yeah	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:45
+# text = we can do a trade .
+# text[orig] = we can do a trade . 181905_182927
+# gloss[orig] = we.PRON.SUB.1P can.V.123SP.PRES do.V.INFIN a.DET.INDEF trade.N.SG
+# speaker = MAR
+# labels =
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	can	can	AUX	_	VerbForm=Fin	3	aux	_	Lang=eng
+3	do	do	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=eng
+5	trade	trade	NOUN	_	Number=Sing	3	obj	_	Lang=eng
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:46
+# text = right right .
+# text[orig] = right right . 190961_191936
+# gloss[orig] = right.ADJ right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	2	amod	_	Lang=eng
+2	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:47
+# text = I don't think is that much of a
+# text[orig] = I don't think xxx is that much of a +/. 192586_193887
+# gloss[orig] = I.PRON.SUB.1S do.V.1S.PRES+NEG think.V.INFIN is.V.3S.PRES that.DEM.FAR much.ADJ of.PREP a.DET.INDEF
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	don't	don't	X	_	Foreign=Yes	1	flat:foreign	_	Lang=eng
+3	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	Lang=eng
+5	that	that	ADV	_	_	6	advmod	_	Lang=eng
+6	much	much	ADJ	_	Degree=Pos	4	nsubj	_	Lang=eng
+7	of	of	ADP	_	_	8	case	_	Lang=eng
+8	a	a	X	_	Definite=Ind|PronType=Art	6	obl	_	Lang=eng
+
+# sent_id = maria4:48
+# text = difficult .
+# text[orig] = +, difficult . 195698_196441
+# gloss[orig] = difficult.ADJ
+# speaker = MAR
+# labels =
+1	difficult	difficult	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:49
+# text = like Rodríguez or García .
+# text[orig] = &ka like Rodríguez@s:eng&spa or García@s:eng&spa . 199784_201317
+# gloss[orig] = like.CONJ.[or].like.V.INFIN name or.CONJ name
+# speaker = MAR
+# labels =
+1	like	like	ADP	_	_	2	case	_	Lang=eng
+2	Rodríguez	Rodríguez	PROPN	_	Number=Sing	0	root	_	Lang=eng&spa
+3	or	or	CCONJ	_	_	4	cc	_	Lang=eng
+4	García	García	PROPN	_	Number=Sing	2	conj	_	Lang=eng&spa
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:50
+# text = was was striker then .
+# text[orig] = was [/] was striker then . 201178_202478
+# gloss[orig] = was.V.3S.PAST was.V.3S.PAST striker.N.SG then.ADV
+# speaker = MAR
+# labels =
+1	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	Lang=eng
+2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	Lang=eng
+3	striker	striker	NOUN	_	Number=Sing	0	root	_	Lang=eng
+4	then	then	ADV	_	PronType=Dem	3	advmod	_	Lang=eng
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:51
+# text = striker then ask for too much .
+# text[orig] = striker then ask for too much . 202478_204754
+# gloss[orig] = striker.N.SG then.ADV ask.SV.INFIN for.PREP too.ADV much.ADJ
+# speaker = MAR
+# labels =
+1	striker	striker	NOUN	_	Number=Sing	3	nsubj	_	Lang=eng
+2	then	then	ADV	_	PronType=Dem	3	advmod	_	Lang=eng
+3	ask	ask	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	for	for	ADP	_	_	6	case	_	Lang=eng
+5	too	too	ADV	_	_	6	advmod	_	Lang=eng
+6	much	much	ADJ	_	Degree=Pos	3	advmod	_	Lang=eng
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:52
+# text = there is ?
+# text[orig] = there is ? 210280_211348
+# gloss[orig] = there.ADV is.V.3S.PRES
+# speaker = MAR
+# labels =
+1	there	there	PRON	_	_	2	expl	_	Lang=eng
+2	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:53
+# text = this is how much it is .
+# text[orig] = this is how much it is . 220915_222633
+# gloss[orig] = this.DEM.NEAR.SG is.V.3S.PRES how.ADV much.ADJ it.PRON.SUB.3S is.V.3S.PRES
+# speaker = MAR
+# labels =
+1	this	this	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	Lang=eng
+2	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	how	how	ADV	_	PronType=Int	4	advmod	_	Lang=eng
+4	much	much	ADJ	_	Degree=Pos	2	ccomp	_	Lang=eng
+5	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
+6	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=eng
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:54
+# text = but you have to say this is
+# text[orig] = but you have to say this is +//. 222679_225001
+# gloss[orig] = but.CONJ you.PRON.SUB.2SP have.V.2SP.PRES to.PREP say.V.INFIN this.DEM.NEAR.SG is.V.3S.PRES
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	3	cc	_	Lang=eng
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	Lang=eng
+3	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	to	to	PART	_	_	5	mark	_	Lang=eng
+5	say	say	VERB	_	VerbForm=Inf	3	xcomp	_	Lang=eng
+6	this	this	PRON	_	Number=Sing|PronType=Dem	7	nsubj	_	Lang=eng
+7	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	Lang=eng
+
+# sent_id = maria4:55
+# text = right .
+# text[orig] = right . 224769_225234
+# gloss[orig] = right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:56
+# text = right right right right .
+# text[orig] = right right right right . 227091_228391
+# gloss[orig] = right.ADJ right.ADJ right.ADJ right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	right	right	ADJ	_	Degree=Pos	1	conj	_	Lang=eng
+3	right	right	ADJ	_	Degree=Pos	1	conj	_	Lang=eng
+4	right	right	ADJ	_	Degree=Pos	1	conj	_	Lang=eng
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:57
+# text = well actually what it was claimed in my emails .
+# text[orig] = well actually what it was claimed in my emails . 238097_240141
+# gloss[orig] = well.ADV actual.ADJ+ADV what.REL it.PRON.SUB.3S was.V.3S.PAST unk in.PREP my.ADJ.POSS.1S unk
+# speaker = MAR
+# labels =
+1	well	well	INTJ	_	_	3	discourse	_	Lang=eng
+2	actually	actually	ADV	_	_	3	advmod	_	Lang=eng
+3	what	what	PRON	_	PronType=Int	0	root	_	Lang=eng
+4	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	Lang=eng
+5	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux:pass	_	Lang=eng
+6	claimed	claim	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	3	acl:relcl	_	Lang=eng
+7	in	in	ADP	_	_	9	case	_	Lang=eng
+8	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	Lang=eng
+9	emails	email	NOUN	_	Number=Plur	6	obl	_	Lang=eng
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:58
+# text = I picked up a few items .
+# text[orig] = I picked up a few items . 239909_241905
+# gloss[orig] = I.PRON.SUB.1S pick.V.PAST up.ADV a.DET.INDEF few.ADJ item.N.PL
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	picked	pick	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	up	up	ADP	_	_	2	compound:prt	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	Lang=eng
+5	few	few	ADJ	_	Degree=Pos	6	amod	_	Lang=eng
+6	items	item	NOUN	_	Number=Plur	2	obj	_	Lang=eng
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:59
+# text = uh that he is charging for .
+# text[orig] = uh that he is charging for . 242138_244227
+# gloss[orig] = uh.IM that.CONJ he.PRON.SUB.M.3S is.V.3S.PRES unk for.PREP
+# speaker = MAR
+# labels =
+1	uh	uh	INTJ	_	_	5	discourse	_	Lang=eng
+2	that	that	PRON	_	Number=Sing|PronType=Dem	5	obl	_	Lang=eng
+3	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+4	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	Lang=eng
+5	charging	charge	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	Lang=eng
+6	for	for	ADP	_	_	2	case	_	Lang=eng
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:60
+# text = they let me ask you a question .
+# text[orig] = they let me ask you a question . 243995_245388
+# gloss[orig] = they.PRON.SUB.3P let.V.3P.PRES me.PRON.OBJ.1S ask.SV.INFIN you.PRON.SUB.2SP a.DET.INDEF question.N.SG
+# speaker = MAR
+# labels =
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Lang=eng
+2	let	let	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	Lang=eng
+3	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	Lang=eng
+4	ask	ask	VERB	_	VerbForm=Inf	2	xcomp	_	Lang=eng
+5	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	4	iobj	_	Lang=eng
+6	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	Lang=eng
+7	question	question	NOUN	_	Number=Sing	4	obj	_	Lang=eng
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:61
+# text = and you may have been already on W .
+# text[orig] = and you may have been already on W@s:eng&spa . 245481_247200
+# gloss[orig] = and.CONJ you.PRON.SUB.2SP may.V.2SP.PRES have.SV.INFIN been.V.PASTPART already.ADV on.PREP name
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	8	cc	_	Lang=eng
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	Lang=eng
+3	may	may	AUX	_	VerbForm=Fin	8	aux	_	Lang=eng
+4	have	have	AUX	_	VerbForm=Inf	8	aux	_	Lang=eng
+5	been	be	AUX	_	Tense=Past|VerbForm=Part	8	cop	_	Lang=eng
+6	already	already	ADV	_	_	8	advmod	_	Lang=eng
+7	on	on	ADP	_	_	8	case	_	Lang=eng
+8	W	w	NOUN	_	Number=Sing	0	root	_	Lang=eng&spa
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = maria4:62
+# text = the Insta Hots that are down below .
+# text[orig] = the Insta_Hots@s:eng&spa that are down below . 247200_249243
+# gloss[orig] = the.DET.DEF name that.CONJ.[or].that.DEM.FAR are.V.123P.PRES down.PREP below.PREP
+# speaker = MAR
+# labels =
+1	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	Lang=eng
+2	Insta	insta	NOUN	_	Number=Sing	3	compound	_	Lang=eng&spa
+3	Hots	hot	NOUN	_	Number=Plur	5	nsubj	_	Lang=eng&spa
+4	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	Lang=eng
+5	down	down	ADV	_	_	0	root	_	Lang=eng
+6	below	below	ADV	_	_	5	advmod	_	Lang=eng
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:63
+# text = he claimed that then we told them to move up a U .
+# text[orig] = he claimed that then we told them to move up a U@s:eng&spa . 249800_253051
+# gloss[orig] = he.PRON.SUB.M.3S unk that.CONJ.[or].that.DEM.FAR then.ADV we.PRON.SUB.1P told.V.PAST them.PRON.OBJ.3P to.PREP move.V.INFIN up.ADV a.DET.INDEF name
+# speaker = MAR
+# labels =
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Lang=eng
+2	claimed	claim	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	that	that	SCONJ	_	_	6	mark	_	Lang=eng
+4	then	then	ADV	_	PronType=Dem	6	advmod	_	Lang=eng
+5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	Lang=eng
+6	told	tell	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	Lang=eng
+7	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	obj	_	Lang=eng
+8	to	to	PART	_	_	9	mark	_	Lang=eng
+9	move	move	VERB	_	VerbForm=Inf	6	xcomp	_	Lang=eng
+10	up	up	ADP	_	_	9	compound:prt	_	Lang=eng
+11	a	a	DET	_	Definite=Ind|PronType=Art	12	det	_	Lang=eng
+12	U	U	PROPN	_	Number=Sing	9	obj	_	Lang=eng&spa
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:64
+# text = is that true ?
+# text[orig] = is that true ? 253005_254212
+# gloss[orig] = is.V.3S.PRES that.DEM.FAR true.ADJ
+# speaker = MAR
+# labels =
+1	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=eng
+2	that	that	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	Lang=eng
+3	true	true	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:65
+# text = first we were never included .
+# text[orig] = first we were never included . 255652_257509
+# gloss[orig] = first.ADJ we.PRON.SUB.1P were.V.1P.PAST never.ADV unk
+# speaker = MAR
+# labels =
+1	first	first	ADV	_	_	5	advmod	_	Lang=eng
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj:pass	_	Lang=eng
+3	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	Lang=eng
+4	never	never	ADV	_	_	5	advmod	_	Lang=eng
+5	included	include	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Lang=eng
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:66
+# text = they may put them down here and they were settled
+# text[orig] = they may put them down here and they were settled [?] +/. 258485_261828
+# gloss[orig] = they.PRON.SUB.3P may.V.3P.PRES put.SV.INFIN them.PRON.OBJ.3P down.PREP here.ADV and.CONJ they.PRON.SUB.3P were.V.3P.PAST unk
+# speaker = MAR
+# labels =
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+2	may	may	AUX	_	VerbForm=Fin	3	aux	_	Lang=eng
+3	put	put	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	them	they	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	Lang=eng
+5	down	down	ADP	_	_	6	case	_	Lang=eng
+6	here	here	ADV	_	PronType=Dem	3	advmod	_	Lang=eng
+7	and	and	CCONJ	_	_	10	cc	_	Lang=eng
+8	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj:pass	_	Lang=eng
+9	were	be	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux:pass	_	Lang=eng
+10	settled	settle	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	Lang=eng
+
+# sent_id = maria4:67
+# text = the width is for a panel .
+# text[orig] = the width is for a panel . 266332_268664
+# gloss[orig] = the.DET.DEF width.N.SG is.V.3S.PRES for.PREP a.DET.INDEF panel.N.SG
+# speaker = MAR
+# labels =
+1	the	the	DET	_	Definite=Def|PronType=Art	2	det	_	Lang=eng
+2	width	width	NOUN	_	Number=Sing	6	nsubj	_	Lang=eng
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	Lang=eng
+4	for	for	ADP	_	_	6	case	_	Lang=eng
+5	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	Lang=eng
+6	panel	panel	NOUN	_	Number=Sing	0	root	_	Lang=eng
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = maria4:68
+# text = what we had what the guy just made made a panel to cover that .
+# text[orig] = what we had [///] what &th the &mi xxx guy just made made a panel to cover that . 268830_273576
+# gloss[orig] = what.REL we.PRON.SUB.1P had.V.PAST what.REL the.DET.DEF guy.N.SG just.ADJ.[or].just.ADV made.AV.PAST made.AV.PAST a.DET.INDEF panel.N.SG to.PREP cover.V.INFIN that.DEM.FAR
+# speaker = MAR
+# labels =
+1	what	what	PRON	_	PronType=Int	9	nsubj	_	Lang=eng
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	had	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	Lang=eng
+4	what	what	PRON	_	PronType=Int	9	obj	_	Lang=eng
+5	the	the	DET	_	Definite=Def|PronType=Art	6	det	_	Lang=eng
+6	guy	guy	NOUN	_	Number=Sing	8	nsubj	_	Lang=eng
+7	just	just	ADV	_	_	8	advmod	_	Lang=eng
+8	made	make	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	1	acl:relcl	_	Lang=eng
+9	made	make	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+10	a	a	DET	_	Definite=Ind|PronType=Art	11	det	_	Lang=eng
+11	panel	panel	NOUN	_	Number=Sing	9	obj	_	Lang=eng
+12	to	to	PART	_	_	13	mark	_	Lang=eng
+13	cover	cover	VERB	_	VerbForm=Inf	9	advcl	_	Lang=eng
+14	that	that	PRON	_	Number=Sing|PronType=Dem	13	obj	_	Lang=eng
+15	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = maria4:69
+# text = but I have a picture like Defoes .
+# text[orig] = but I have a picture like Defoes@s:eng&spa . 273576_276156
+# gloss[orig] = but.CONJ I.PRON.SUB.1S have.V.1S.PRES a.DET.INDEF picture.N.SG like.CONJ.[or].like.N.SG name
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	3	cc	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=eng
+5	picture	picture	NOUN	_	Number=Sing	3	obj	_	Lang=eng
+6	like	like	ADP	_	_	7	case	_	Lang=eng
+7	Defoes	Defoes	PROPN	_	Number=Plur	5	nmod	_	Lang=eng&spa
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:70
+# text = no .
+# text[orig] = no . 276406_277072
+# gloss[orig] = no.ADV
+# speaker = MAR
+# labels =
+1	no	no	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:71
+# text = this is why they need spaces in the dressing webs .
+# text[orig] = this is why they need spaces in the dressing webs . 277155_280153
+# gloss[orig] = this.DEM.NEAR.SG is.V.3S.PRES why.REL they.PRON.SUB.3P need.V.3P.PRES space.N.PL in.PREP the.DET.DEF dress.V.PRESPART web.N.PL
+# speaker = MAR
+# labels =
+1	this	this	PRON	_	Number=Sing|PronType=Dem	5	nsubj	_	Lang=eng
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=eng
+3	why	why	SCONJ	_	PronType=Int	5	advmod	_	Lang=eng
+4	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+5	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+6	spaces	space	NOUN	_	Number=Plur	5	obj	_	Lang=eng
+7	in	in	ADP	_	_	10	case	_	Lang=eng
+8	the	the	DET	_	Definite=Def|PronType=Art	10	det	_	Lang=eng
+9	dressing	dressing	NOUN	_	Number=Sing	10	compound	_	Lang=eng
+10	webs	web	NOUN	_	Number=Plur	6	nmod	_	Lang=eng
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:72
+# text = be)cause that's the only ones that you see .
+# text[orig] = (be)cause that's the only ones that you see . 280153_282317
+# gloss[orig] = because.CONJ that.DEM.FAR+BE.V.3S.PRES the.DET.DEF only.ADJ.[or].on.PREP+ADV one.PRON.PL that.CONJ you.PRON.SUB.2SP see.V.2SP.PRES
+# speaker = MAR
+# labels =
+1	be)cause	be)cause	INTJ	_	_	5	discourse	_	Lang=eng
+2	that's	that's	PRON	_	Number=Sing|PronType=Dem	5	nsubj	_	Lang=eng
+3	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	Lang=eng
+4	only	only	ADJ	_	Degree=Pos	5	amod	_	Lang=eng
+5	ones	one	NOUN	_	Number=Plur	0	root	_	Lang=eng
+6	that	that	PRON	_	PronType=Rel	8	obj	_	Lang=eng
+7	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	Lang=eng
+8	see	see	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	Lang=eng
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:73
+# text = and Defoe sent a picture and it clearly shows the Insta Hot under the sink .
+# text[orig] = and Defoe@s:eng&spa sent a picture and it clearly shows the Insta_Hot@s:eng&spa under the sink . 282232_286730
+# gloss[orig] = and.CONJ name sent.AV.PAST a.DET.INDEF picture.N.SG and.CONJ it.PRON.SUB.3S clear.ADJ+ADV.[or].clearly.ADV show.N.PL the.DET.DEF name under.PREP the.DET.DEF sink.N.SG
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	3	cc	_	Lang=eng
+2	Defoe	Defoe	PROPN	_	Number=Sing	3	nsubj	_	Lang=eng&spa
+3	sent	send	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=eng
+5	picture	picture	NOUN	_	Number=Sing	3	obj	_	Lang=eng
+6	and	and	CCONJ	_	_	9	cc	_	Lang=eng
+7	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Lang=eng
+8	clearly	clearly	ADV	_	_	9	advmod	_	Lang=eng
+9	shows	show	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	Lang=eng
+10	the	the	DET	_	Definite=Def|PronType=Art	11	det	_	Lang=eng
+11	Insta	insta	NOUN	_	Number=Sing	12	compound	_	Lang=eng&spa
+12	Hot	hot	ADJ	_	Number=Sing	9	obj	_	Lang=eng&spa
+13	the	the	DET	_	Definite=Def|PronType=Art	14	det	_	Lang=eng
+14	sink	sink	NOUN	_	Number=Sing	9	obj	_	Lang=eng
+15	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:74
+# text = but I need to go look to see what my discussion with García was in terms of what they extra money .
+# text[orig] = but I need to go look to see what my discussion with García@s:eng&spa was in terms of what they xxx extra money . 287812_294556
+# gloss[orig] = but.CONJ I.PRON.SUB.1S need.V.1S.PRES to.PREP go.V.INFIN look.V.INFIN to.PREP see.V.INFIN what.REL my.ADJ.POSS.1S discussion.N.SG with.PREP name was.V.3S.PAST in.PREP term.N.PL.[or].terms.N.PL of.PREP what.REL they.PRON.SUB.3P extra.ADJ money.N.SG
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	3	cc	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	to	to	PART	_	_	5	mark	_	Lang=eng
+5	go	go	VERB	_	VerbForm=Inf	3	xcomp	_	Lang=eng
+6	look	look	VERB	_	VerbForm=Inf	5	xcomp	_	Lang=eng
+7	to	to	PART	_	_	8	mark	_	Lang=eng
+8	see	see	VERB	_	VerbForm=Inf	6	advcl	_	Lang=eng
+9	what	what	PRON	_	PronType=Int	8	ccomp	_	Lang=eng
+10	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	Lang=eng
+11	discussion	discussion	NOUN	_	Number=Sing	9	nsubj	_	Lang=eng
+12	with	with	ADP	_	_	13	case	_	Lang=eng
+13	García	García	PROPN	_	Number=Sing	11	nmod	_	Lang=eng&spa
+14	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	Lang=eng
+15	in	in	ADP	_	_	16	case	_	Lang=eng
+16	terms	term	NOUN	_	Number=Plur	9	nmod	_	Lang=eng
+17	of	of	ADP	_	_	18	case	_	Lang=eng
+18	what	what	PRON	_	PronType=Int	16	nmod	_	Lang=eng
+19	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	nsubj	_	Lang=eng
+20	extra	extra	ADJ	_	Degree=Pos	21	amod	_	Lang=eng
+21	money	money	NOUN	_	Number=Sing	18	acl:relcl	_	Lang=eng
+22	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:75
+# text = and I think they said that yes they ha)d put him there and then they had to move him to the top .
+# text[orig] = and I think they said that yes they (ha)d put him there and then they had to move him to the top . 294556_299347
+# gloss[orig] = and.CONJ I.PRON.SUB.1S think.V.1S.PRES they.PRON.SUB.3P said.V.PAST that.CONJ.[or].that.DEM.FAR yes.ADV they.PRON.SUB.3P had.V.PAST put.SV.INFIN him.PRON.OBJ.M.3S there.ADV and.CONJ then.ADV they.PRON.SUB.3P had.V.PAST to.PREP move.V.INFIN him.PRON.OBJ.M.3S to.PREP the.DET.DEF top.N.SG
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	3	cc	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+5	said	say	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	Lang=eng
+6	that	that	SCONJ	_	_	10	mark	_	Lang=eng
+7	yes	yes	INTJ	_	_	10	discourse	_	Lang=eng
+8	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj	_	Lang=eng
+9	ha)d	ha)d	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	Lang=eng
+10	put	put	VERB	_	VerbForm=Inf	5	ccomp	_	Lang=eng
+11	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	Lang=eng
+12	there	there	ADV	_	PronType=Dem	10	advmod	_	Lang=eng
+13	and	and	CCONJ	_	_	16	cc	_	Lang=eng
+14	then	then	ADV	_	PronType=Dem	16	advmod	_	Lang=eng
+15	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	Lang=eng
+16	had	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	10	conj	_	Lang=eng
+17	to	to	PART	_	_	18	mark	_	Lang=eng
+18	move	move	VERB	_	VerbForm=Inf	16	xcomp	_	Lang=eng
+19	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	obj	_	Lang=eng
+20	to	to	ADP	_	_	22	case	_	Lang=eng
+21	the	the	DET	_	Definite=Def|PronType=Art	22	det	_	Lang=eng
+22	top	top	NOUN	_	Number=Sing	18	obl	_	Lang=eng
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:76
+# text = and I am like wait a minute I got a picture .
+# text[orig] = and I am like wait a minute I got a picture . 299446_301216
+# gloss[orig] = and.CONJ I.PRON.SUB.1S am.V.1S.PRES like.CONJ wait.V.INFIN a.DET.INDEF minute.N.SG I.PRON.SUB.1S got.V.PAST a.DET.INDEF picture.N.SG
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	3	cc	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	am	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	like	like	SCONJ	_	_	5	mark	_	Lang=eng
+5	wait	wait	VERB	_	VerbForm=Inf	3	advcl	_	Lang=eng
+6	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	Lang=eng
+7	minute	minute	NOUN	_	Number=Sing	5	obl:tmod	_	Lang=eng
+8	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Lang=eng
+9	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	Lang=eng
+10	a	a	DET	_	Definite=Ind|PronType=Art	11	det	_	Lang=eng
+11	picture	picture	NOUN	_	Number=Sing	9	obj	_	Lang=eng
+12	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:77
+# text = I gotta figure out whether it's A or U .
+# text[orig] = I gotta figure out whether it's A@s:eng&spa or U@s:eng&spa . 301221_302881
+# gloss[orig] = I.PRON.SUB.1S get.V.1S.PRES+TO.PREP figure.N.SG out.ADV whether.CONJ it.PRON.SUB.3S+BE.V.3S.PRES name or.CONJ name
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	gotta	gotet	AUX	_	VerbForm=Fin	3	aux	_	Lang=eng
+3	figure	figure	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	out	out	ADP	_	_	3	compound:prt	_	Lang=eng
+5	whether	whether	SCONJ	_	_	7	mark	_	Lang=eng
+6	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Lang=eng
+7	A	A	PROPN	_	Number=Sing	3	ccomp	_	Lang=eng&spa
+8	or	or	CCONJ	_	_	9	cc	_	Lang=eng
+9	U	U	PROPN	_	Number=Sing	7	conj	_	Lang=eng&spa
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:78
+# text = I don't know which one of this .
+# text[orig] = I don't know which one of this . 302548_304380
+# gloss[orig] = I.PRON.SUB.1S do.V.1S.PRES+NEG know.V.INFIN which.REL one.PRON.SG of.PREP this.DEM.NEAR.SG
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	don't	don't	X	_	_	3	aux	_	Lang=eng
+3	know	know	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	which	which	DET	_	PronType=Int	5	det	_	Lang=eng
+5	one	one	PRON	_	Number=Sing	3	obj	_	Lang=eng
+6	of	of	ADP	_	_	7	case	_	Lang=eng
+7	this	this	PRON	_	Number=Sing|PronType=Dem	5	nmod	_	Lang=eng
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:79
+# text = well I mean just to check .
+# text[orig] = well I mean just to check . 310124_311706
+# gloss[orig] = well.ADV I.PRON.SUB.1S mean.V.1S.PRES just.ADV to.PREP check.V.INFIN
+# speaker = MAR
+# labels =
+1	well	well	INTJ	_	_	3	discourse	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	mean	mean	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	just	just	ADV	_	_	6	advmod	_	Lang=eng
+5	to	to	PART	_	_	6	mark	_	Lang=eng
+6	check	check	VERB	_	VerbForm=Inf	3	xcomp	_	Lang=eng
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:80
+# text = Miguel I saw Penélope .
+# text[orig] = Miguel@s:eng&spa I saw Penélope@s:eng&spa . 322029_324111
+# gloss[orig] = name I.PRON.SUB.1S saw.V.PAST name
+# speaker = MAR
+# labels =
+1	Miguel	Miguel	PROPN	_	Number=Sing	3	nsubj	_	Lang=eng&spa
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	saw	see	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	Penélope	Penélope	PROPN	_	Number=Sing	3	obj	_	Lang=eng&spa
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:81
+# text = at Versailles .
+# text[orig] = at Versailles@s:eng&spa . 324277_325443
+# gloss[orig] = at.PREP name
+# speaker = MAR
+# labels =
+1	at	at	ADP	_	_	2	case	_	Lang=eng
+2	Versailles	Versailles	PROPN	_	Number=Sing	0	root	_	Lang=eng&spa
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:82
+# text = I had lunch with my mum and my brother .
+# text[orig] = I had lunch with my mum and my brother . 325193_327191
+# gloss[orig] = I.PRON.SUB.1S had.V.PAST lunch.N.SG with.PREP my.ADJ.POSS.1S mum.N.SG and.CONJ my.ADJ.POSS.1S brother.N.SG
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	had	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	lunch	lunch	NOUN	_	Number=Sing	2	obj	_	Lang=eng
+4	with	with	ADP	_	_	6	case	_	Lang=eng
+5	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	Lang=eng
+6	mum	mum	NOUN	_	Number=Sing	2	obl	_	Lang=eng
+7	and	and	CCONJ	_	_	9	cc	_	Lang=eng
+8	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	Lang=eng
+9	brother	brother	NOUN	_	Number=Sing	6	conj	_	Lang=eng
+10	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:83
+# text = he was she was there with her nephew who just came from Cuba .
+# text[orig] = <he was> [//] she was there with her nephew who just came from Cuba@s:eng&spa . 327108_330854
+# gloss[orig] = he.PRON.SUB.M.3S was.V.3S.PAST she.PRON.SUB.F.3S was.V.3S.PAST there.ADV with.PREP her.ADJ.POSS.F.3S nephew.N.SG who.REL just.ADJ.[or].just.ADV came.AV.PAST from.PREP name
+# speaker = MAR
+# labels =
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Lang=eng
+2	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+4	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	Lang=eng
+5	there	there	ADV	_	PronType=Dem	2	ccomp	_	Lang=eng
+6	with	with	ADP	_	_	8	case	_	Lang=eng
+7	her	she	PRON	_	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	Lang=eng
+8	nephew	nephew	NOUN	_	Number=Sing	4	obl	_	Lang=eng
+9	who	who	PRON	_	PronType=Rel	11	nsubj	_	Lang=eng
+10	just	just	ADV	_	_	11	advmod	_	Lang=eng
+11	came	come	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	Lang=eng
+12	from	from	ADP	_	_	13	case	_	Lang=eng
+13	Cuba	Cuba	PROPN	_	Number=Sing	11	obl	_	Lang=eng&spa
+14	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:84
+# text = sí he knows the story too already .
+# text[orig] = sí@s:spa he knows the story too already . 330438_333518
+# gloss[orig] = yes.ADV he.PRON.SUB.M.3S know.V.3S.PRES the.DET.DEF story.N.SG too.ADV already.ADV
+# speaker = MAR
+# labels =
+1	sí	sí	INTJ	_	_	3	discourse	_	Lang=spa
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+3	knows	know	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	Lang=eng
+5	story	story	NOUN	_	Number=Sing	3	obj	_	Lang=eng
+6	too	too	ADV	_	_	3	advmod	_	Lang=eng
+7	already	already	ADV	_	_	3	advmod	_	Lang=eng
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:85
+# text = sí es funny .
+# text[orig] = sí@s:spa es funny . 335600_336349
+# gloss[orig] = yes.ADV unk funny.ADJ
+# speaker = MAR
+# labels =
+1	sí	sí	ADV	_	_	3	advmod	_	Lang=spa
+2	es	ser	AUX	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	cop	_	Lang=eng
+3	funny	funny	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Lang=eng
+4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+
+# sent_id = maria4:86
+# text = she pulls out and she's she looks at me and I'm like
+# text[orig] = she pulls out and she's [//] she looks at me and I'm like +"/. 336432_338930
+# gloss[orig] = she.PRON.SUB.F.3S pull.V.3S.PRES out.ADV and.CONJ she.PRON.SUB.F.3S+BE.V.3S.PRES she.PRON.SUB.F.3S look.V.3S.PRES at.PREP me.PRON.OBJ.1S and.CONJ I.PRON.SUB.1S+BE.V.PRES like.CONJ
+# speaker = MAR
+# labels =
+1	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Lang=eng
+2	pulls	pull	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	out	out	ADP	_	_	2	compound:prt	_	Lang=eng
+4	and	and	CCONJ	_	_	5	cc	_	Lang=eng
+5	she's	she's	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	conj	_	Lang=eng
+6	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Lang=eng
+7	looks	look	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Lang=eng
+8	at	at	ADP	_	_	9	case	_	Lang=eng
+9	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	obl	_	Lang=eng
+10	and	and	CCONJ	_	_	12	cc	_	Lang=eng
+11	I'm	I'M	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	Lang=eng
+12	like	like	ADJ	_	_	2	conj	_	Lang=eng
+
+# sent_id = maria4:87
+# text = oh hi !
+# text[orig] = +" oh@s:eng&spa hi ! 338606_339163
+# gloss[orig] = oh.IM hi.V.IMPER
+# speaker = MAR
+# labels =
+1	oh	oh	INTJ	_	_	0	root	_	Lang=eng&spa
+2	hi	hi	INTJ	_	_	1	discourse	_	Lang=eng
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:88
+# text = and like
+# text[orig] = and like +"/. 338680_339429
+# gloss[orig] = and.CONJ like.CONJ.[or].like.V.INFIN
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	2	cc	_	Lang=eng
+2	like	like	ADV	_	_	0	root	_	Lang=eng
+
+# sent_id = maria4:89
+# text = I know who you are .
+# text[orig] = +" I know who you are &=laugh . 339471_340794
+# gloss[orig] = I.PRON.SUB.1S know.V.1S.PRES who.REL you.PRON.SUB.2SP are.V.2SP.PRES
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	who	who	PRON	_	PronType=Int	2	ccomp	_	Lang=eng
+4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	Lang=eng
+5	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=eng
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:90
+# text = I was telling my parents that she loves with you .
+# text[orig] = I was telling my parents that she loves xxx with you . 344832_347676
+# gloss[orig] = I.PRON.SUB.1S was.V.13S.PAST tell.V.PRESPART my.ADJ.POSS.1S parent.N.PL that.CONJ she.PRON.SUB.F.3S love.V.3S.PRES with.PREP you.PRON.SUB.2SP
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	Lang=eng
+3	telling	tell	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	Lang=eng
+4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	Lang=eng
+5	parents	parent	NOUN	_	Number=Plur	3	obj	_	Lang=eng
+6	that	that	SCONJ	_	_	8	mark	_	Lang=eng
+7	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Lang=eng
+8	loves	love	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	Lang=eng
+9	with	with	ADP	_	_	10	case	_	Lang=eng
+10	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	8	obl	_	Lang=eng
+11	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:91
+# text = be)cause you can talk in Spanish and she can say anything .
+# text[orig] = (be)cause you can talk in Spanish and she can say anything . 347339_350086
+# gloss[orig] = because.CONJ you.PRON.SUB.2SP can.V.2SP.PRES talk.V.INFIN in.PREP Spanish.N.SG and.CONJ she.PRON.SUB.F.3S can.V.3S.PRES say.V.INFIN anything.PRON
+# speaker = MAR
+# labels =
+1	be)cause	be)cause	INTJ	_	_	4	discourse	_	Lang=eng
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	Lang=eng
+3	can	can	AUX	_	VerbForm=Fin	4	aux	_	Lang=eng
+4	talk	talk	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	in	in	ADP	_	_	6	case	_	Lang=eng
+6	Spanish	spanish	ADJ	_	Number=Sing	4	obl	_	Lang=eng
+7	and	and	CCONJ	_	_	10	cc	_	Lang=eng
+8	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Lang=eng
+9	can	can	AUX	_	VerbForm=Fin	10	aux	_	Lang=eng
+10	say	say	VERB	_	VerbForm=Inf	4	conj	_	Lang=eng
+11	anything	anything	PRON	_	Number=Sing	10	obj	_	Lang=eng
+12	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:92
+# text = and give you the whole
+# text[orig] = and give you the whole +... 350086_351668
+# gloss[orig] = and.CONJ give.V.INFIN you.PRON.SUB.2SP the.DET.DEF whole.ADJ
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	2	cc	_	Lang=eng
+2	give	give	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	Lang=eng
+3	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	2	iobj	_	Lang=eng
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	Lang=eng
+5	whole	whole	ADJ	_	Degree=Pos	2	obj	_	Lang=eng
+
+# sent_id = maria4:93
+# text = sí .
+# text[orig] = sí . 364322_364988
+# gloss[orig] = unk
+# speaker = MAR
+# labels =
+1	sí	sí	ADV	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+# sent_id = maria4:94
+# text = de
+# text[orig] = de +... 365321_365987
+# gloss[orig] = de.N.SG
+# speaker = MAR
+# labels =
+1	de	de	PROPN	_	Number=Sing	0	root	_	Lang=eng
+
+# sent_id = maria4:95
+# text = she does .
+# text[orig] = she does . 365904_366570
+# gloss[orig] = she.PRON.SUB.F.3S does.V.3S.PRES
+# speaker = MAR
+# labels =
+1	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Lang=eng
+2	does	do	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:96
+# text = oh .
+# text[orig] = oh@s:eng&spa . 367986_369068
+# gloss[orig] = oh.IM
+# speaker = MAR
+# labels =
+1	oh	oh	INTJ	_	_	0	root	_	Lang=eng&spa
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:97
+# text = chica pero ustedes son aquí
+# text[orig] = [- spa] chica pero ustedes son aquí +... 369651_371732
+# gloss[orig] = lad.N.F.SG but.CONJ you.PRON.SUB.MF.3P be.V.3P.PRES here.ADV
+# speaker = MAR
+# labels =
+1	chica	chica	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Lang=spa
+2	pero	pero	CCONJ	_	_	4	cc	_	Lang=spa
+3	ustedes	ustedes	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	4	nsubj	_	Lang=spa
+4	son	ser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	Lang=spa
+5	aquí	aquí	ADV	_	_	4	advmod	_	Lang=spa
+
+# sent_id = maria4:98
+# text = todo el mundo engordó y quieren continuar engordar la gente .
+# text[orig] = [- spa] todo el mundo engordó y quieren continuar engordar la gente . 371649_375145
+# gloss[orig] = all.ADJ.M.SG the.DET.DEF.M.SG world.N.M.SG fatten.V.3S.PAST and.CONJ want.V.3P.PRES keep.V.INFIN fatten.V.INFIN the.DET.DEF.F.SG people.N.F.SG
+# speaker = MAR
+# labels =
+1	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Ind	2	det	_	Lang=spa
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Lang=spa
+3	mundo	mundo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	Lang=spa
+4	engordó	engordar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+5	y	y	CCONJ	_	_	6	cc	_	Lang=spa
+6	quieren	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Lang=spa
+7	continuar	continuar	AUX	_	VerbForm=Inf	8	aux	_	Lang=spa
+8	engordar	engordar	VERB	_	VerbForm=Inf	6	xcomp	_	Lang=spa
+9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Lang=spa
+10	gente	gente	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	Lang=spa
+11	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+
+# sent_id = maria4:99
+# text = sí tú eres novelera .
+# text[orig] = [- spa] sí tú eres novelera . 377143_379058
+# gloss[orig] = yes.ADV you.PRON.SUB.MF.2S be.V.2S.PRES unk
+# speaker = MAR
+# labels =
+1	sí	sí	ADV	_	_	4	advmod	_	Lang=spa
+2	tú	tú	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	Lang=spa
+3	eres	ser	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=spa
+4	novelera	novelera	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Lang=spa
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:100
+# text = tú eres novelera .
+# text[orig] = [- spa] tú eres novelera . 378809_380474
+# gloss[orig] = you.PRON.SUB.MF.2S be.V.2S.PRES unk
+# speaker = MAR
+# labels =
+1	tú	tú	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	Lang=spa
+2	eres	ser	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=spa
+3	novelera	novelera	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Lang=spa
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:101
+# text = Rebeca novelera .
+# text[orig] = Rebeca@s:eng&spa novelera@s:spa . 380224_381806
+# gloss[orig] = name unk
+# speaker = MAR
+# labels =
+1	Rebeca	rebec	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	Lang=eng&spa
+2	novelera	novelera	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	Lang=spa
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:102
+# text = Sanz .
+# text[orig] = xxx Sanz@s:eng&spa . 382971_383970
+# gloss[orig] = name
+# speaker = MAR
+# labels =
+1	Sanz	Sanz	PROPN	_	_	0	root	_	Lang=eng&spa
+2	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+# sent_id = maria4:103
+# text = ay que rica .
+# text[orig] = [- spa] ay xxx que rica . 387467_388799
+# gloss[orig] = oh.IM that.CONJ lovely.ADJ.F.SG
+# speaker = MAR
+# labels =
+1	ay	ay	ADV	_	_	3	advmod	_	Lang=spa
+2	que	que	SCONJ	_	_	1	fixed	_	Lang=spa
+3	rica	rico	ADJ	_	Gender=Fem|Number=Sing	0	root	_	Lang=spa
+4	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+
+# sent_id = maria4:104
+# text = again the apple .
+# text[orig] = again [?] the apple . 390797_392527
+# gloss[orig] = again.ADV the.DET.DEF apple.N.SG
+# speaker = MAR
+# labels =
+1	again	again	ADV	_	_	3	advmod	_	Lang=eng
+2	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	Lang=eng
+3	apple	apple	NOUN	_	Number=Sing	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:105
+# text = y de qué más tienes ?
+# text[orig] = [- spa] y de qué más tienes ? 392463_393295
+# gloss[orig] = and.CONJ of.PREP what.INT more.ADV have.V.2S.PRES
+# speaker = MAR
+# labels =
+1	y	y	CCONJ	_	_	5	cc	_	Lang=spa
+2	de	de	ADP	_	_	3	case	_	Lang=spa
+3	qué	qué	PRON	_	Number=Sing|PronType=Int,Rel	5	obl	_	Lang=spa
+4	más	más	ADV	_	Degree=Cmp	5	advmod	_	Lang=spa
+5	tienes	tener	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+6	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:106
+# text = tomato .
+# text[orig] = tomato . 394127_395043
+# gloss[orig] = tomato.N.SG
+# speaker = MAR
+# labels =
+1	tomato	tomato	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:107
+# text = cool .
+# text[orig] = cool . 395126_396292
+# gloss[orig] = cool.V.INFIN
+# speaker = MAR
+# labels =
+1	cool	cool	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:108
+# text = dónde ?
+# text[orig] = [- spa] dónde xxx ? 397374_398706
+# gloss[orig] = where.INT
+# speaker = MAR
+# labels =
+1	dónde	dónde	ADV	_	_	0	root	_	Lang=spa
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:109
+# text = de lo más bien .
+# text[orig] = [- spa] de lo más bien . 400371_401454
+# gloss[orig] = of.PREP the.DET.DEF.NT.SG more.ADV good.N.M.SG
+# speaker = MAR
+# labels =
+1	de	de	ADP	_	AdpType=Prep	4	case	_	Lang=spa
+2	lo	el	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	Lang=spa
+3	más	más	ADV	_	_	4	advmod	_	Lang=spa
+4	bien	bien	ADV	_	_	0	root	_	Lang=spa
+5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+
+# sent_id = maria4:110
+# text = vino qué ?
+# text[orig] = [- spa] vino qué ? 403535_404617
+# gloss[orig] = wine.N.M.SG.[or].come.V.3S.PAST what.INT
+# speaker = MAR
+# labels =
+1	vino	vino	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+2	qué	qué	PRON	_	Number=Sing|PronType=Int	1	nsubj	_	Lang=spa
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:111
+# text = mi hermano mi hermano llegó el sábado antes de Christmas .
+# text[orig] = <mi@s:spa hermano@s:spa> [/] mi@s:spa hermano@s:spa llegó@s:spa el@s:spa sábado@s:spa antes@s:spa de@s:spa Christmas@s:eng . 404617_408780
+# gloss[orig] = my.ADJ.POSS.MF.1S.SG brother.N.M.SG my.ADJ.POSS.MF.1S.SG brother.N.M.SG get.V.3S.PAST the.DET.DEF.M.SG Saturday.N.M.SG before.ADV of.PREP name
+# speaker = MAR
+# labels =
+1	mi	mi	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	Lang=spa
+2	hermano	hermano	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	Lang=spa
+3	mi	mi	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	Lang=spa
+4	hermano	hermano	NOUN	_	Gender=Masc|Number=Sing	2	appos	_	Lang=spa
+5	llegó	llegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Lang=spa
+7	sábado	sábado	PROPN	_	_	5	obl	_	Lang=spa
+8	antes	antes	ADV	_	_	10	case	_	Lang=spa
+9	de	de	ADP	_	_	8	fixed	_	Lang=spa
+10	Christmas	christmas	PROPN	_	_	5	obl	_	Lang=eng
+11	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:112
+# text = y se fue el día después de año nuevo .
+# text[orig] = [- spa] y se fue el día después de año nuevo . 409196_412776
+# gloss[orig] = and.CONJ self.PRON.REFL.MF.3SP go.V.3S.PAST the.DET.DEF.M.SG day.N.M.SG afterwards.ADV of.PREP year.N.M.SG new.ADJ.M.SG
+# speaker = MAR
+# labels =
+1	y	y	CCONJ	_	_	3	cc	_	Lang=spa
+2	se	él	PRON	_	Person=3	3	obj	_	Lang=spa
+3	fue	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Lang=spa
+5	día	día	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	Lang=spa
+6	después	después	ADV	_	_	5	advmod	_	Lang=spa
+7	de	de	ADP	_	AdpType=Prep	8	case	_	Lang=spa
+8	año	año	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	Lang=spa
+9	nuevo	nuevo	ADJ	_	Gender=Masc|Number=Sing	8	amod	_	Lang=spa
+10	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+
+# sent_id = maria4:113
+# text = mi hermano mayor de Inglaterra llegó
+# text[orig] = [- spa] mi hermano mayor de Inglaterra llegó +//. 414108_416356
+# gloss[orig] = my.ADJ.POSS.MF.1S.SG brother.N.M.SG main.N.M of.PREP name get.V.3S.PAST
+# speaker = MAR
+# labels =
+1	mi	mi	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	Lang=spa
+2	hermano	hermano	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	Lang=spa
+3	mayor	mayor	ADJ	_	Degree=Cmp|Number=Sing	2	amod	_	Lang=spa
+4	de	de	ADP	_	_	5	case	_	Lang=spa
+5	Inglaterra	inglaterra	PROPN	_	_	2	nmod	_	Lang=spa
+6	llegó	llegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+
+# sent_id = maria4:114
+# text = bueno Gales .
+# text[orig] = [- spa] bueno Gales . 415940_417105
+# gloss[orig] = well.E name
+# speaker = MAR
+# labels =
+1	bueno	buen	ADJ	_	Gender=Masc|Number=Sing	2	amod	_	Lang=spa
+2	Gales	Gales	PROPN	_	_	0	root	_	Lang=spa
+3	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+
+# sent_id = maria4:115
+# text = llegó el domingo treinta .
+# text[orig] = [- spa] llegó el domingo treinta . 416689_418021
+# gloss[orig] = get.V.3S.PAST the.DET.DEF.M.SG Sunday.N.M.SG thirty.NUM
+# speaker = MAR
+# labels =
+1	llegó	llegar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Lang=spa
+3	domingo	domingo	NOUN	_	AdvType=Tim	1	obl	_	Lang=spa
+4	treinta	treinta	NUM	_	Number=Plur|NumType=Card	3	nummod	_	Lang=spa
+5	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+# sent_id = maria4:116
+# text = y se va la semana que viene .
+# text[orig] = [- spa] y se va la semana que viene . 418770_420436
+# gloss[orig] = and.CONJ self.PRON.REFL.MF.3SP go.V.3S.PRES the.DET.DEF.F.SG week.N.F.SG that.PRON.REL come.V.3S.PRES
+# speaker = MAR
+# labels =
+1	y	y	CCONJ	_	_	3	cc	_	Lang=spa
+2	se	él	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	3	iobj	_	Lang=spa
+3	va	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+4	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Lang=spa
+5	semana	semana	NOUN	_	Gender=Fem|Number=Sing	3	nsubj	_	Lang=spa
+6	que	que	SCONJ	_	_	7	mark	_	Lang=spa
+7	viene	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	Lang=spa
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:117
+# text = so he is still here .
+# text[orig] = so he is still here . 420602_421768
+# gloss[orig] = so.ADV he.PRON.SUB.M.3S is.V.3S.PRES still.ADJ here.ADV
+# speaker = MAR
+# labels =
+1	so	so	ADV	_	_	5	advmod	_	Lang=eng
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	Lang=eng
+4	still	still	ADV	_	_	5	advmod	_	Lang=eng
+5	here	here	ADV	_	PronType=Dem	0	root	_	Lang=eng
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:118
+# text = no .
+# text[orig] = [- spa] no . 422600_423433
+# gloss[orig] = not.ADV
+# speaker = MAR
+# labels =
+1	no	no	INTJ	_	_	0	root	_	Lang=spa
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:119
+# text = él sólo nada más .
+# text[orig] = [- spa] él sólo nada más . 423502_424367
+# gloss[orig] = he.PRON.SUB.M.3S solely.ADV nothing.PRON more.ADV
+# speaker = MAR
+# labels =
+1	él	él	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	root	_	Lang=spa
+2	sólo	sólo	ADV	_	_	1	advmod	_	Lang=spa
+3	nada	nada	PRON	_	Number=Sing|PronType=Ind	1	dep	_	Lang=spa
+4	más	más	ADV	_	_	3	advmod	_	Lang=spa
+5	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+# sent_id = maria4:120
+# text = vino sólo nada más .
+# text[orig] = [- spa] vino sólo nada más . 424432_426097
+# gloss[orig] = wine.N.M.SG.[or].come.V.3S.PAST solely.ADV nothing.PRON more.ADV
+# speaker = MAR
+# labels =
+1	vino	venir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+2	sólo	sólo	ADV	_	_	1	advmod	_	Lang=spa
+3	nada	nada	PRON	_	Number=Sing|PronType=Ind	1	obj	_	Lang=spa
+4	más	más	ADV	_	_	3	advmod	_	Lang=spa
+5	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+# sent_id = maria4:121
+# text = eh y
+# text[orig] = eh@s:eng&spa y@s:spa +... 429177_430426
+# gloss[orig] = eh.IM and.CONJ
+# speaker = MAR
+# labels =
+1	eh	eh	INTJ	_	_	2	discourse	_	Lang=eng&spa
+2	y	y	PRON	_	_	0	root	_	Lang=spa
+
+# sent_id = maria4:122
+# text = se queda con mis papás .
+# text[orig] = +, [- spa] se queda con mis papás . 430842_432507
+# gloss[orig] = self.PRON.REFL.MF.3SP stay.V.3S.PRES with.PREP my.ADJ.POSS.MF.1S.PL daddy.N.M.PL
+# speaker = MAR
+# labels =
+1	se	él	PRON	_	Person=3	2	iobj	_	Lang=spa
+2	queda	quedar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+3	con	con	ADP	_	_	5	case	_	Lang=spa
+4	mis	mi	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	Lang=spa
+5	papás	papá	NOUN	_	Gender=Masc|Number=Plur	2	obl	_	Lang=spa
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:123
+# text = y después mi otro hermano que se mudó pa(ra) North Carolina .
+# text[orig] = y@s:spa después@s:spa mi@s:spa otro@s:spa hermano@s:spa que@s:spa se@s:spa mudó@s:spa pa(ra)@s:spa North_Carolina@s:eng&spa . 436670_439667
+# gloss[orig] = and.CONJ afterwards.ADV my.ADJ.POSS.MF.1S.SG other.ADJ.M.SG brother.N.M.SG that.PRON.REL self.PRON.REFL.MF.3SP move.V.3S.PAST for.PREP name
+# speaker = MAR
+# labels =
+1	y	y	CCONJ	_	_	5	cc	_	Lang=spa
+2	después	después	ADV	_	_	5	advmod	_	Lang=spa
+3	mi	mi	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	det	_	Lang=spa
+4	otro	otro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	Lang=spa
+5	hermano	hermano	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
+6	que	que	SCONJ	_	_	8	mark	_	Lang=spa
+7	se	él	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	8	iobj	_	Lang=spa
+8	mudó	mudar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	Lang=spa
+9	pa(ra)	pa(ra)	X	_	_	10	dep	_	Lang=spa
+10	North	north	PROPN	_	_	8	obl	_	Lang=eng&spa
+11	Carolina	carolina	PROPN	_	_	10	flat	_	Lang=eng&spa
+
+# sent_id = maria4:124
+# text = él y la señora vinieron el veintinueve .
+# text[orig] = [- spa] él y la señora vinieron el veintinueve . 439417_442581
+# gloss[orig] = he.PRON.SUB.M.3S and.CONJ the.DET.DEF.F.SG lady.N.F.SG come.V.3P.PAST the.DET.DEF.M.SG twenty_nine.NUM
+# speaker = MAR
+# labels =
+1	él	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=spa
+2	y	y	CCONJ	_	_	4	cc	_	Lang=spa
+3	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	Lang=spa
+4	señora	señora	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	Lang=spa
+5	vinieron	vinir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+6	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Lang=spa
+7	veintinueve	veintinueve	NUM	_	Number=Plur|NumType=Card	5	obj	_	Lang=spa
+8	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
+
+# sent_id = maria4:125
+# text = and they stay until the day after .
+# text[orig] = and they stay until the day after xxx . 442581_446078
+# gloss[orig] = and.CONJ they.PRON.SUB.3P stay.V.3P.PRES until.CONJ the.DET.DEF day.N.SG after.PREP
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	3	cc	_	Lang=eng
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+3	stay	stay	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	until	until	ADP	_	_	6	case	_	Lang=eng
+5	the	the	DET	_	Definite=Def|PronType=Art	6	det	_	Lang=eng
+6	day	day	NOUN	_	Number=Sing	3	obl	_	Lang=eng
+7	after	after	ADV	_	_	3	advmod	_	Lang=eng
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:126
+# text = yep um .
+# text[orig] = yep um . 446661_448825
+# gloss[orig] = yep.ADV um.IM
+# speaker = MAR
+# labels =
+1	yep	yep	INTJ	_	_	0	root	_	Lang=eng
+2	um	um	X	_	Foreign=Yes	1	fixed	_	Lang=eng
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:127
+# text = el año pasado sí vinieron todos .
+# text[orig] = [- spa] el año pasado sí vinieron todos . 452239_454153
+# gloss[orig] = the.DET.DEF.M.SG year.N.M.SG past.ADJ.M.SG yes.ADV come.V.3P.PAST everything.PRON.M.PL
+# speaker = MAR
+# labels =
+1	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Lang=spa
+2	año	año	NOUN	_	AdvType=Tim	5	obl	_	Lang=spa
+3	pasado	pasado	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	2	amod	_	Lang=spa
+4	sí	sí	ADV	_	_	5	advmod	_	Lang=spa
+5	vinieron	vinir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+6	todos	todo	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	5	nsubj	_	Lang=spa
+7	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
+
+# sent_id = maria4:128
+# text = estábamos
+# text[orig] = [- spa] estábamos +//. 453895_454145
+# gloss[orig] = be.V.1P.IMPERF
+# speaker = MAR
+# labels =
+1	estábamos	estar	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	Lang=spa
+
+# sent_id = maria4:129
+# text = te acuerdas ?
+# text[orig] = [- spa] te acuerdas ? 454062_454645
+# gloss[orig] = you.PRON.OBL.MF.2S remind.V.2S.PRES
+# speaker = MAR
+# labels =
+1	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	2	obj	_	Lang=spa
+2	acuerdas	acuerdar	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:130
+# text = vinieron todos mis sobrinos .
+# text[orig] = [- spa] vinieron todos mis sobrinos . 454561_455810
+# gloss[orig] = come.V.3P.PAST all.ADJ.M.PL.[or].everything.PRON.M.PL my.ADJ.POSS.MF.1S.PL niece.N.M.PL
+# speaker = MAR
+# labels =
+1	vinieron	vinir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+2	todos	todo	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	Lang=spa
+3	mis	mi	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	det	_	Lang=spa
+4	sobrinos	sobrino	NOUN	_	Gender=Masc|Number=Plur	1	nsubj	_	Lang=spa
+5	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
+
+# sent_id = maria4:131
+# text = everybody was here .
+# text[orig] = everybody was here . 456060_457142
+# gloss[orig] = everybody.PRON was.V.3S.PAST here.ADV
+# speaker = MAR
+# labels =
+1	everybody	everybody	PRON	_	Number=Sing	2	nsubj	_	Lang=eng
+2	was	be	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	here	here	ADV	_	PronType=Dem	2	advmod	_	Lang=eng
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:132
+# text = que quieren ahora ?
+# text[orig] = [- spa] que xxx quieren ahora ? 463969_465634
+# gloss[orig] = that.CONJ want.V.3P.PRES now.ADV
+# speaker = MAR
+# labels =
+1	que	que	PRON	_	PronType=Int	2	obj	_	Lang=spa
+2	quieren	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+3	ahora	ahora	ADV	_	_	2	advmod	_	Lang=spa
+4	?	?	PUNCT	_	PunctSide=Fin|PunctType=Qest	2	punct	_	_
+
+# sent_id = maria4:133
+# text = pero eso te lo tienen que haber mandado por correo a ti .
+# text[orig] = [- spa] pero eso te lo tienen que haber mandado por correo a ti . 467549_470796
+# gloss[orig] = but.CONJ that.PRON.DEM.NT.SG you.PRON.OBL.MF.2S him.PRON.OBJ.M.3S have.V.3P.PRES that.CONJ have.V.INFIN order.V.PASTPART for.PREP post.N.M.SG to.PREP you.PRON.PREP.MF.2S
+# speaker = MAR
+# labels =
+1	pero	pero	CCONJ	_	_	8	cc	_	Lang=spa
+2	eso	ese	PRON	_	Number=Sing|PronType=Dem	8	obj	_	Lang=spa
+3	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	8	iobj	_	Lang=spa
+4	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	8	obj	_	Lang=spa
+5	tienen	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	Lang=spa
+6	que	que	CCONJ	_	_	5	fixed	_	Lang=spa
+7	haber	haber	AUX	_	VerbForm=Inf	8	aux	_	Lang=spa
+8	mandado	mandar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Lang=spa
+9	por	por	ADP	_	_	10	case	_	Lang=spa
+10	correo	correo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	Lang=spa
+11	a	a	ADP	_	_	12	case	_	Lang=spa
+12	ti	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	8	iobj	_	Lang=spa
+13	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = maria4:134
+# text = y ahora que te tiene que llegar ?
+# text[orig] = [- spa] y ahora que te tiene que llegar ? 471878_473627
+# gloss[orig] = and.CONJ now.ADV that.CONJ you.PRON.OBL.MF.2S have.V.3S.PRES that.CONJ get.V.INFIN
+# speaker = MAR
+# labels =
+1	y	y	CCONJ	_	_	7	cc	_	Lang=spa
+2	ahora	ahora	ADV	_	_	7	advmod	_	Lang=spa
+3	que	que	SCONJ	_	_	7	mark	_	Lang=spa
+4	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	7	iobj	_	Lang=spa
+5	tiene	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	Lang=spa
+6	que	que	CCONJ	_	_	5	fixed	_	Lang=spa
+7	llegar	llegar	VERB	_	VerbForm=Inf	0	root	_	Lang=spa
+8	?	?	PUNCT	_	_	7	punct	_	_
+
+# sent_id = maria4:135
+# text = yes .
+# text[orig] = yes . 477872_478372
+# gloss[orig] = yes.ADV
+# speaker = MAR
+# labels =
+1	yes	yes	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:136
+# text = yo le metí a mi papá .
+# text[orig] = yo le metí a mi papá . 479621_480870
+# gloss[orig] = unk le.N.SG unk a.DET.INDEF mi.N.SG unk
+# speaker = MAR
+# labels =
+1	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	3	obj	_	Lang=eng
+3	metí	meer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	a	a	CCONJ	_	_	6	cc	_	Lang=eng
+5	mi	mi	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nsubj	_	Lang=eng
+6	papá	papár	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	Lang=eng
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:137
+# text = mi papá tiene Countrywhile .
+# text[orig] = mi@s:spa papá@s:spa tiene@s:spa Countrywhile@s:eng&spa . 480997_482142
+# gloss[orig] = my.ADJ.POSS.MF.1S.SG daddy.N.M.SG have.V.3S.PRES name
+# speaker = MAR
+# labels =
+1	mi	mi	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	det	_	Lang=spa
+2	papá	papá	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	Lang=spa
+3	tiene	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+4	Countrywhile	countrywhile	PROPN	_	_	3	obj	_	Lang=eng&spa
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:138
+# text = le digo
+# text[orig] = le digo +"/. 481996_482433
+# gloss[orig] = le.N.SG unk
+# speaker = MAR
+# labels =
+1	le	_	PRON	_	PronType=Prs	2	obj	_	Lang=eng
+2	digo	_	VERB	_	VerbForm=Fin	0	root	_	Lang=eng
+
+# sent_id = maria4:139
+# text = papi fíate de Countrywide porque son unos estúpidos .
+# text[orig] = +" papi@s:spa fíate@s:spa de@s:spa Countrywide@s:eng&spa porque@s:spa (.) son@s:spa unos@s:spa estúpidos@s:spa . 482433_487970
+# gloss[orig] = Daddy.N.M.SG unk of.PREP name because.CONJ be.V.3P.PRES one.DET.INDEF.M.PL stupid.ADJ.M.PL
+# speaker = MAR
+# labels =
+1	papi	papi	X	_	_	0	root	_	Lang=spa
+2	fíate	fíate	NOUN	_	Gender=Fem|Number=Sing	1	amod	_	Lang=spa
+3	de	de	ADP	_	_	4	case	_	Lang=spa
+4	Countrywide	countrywide	PROPN	_	_	2	nmod	_	Lang=eng&spa
+5	porque	porque	SCONJ	_	_	8	mark	_	Lang=spa
+6	son	ser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	Lang=spa
+7	unos	uno	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	8	det	_	Lang=spa
+8	estúpidos	estúpido	ADJ	_	Gender=Masc|Number=Plur	1	advcl	_	Lang=spa
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = maria4:140
+# text = no te acuerdas que a él le le pagaron dos insurances ?
+# text[orig] = no@s:spa te@s:spa acuerdas@s:spa que@s:spa a@s:spa él@s:spa le@s:spa [/] le@s:spa pagaron@s:spa dos@s:spa insurances ? 488407_490156
+# gloss[orig] = not.ADV you.PRON.OBL.MF.2S remind.V.2S.PRES that.CONJ to.PREP he.PRON.OBJ.M.3S him.PRON.OBL.MF.23S him.PRON.OBL.MF.23S pay.V.3P.PAST two.NUM insurance.N.PL
+# speaker = MAR
+# labels =
+1	no	no	ADV	_	Polarity=Neg	3	advmod	_	Lang=spa
+2	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	3	iobj	_	Lang=spa
+3	acuerdas	acuerdar	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+4	que	que	SCONJ	_	_	9	mark	_	Lang=spa
+5	a	a	ADP	_	_	6	case	_	Lang=spa
+6	él	él	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	obj	_	Lang=spa
+7	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	iobj	_	Lang=spa
+8	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	iobj	_	Lang=spa
+9	pagaron	pagar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	Lang=spa
+10	dos	dos	NUM	_	Number=Plur|NumType=Card	11	nummod	_	Lang=spa
+11	insurances	insurance	NOUN	_	Gender=Masc|Number=Plur	9	nsubj	_	Lang=eng
+12	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:141
+# text = te acuer(das)?
+# text[orig] = [- spa] te acuer(das)? 490822_491384
+# gloss[orig] = 
+# speaker = MAR
+# labels =
+1	te	te	PRON	_	Number=Sing|Person=2|PronType=Prs	2	obj	_	Lang=spa
+2	acuer(das)?	_	VERB	_	VerbForm=Inf	0	root	_	Lang=spa
+
+# sent_id = maria4:142
+# text = sí sí lo devolvieron .
+# text[orig] = [- spa] sí sí lo devolvieron . 491863_492716
+# gloss[orig] = yes.ADV yes.ADV him.PRON.OBJ.M.3S return.V.3P.PAST
+# speaker = MAR
+# labels =
+1	sí	sí	ADV	_	_	4	advmod	_	Lang=spa
+2	sí	sí	ADV	_	_	4	advmod	_	Lang=spa
+3	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	Lang=spa
+4	devolvieron	devolver	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+
+# sent_id = maria4:143
+# text = y está de lo más contento porque le mandaron de eh de too much on the .
+# text[orig] = y@s:spa está@s:spa de@s:spa lo@s:spa más@s:spa contento@s:spa porque@s:spa le@s:spa &deb mandaron@s:spa de@s:spa eh@s:eng&spa de@s:spa too much on the xxx . 494548_498899
+# gloss[orig] = and.CONJ be.V.3S.PRES of.PREP the.DET.DEF.NT.SG more.ADV happy.ADJ.M.SG because.CONJ him.PRON.OBL.MF.23S order.V.3P.PAST of.PREP eh.IM of.PREP too.ADV much.ADJ on.PREP the.DET.DEF
+# speaker = MAR
+# labels =
+1	y	y	CCONJ	_	_	6	cc	_	Lang=spa
+2	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	Lang=spa
+3	de	de	ADP	_	_	5	case	_	Lang=spa
+4	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	det	_	Lang=spa
+5	más	más	ADV	_	Degree=Cmp	6	advmod	_	Lang=spa
+6	contento	contento	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
+7	porque	porque	SCONJ	_	_	9	mark	_	Lang=spa
+8	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	iobj	_	Lang=spa
+9	mandaron	mandar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	advcl	_	Lang=spa
+10	de	de	ADP	_	_	14	case	_	Lang=spa
+11	eh	eh	X	_	_	9	obl	_	Lang=eng&spa
+12	de	de	ADP	_	_	14	case	_	Lang=spa
+13	too	too	X	_	_	14	advmod	_	Lang=eng
+14	much	much	X	_	_	9	obl	_	Lang=eng
+15	on	on	X	_	_	14	nmod	_	Lang=eng
+16	the	the	X	_	Number=Sing	14	nmod	_	Lang=eng
+17	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = maria4:144
+# text = so he has got something like two hundred dollars back .
+# text[orig] = so he has got something like two hundred dollars back . 499544_501480
+# gloss[orig] = so.ADV he.PRON.SUB.M.3S ha.IM+V.3S.PRES.[or].has.V.3S.PRES got.V.PASTPART something.PRON like.CONJ two.NUM hundred.NUM dollar.N.PL back.ADV.[or].back.V.3P.PRES
+# speaker = MAR
+# labels =
+1	so	so	ADV	_	_	4	advmod	_	Lang=eng
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+3	has	have	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	Lang=eng
+4	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+5	something	something	PRON	_	Number=Sing	4	obj	_	Lang=eng
+6	like	like	ADP	_	_	9	case	_	Lang=eng
+7	two	two	NUM	_	NumType=Card	8	compound	_	Lang=eng
+8	hundred	hundred	NUM	_	NumType=Card	9	nummod	_	Lang=eng
+9	dollars	dollar	NOUN	_	Number=Plur	5	nmod	_	Lang=eng
+10	back	back	ADV	_	_	4	advmod	_	Lang=eng
+11	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:145
+# text = so he was all happy .
+# text[orig] = so he was all happy . 501792_502729
+# gloss[orig] = so.ADV he.PRON.SUB.M.3S was.V.3S.PAST all.ADJ happy.ADJ
+# speaker = MAR
+# labels =
+1	so	so	ADV	_	_	5	advmod	_	Lang=eng
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	cop	_	Lang=eng
+4	all	all	ADV	_	_	5	advmod	_	Lang=eng
+5	happy	happy	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:146
+# text = and I'm like .
+# text[orig] = and I'm like . 502896_503104
+# gloss[orig] = and.CONJ I.PRON.SUB.1S+BE.V.PRES like.CONJ
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	2	cc	_	Lang=eng
+2	I'm	i'm	X	_	_	0	root	_	Lang=eng
+3	like	like	X	_	_	2	flat:foreign	_	Lang=eng
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:147
+# text = he had lucky you .
+# text[orig] = he had [///] lucky you . 503062_503874
+# gloss[orig] = he.PRON.SUB.M.3S had.V.PAST lucky.ADJ you.PRON.SUB.2SP
+# speaker = MAR
+# labels =
+1	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+2	had	have	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	Lang=eng
+3	lucky	lucky	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=eng
+4	you	you	PRON	_	_	3	obj	_	Lang=eng
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:148
+# text = me ?
+# text[orig] = me ? 503811_503999
+# gloss[orig] = me.PRON.OBJ.1S
+# speaker = MAR
+# labels =
+1	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	root	_	Lang=eng
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:149
+# text = probably .
+# text[orig] = probably . 506247_506913
+# gloss[orig] = probably.ADV
+# speaker = MAR
+# labels =
+1	probably	probably	ADV	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:150
+# text = I've got anything yet so .
+# text[orig] = I've got anything yet so . 511430_512554
+# gloss[orig] = I.PRON.SUB.1S+HAVE.V.PRES got.V.PAST anything.PRON yet.CONJ so.ADV
+# speaker = MAR
+# labels =
+1	I've	I'VE	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	got	get	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	anything	anything	PRON	_	Number=Sing	2	obj	_	Lang=eng
+4	yet	yet	ADV	_	_	2	advmod	_	Lang=eng
+5	so	so	ADV	_	_	2	advmod	_	Lang=eng
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:151
+# text = I die .
+# text[orig] = I die . 512554_512887
+# gloss[orig] = I.PRON.SUB.1S die.V.1S.PRES
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	die	die	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:152
+# text = ya lo apagó ?
+# text[orig] = [- spa] ya lo apagó ? 523046_523816
+# gloss[orig] = already.ADV him.PRON.OBJ.M.3S extinguish.V.3S.PAST
+# speaker = MAR
+# labels =
+1	ya	ya	ADV	_	_	3	advmod	_	Lang=spa
+2	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	_	Lang=spa
+3	apagó	apagar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:153
+# text = sí porque ya no se siente tanto frío .
+# text[orig] = [- spa] sí porque ya no se siente xxx tanto frío . 552288_555452
+# gloss[orig] = yes.ADV because.CONJ already.ADV not.ADV self.PRON.REFL.MF.3SP sit.V.13S.SUBJ.PRES.[or].feel.V.3S.PRES so_much.ADJ.M.SG chill.ADJ.M.SG
+# speaker = MAR
+# labels =
+1	sí	sí	ADV	_	_	6	advmod	_	Lang=spa
+2	porque	porque	SCONJ	_	_	6	mark	_	Lang=spa
+3	ya	ya	ADV	_	_	6	advmod	_	Lang=spa
+4	no	no	ADV	_	Polarity=Neg	6	advmod	_	Lang=spa
+5	se	él	PRON	_	Person=3	6	obj	_	Lang=spa
+6	siente	sentir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+7	tanto	tanto	ADV	_	_	8	advmod	_	Lang=spa
+8	frío	frío	ADJ	_	Gender=Masc|Number=Sing	6	obj	_	Lang=spa
+9	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
+
+# sent_id = maria4:154
+# text = haven't made it over yet so .
+# text[orig] = haven't made it over yet so . 556271_558103
+# gloss[orig] = have.V.INFIN+NEG made.V.PAST it.PRON.OBJ.3S over.ADV.[or].over.PREP yet.CONJ so.ADV
+# speaker = MAR
+# labels =
+1	haven't	haven't	AUX	_	_	2	aux	_	Lang=eng
+2	made	make	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	obj	_	Lang=eng
+4	over	over	ADP	_	_	2	compound:prt	_	Lang=eng
+5	yet	yet	ADV	_	_	2	advmod	_	Lang=eng
+6	so	so	ADV	_	_	2	advmod	_	Lang=eng
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:155
+# text = we ha we don't ever get it in the right sun so .
+# text[orig] = <we ha> [//] we don't ever get it in the right sun so . 559684_564014
+# gloss[orig] = we.PRON.SUB.1P ha.IM we.PRON.SUB.1P do.V.12S13P.PRES+NEG ever.ADV get.SV.INFIN it.PRON.SUB.3S in.PREP the.DET.DEF right.ADJ sun.N.SG so.ADV
+# speaker = MAR
+# labels =
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	Lang=eng
+2	ha	ha	INTJ	_	_	6	discourse	_	Lang=eng
+3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	Lang=eng
+4	don't	don't	PART	_	_	6	advmod	_	Lang=eng
+5	ever	ever	ADV	_	_	6	advmod	_	Lang=eng
+6	get	get	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+7	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	Lang=eng
+8	in	in	ADP	_	_	11	case	_	Lang=eng
+9	the	the	DET	_	Definite=Def|PronType=Art	11	det	_	Lang=eng
+10	right	right	ADJ	_	Degree=Pos	11	amod	_	Lang=eng
+11	sun	sun	NOUN	_	Number=Sing	6	obl	_	Lang=eng
+12	so	so	ADV	_	_	6	advmod	_	Lang=eng
+13	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = maria4:156
+# text = what ?
+# text[orig] = what ? 566262_567344
+# gloss[orig] = what.REL
+# speaker = MAR
+# labels =
+1	what	what	PRON	_	PronType=Int	0	root	_	Lang=eng
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:157
+# text = where you go ?
+# text[orig] = where you go ? 570258_571423
+# gloss[orig] = where.REL you.PRON.SUB.2SP go.V.2SP.PRES
+# speaker = MAR
+# labels =
+1	where	where	ADV	_	PronType=Int	3	advmod	_	Lang=eng
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	Lang=eng
+3	go	go	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:158
+# text = I'm heading back my way .
+# text[orig] = I'm heading back my way . 573588_575419
+# gloss[orig] = I.PRON.SUB.1S+BE.V.PRES head.N.SG+ASV back.ADV.[or].back.N.SG my.ADJ.POSS.1S way.N.SG
+# speaker = MAR
+# labels =
+1	I'm	I'm	X	_	_	0	root	_	Lang=eng
+2	heading	head	VERB	_	Tense=Pres|VerbForm=Part	1	xcomp	_	Lang=eng
+3	back	back	ADV	_	_	2	advmod	_	Lang=eng
+4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	Lang=eng
+5	way	way	NOUN	_	Number=Sing	2	obj	_	Lang=eng
+6	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:159
+# text = why ?
+# text[orig] = why ? 577834_578666
+# gloss[orig] = why.REL
+# speaker = MAR
+# labels =
+1	why	why	ADV	_	PronType=Int	0	root	_	Lang=eng
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:160
+# text = cause it's freezing ?
+# text[orig] = cause it's freezing ? 578333_579749
+# gloss[orig] = cause.N.SG it.PRON.SUB.3S+BE.V.3S.PRES unk
+# speaker = MAR
+# labels =
+1	cause	cause	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	Lang=eng
+2	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	Lang=eng
+3	freezing	freezing	ADJ	_	Degree=Pos	1	xcomp	_	Lang=eng
+4	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:161
+# text = on hot water ?
+# text[orig] = &=laugh on hot water ? 585576_586825
+# gloss[orig] = on.PREP hot.ADJ water.N.SG
+# speaker = MAR
+# labels =
+1	on	on	ADP	_	_	3	case	_	Lang=eng
+2	hot	hot	ADJ	_	Degree=Pos	3	amod	_	Lang=eng
+3	water	water	NOUN	_	Number=Sing	0	root	_	Lang=eng
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:162
+# text = please ask me for a tea to stick in there so at least you can drink it .
+# text[orig] = please xxx ask me for a tea to stick in there so at least you can drink it . 588157_592653
+# gloss[orig] = please.V.INFIN ask.SV.INFIN me.PRON.OBJ.1S for.PREP a.DET.INDEF tea.N.SG to.PREP stick.V.INFIN in.PREP there.ADV so.ADV at.PREP least.ADJ you.PRON.SUB.2SP can.V.2SP.PRES drink.V.INFIN it.PRON.OBJ.3S
+# speaker = MAR
+# labels =
+1	please	please	INTJ	_	_	2	discourse	_	Lang=eng
+2	ask	ask	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	Lang=eng
+3	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	Lang=eng
+4	for	for	SCONJ	_	_	8	mark	_	Lang=eng
+5	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	Lang=eng
+6	tea	tea	NOUN	_	Number=Sing	8	obl	_	Lang=eng
+7	to	to	PART	_	_	8	mark	_	Lang=eng
+8	stick	stick	VERB	_	VerbForm=Inf	2	advcl	_	Lang=eng
+9	in	in	ADP	_	_	10	case	_	Lang=eng
+10	there	there	ADV	_	PronType=Dem	8	obl	_	Lang=eng
+11	so	so	SCONJ	_	_	16	mark	_	Lang=eng
+12	at	at	ADV	_	_	16	advmod	_	Lang=eng
+13	least	least	ADV	_	Degree=Sup	12	fixed	_	Lang=eng
+14	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	Lang=eng
+15	can	can	AUX	_	VerbForm=Fin	16	aux	_	Lang=eng
+16	drink	drink	VERB	_	VerbForm=Inf	2	advcl	_	Lang=eng
+17	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	Lang=eng
+18	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:163
+# text = it took me a couple of eh tries to drink the tea .
+# text[orig] = it took me a couple of eh@s:eng&spa tries to drink the tea . 593735_596982
+# gloss[orig] = it.PRON.SUB.3S take.V.PAST me.PRON.OBJ.1S a.DET.INDEF couple.N.SG of.PREP eh.IM try.SV.INFIN+PV.[or].tries.SV.INFIN to.PREP drink.V.INFIN the.DET.DEF tea.N.SG
+# speaker = MAR
+# labels =
+1	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	expl	_	Lang=eng
+2	took	take	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	iobj	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=eng
+5	couple	couple	NOUN	_	Number=Sing	2	obj	_	Lang=eng
+6	of	of	ADP	_	_	8	case	_	Lang=eng
+7	eh	eh	NOUN	_	Number=Sing	8	compound	_	Lang=eng&spa
+8	tries	trie	NOUN	_	Number=Plur	5	nmod	_	Lang=eng
+9	to	to	PART	_	_	10	mark	_	Lang=eng
+10	drink	drink	VERB	_	VerbForm=Inf	2	csubj	_	Lang=eng
+11	the	the	DET	_	Definite=Def|PronType=Art	12	det	_	Lang=eng
+12	tea	tea	NOUN	_	Number=Sing	10	obj	_	Lang=eng
+13	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:164
+# text = coño !
+# text[orig] = coño ! 599397_600312
+# gloss[orig] = unk
+# speaker = MAR
+# labels =
+1	coño	coño	INTJ	_	_	0	root	_	Lang=eng
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:165
+# text = we're up to sixty five !
+# text[orig] = we're up to sixty five ! 600063_601728
+# gloss[orig] = we.PRON.SUB.1P+BE.V.PRES up.ADV to.PREP sixty.NUM five.NUM
+# speaker = MAR
+# labels =
+1	we're	we're	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
+2	up	up	ADP	_	_	5	advmod	_	Lang=eng
+3	to	to	ADP	_	_	2	fixed	_	Lang=eng
+4	sixty	sixty	NUM	_	NumType=Card	5	compound	_	Lang=eng
+5	five	five	NUM	_	NumType=Card	0	root	_	Lang=eng
+6	!	!	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:166
+# text = yes .
+# text[orig] = yes . 604642_605141
+# gloss[orig] = yes.ADV
+# speaker = MAR
+# labels =
+1	yes	yes	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:167
+# text = ay pero párate aquí .
+# text[orig] = [- spa] ay pero párate aquí . 606473_608055
+# gloss[orig] = oh.IM but.CONJ stall.V.2S.IMPER.PRECLITIC+TE[PRON.MF.2S] here.ADV
+# speaker = MAR
+# labels =
+1	ay	ay	ADV	_	_	3	advmod	_	Lang=spa
+2	pero	pero	CCONJ	_	_	3	cc	_	Lang=spa
+3	párate	páratar	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
+4	aquí	aquí	ADV	_	_	3	advmod	_	Lang=spa
+5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+
+# sent_id = maria4:168
+# text = no puede ser que tu seas tan enana que no puedas ver eso .
+# text[orig] = [- spa] no puede ser que tu seas tan enana que no puedas ver eso . 609054_612051
+# gloss[orig] = not.ADV be_able.V.3S.PRES be.V.INFIN that.CONJ your.ADJ.POSS.MF.2S.SG be.V.2S.SUBJ.PRES so.ADV dwarf.N.F.SG that.PRON.REL not.ADV be_able.V.2S.SUBJ.PRES see.V.INFIN that.PRON.DEM.NT.SG
+# speaker = MAR
+# labels =
+1	no	no	ADV	_	Polarity=Neg	3	advmod	_	Lang=spa
+2	puede	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	Lang=spa
+3	ser	ser	VERB	_	VerbForm=Inf	0	root	_	Lang=spa
+4	que	que	SCONJ	_	_	8	mark	_	Lang=spa
+5	tu	tu	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	Lang=spa
+6	seas	sear	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	cop	_	Lang=spa
+7	tan	tanto	ADV	_	_	8	advmod	_	Lang=spa
+8	enana	enano	ADJ	_	Gender=Fem|Number=Sing	3	csubj	_	Lang=spa
+9	que	que	SCONJ	_	_	12	mark	_	Lang=spa
+10	no	no	ADV	_	Polarity=Neg	12	advmod	_	Lang=spa
+11	puedas	puoder	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	Lang=spa
+12	ver	ver	VERB	_	VerbForm=Inf	8	advcl	_	Lang=spa
+13	eso	ese	PRON	_	Number=Sing|PronType=Dem	12	obj	_	Lang=spa
+14	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:169
+# text = you need do you need glasses ?
+# text[orig] = you need &sa [///] do you need glasses ? 612634_614727
+# gloss[orig] = you.PRON.SUB.2SP need.V.2SP.PRES do.SV.INFIN you.PRON.SUB.2SP need.V.2SP.PRES glass.N.PL.[or].glasses.N.PL
+# speaker = MAR
+# labels =
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	Lang=eng
+2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	Lang=eng
+4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	Lang=eng
+5	need	need	VERB	_	VerbForm=Inf	2	parataxis	_	Lang=eng
+6	glasses	glass	NOUN	_	Number=Plur	5	obj	_	Lang=eng
+7	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:170
+# text = Annete Smith do you need reading gla(sses ?
+# text[orig] = Annete@s:eng&spa Smith@s:eng&spa do you need reading gla(sses) ? 614731_617413
+# gloss[orig] = name name do.SV.INFIN you.PRON.SUB.2SP need.V.2SP.PRES read.V.PRESPART glass.N.PL.[or].glasses.N.PL
+# speaker = MAR
+# labels =
+1	Annete	Annete	PROPN	_	Number=Sing	5	vocative	_	Lang=eng&spa
+2	Smith	Smith	PROPN	_	Number=Sing	1	flat	_	Lang=eng&spa
+3	do	do	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	Lang=eng
+4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	Lang=eng
+5	need	need	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+6	reading	read	VERB	_	VerbForm=Ger	5	xcomp	_	Lang=eng
+7	gla(sses	gla(sses	NOUN	_	Number=Plur	6	obj	_	Lang=eng
+8	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:171
+# text = twenty in the .
+# text[orig] = twenty in the xxx . 617296_618212
+# gloss[orig] = twenty.NUM in.PREP the.DET.DEF
+# speaker = MAR
+# labels =
+1	twenty	twenty	NUM	_	NumType=Card	0	root	_	Lang=eng
+2	in	in	ADP	_	_	3	case	_	Lang=eng
+3	the	the	DET	_	Definite=Def|PronType=Art	1	nmod	_	Lang=eng
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:172
+# text = but you just .
+# text[orig] = but you just &d . 618046_619211
+# gloss[orig] = but.CONJ you.PRON.SUB.2SP just.ADJ.[or].just.ADV
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	2	cc	_	Lang=eng
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	0	root	_	Lang=eng
+3	just	just	ADV	_	_	2	advmod	_	Lang=eng
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:173
+# text = I just saw you do like this .
+# text[orig] = I just saw you do like this . 618961_620377
+# gloss[orig] = I.PRON.SUB.1S just.ADV saw.V.PAST you.PRON.SUB.2SP do.V.2SP.PRES like.CONJ this.DEM.NEAR.SG
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	just	just	ADV	_	_	3	advmod	_	Lang=eng
+3	saw	see	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	Lang=eng
+5	do	do	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	Lang=eng
+6	like	like	VERB	_	VerbForm=Inf	3	ccomp	_	Lang=eng
+7	this	this	PRON	_	Number=Sing|PronType=Dem	6	obj	_	Lang=eng
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:174
+# text = she's .
+# text[orig] = she's &sh . 624206_625788
+# gloss[orig] = she.PRON.SUB.F.3S+BE.V.3S.PRES
+# speaker = MAR
+# labels =
+1	she's	she's	X	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:175
+# text = to see the
+# text[orig] = to see the +//. 625705_626621
+# gloss[orig] = to.PREP see.V.INFIN the.DET.DEF
+# speaker = MAR
+# labels =
+1	to	to	PART	_	_	2	mark	_	Lang=eng
+2	see	see	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+3	the	the	PRON	_	Definite=Def|PronType=Art	2	obj	_	Lang=eng
+
+# sent_id = maria4:176
+# text = she says you ?
+# text[orig] = she says you ? 626454_627620
+# gloss[orig] = she.PRON.SUB.F.3S says.N.SG.[or].say.V.3S.PRES you.PRON.SUB.2SP
+# speaker = MAR
+# labels =
+1	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Lang=eng
+2	says	say	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	you	you	PRON	_	Case=Acc|Person=2|PronType=Prs	2	obj	_	Lang=eng
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:177
+# text = those heels are high .
+# text[orig] = xxx those heels are high . 631116_632448
+# gloss[orig] = those.DEM.FAR.PL heel.N.PL are.V.123P.PRES high.ADJ
+# speaker = MAR
+# labels =
+1	those	those	DET	_	Number=Plur|PronType=Dem	2	det	_	Lang=eng
+2	heels	heel	NOUN	_	Number=Plur	4	nsubj	_	Lang=eng
+3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=eng
+4	high	high	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:178
+# text = the heel is like ten inches ?
+# text[orig] = the heel is like ten inches ? 633031_635362
+# gloss[orig] = the.DET.DEF heel.N.SG is.V.3S.PRES like.CONJ ten.NUM unk
+# speaker = MAR
+# labels =
+1	the	the	DET	_	Definite=Def|PronType=Art	2	det	_	Lang=eng
+2	heel	heel	NOUN	_	Number=Sing	6	nsubj	_	Lang=eng
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	Lang=eng
+4	like	like	ADP	_	_	6	case	_	Lang=eng
+5	ten	ten	NUM	_	NumType=Card	6	nummod	_	Lang=eng
+6	inches	inch	NOUN	_	Number=Plur	0	root	_	Lang=eng
+7	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = maria4:179
+# text = look at those things !
+# text[orig] = look at those things ! 637111_638539
+# gloss[orig] = look.V.INFIN at.PREP those.DEM.FAR.PL thing.N.PL
+# speaker = MAR
+# labels =
+1	look	look	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	Lang=eng
+2	at	at	ADP	_	_	4	case	_	Lang=eng
+3	those	those	DET	_	Number=Plur|PronType=Dem	4	det	_	Lang=eng
+4	things	thing	NOUN	_	Number=Plur	1	obl	_	Lang=eng
+5	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:180
+# text = no no !
+# text[orig] = no no ! 638527_639032
+# gloss[orig] = no.ADV no.ADV
+# speaker = MAR
+# labels =
+1	no	no	INTJ	_	_	0	root	_	Lang=eng
+2	no	no	INTJ	_	_	1	fixed	_	Lang=eng
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:181
+# text = that's more than five .
+# text[orig] = that's more than five . 638692_640524
+# gloss[orig] = that.DEM.FAR+BE.V.3S.PRES more.ADV than.CONJ five.NUM
+# speaker = MAR
+# labels =
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	Lang=eng
+2	more	more	ADJ	_	Degree=Cmp	4	advmod	_	Lang=eng
+3	than	than	ADP	_	_	2	fixed	_	Lang=eng
+4	five	five	NUM	_	NumType=Card	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:182
+# text = cause I think it's what we had .
+# text[orig] = cause I think it's what we had . 653262_654344
+# gloss[orig] = cause.N.SG I.PRON.SUB.1S think.V.1S.PRES it.PRON.SUB.3S+BE.V.3S.PRES what.REL we.PRON.SUB.1P had.V.PAST
+# speaker = MAR
+# labels =
+1	cause	cause	SCONJ	_	_	3	mark	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Lang=eng
+5	what	what	PRON	_	PronType=Int	7	obj	_	Lang=eng
+6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	Lang=eng
+7	had	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	Lang=eng
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:183
+# text = and they cannot imitate it .
+# text[orig] = and they cannot imitate it . 654011_655676
+# gloss[orig] = and.CONJ they.PRON.SUB.3P cannot.V.3P.PRES imitate.SV.INFIN it.PRON.OBJ.3S
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	4	cc	_	Lang=eng
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+3	cannot	cannot	AUX	_	VerbForm=Fin	4	aux	_	Lang=eng
+4	imitate	imitate	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	obj	_	Lang=eng
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:184
+# text = what we had in the other schools
+# text[orig] = what we had in the other schools [?]. 655926_657841
+# gloss[orig] = what.REL we.PRON.SUB.1P had.V.PAST in.PREP the.DET.DEF other.ADJ school.N.PL
+# speaker = MAR
+# labels =
+1	what	what	PRON	_	PronType=Int	3	obj	_	Lang=eng
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	had	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	in	in	ADP	_	_	7	case	_	Lang=eng
+5	the	the	DET	_	Definite=Def|PronType=Art	7	det	_	Lang=eng
+6	other	other	ADJ	_	Degree=Pos	7	amod	_	Lang=eng
+7	schools	school	NOUN	_	Number=Plur	3	obl	_	Lang=eng
+
+# sent_id = maria4:185
+# text = no .
+# text[orig] = &n no . 665417_666083
+# gloss[orig] = no.ADV
+# speaker = MAR
+# labels =
+1	no	no	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:186
+# text = eh it was a camera .
+# text[orig] = eh it was a camera . 666416_667748
+# gloss[orig] = eh.IM it.PRON.SUB.3S was.V.3S.PAST a.DET.INDEF camera.N.SG
+# speaker = MAR
+# labels =
+1	eh	eh	INTJ	_	_	5	discourse	_	Lang=eng
+2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+3	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=eng
+5	camera	camera	NOUN	_	Number=Sing	0	root	_	Lang=eng
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:187
+# text = it was a camera .
+# text[orig] = it was a camera . 667665_668581
+# gloss[orig] = it.PRON.SUB.3S was.V.3S.PAST a.DET.INDEF camera.N.SG
+# speaker = MAR
+# labels =
+1	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+2	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	Lang=eng
+3	a	a	DET	_	Definite=Ind|PronType=Art	4	det	_	Lang=eng
+4	camera	camera	NOUN	_	Number=Sing	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:188
+# text = but they had to add here was a was a CCTV thing .
+# text[orig] = but they had to add here <was a> [/] was a C_C_T_V@s:eng thing . 669163_673576
+# gloss[orig] = but.CONJ they.PRON.SUB.3P had.V.PAST to.PREP add.V.INFIN here.ADV was.V.3S.PAST a.DET.INDEF was.V.3S.PAST a.DET.INDEF name thing.N.SG
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	3	cc	_	Lang=eng
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+3	had	have	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	to	to	PART	_	_	5	mark	_	Lang=eng
+5	add	add	VERB	_	VerbForm=Inf	3	xcomp	_	Lang=eng
+6	here	here	ADV	_	PronType=Dem	12	nsubj	_	Lang=eng
+7	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	Lang=eng
+8	a	a	PRON	_	_	12	nsubj	_	Lang=eng
+9	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	cop	_	Lang=eng
+10	a	a	DET	_	Definite=Ind|PronType=Art	12	det	_	Lang=eng
+11	CCTV	cctv	NOUN	_	Number=Sing	12	compound	_	Lang=eng
+12	thing	thing	NOUN	_	Number=Sing	3	parataxis	_	Lang=eng
+13	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:189
+# text = yeah I think so too .
+# text[orig] = yeah I think so too . 682401_683733
+# gloss[orig] = yeah.ADV I.PRON.SUB.1S think.V.1S.PRES so.ADV too.ADV
+# speaker = MAR
+# labels =
+1	yeah	yeah	INTJ	_	_	3	discourse	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	so	so	ADV	_	_	3	advmod	_	Lang=eng
+5	too	too	ADV	_	_	3	advmod	_	Lang=eng
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:190
+# text = one here .
+# text[orig] = one here . 686064_687396
+# gloss[orig] = one.PRON.SG here.ADV
+# speaker = MAR
+# labels =
+1	one	one	NUM	_	NumType=Card	0	root	_	Lang=eng
+2	here	here	ADV	_	PronType=Dem	1	advmod	_	Lang=eng
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:191
+# text = that is excessive down below .
+# text[orig] = that is excessive down below . 688229_689977
+# gloss[orig] = that.DEM.FAR is.V.3S.PRES excessive.ADJ down.PREP below.PREP
+# speaker = MAR
+# labels =
+1	that	that	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	Lang=eng
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=eng
+3	excessive	excessive	ADJ	_	Degree=Pos	4	amod	_	Lang=eng
+4	down	down	ADV	_	_	0	root	_	Lang=eng
+5	below	below	ADV	_	_	4	advmod	_	Lang=eng
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:192
+# text = you need one more exit up here .
+# text[orig] = xxx you need one more exit up here . 690393_693890
+# gloss[orig] = you.PRON.SUB.2SP need.V.2SP.PRES one.PRON.SG more.ADJ exit.N.SG up.ADV here.ADV
+# speaker = MAR
+# labels =
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	Lang=eng
+2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	one	one	NUM	_	NumType=Card	5	nummod	_	Lang=eng
+4	more	more	ADJ	_	Degree=Cmp	5	amod	_	Lang=eng
+5	exit	exit	NOUN	_	Number=Sing	2	obj	_	Lang=eng
+6	up	up	ADP	_	_	7	case	_	Lang=eng
+7	here	here	ADV	_	PronType=Dem	2	advmod	_	Lang=eng
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:193
+# text = and you will need so many over
+# text[orig] = and you will need so many over +/. 693723_695888
+# gloss[orig] = and.CONJ you.PRON.SUB.2SP will.V.2SP.FUT need.SV.INFIN so.ADV many.ADJ over.ADV.[or].over.PREP
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	4	cc	_	Lang=eng
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	Lang=eng
+3	will	will	AUX	_	VerbForm=Fin	4	aux	_	Lang=eng
+4	need	need	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	so	so	ADV	_	_	6	advmod	_	Lang=eng
+6	many	many	ADJ	_	Degree=Pos	4	obj	_	Lang=eng
+7	over	over	ADV	_	_	4	advmod	_	Lang=eng
+
+# sent_id = maria4:194
+# text = and you will need so many over here .
+# text[orig] = and you will need so many over here . 695472_698219
+# gloss[orig] = and.CONJ you.PRON.SUB.2SP will.V.2SP.FUT need.SV.INFIN so.ADV many.ADJ over.ADV here.ADV
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	4	cc	_	Lang=eng
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	Lang=eng
+3	will	will	AUX	_	VerbForm=Fin	4	aux	_	Lang=eng
+4	need	need	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	so	so	ADV	_	_	6	advmod	_	Lang=eng
+6	many	many	ADJ	_	Degree=Pos	4	obj	_	Lang=eng
+7	over	over	ADP	_	_	8	case	_	Lang=eng
+8	here	here	ADV	_	PronType=Dem	4	advmod	_	Lang=eng
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:195
+# text = oh I know we went through all this with with uh
+# text[orig] = oh@s:eng&spa I know we went through all this with [/] with uh +... 697803_699884
+# gloss[orig] = oh.IM I.PRON.SUB.1S know.V.1S.PRES we.PRON.SUB.1P went.V.PAST through.PREP all.ADJ this.DEM.NEAR.SG with.PREP with.PREP uh.IM
+# speaker = MAR
+# labels =
+1	oh	oh	INTJ	_	_	3	discourse	_	Lang=eng&spa
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
+5	went	go	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	Lang=eng
+6	through	through	ADP	_	_	8	case	_	Lang=eng
+7	all	all	DET	_	_	8	det	_	Lang=eng
+8	this	this	PRON	_	Number=Sing|PronType=Dem	5	obl	_	Lang=eng
+9	with	with	ADP	_	_	5	obl	_	Lang=eng
+10	with	with	ADP	_	_	11	case	_	Lang=eng
+11	uh	uh	INTJ	_	_	5	discourse	_	Lang=eng
+
+# sent_id = maria4:196
+# text = the uh A and U and V .
+# text[orig] = the uh@s:eng A@s:eng&spa and U@s:eng&spa and V@s:eng&spa . 702299_705129
+# gloss[orig] = the.DET.DEF uh.IM name and.CONJ name and.CONJ name
+# speaker = MAR
+# labels =
+1	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	Lang=eng
+2	uh	uh	INTJ	_	Number=Sing	3	discourse	_	Lang=eng
+3	A	a	NOUN	_	Number=Sing	0	root	_	Lang=eng&spa
+4	and	and	CCONJ	_	_	5	cc	_	Lang=eng
+5	U	u	NOUN	_	Number=Sing	3	conj	_	Lang=eng&spa
+6	and	and	CCONJ	_	_	7	cc	_	Lang=eng
+7	V	V	NOUN	_	Number=Sing	3	conj	_	Lang=eng&spa
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:197
+# text = and he may have just copied it in you know .
+# text[orig] = and he may have just copied it in you know . 704713_707793
+# gloss[orig] = and.CONJ he.PRON.SUB.M.3S may.V.3S.PRES have.SV.INFIN just.ADJ.[or].just.ADV copy.N.SG+AV it.PRON.SUB.3S in.PREP you.PRON.SUB.2SP know.V.2SP.PRES
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	6	cc	_	Lang=eng
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
+3	may	may	AUX	_	VerbForm=Fin	6	aux	_	Lang=eng
+4	have	have	AUX	_	VerbForm=Inf	6	aux	_	Lang=eng
+5	just	just	ADV	_	_	6	advmod	_	Lang=eng
+6	copied	copy	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=eng
+7	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obj	_	Lang=eng
+8	in	in	ADP	_	_	10	mark	_	Lang=eng
+9	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	Lang=eng
+10	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	6	advcl	_	Lang=eng
+11	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = maria4:198
+# text = right .
+# text[orig] = right . 710707_711789
+# gloss[orig] = right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:199
+# text = one of the projects .
+# text[orig] = one of the projects . 716868_719366
+# gloss[orig] = one.PRON.SG of.PREP the.DET.DEF project.N.PL
+# speaker = MAR
+# labels =
+1	one	one	NUM	_	NumType=Card	0	root	_	Lang=eng
+2	of	of	ADP	_	_	4	case	_	Lang=eng
+3	the	the	DET	_	Definite=Def|PronType=Art	4	det	_	Lang=eng
+4	projects	project	NOUN	_	Number=Plur	1	nmod	_	Lang=eng
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:200
+# text = right .
+# text[orig] = right . 719449_720198
+# gloss[orig] = right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:201
+# text = but if they're not going to put any doors at all then you don't need an exit time
+# text[orig] = but if they're not going to put any doors at all then you don't need an exit time [?]. 720281_723695
+# gloss[orig] = but.CONJ if.CONJ they.PRON.SUB.3P+BE.V.PRES not.ADV go.SV.INFIN+ASV to.PREP put.V.INFIN any.ADJ door.N.PL at.PREP all.ADJ then.ADV you.PRON.SUB.2SP do.V.2SP.PRES+NEG need.V.INFIN an.DET.INDEF exit.N.SG time.N.SG
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	15	cc	_	Lang=eng
+2	if	if	SCONJ	_	_	5	mark	_	Lang=eng
+3	they're	they're	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+4	not	not	PART	_	_	5	advmod	_	Lang=eng
+5	going	go	VERB	_	Tense=Pres|VerbForm=Part	15	advcl	_	Lang=eng
+6	to	to	PART	_	_	7	mark	_	Lang=eng
+7	put	put	VERB	_	VerbForm=Inf	5	xcomp	_	Lang=eng
+8	any	any	DET	_	_	9	det	_	Lang=eng
+9	doors	door	NOUN	_	Number=Plur	7	obj	_	Lang=eng
+10	at	at	ADV	_	_	11	case	_	Lang=eng
+11	all	all	ADV	_	_	7	obl	_	Lang=eng
+12	then	then	ADV	_	PronType=Dem	15	advmod	_	Lang=eng
+13	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	Lang=eng
+14	don't	don't	AUX	_	VerbForm=Fin	15	aux	_	Lang=eng
+15	need	need	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+16	an	a	DET	_	Definite=Ind|PronType=Art	18	det	_	Lang=eng
+17	exit	exit	NOUN	_	Number=Sing	18	compound	_	Lang=eng
+18	time	time	NOUN	_	Number=Sing	15	obj	_	Lang=eng
+
+# sent_id = maria4:202
+# text = it's just and opening .
+# text[orig] = it's just and opening . 723612_726775
+# gloss[orig] = it.PRON.SUB.3S+BE.V.3S.PRES just.ADJ.[or].just.ADV and.CONJ unk
+# speaker = MAR
+# labels =
+1	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Lang=eng
+2	just	just	ADV	_	_	0	root	_	Lang=eng
+3	and	and	CCONJ	_	_	4	cc	_	Lang=eng
+4	opening	open	VERB	_	VerbForm=Ger	2	conj	_	Lang=eng
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:203
+# text = why would you .
+# text[orig] = why would you &w xxx . 726858_729106
+# gloss[orig] = why.REL be.V.123SP.COND you.PRON.SUB.2SP
+# speaker = MAR
+# labels =
+1	why	why	ADV	_	PronType=Int	2	advmod	_	Lang=eng
+2	would	would	AUX	_	VerbForm=Fin	0	root	_	Lang=eng
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	Lang=eng
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:204
+# text = why ?
+# text[orig] = why ? 730105_731770
+# gloss[orig] = why.REL
+# speaker = MAR
+# labels =
+1	why	why	ADV	_	PronType=Int	0	root	_	Lang=eng
+2	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:205
+# text = because it's cold over here .
+# text[orig] = because it's cold over here . 732603_734351
+# gloss[orig] = because.CONJ it.PRON.SUB.3S+BE.V.3S.PRES cold.ADJ over.ADV here.ADV
+# speaker = MAR
+# labels =
+1	because	because	SCONJ	_	_	3	mark	_	Lang=eng
+2	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+3	cold	cold	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+4	over	over	ADP	_	_	5	case	_	Lang=eng
+5	here	here	ADV	_	PronType=Dem	3	advmod	_	Lang=eng
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:206
+# text = you think he's stupid ?
+# text[orig] = you think he's stupid ? 734018_735600
+# gloss[orig] = you.PRON.SUB.2SP think.V.2SP.PRES he.PRON.SUB.M.3S+BE.V.3S.PRES stupid.ADJ
+# speaker = MAR
+# labels =
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	Lang=eng
+2	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	he's	he's	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+4	stupid	stupid	ADJ	_	Degree=Pos	2	ccomp	_	Lang=eng
+5	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:207
+# text = that's fine .
+# text[orig] = that's fine . 742260_744092
+# gloss[orig] = that.DEM.FAR+BE.V.3S.PRES fine.N.SG
+# speaker = MAR
+# labels =
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	Lang=eng
+2	fine	fine	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:208
+# text = I don't even think they
+# text[orig] = I don't even think they +//. 746016_747431
+# gloss[orig] = I.PRON.SUB.1S do.V.1S.PRES+NEG even.ADV think.V.INFIN they.PRON.SUB.3P
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=eng
+2	don't	don't	X	_	_	4	aux	_	Lang=eng
+3	even	even	ADV	_	_	4	advmod	_	Lang=eng
+4	think	think	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+
+# sent_id = maria4:209
+# text = did they buy any RAU and V ?
+# text[orig] = did they buy any R_A_U@s:eng&spa and V@s:eng&spa ? 747930_750095
+# gloss[orig] = did.V.PAST they.PRON.SUB.3P buy.V.3P.PRES any.ADJ name and.CONJ name
+# speaker = MAR
+# labels =
+1	did	do	AUX	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	Lang=eng
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+3	buy	buy	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	any	any	DET	_	_	5	det	_	Lang=eng
+5	RAU	RAU	PROPN	_	Number=Sing	3	obj	_	Lang=eng&spa
+6	and	and	CCONJ	_	_	7	cc	_	Lang=eng
+7	V	V	NOUN	_	Number=Sing	5	conj	_	Lang=eng&spa
+8	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:210
+# text = I've never seen the box .
+# text[orig] = I've never seen the box . 750345_752593
+# gloss[orig] = I.PRON.SUB.1S+HAVE.V.PRES never.ADV seen.AV.PAST the.DET.DEF box.N.SG
+# speaker = MAR
+# labels =
+1	I've	I'VE	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	never	never	ADV	_	_	3	advmod	_	Lang=eng
+3	seen	see	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=eng
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	Lang=eng
+5	box	box	NOUN	_	Number=Sing	3	obj	_	Lang=eng
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:211
+# text = that's right .
+# text[orig] = that's right . 753841_754591
+# gloss[orig] = that.DEM.FAR+BE.V.3S.PRES right.ADJ
+# speaker = MAR
+# labels =
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	Lang=eng
+2	right	right	ADJ	_	Foreign=Yes	0	root	_	Lang=eng
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:212
+# text = that's right .
+# text[orig] = that's right . 755257_756173
+# gloss[orig] = that.DEM.FAR+BE.V.3S.PRES right.ADJ
+# speaker = MAR
+# labels =
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	Lang=eng
+2	right	right	ADJ	_	Foreign=Yes	0	root	_	Lang=eng
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:213
+# text = right .
+# text[orig] = right . 758254_759253
+# gloss[orig] = right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:214
+# text = right right .
+# text[orig] = right right . 762084_762916
+# gloss[orig] = right.ADJ right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	2	amod	_	Lang=eng
+2	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:215
+# text = I think that's what they did .
+# text[orig] = I think that's what they did . 768078_769160
+# gloss[orig] = I.PRON.SUB.1S think.V.1S.PRES that.DEM.FAR+BE.V.3S.PRES what.REL they.PRON.SUB.3P did.V.PAST
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	that's	that's	PRON	_	Number=Sing|PronType=Dem	6	nsubj	_	Lang=eng
+4	what	what	PRON	_	PronType=Int	6	obj	_	Lang=eng
+5	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
+6	did	do	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	Lang=eng
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:216
+# text = I think that's what they did .
+# text[orig] = I think that's what they did . 769243_770326
+# gloss[orig] = I.PRON.SUB.1S think.V.1S.PRES that.DEM.FAR+BE.V.3S.PRES what.REL they.PRON.SUB.3P did.V.PAST
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	that's	that's	PRON	_	Number=Sing|PronType=Dem	6	nsubj	_	Lang=eng
+4	what	what	PRON	_	PronType=Int	6	obj	_	Lang=eng
+5	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
+6	did	do	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	Lang=eng
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:217
+# text = I think that's what they did .
+# text[orig] = I think that's what they did . 770159_771491
+# gloss[orig] = I.PRON.SUB.1S think.V.1S.PRES that.DEM.FAR+BE.V.3S.PRES what.REL they.PRON.SUB.3P did.V.PAST
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	that's	that's	PRON	_	Number=Sing|PronType=Dem	6	nsubj	_	Lang=eng
+4	what	what	PRON	_	PronType=Int	6	obj	_	Lang=eng
+5	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
+6	did	do	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	2	ccomp	_	Lang=eng
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:218
+# text = but our
+# text[orig] = but our +/. 771242_772407
+# gloss[orig] = but.CONJ our.ADJ.POSS.1P
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	2	cc	_	Lang=eng
+2	our	we	PRON	_	Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	root	_	Lang=eng
+
+# sent_id = maria4:219
+# text = no .
+# text[orig] = no . 774155_775987
+# gloss[orig] = no.ADV
+# speaker = MAR
+# labels =
+1	no	no	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:220
+# text = right .
+# text[orig] = right . 776487_777069
+# gloss[orig] = right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:221
+# text = yeah .
+# text[orig] = yeah . 780649_781315
+# gloss[orig] = yeah.ADV
+# speaker = MAR
+# labels =
+1	yeah	yeah	INTJ	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:222
+# text = I think you I think you do .
+# text[orig] = <I think you> [/] I think you do . 781149_782647
+# gloss[orig] = I.PRON.SUB.1S think.V.1S.PRES you.PRON.SUB.2SP I.PRON.SUB.1S think.V.1S.PRES you.PRON.SUB.2SP do.V.2SP.PRES
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	you	you	PRON	_	_	2	obj	_	Lang=eng
+4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
+5	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	Lang=eng
+6	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	Lang=eng
+7	do	do	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	Lang=eng
+8	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:223
+# text = personally .
+# text[orig] = personally . 782148_783397
+# gloss[orig] = personal.ADJ+ADV.[or].personally.ADV
+# speaker = MAR
+# labels =
+1	personally	personally	ADV	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:224
+# text = where else .
+# text[orig] = where else &=laugh . 785811_787476
+# gloss[orig] = where.REL else.ADJ
+# speaker = MAR
+# labels =
+1	where	where	ADV	_	PronType=Int	0	root	_	Lang=eng
+2	else	else	ADV	_	_	1	advmod	_	Lang=eng
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:225
+# text = yeah well .
+# text[orig] = yeah well . 787976_788891
+# gloss[orig] = yeah.ADV well.ADV
+# speaker = MAR
+# labels =
+1	yeah	yeah	INTJ	_	_	0	root	_	Lang=eng
+2	well	well	INTJ	_	_	1	discourse	_	Lang=eng
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:226
+# text = no he didn't .
+# text[orig] = no he didn't . 794969_795718
+# gloss[orig] = no.ADV he.PRON.SUB.M.3S did.V.PAST+NEG
+# speaker = MAR
+# labels =
+1	no	no	INTJ	_	_	3	discourse	_	Lang=eng
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+3	didn't	didno	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:227
+# text = no he didn't .
+# text[orig] = no he didn't . 795552_796134
+# gloss[orig] = no.ADV he.PRON.SUB.M.3S did.V.PAST+NEG
+# speaker = MAR
+# labels =
+1	no	no	INTJ	_	_	3	discourse	_	Lang=eng
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
+3	didn't	didno	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:228
+# text = has anybody complained ?
+# text[orig] = has anybody complained ? 796884_798299
+# gloss[orig] = ha.IM+PV.[or].has.V.3S.PRES anybody.PRON complain.SV.INFIN+AV
+# speaker = MAR
+# labels =
+1	has	have	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	Lang=eng
+2	anybody	anybody	PRON	_	Number=Sing	3	nsubj	_	Lang=eng
+3	complained	complain	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=eng
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:229
+# text = we I think he just forgot about it .
+# text[orig] = we &d [//] I think he just forgot about it . 798799_801379
+# gloss[orig] = we.PRON.SUB.1P I.PRON.SUB.1S think.V.1S.PRES he.PRON.SUB.M.3S just.ADV forgot.V.INFIN about.PREP it.PRON.OBJ.3S
+# speaker = MAR
+# labels =
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
+5	just	just	ADV	_	_	6	advmod	_	Lang=eng
+6	forgot	forget	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	Lang=eng
+7	about	about	ADP	_	_	8	case	_	Lang=eng
+8	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	obl	_	Lang=eng
+9	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:230
+# text = we gave him for here .
+# text[orig] = we gave him for here . 800880_802295
+# gloss[orig] = we.PRON.SUB.1P gave.V.1P.PRES him.PRON.OBJ.M.3S for.PREP here.ADV
+# speaker = MAR
+# labels =
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	gave	give	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	iobj	_	Lang=eng
+4	for	for	ADP	_	_	5	case	_	Lang=eng
+5	here	here	ADV	_	PronType=Dem	2	obl	_	Lang=eng
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:231
+# text = we told him that there's a way to this back here .
+# text[orig] = we told him that there's a way to this back here . 801962_805043
+# gloss[orig] = we.PRON.SUB.1P told.V.PAST him.PRON.OBJ.M.3S that.CONJ.[or].that.DEM.FAR there.PRON+BE.V.3S.PRES a.DET.INDEF way.N.SG to.PREP this.DEM.NEAR.SG back.ADV here.ADV
+# speaker = MAR
+# labels =
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	told	tell	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+3	him	he	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	Lang=eng
+4	that	that	SCONJ	_	_	7	mark	_	Lang=eng
+5	there's	there's	PRON	_	_	7	expl	_	Lang=eng
+6	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	Lang=eng
+7	way	way	NOUN	_	Number=Sing	2	nsubj	_	Lang=eng
+8	to	to	ADP	_	_	9	case	_	Lang=eng
+9	this	this	PRON	_	Number=Sing|PronType=Dem	7	nmod	_	Lang=eng
+10	back	back	ADV	_	_	11	advmod	_	Lang=eng
+11	here	here	ADV	_	PronType=Dem	7	advmod	_	Lang=eng
+12	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:232
+# text = the school all schools says there were interested in this one .
+# text[orig] = <the school> [//] all schools says there were interested in this one . 804959_808300
+# gloss[orig] = the.DET.DEF school.N.SG all.ADJ school.N.PL say.N.PL.[or].says.N.SG there.ADV were.V.2S123P.PAST interest.N.SG+AV in.PREP this.DEM.NEAR.SG one.PRON.SG
+# speaker = MAR
+# labels =
+1	the	the	DET	_	Definite=Def|PronType=Art	2	det	_	Lang=eng
+2	school	school	NOUN	_	Number=Sing	5	nsubj	_	Lang=eng
+3	all	all	DET	_	_	4	det	_	Lang=eng
+4	schools	school	NOUN	_	Number=Plur	2	appos	_	Lang=eng
+5	says	say	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+6	there	there	PRON	_	_	7	expl	_	Lang=eng
+7	were	be	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	5	ccomp	_	Lang=eng
+8	interested	interested	ADJ	_	Degree=Pos	7	xcomp	_	Lang=eng
+9	in	in	ADP	_	_	11	case	_	Lang=eng
+10	this	this	DET	_	Number=Sing|PronType=Dem	11	det	_	Lang=eng
+11	one	one	NOUN	_	Number=Sing	8	obl	_	Lang=eng
+12	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:233
+# text = they they could care less about this one .
+# text[orig] = they [/] they could care less about this one . 808300_810263
+# gloss[orig] = they.PRON.SUB.3P they.PRON.SUB.3P can.V.COND care.V.INFIN less.ADV about.PREP this.DEM.NEAR.SG one.PRON.SG
+# speaker = MAR
+# labels =
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+3	could	could	AUX	_	VerbForm=Fin	4	aux	_	Lang=eng
+4	care	care	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+5	less	less	ADV	_	Degree=Cmp	4	advmod	_	Lang=eng
+6	about	about	ADP	_	_	8	case	_	Lang=eng
+7	this	this	DET	_	Number=Sing|PronType=Dem	8	det	_	Lang=eng
+8	one	one	NOUN	_	Number=Sing	4	obl	_	Lang=eng
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:234
+# text = particularly when you have a fence .
+# text[orig] = particularly when you have a fence . 809788_811037
+# gloss[orig] = particular.ADJ+ADV.[or].particularly.ADV when.CONJ you.PRON.SUB.2SP have.V.2SP.PRES a.DET.INDEF fence.N.SG
+# speaker = MAR
+# labels =
+1	particularly	particularly	ADV	_	_	4	advmod	_	Lang=eng
+2	when	when	SCONJ	_	PronType=Int	4	mark	_	Lang=eng
+3	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	Lang=eng
+4	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+5	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	Lang=eng
+6	fence	fence	NOUN	_	Number=Sing	4	obj	_	Lang=eng
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:235
+# text = and we need to we need to make sure we have a way to fence just like we did in the UV .
+# text[orig] = and <we need to> [/] we need to make sure we have a way to fence just like we did in the U_V@s:eng&spa . 811287_816781
+# gloss[orig] = and.CONJ we.PRON.SUB.1P need.V.1P.PRES to.PREP we.PRON.SUB.1P need.V.1P.PRES to.PREP make.V.INFIN sure.ADJ we.PRON.SUB.1P have.V.1P.PRES a.DET.INDEF way.N.SG to.PREP fence.N.SG just.ADJ.[or].just.ADV like.CONJ we.PRON.SUB.1P did.V.PAST in.PREP the.DET.DEF name
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	3	cc	_	Lang=eng
+2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	to	to	PART	_	_	6	mark	_	Lang=eng
+5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	Lang=eng
+6	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	advcl	_	Lang=eng
+7	to	to	PART	_	_	8	mark	_	Lang=eng
+8	make	make	VERB	_	VerbForm=Inf	6	xcomp	_	Lang=eng
+9	sure	sure	ADJ	_	Degree=Pos	8	xcomp	_	Lang=eng
+10	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	Lang=eng
+11	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	ccomp	_	Lang=eng
+12	a	a	DET	_	Definite=Ind|PronType=Art	13	det	_	Lang=eng
+13	way	way	NOUN	_	Number=Sing	11	obj	_	Lang=eng
+14	to	to	PART	_	_	15	mark	_	Lang=eng
+15	fence	fence	VERB	_	VerbForm=Inf	13	acl	_	Lang=eng
+16	just	just	ADV	_	_	19	advmod	_	Lang=eng
+17	like	like	SCONJ	_	_	19	mark	_	Lang=eng
+18	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	Lang=eng
+19	did	do	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	Lang=eng
+20	in	in	ADP	_	_	22	case	_	Lang=eng
+21	the	the	DET	_	Definite=Def|PronType=Art	22	det	_	Lang=eng
+22	UV	uv	NOUN	_	Number=Sing	19	obl	_	Lang=eng&spa
+23	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:236
+# text = a way to close this .
+# text[orig] = a way to close this . 816865_819279
+# gloss[orig] = a.DET.INDEF way.N.SG to.PREP close.V.INFIN this.DEM.NEAR.SG
+# speaker = MAR
+# labels =
+1	a	a	DET	_	Definite=Ind|PronType=Art	2	det	_	Lang=eng
+2	way	way	NOUN	_	Number=Sing	0	root	_	Lang=eng
+3	to	to	PART	_	_	4	mark	_	Lang=eng
+4	close	close	VERB	_	VerbForm=Inf	2	acl	_	Lang=eng
+5	this	this	PRON	_	Number=Sing|PronType=Dem	4	obj	_	Lang=eng
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:237
+# text = in other words the entrance here is a little bit different .
+# text[orig] = in other words the entrance here is a little bit different . 821111_823359
+# gloss[orig] = in.PREP other.ADJ word.N.PL.[or].words.N.PL the.DET.DEF entrance.N.SG here.ADV is.V.3S.PRES a.DET.INDEF little.ADJ bit.N.SG different.ADJ
+# speaker = MAR
+# labels =
+1	in	in	ADP	_	_	3	case	_	Lang=eng
+2	other	other	ADJ	_	Degree=Pos	3	amod	_	Lang=eng
+3	words	word	NOUN	_	Number=Plur	11	obl	_	Lang=eng
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	Lang=eng
+5	entrance	entrance	NOUN	_	Number=Sing	11	nsubj	_	Lang=eng
+6	here	here	ADV	_	PronType=Dem	5	advmod	_	Lang=eng
+7	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	Lang=eng
+8	a	a	DET	_	Definite=Ind|PronType=Art	10	det	_	Lang=eng
+9	little	little	ADJ	_	Degree=Pos	10	amod	_	Lang=eng
+10	bit	bit	NOUN	_	Number=Sing	11	obl:npmod	_	Lang=eng
+11	different	different	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = maria4:238
+# text = you know what I'm saying right ?
+# text[orig] = you know what I'm saying right ? 824441_826356
+# gloss[orig] = you.PRON.SUB.2SP know.V.2SP.PRES what.REL I.PRON.SUB.1S+BE.V.PRES say.V.PRESPART right.ADJ
+# speaker = MAR
+# labels =
+1	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	Lang=eng
+2	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	what	what	PRON	_	PronType=Int	5	obj	_	Lang=eng
+4	I'm	I'm	X	_	Foreign=Yes	5	nsubj	_	Lang=eng
+5	saying	say	VERB	_	Tense=Pres|VerbForm=Part	2	ccomp	_	Lang=eng
+6	right	right	ADV	_	_	5	discourse	_	Lang=eng
+7	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:239
+# text = that RAU and V we
+# text[orig] = that R_A_U@s:eng&spa and V@s:eng&spa we +/. 826106_828354
+# gloss[orig] = that.CONJ.[or].that.DEM.FAR name and.CONJ name we.PRON.SUB.1P
+# speaker = MAR
+# labels =
+1	that	that	DET	_	Number=Sing|PronType=Dem	2	det	_	Lang=eng
+2	RAU	rau	NOUN	_	Number=Sing	0	root	_	Lang=eng&spa
+3	and	and	CCONJ	_	_	4	cc	_	Lang=eng
+4	V	v	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	Lang=eng&spa
+5	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+
+# sent_id = maria4:240
+# text = right .
+# text[orig] = right . 828437_829353
+# gloss[orig] = right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:241
+# text = they need to be able to to
+# text[orig] = they need to be able to [/] to +... 829186_831362
+# gloss[orig] = they.PRON.SUB.3P need.V.3P.PRES to.PREP be.V.INFIN able.ADJ to.PREP to.PREP
+# speaker = MAR
+# labels =
+1	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	Lang=eng
+2	need	need	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	to	to	PART	_	_	5	mark	_	Lang=eng
+4	be	be	AUX	_	VerbForm=Inf	5	cop	_	Lang=eng
+5	able	able	ADJ	_	Degree=Pos	2	xcomp	_	Lang=eng
+6	to	to	PART	_	_	7	mark	_	Lang=eng
+7	to	to	VERB	_	VerbForm=Inf	5	xcomp	_	Lang=eng
+
+# sent_id = maria4:242
+# text = because visitors are parking here .
+# text[orig] = because visitors are parking here . 831356_833138
+# gloss[orig] = because.CONJ visitor.N.PL are.V.123P.PRES park.N.SG+ASV here.ADV
+# speaker = MAR
+# labels =
+1	because	because	SCONJ	_	_	4	mark	_	Lang=eng
+2	visitors	visitor	NOUN	_	Number=Plur	4	nsubj	_	Lang=eng
+3	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=eng
+4	parking	parking	NOUN	_	Number=Sing	0	root	_	Lang=eng
+5	here	here	ADV	_	PronType=Dem	4	advmod	_	Lang=eng
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:243
+# text = and they could theoretically sneak in back here .
+# text[orig] = and they could theoretically sneak in back here . 832987_836353
+# gloss[orig] = and.CONJ they.PRON.SUB.3P can.V.COND theoretical.ADJ+ADV sneak.SV.INFIN in.PREP back.ADV here.ADV
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	5	cc	_	Lang=eng
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+3	could	could	AUX	_	VerbForm=Fin	5	aux	_	Lang=eng
+4	theoretically	theoretically	ADV	_	_	5	advmod	_	Lang=eng
+5	sneak	sneak	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+6	in	in	ADP	_	_	5	advmod	_	Lang=eng
+7	back	back	ADV	_	_	8	advmod	_	Lang=eng
+8	here	here	ADV	_	PronType=Dem	5	advmod	_	Lang=eng
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:244
+# text = the layout is a little bit different here .
+# text[orig] = the layout is a little bit different here . 836307_838141
+# gloss[orig] = the.DET.DEF layout.N.SG is.V.3S.PRES a.DET.INDEF little.ADJ bit.N.SG different.ADJ here.ADV
+# speaker = MAR
+# labels =
+1	the	the	DET	_	Definite=Def|PronType=Art	2	det	_	Lang=eng
+2	layout	layout	NOUN	_	Number=Sing	7	nsubj	_	Lang=eng
+3	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	Lang=eng
+4	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	Lang=eng
+5	little	little	ADJ	_	Degree=Pos	6	amod	_	Lang=eng
+6	bit	bit	NOUN	_	Number=Sing	7	obl:npmod	_	Lang=eng
+7	different	different	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+8	here	here	ADV	_	PronType=Dem	7	advmod	_	Lang=eng
+9	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = maria4:245
+# text = cause there are U and V the
+# text[orig] = cause there are U@s:eng&spa and V@s:eng&spa the +/. 838606_839929
+# gloss[orig] = cause.N.SG there.ADV are.V.123P.PRES name and.CONJ name the.DET.DEF
+# speaker = MAR
+# labels =
+1	cause	cause	SCONJ	_	_	3	mark	_	Lang=eng
+2	there	there	PRON	_	_	3	expl	_	Lang=eng
+3	are	be	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	U	u	NOUN	_	Number=Sing	3	nsubj	_	Lang=eng&spa
+5	and	and	CCONJ	_	_	6	cc	_	Lang=eng
+6	V	v	NOUN	_	Number=Sing	4	conj	_	Lang=eng&spa
+7	the	the	DET	_	Definite=Def|PronType=Art	6	det	_	Lang=eng
+
+# sent_id = maria4:246
+# text = we may have those .
+# text[orig] = we may have those . 840974_841624
+# gloss[orig] = we.PRON.SUB.1P may.V.1P.PRES have.SV.INFIN those.DEM.FAR.PL
+# speaker = MAR
+# labels =
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	may	may	AUX	_	VerbForm=Fin	3	aux	_	Lang=eng
+3	have	have	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	those	those	PRON	_	Number=Plur|PronType=Dem	3	obj	_	Lang=eng
+5	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:247
+# text = we may have to find we may have to find a different
+# text[orig] = <we may have to find> [/] we may have to find a different +/. 843041_845734
+# gloss[orig] = we.PRON.SUB.1P may.V.1P.PRES have.SV.INFIN to.PREP find.V.INFIN we.PRON.SUB.1P may.V.1P.PRES have.SV.INFIN to.PREP find.V.INFIN a.DET.INDEF different.ADJ
+# speaker = MAR
+# labels =
+1	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	may	may	AUX	_	VerbForm=Fin	3	aux	_	Lang=eng
+3	have	have	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	to	to	PART	_	_	5	mark	_	Lang=eng
+5	find	find	VERB	_	VerbForm=Inf	3	xcomp	_	Lang=eng
+6	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	Lang=eng
+7	may	may	AUX	_	VerbForm=Fin	8	aux	_	Lang=eng
+8	have	have	VERB	_	VerbForm=Inf	3	parataxis	_	Lang=eng
+9	to	to	PART	_	_	10	mark	_	Lang=eng
+10	find	find	VERB	_	VerbForm=Inf	8	xcomp	_	Lang=eng
+11	a	a	DET	_	Definite=Ind|PronType=Art	12	det	_	Lang=eng
+12	different	different	ADJ	_	Degree=Pos	10	obj	_	Lang=eng
+
+# sent_id = maria4:248
+# text = mm .
+# text[orig] = mm . 845804_846454
+# gloss[orig] = mm.IM
+# speaker = MAR
+# labels =
+1	mm	mm	INTJ	_	_	0	root	_	Lang=eng
+2	.	$.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:249
+# text = for the FBO .
+# text[orig] = for the F_B_O@s:eng&spa . 851005_851563
+# gloss[orig] = for.PREP the.DET.DEF name
+# speaker = MAR
+# labels =
+1	for	for	ADP	_	_	3	case	_	Lang=eng
+2	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	Lang=eng
+3	FBO	FBO	NOUN	_	Number=Sing	0	root	_	Lang=eng&spa
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:250
+# text = mm .
+# text[orig] = mm .
+# gloss[orig] = mm.IM
+# speaker = MAR
+# labels =
+1	mm	mm	INTJ	_	_	0	root	_	Lang=eng
+2	.	$.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:251
+# text = but
+# text[orig] = but +/. 854401_855074
+# gloss[orig] = but.CONJ
+# speaker = MAR
+# labels =
+1	but	but	CCONJ	_	_	0	root	_	Lang=eng
+
+# sent_id = maria4:252
+# text = it's better .
+# text[orig] = it's better . 856607_857350
+# gloss[orig] = it.PRON.SUB.3S+BE.V.3S.PRES better.ADJ
+# speaker = MAR
+# labels =
+1	it's	it's	X	_	_	2	nsubj	_	Lang=eng
+2	better	better	ADJ	_	Degree=Cmp	0	root	_	Lang=eng
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:253
+# text = right .
+# text[orig] = right . 870231_870672
+# gloss[orig] = right.ADJ
+# speaker = MAR
+# labels =
+1	right	right	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:254
+# text = this is where the tank is ?
+# text[orig] = this is where the tank is ? 871230_872368
+# gloss[orig] = this.DEM.NEAR.SG is.V.3S.PRES where.REL the.DET.DEF tank.N.SG is.V.3S.PRES
+# speaker = MAR
+# labels =
+1	this	this	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	Lang=eng
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=eng
+3	where	where	ADV	_	PronType=Int	6	advmod	_	Lang=eng
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	Lang=eng
+5	tank	tank	NOUN	_	Number=Sing	6	nsubj	_	Lang=eng
+6	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+7	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:255
+# text = is it ?
+# text[orig] = is it ? 872484_872855
+# gloss[orig] = is.V.3S.PRES it.PRON.SUB.3S
+# speaker = MAR
+# labels =
+1	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	nsubj	_	Lang=eng
+3	?	?	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:256
+# text = that's supposed to be the
+# text[orig] = that's supposed to be the +... 873598_874829
+# gloss[orig] = that.DEM.FAR+BE.V.3S.PRES suppose.V.PASTPART to.PREP be.V.INFIN the.DET.DEF
+# speaker = MAR
+# labels =
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	Lang=eng
+2	supposed	suppose	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=eng
+3	to	to	PART	_	_	5	mark	_	Lang=eng
+4	be	be	AUX	_	VerbForm=Inf	5	cop	_	Lang=eng
+5	the	the	DET	_	_	2	xcomp	_	Lang=eng
+
+# sent_id = maria4:257
+# text = this is where the tank for the the eh gas is ?
+# text[orig] = this is where the tank for the [/] the eh@s:eng&spa gas is ? 879055_882584
+# gloss[orig] = this.DEM.NEAR.SG is.V.3S.PRES where.REL the.DET.DEF tank.N.SG for.PREP the.DET.DEF the.DET.DEF eh.IM ga.N.PL.[or].gas.N.SG is.V.3S.PRES
+# speaker = MAR
+# labels =
+1	this	this	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	Lang=eng
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=eng
+3	where	where	ADV	_	PronType=Int	0	root	_	Lang=eng
+4	the	the	DET	_	Definite=Def|PronType=Art	5	det	_	Lang=eng
+5	tank	tank	NOUN	_	Number=Sing	11	nsubj	_	Lang=eng
+6	for	for	ADP	_	_	10	case	_	Lang=eng
+7	the	the	DET	_	Definite=Def|PronType=Art	5	nmod	_	Lang=eng
+8	the	the	DET	_	Definite=Def|PronType=Art	10	det	_	Lang=eng
+9	eh	eh	NOUN	_	Number=Sing	10	compound	_	Lang=eng&spa
+10	gas	gas	NOUN	_	Number=Sing	5	nmod	_	Lang=eng
+11	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=eng
+12	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:258
+# text = so what's that ?
+# text[orig] = so what's that ? 885046_886021
+# gloss[orig] = so.ADV what.REL+GB that.DEM.FAR
+# speaker = MAR
+# labels =
+1	so	so	ADV	_	_	2	advmod	_	Lang=eng
+2	what's	what's	PRON	_	PronType=Int	0	root	_	Lang=eng
+3	that	that	PRON	_	Number=Sing|PronType=Dem	2	nsubj	_	Lang=eng
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:259
+# text = oh they haven't updated the drawings .
+# text[orig] = oh@s:eng&spa they haven't updated the drawings . 888366_890131
+# gloss[orig] = oh.IM they.PRON.SUB.3P have.V.3P.PRES+NEG update.V.PASTPART the.DET.DEF unk
+# speaker = MAR
+# labels =
+1	oh	oh	INTJ	_	_	4	discourse	_	Lang=eng&spa
+2	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+3	haven't	haven't	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	Lang=eng
+4	updated	update	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+5	the	the	DET	_	Definite=Def|PronType=Art	6	det	_	Lang=eng
+6	drawings	drawing	NOUN	_	Number=Plur	4	obj	_	Lang=eng
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:260
+# text = ok .
+# text[orig] = o_k . 890015_890526
+# gloss[orig] = OK.IM
+# speaker = MAR
+# labels =
+1	ok	ok	X	_	Abbr=Yes	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:261
+# text = ok .
+# text[orig] = o_k xxx . 890200_892522
+# gloss[orig] = OK.IM
+# speaker = MAR
+# labels =
+1	ok	ok	X	_	Abbr=Yes	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:262
+# text = I oops !
+# text[orig] = I xxx oops@s:eng&spa ! 892917_894798
+# gloss[orig] = I.PRON.SUB.1S oops.IM.[or].goop.N.SG+SM+PL
+# speaker = MAR
+# labels =
+1	I	I	X	_	_	0	root	_	Lang=eng
+2	oops	oops	INTJ	_	_	1	flat:foreign	_	Lang=eng&spa
+3	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:263
+# text = oops !
+# text[orig] = oops@s:eng&spa ! 895495_896331
+# gloss[orig] = oops.IM.[or].goop.N.SG+SM+PL
+# speaker = MAR
+# labels =
+1	oops	oops	INTJ	_	_	0	root	_	Lang=eng&spa
+2	!	!	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:264
+# text = yeah, that's fine .
+# text[orig] = yeah, that's fine . 897190_898351
+# gloss[orig] = yeah.ADV that.DEM.FAR+BE.V.3S.PRES fine.N.SG
+# speaker = MAR
+# labels =
+1	yeah,	yeah,	INTJ	_	_	3	discourse	_	Lang=eng
+2	that's	that's	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	Lang=eng
+3	fine	fine	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:265
+# text = oh the be here .
+# text[orig] = oh@s:eng&spa the xxx be here . 901160_904086
+# gloss[orig] = oh.IM the.DET.DEF be.N.SG here.ADV
+# speaker = MAR
+# labels =
+1	oh	oh	INTJ	_	_	4	discourse	_	Lang=eng&spa
+2	the	the	X	_	_	4	discourse	_	Lang=eng
+3	be	be	AUX	_	Mood=Imp|VerbForm=Fin	4	cop	_	Lang=eng
+4	here	here	ADV	_	PronType=Dem	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:266
+# text = some .
+# text[orig] = some xxx . 906245_907755
+# gloss[orig] = some.ADJ
+# speaker = MAR
+# labels =
+1	some	some	DET	_	_	0	root	_	Lang=eng
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:267
+# text = and then how would they access ?
+# text[orig] = and then how would they access ? 912283_913699
+# gloss[orig] = and.CONJ then.ADV how.ADV be.V.123SP.COND they.PRON.SUB.3P access.N.SG
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	6	cc	_	Lang=eng
+2	then	then	ADV	_	PronType=Dem	6	advmod	_	Lang=eng
+3	how	how	ADV	_	PronType=Int	6	advmod	_	Lang=eng
+4	would	would	AUX	_	VerbForm=Fin	6	aux	_	Lang=eng
+5	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
+6	access	access	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+7	?	?	PUNCT	_	_	6	punct	_	_
+
+# sent_id = maria4:268
+# text = oh there'd still be a gate ok .
+# text[orig] = oh@s:eng&spa there'd still be a gate o_k . 916114_917716
+# gloss[orig] = oh.IM there.ADV+BE.V.COND still.ADJ be.V.INFIN a.DET.INDEF gate.N.SG OK.IM
+# speaker = MAR
+# labels =
+1	oh	oh	INTJ	_	_	4	discourse	_	Lang=eng&spa
+2	there'd	there'd	PRON	_	_	4	expl	_	Lang=eng
+3	still	still	ADV	_	_	4	advmod	_	Lang=eng
+4	be	be	AUX	_	VerbForm=Inf	0	root	_	Lang=eng
+5	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	Lang=eng
+6	gate	gate	NOUN	_	Number=Sing	4	nsubj	_	Lang=eng
+7	ok	ok	ADV	_	_	4	discourse	_	Lang=eng
+8	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:269
+# text = split it in that .
+# text[orig] = split it in that . 918947_919574
+# gloss[orig] = split.V.INFIN it.PRON.OBJ.3S in.PREP that.DEM.FAR
+# speaker = MAR
+# labels =
+1	split	split	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	Lang=eng
+2	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	obj	_	Lang=eng
+3	in	in	ADP	_	_	4	case	_	Lang=eng
+4	that	that	PRON	_	Number=Sing|PronType=Dem	1	obl	_	Lang=eng
+5	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:270
+# text = it's a good idea .
+# text[orig] = it's a good idea . 919597_920758
+# gloss[orig] = it.PRON.SUB.3S+BE.V.3S.PRES a.DET.INDEF good.ADJ idea.N.SG
+# speaker = MAR
+# labels =
+1	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+2	a	a	DET	_	Definite=Ind|PronType=Art	4	det	_	Lang=eng
+3	good	good	ADJ	_	Degree=Pos	4	amod	_	Lang=eng
+4	idea	idea	NOUN	_	Number=Sing	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:271
+# text = that's a good idea .
+# text[orig] = that's a good idea . 921246_922174
+# gloss[orig] = that.DEM.FAR+BE.V.3S.PRES a.DET.INDEF good.ADJ idea.N.SG
+# speaker = MAR
+# labels =
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	Lang=eng
+2	a	a	DET	_	Definite=Ind|PronType=Art	4	det	_	Lang=eng
+3	good	good	ADJ	_	Degree=Pos	4	amod	_	Lang=eng
+4	idea	idea	NOUN	_	Number=Sing	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:272
+# text = cause it at least hides it .
+# text[orig] = cause it at least hides it . 922360_923405
+# gloss[orig] = cause.N.SG it.PRON.SUB.3S at.PREP least.ADJ hide.SV.INFIN+PL it.PRON.OBJ.3S
+# speaker = MAR
+# labels =
+1	cause	cause	SCONJ	_	_	5	mark	_	Lang=eng
+2	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+3	at	at	ADV	_	_	5	advmod	_	Lang=eng
+4	least	least	ADV	_	Degree=Sup	3	fixed	_	Lang=eng
+5	hides	hide	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+6	it	it	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	Lang=eng
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:273
+# text = cause those things are uglier so .
+# text[orig] = cause those things are uglier so . 923521_924891
+# gloss[orig] = cause.N.SG those.DEM.FAR.PL thing.N.PL are.V.123P.PRES ugly.ADJ.COMP so.ADV
+# speaker = MAR
+# labels =
+1	cause	cause	VERB	_	Mood=Imp|VerbForm=Fin	0	root	_	Lang=eng
+2	those	those	DET	_	Number=Plur|PronType=Dem	3	det	_	Lang=eng
+3	things	thing	NOUN	_	Number=Plur	5	nsubj	_	Lang=eng
+4	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	Lang=eng
+5	uglier	uglier	ADJ	_	Degree=Cmp	1	ccomp	_	Lang=eng
+6	so	so	ADV	_	_	5	advmod	_	Lang=eng
+7	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:274
+# text = that's a good idea .
+# text[orig] = that's a good idea . 926842_927956
+# gloss[orig] = that.DEM.FAR+BE.V.3S.PRES a.DET.INDEF good.ADJ idea.N.SG
+# speaker = MAR
+# labels =
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	4	nsubj	_	Lang=eng
+2	a	a	DET	_	Definite=Ind|PronType=Art	4	det	_	Lang=eng
+3	good	good	ADJ	_	Degree=Pos	4	amod	_	Lang=eng
+4	idea	idea	NOUN	_	Number=Sing	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:275
+# text = yeah right that .
+# text[orig] = yeah right that . 933691_934643
+# gloss[orig] = yeah.ADV right.ADJ that.DEM.FAR
+# speaker = MAR
+# labels =
+1	yeah	yeah	INTJ	_	_	3	discourse	_	Lang=eng
+2	right	right	INTJ	_	_	3	discourse	_	Lang=eng
+3	that	that	PRON	_	Number=Sing|PronType=Dem	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:276
+# text = it's a good idea .
+# text[orig] = it's a good idea . 936919_937523
+# gloss[orig] = it.PRON.SUB.3S+BE.V.3S.PRES a.DET.INDEF good.ADJ idea.N.SG
+# speaker = MAR
+# labels =
+1	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
+2	a	a	DET	_	Definite=Ind|PronType=Art	4	det	_	Lang=eng
+3	good	good	ADJ	_	Degree=Pos	4	amod	_	Lang=eng
+4	idea	idea	NOUN	_	Number=Sing	0	root	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:277
+# text = uh see .
+# text[orig] = uh xxx see . 938637_939450
+# gloss[orig] = uh.IM see.SV.INFIN
+# speaker = MAR
+# labels =
+1	uh	uh	INTJ	_	_	2	discourse	_	Lang=eng
+2	see	see	PRON	_	Case=Nom|Number=Sing|PronType=Dem	0	root	_	Lang=eng
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:278
+# text = what is this thing called again ?
+# text[orig] = what is this thing called again ? 939404_941168
+# gloss[orig] = what.REL is.V.3S.PRES this.DEM.NEAR.SG thing.N.SG call.V.PAST again.ADV
+# speaker = MAR
+# labels =
+1	what	what	PRON	_	PronType=Int	5	obj	_	Lang=eng
+2	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	_	Lang=eng
+3	this	this	DET	_	Number=Sing|PronType=Dem	4	det	_	Lang=eng
+4	thing	thing	NOUN	_	Number=Sing	5	nsubj:pass	_	Lang=eng
+5	called	call	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	Lang=eng
+6	again	again	ADV	_	_	5	advmod	_	Lang=eng
+7	?	?	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:279
+# text = that's the one .
+# text[orig] = that's the one . 944535_945766
+# gloss[orig] = that.DEM.FAR+BE.V.3S.PRES the.DET.DEF one.PRON.SG
+# speaker = MAR
+# labels =
+1	that's	that's	PRON	_	_	3	nsubj	_	Lang=eng
+2	the	the	X	_	Foreign=Yes	1	flat:foreign	_	Lang=eng
+3	one	one	X	_	_	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:280
+# text = now there's water starting to stand up again .
+# text[orig] = now there's water starting to stand up again . 947205_952337
+# gloss[orig] = now.ADV there.PRON+BE.V.3S.PRES water.N.SG start.V.PRESPART to.PREP stand.V.INFIN up.ADV again.ADV
+# speaker = MAR
+# labels =
+1	now	now	ADV	_	_	4	advmod	_	Lang=eng
+2	there's	there's	PRON	_	_	4	expl	_	Lang=eng
+3	water	water	NOUN	_	Number=Sing	0	root	_	Lang=eng
+4	starting	start	VERB	_	VerbForm=Ger	3	acl	_	Lang=eng
+5	to	to	PART	_	_	6	mark	_	Lang=eng
+6	stand	stand	VERB	_	VerbForm=Inf	4	xcomp	_	Lang=eng
+7	up	up	ADP	_	_	6	compound:prt	_	Lang=eng
+8	again	again	ADV	_	_	6	advmod	_	Lang=eng
+9	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:281
+# text = after you haunted me for that recommendation .
+# text[orig] = after you haunted me for that recommendation . 955170_959117
+# gloss[orig] = after.PREP you.PRON.SUB.2SP haunt.V.PAST me.PRON.OBJ.1S for.PREP that.DEM.FAR recommendation.N.SG
+# speaker = MAR
+# labels =
+1	after	after	SCONJ	_	_	3	mark	_	Lang=eng
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	Lang=eng
+3	haunted	haunt	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	me	I	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	obj	_	Lang=eng
+5	for	for	ADP	_	_	7	case	_	Lang=eng
+6	that	that	DET	_	Number=Sing|PronType=Dem	7	det	_	Lang=eng
+7	recommendation	recommendation	NOUN	_	Number=Sing	3	obl	_	Lang=eng
+8	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:282
+# text = and you killed my poor plant .
+# text[orig] = and you killed my poor plant . 960510_962647
+# gloss[orig] = and.CONJ you.PRON.SUB.2SP kill.V.PAST my.ADJ.POSS.1S poor.ADJ plant.N.SG
+# speaker = MAR
+# labels =
+1	and	and	CCONJ	_	_	3	cc	_	Lang=eng
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	Lang=eng
+3	killed	kill	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	Lang=eng
+4	my	my	PRON	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod:poss	_	Lang=eng
+5	poor	poor	ADJ	_	Degree=Pos	6	amod	_	Lang=eng
+6	plant	plant	NOUN	_	Number=Sing	3	obj	_	Lang=eng
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:283
+# text = dígame .
+# text[orig] = [- spa] dígame . 964319_965108
+# gloss[orig] = tell.V.3S.IMPER.PRECLITIC+ME[PRON.MF.1S]
+# speaker = MAR
+# labels =
+1	dígame	dígame	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
+2	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:284
+# text = oh oh .
+# text[orig] = oh@s:eng&spa oh@s:eng&spa . 967384_968127
+# gloss[orig] = oh.IM oh.IM
+# speaker = MAR
+# labels =
+1	oh	oh	INTJ	_	_	0	root	_	Lang=eng&spa
+2	oh	oh	INTJ	_	_	1	discourse	_	Lang=eng&spa
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:285
+# text = that's a lot of water that has been used .
+# text[orig] = that's a lot of water that has been used . 971498_973820
+# gloss[orig] = that.DEM.FAR+BE.V.3S.PRES a.DET.INDEF lot.N.SG of.PREP water.N.SG that.CONJ ha.IM+V.3S.PRES.[or].has.V.3S.PRES been.V.PASTPART use.V.PASTPART
+# speaker = MAR
+# labels =
+1	that's	that's	PRON	_	Number=Sing|PronType=Dem	3	nsubj	_	Lang=eng
+2	a	a	DET	_	Definite=Ind|PronType=Art	3	det	_	Lang=eng
+3	lot	lot	NOUN	_	Number=Sing	0	root	_	Lang=eng
+4	of	of	ADP	_	_	5	case	_	Lang=eng
+5	water	water	NOUN	_	Number=Sing	3	nmod	_	Lang=eng
+6	that	that	PRON	_	PronType=Rel	9	nsubj:pass	_	Lang=eng
+7	has	have	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	Lang=eng
+8	been	be	AUX	_	Tense=Past|VerbForm=Part	9	aux:pass	_	Lang=eng
+9	used	use	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	5	acl:relcl	_	Lang=eng
+10	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:286
+# text = there is in there .
+# text[orig] = there is in there . 973890_975469
+# gloss[orig] = there.ADV is.V.3S.PRES in.PREP there.ADV
+# speaker = MAR
+# labels =
+1	there	there	PRON	_	_	4	nsubj	_	Lang=eng
+2	is	be	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	in	in	ADP	_	_	4	case	_	Lang=eng
+4	there	there	ADV	_	PronType=Dem	2	obl	_	Lang=eng
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = maria4:287
+# text = I put some water and it's coming back and starting
+# text[orig] = I put some water and it's coming back and starting +/. 981552_983851
+# gloss[orig] = I.PRON.SUB.1S put.V.1S.PRES some.ADJ water.N.SG and.CONJ it.PRON.SUB.3S+BE.V.3S.PRES come.V.PRESPART back.ADV and.CONJ start.V.INFIN+ASV
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	put	put	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	some	some	DET	_	_	4	det	_	Lang=eng
+4	water	water	NOUN	_	Number=Sing	2	obj	_	Lang=eng
+5	and	and	CCONJ	_	_	7	cc	_	Lang=eng
+6	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Lang=eng
+7	coming	come	VERB	_	Tense=Pres|VerbForm=Part	2	conj	_	Lang=eng
+8	back	back	ADV	_	_	7	advmod	_	Lang=eng
+9	and	and	CCONJ	_	_	10	cc	_	Lang=eng
+10	starting	start	VERB	_	VerbForm=Ger	7	conj	_	Lang=eng
+
+# sent_id = maria4:288
+# text = wow I have no idea .
+# text[orig] = wow I have no idea . 984803_986916
+# gloss[orig] = wow.IM I.PRON.SUB.1S have.V.1S.PRES no.ADV idea.N.SG
+# speaker = MAR
+# labels =
+1	wow	wow	INTJ	_	_	3	discourse	_	Lang=eng
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+3	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	no	no	DET	_	_	5	det	_	Lang=eng
+5	idea	idea	NOUN	_	Number=Sing	3	obj	_	Lang=eng
+6	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:289
+# text = haven' gone to that point yet .
+# text[orig] = haven' gone to that point yet . 986916_988379
+# gloss[orig] = unk gone.AV.PAST to.PREP that.DEM.FAR point.N.SG yet.CONJ
+# speaker = MAR
+# labels =
+1	haven'	haven'	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	2	aux	_	Lang=eng
+2	gone	go	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=eng
+3	to	to	ADP	_	_	5	case	_	Lang=eng
+4	that	that	DET	_	Number=Sing|PronType=Dem	5	det	_	Lang=eng
+5	point	point	NOUN	_	Number=Sing	2	obl	_	Lang=eng
+6	yet	yet	ADV	_	_	2	advmod	_	Lang=eng
+7	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:290
+# text = I don't know .
+# text[orig] = I don't know . 988147_988867
+# gloss[orig] = I.PRON.SUB.1S do.V.1S.PRES+NEG know.V.INFIN
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	don't	don't	X	_	_	3	advmod	_	Lang=eng
+3	know	know	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = maria4:291
+# text = I think it's not edible or not for consumption or someth(ing
+# text[orig] = I think it's not edible or not for consumption or someth(ing) +//. 989099_992675
+# gloss[orig] = I.PRON.SUB.1S think.V.1S.PRES it.PRON.SUB.3S+BE.V.3S.PRES not.ADV edible.ADJ or.CONJ not.ADV for.PREP consumption.N.SG or.CONJ something.PRON
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
+2	think	think	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+4	not	not	PART	_	_	5	advmod	_	Lang=eng
+5	edible	edible	ADJ	_	Degree=Pos	2	ccomp	_	Lang=eng
+6	or	or	CCONJ	_	_	7	cc	_	Lang=eng
+7	not	not	PART	_	_	5	conj	_	Lang=eng
+8	for	for	ADP	_	_	9	case	_	Lang=eng
+9	consumption	consumption	NOUN	_	Number=Sing	5	obl	_	Lang=eng
+10	or	or	CCONJ	_	_	11	cc	_	Lang=eng
+11	someth(ing	someth(ing	NOUN	_	Number=Sing	9	conj	_	Lang=eng
+
+# sent_id = maria4:292
+# text = hey Goldman .
+# text[orig] = hey Goldman@s:eng&spa . 995182_996645
+# gloss[orig] = hey.IM name
+# speaker = MAR
+# labels =
+1	hey	hey	INTJ	_	_	2	discourse	_	Lang=eng
+2	Goldman	Goldman	PROPN	_	Number=Sing	0	root	_	Lang=eng&spa
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = maria4:293
+# text = there's a pie up hang lonely out here .
+# text[orig] = there's a pie up hang lonely out here . 998699_1001346
+# gloss[orig] = there.PRON+BE.V.3S.PRES a.DET.INDEF pie.N.SG up.ADV hang.SV.INFIN lonely.ADJ.[or].lone.ADJ+ADV out.ADV here.ADV
+# speaker = MAR
+# labels =
+1	there's	there's	PRON	_	_	5	expl	_	Lang=eng
+2	a	a	DET	_	Definite=Ind|PronType=Art	3	det	_	Lang=eng
+3	pie	pie	NOUN	_	Number=Sing	4	compound	_	Lang=eng
+4	up	up	ADP	_	_	0	root	_	Lang=eng
+5	hang	hang	VERB	_	VerbForm=Inf	3	appos	_	Lang=eng
+6	lonely	lonely	ADV	_	Degree=Pos	5	advmod	_	Lang=eng
+7	out	out	ADV	_	_	8	advmod	_	Lang=eng
+8	here	here	ADV	_	PronType=Dem	5	advmod	_	Lang=eng
+9	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = maria4:294
+# text = oh you are work(ing)!
+# text[orig] = oh@s:eng&spa you are work(ing)! 1002321_1003343
+# gloss[orig] = 
+# speaker = MAR
+# labels =
+1	oh	oh	INTJ	_	_	4	discourse	_	Lang=eng&spa
+2	you	you	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	Lang=eng
+3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=eng
+4	work(ing)!	work(ing)!	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+
+# sent_id = maria4:295
+# text = I'm so sorry .
+# text[orig] = I'm so sorry . 1003459_1004480
+# gloss[orig] = I.PRON.SUB.1S+BE.V.PRES so.ADV sorry.ADJ
+# speaker = MAR
+# labels =
+1	I'm	i'm	X	_	Foreign=Yes	0	root	_	Lang=eng
+2	so	so	X	_	_	1	advmod	_	Lang=eng
+3	sorry	sorry	X	_	Foreign=Yes	1	flat:foreign	_	Lang=eng
+4	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = maria4:296
+# text = I humbly beg forgiveness .
+# text[orig] = I humbly beg forgiveness . 1005293_1007081
+# gloss[orig] = I.PRON.SUB.1S humbly.ADV beg.SV.INFIN forgiveness.N.SG
+# speaker = MAR
+# labels =
+1	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	humbly	humbly	NOUN	_	Number=Sing	3	advmod	_	Lang=eng
+3	beg	beg	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	forgiveness	forgiveness	NOUN	_	Number=Sing	3	obj	_	Lang=eng
+5	.	.	PUNCT	_	_	3	punct	_	_
