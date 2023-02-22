@@ -597,7 +597,7 @@
 # gloss[orig] = hear.V.2S.IMPER thing.N.PL are.V.123P.PRES bad.ADJ
 # speaker = OLI
 # labels =
-1	oye	oye	X	_	_	2	compound	_	Lang=spa
+1	oye	oye	VERB	_	_	2	compound	_	Lang=spa
 2	things	thing	NOUN	_	Number=Plur	4	nsubj	_	Lang=eng
 3	are	be	AUX	_	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=eng
 4	bad	bad	ADJ	_	Degree=Pos	0	root	_	Lang=eng
@@ -636,16 +636,16 @@
 # gloss[orig] = then.ADV now.ADV it.PRON.SUB.3S make.V.3S.PRES sense.N.SG because.CONJ I.PRON.SUB.1S told.V.PAST him.PRON.OBJ.M.3S
 # speaker = MAS
 # labels =
-1	entonces	entonces	ADV	_	_	3	advmod	_	Lang=spa
-2	ahora	ahora	ADV	_	_	3	advmod	_	Lang=spa
-3	it	it	PROPN	_	_	0	root	_	Lang=eng
-4	makes	makes	PROPN	_	_	3	flat	_	Lang=eng
-5	sense	sense	PROPN	_	_	3	flat	_	Lang=eng
-6	because	because	PROPN	_	_	3	flat	_	Lang=eng
-7	I	i	PROPN	_	_	3	flat	_	Lang=eng
-8	told	told	PROPN	_	_	3	flat	_	Lang=eng
-9	him	him	PROPN	_	_	3	flat	_	Lang=eng
-10	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+1	entonces	entonces	ADV	_	_	4	advmod	_	Lang=spa
+2	ahora	ahora	ADV	_	_	4	advmod	_	Lang=spa
+3	it	it	PRON	_	_	4	nsubj	_	Lang=eng
+4	makes	makes	VERB	_	_	0	root	_	Lang=eng
+5	sense	sense	NOUN	_	_	4	obj	_	Lang=eng
+6	because	because	SCONJ	_	_	8	mark	_	Lang=eng
+7	I	i	PRON	_	_	8	nsubj	_	Lang=eng
+8	told	told	VERB	_	_	4	advcl	_	Lang=eng
+9	him	him	PRON	_	_	8	obj	_	Lang=eng
+10	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
 
 # sent_id = sastre3:240
 # text = yo soy el lieutenant .
@@ -704,13 +704,15 @@
 # gloss[orig] = but.CONJ I.PRON.SUB.1S+BE.V.PRES glad.ADJ than.CONJ him.PRON.OBJ.M.3S accept.V.3S.PAST
 # speaker = MAS
 # labels =
-1	pero	pero	CCONJ	_	_	2	cc	_	Lang=spa
-2	I'm	i'm	X	_	_	0	root	_	Lang=eng
-3	glad	glad	X	_	_	2	flat	_	Lang=eng
-4	que	que	SCONJ	_	_	6	mark	_	Lang=spa
-5	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	6	obj	_	Lang=spa
-6	aceptó	aceptar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	Lang=spa
-7	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+1	pero	pero	CCONJ	_	_	4	conj	_	Lang=spa
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	i'm	PRON	_	_	4	nsubj	_	Lang=eng
+3	'm	_	AUX	_	_	4	cop	_	_
+4	glad	glad	ADJ	_	_	0	root	_	Lang=eng
+5	que	que	SCONJ	_	_	7	mark	_	Lang=spa
+6	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	obj	_	Lang=spa
+7	aceptó	aceptar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	advcl	_	Lang=spa
+8	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = sastre3:276
 # text = para ahora ahora cuando estuv(iste) estuviste con yo lo dije a él it means a promotion .
@@ -780,9 +782,9 @@
 # speaker = LAN
 # labels =
 1	hacen	hacer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
-2	crosstrai(ning	crosstrai(ning	X	_	Gender=Masc|Number=Sing	1	obj	_	Lang=eng
+2	crosstrai(ning	crosstrai(ning	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	Lang=eng
 3	hacen	hacer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	Lang=spa
-4	crosstraining	crosstraining	X	_	Gender=Masc|Number=Sing	3	obj	_	Lang=eng
+4	crosstraining	crosstraining	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Lang=eng
 5	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = sastre3:297
@@ -795,7 +797,7 @@
 2	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	3	obj	_	Lang=spa
 3	hicieron	hacer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Lang=spa
-5	crosstraining	crosstraining	X	_	Gender=Masc|Number=Sing	3	obl	_	Lang=eng
+5	crosstraining	crosstraining	NOUN	_	Gender=Masc|Number=Sing	3	obl	_	Lang=eng
 6	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre3:298
@@ -804,9 +806,9 @@
 # gloss[orig] = yes.ADV but.CONJ fix.V.2S.IMPER.PRECLITIC+TE[PRON.MF.2S] that.CONJ to.PREP you.PRON.PREP.MF.2S yet.ADV not.ADV you.PRON.OBL.MF.2S have.V.3P.PRES put.V.PASTPART the.DET.DEF.M.SG assistant.N.SG there.ADV to.PREP work.V.INFIN
 # speaker = OLI
 # labels =
-1	sí	sí	ADV	_	_	0	root	_	Lang=spa
+1	sí	sí	ADV	_	_	3	dep	_	Lang=spa
 2	pero	pero	CCONJ	_	_	3	cc	_	Lang=spa
-3	fíjate	fíjate	VERB	_	Gender=Masc|Number=Sing|VerbForm=Fin	1	conj	_	Lang=spa
+3	fíjate	fíjate	VERB	_	Gender=Masc|Number=Sing|VerbForm=Fin	0	root	_	Lang=spa
 4	que	que	SCONJ	_	_	11	mark	_	Lang=spa
 5	a	a	ADP	_	_	6	case	_	Lang=spa
 6	ti	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	11	iobj	_	Lang=spa
@@ -832,7 +834,7 @@
 2	budget	budget	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	Lang=eng
 3	de	de	ADP	_	_	4	case	_	Lang=spa
 4	nosotros	yo	PRON	_	Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	nmod	_	Lang=spa
-5	pa(ra)	pa(ra)	X	_	_	6	cop	_	Lang=spa
+5	para	para	ADP	_	_	6	cop	_	Lang=spa
 6	bajo	bajo	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
 7	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -848,10 +850,10 @@
 4	se	él	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	5	iobj	_	Lang=spa
 5	iban	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Lang=spa
 6	con	con	ADP	_	_	10	case	_	Lang=spa
-7	a	a	X	_	_	10	det	_	Lang=eng
-8	hundred	hundred	X	_	NumType=Card	10	nummod	_	Lang=eng
-9	thousand	thousand	X	_	NumType=Card	10	nummod	_	Lang=eng
-10	dollars	dollars	X	_	_	5	obl	_	Lang=eng
+7	a	a	DET	_	_	10	det	_	Lang=eng
+8	hundred	hundred	NUM	_	NumType=Card	10	nummod	_	Lang=eng
+9	thousand	thousand	NUM	_	NumType=Card	10	nummod	_	Lang=eng
+10	dollars	dollars	NOUN	_	_	5	obl	_	Lang=eng
 11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = sastre3:318
@@ -872,19 +874,19 @@
 # gloss[orig] = they.PRON.SUB.3P go.V.3P.PRES into.PREP the.DET.DEF university.N.SG to.PREP the.DET.DEF.F.SG to.PREP the.DET.DEF.F.SG town.N.F.SG and.CONJ that.PRON.DEM.NT.SG
 # speaker = MAS
 # labels =
-1	they	they	PRON	_	_	0	root	_	Lang=eng
-2	go	go	X	_	_	1	flat:foreign	_	Lang=eng
-3	into	into	X	_	_	1	flat:foreign	_	Lang=eng
-4	the	the	DET	_	_	1	flat:foreign	_	Lang=eng
-5	university	university	X	_	_	1	flat:foreign	_	Lang=eng
-6	a	a	X	_	_	10	case	_	Lang=spa
-7	la	la	X	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	fixed	_	Lang=spa
+1	they	they	PRON	_	_	2	nsubj	_	Lang=eng
+2	go	go	VERB	_	_	0	root	_	Lang=eng
+3	into	into	ADP	_	_	5	case	_	Lang=eng
+4	the	the	DET	_	_	5	det	_	Lang=eng
+5	university	university	NOUN	_	_	2	obl	_	Lang=eng
+6	a	a	ADP	_	_	8	reparandum	_	Lang=spa
+7	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	reparandum	_	Lang=spa
 8	a	a	ADP	_	_	10	case	_	Lang=spa
 9	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	Lang=spa
-10	ciudad	ciudad	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	Lang=spa
+10	ciudad	ciudad	NOUN	_	Gender=Fem|Number=Sing	5	conj	_	Lang=spa
 11	y	y	CCONJ	_	_	12	cc	_	Lang=spa
-12	eso	ese	PRON	_	Number=Sing|PronType=Dem	1	conj	_	Lang=spa
-13	.	.	PUNCT	_	_	1	punct	_	_
+12	eso	ese	PRON	_	Number=Sing|PronType=Dem	_	_	_	Lang=spa
+13	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = sastre3:322
 # text = minimum cincuenta mil por persona .
@@ -905,13 +907,15 @@
 # gloss[orig] = we.PRON.SUB.M.1P we.PRON.SUB.1P do.V.12S13P.PRES+NEG see.V.INFIN no.ADV list.N.SG
 # speaker = MAS
 # labels =
-1	nosotros	yo	PRON	_	Gender=Masc|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Lang=spa
-2	we	we	PRON	_	Number=Sing|Person=3	1	dep	_	Lang=eng
-3	don't	don't	X	_	Gender=Masc|Number=Sing	1	flat	_	Lang=eng
-4	see	see	X	_	VerbForm=Inf	0	root	_	Lang=eng
-5	no	no	X	_	Foreign=Yes	6	compound	_	Lang=eng
-6	list	list	X	_	Number=Sing	2	flat	_	Lang=eng
-7	.	.	PUNCT	_	_	1	punct	_	_
+1	nosotros	yo	PRON	_	Gender=Masc|Number=Plur|Person=1|PronType=Prs	5	dislocated	_	Lang=spa
+2	we	we	PRON	_	Number=Sing|Person=3	5	nsubj	_	Lang=eng
+3-4	don't	_	_	_	_	_	_	_	_
+3	do	don't	AUX	_	Gender=Masc|Number=Sing	5	aux	_	Lang=eng
+4	n't	_	ADV	_	_	5	advmod	_	_
+5	see	see	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+6	no	no	ADV	_	Foreign=Yes	7	advmod	_	Lang=eng
+7	list	list	NOUN	_	Number=Sing	5	obj	_	Lang=eng
+8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = sastre3:350
 # text = ayer tuvimos este un grupo no sé si fueron a un training bureau los alemanes .
