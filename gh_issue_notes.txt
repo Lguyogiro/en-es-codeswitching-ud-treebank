@@ -1,0 +1,7 @@
+make issue about annotating "tener que"...in AnCora there is at least one case with "tiene que ser" annotated as cc(ser, que)...should be mark right?
+
+inconsistencies in spanish AnCora wrt the annotation of "Mira, ". I think it should be discourse...
+related to above: annotation of confirmational "you know"
+
+inconsistent annotation of "cada vez que" in AnCora
+

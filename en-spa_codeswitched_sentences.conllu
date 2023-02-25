@@ -1021,23 +1021,6 @@
 34	academy	academy	PROPN	_	Number=Sing	31	obl	_	Lang=eng
 35	.	.	PUNCT	_	_	4	punct	_	_
 
-# sent_id = sastre3:368
-# text = entonces la um la morena empezó a hablar ahí .
-# text[orig] = entonces@s:spa la@s:spa um xxx la@s:spa morena@s:spa empezó@s:spa a@s:spa hablar@s:spa ahí@s:spa . 871542_876403
-# gloss[orig] = then.ADV the.DET.DEF.F.SG um.IM the.DET.DEF.F.SG brunette.N.F.SG start.V.3S.PAST to.PREP talk.V.INFIN there.ADV
-# speaker = MAS
-# labels =
-1	entonces	entonces	ADV	_	_	8	advmod	_	Lang=spa
-2	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Lang=spa
-3	um	um	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	Lang=eng
-4	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Lang=spa
-5	morena	moreno	NOUN	_	Gender=Fem|Number=Sing	3	appos	_	Lang=spa
-6	empezó	empezar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux	_	Lang=spa
-7	a	a	ADP	_	AdpType=Prep	8	mark	_	Lang=spa
-8	hablar	hablar	VERB	_	VerbForm=Inf	0	root	_	Lang=spa
-9	ahí	ahí	ADV	_	_	8	advmod	_	Lang=spa
-10	.	.	PUNCT	_	PunctType=Peri	8	punct	_	_
-
 # sent_id = sastre3:400
 # text = ah tú tenías el lunch that dinner the other day .
 # text[orig] = ah@s:eng&spa tú@s:spa tenías@s:spa el@s:spa lunch@s:eng&spa that dinner the other day . 940786_943813
@@ -1048,12 +1031,12 @@
 2	tú	tú	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	Lang=spa
 3	tenías	teníer	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 4	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Lang=spa
-5	lunch	lunch	X	_	Gender=Masc|Number=Sing	3	obj	_	Lang=eng&spa
-6	that	that	X	_	Number=Sing	5	flat	_	Lang=eng
-7	dinner	dinner	X	_	Number=Sing	5	flat	_	Lang=eng
-8	the	the	DET	_	Number=Sing	5	flat	_	Lang=eng
-9	other	other	X	_	Number=Sing	5	flat	_	Lang=eng
-10	day	day	X	_	Number=Sing	5	flat	_	Lang=eng
+5	lunch	lunch	NOUN	_	Gender=Masc|Number=Sing	7	reparandum	_	Lang=eng&spa
+6	that	that	DET	_	Number=Sing	7	det	_	Lang=eng
+7	dinner	dinner	NOUN	_	Number=Sing	3	obj	_	Lang=eng
+8	the	the	DET	_	Number=Sing	10	det	_	Lang=eng
+9	other	other	DET	_	Number=Sing	10	det	_	Lang=eng
+10	day	day	NOUN	_	Number=Sing	3	obl	_	Lang=eng
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre3:402
@@ -1085,16 +1068,18 @@
 10	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	11	det	_	Lang=spa
 11	aplicación	aplicación	NOUN	_	Gender=Fem|Number=Sing	9	obj	_	Lang=spa
 12	y	y	CCONJ	_	_	13	cc	_	Lang=spa
-13	sentirse	sentirse	VERB	_	VerbForm=Inf	9	conj	_	Lang=spa
-14	de	de	ADP	_	_	15	case	_	Lang=spa
-15	ello	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	Lang=spa
-16	como	como	ADP	_	_	17	case	_	Lang=spa
-17	I	i	PROPN	_	_	13	obl	_	Lang=eng
-18	did	did	X	_	_	17	flat	_	Lang=eng
-19	something	something	PROPN	_	Number=Sing	17	flat	_	Lang=eng
-20	you	you	PROPN	_	Number=Sing	19	compound	_	Lang=eng
-21	know	know	PROPN	_	Number=Sing	17	flat	_	Lang=eng
-22	.	.	PUNCT	_	_	2	punct	_	_
+13-14	sentirse	_	_	_	_	_	_	_	_
+13	sentir	sentirse	VERB	_	VerbForm=Inf	9	conj	_	Lang=spa
+14	se	_	PRON	_	_	13	iobj	_	_
+15	de	de	ADP	_	_	16	case	_	Lang=spa
+16	ello	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	obl	_	Lang=spa
+17	como	como	ADP	_	_	18	case	_	Lang=spa
+18	I	i	PROPN	_	_	19	nsubj	_	Lang=eng
+19	did	did	VERB	_	_	13	ccomp	_	Lang=eng
+20	something	something	PROPN	_	Number=Sing	19	obj	_	Lang=eng
+21	you	you	PROPN	_	Number=Sing	22	nsubj	_	Lang=eng
+22	know	know	PROPN	_	Number=Sing	19	discourse	_	Lang=eng
+23	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = sastre3:443
 # text = esto esto lo hizo el el programmer este emm
@@ -1102,15 +1087,15 @@
 # gloss[orig] = this.PRON.DEM.NT.SG this.PRON.DEM.NT.SG him.PRON.OBJ.M.3S do.V.3S.PAST the.DET.DEF.M.SG the.DET.DEF.M.SG programmer.N.SG this.PRON.DEM.M.SG unk
 # speaker = MAS
 # labels =
-1	esto	este	PRON	_	Number=Sing|PronType=Dem	4	obj	_	Lang=spa
-2	esto	este	PRON	_	Number=Sing|PronType=Dem	4	obj	_	Lang=spa
+1	esto	este	PRON	_	Number=Sing|PronType=Dem	2	reparandum	_	Lang=spa
+2	esto	este	PRON	_	Number=Sing|PronType=Dem	4	dislocated	_	Lang=spa
 3	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	_	Lang=spa
 4	hizo	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
-5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Lang=spa
-6	el	el	X	_	_	7	det	_	Lang=spa
-7	programmer	programmer	X	_	Gender=Masc|Number=Sing	4	nsubj	_	Lang=eng
+5	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	reparandum	_	Lang=spa
+6	el	el	DET	_	_	7	det	_	Lang=spa
+7	programmer	programmer	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	Lang=eng
 8	este	este	DET	_	Gender=Masc|Number=Sing|PronType=Dem	9	det	_	Lang=spa
-9	emm	emm	X	_	_	4	dep	_	Lang=eng&spa
+9	emm	emm	INTJ	_	_	4	discourse	_	Lang=eng&spa
 
 # sent_id = sastre3:448
 # text = y qué pasa que entonces en vez de él aplicarle esto el lieutenant took it upon himself .
@@ -1122,20 +1107,20 @@
 2	qué	qué	PRON	_	Number=Sing|PronType=Int,Rel	3	nsubj	_	Lang=spa
 3	pasa	pasar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 4	que	que	SCONJ	_	_	14	mark	_	Lang=spa
-5	entonces	entonces	ADV	_	_	10	advmod	_	Lang=spa
-6	en	en	ADP	_	_	10	mark	_	Lang=spa
-7	vez	vez	NOUN	_	Gender=Fem|Number=Sing	6	fixed	_	Lang=spa
-8	de	de	ADP	_	_	6	fixed	_	Lang=spa
-9	él	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obl	_	Lang=spa
-10	aplicarle	aplicarl	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	3	advcl	_	Lang=spa
+5	entonces	entonces	ADV	_	_	14	advmod	_	Lang=spa
+6	en	en	ADP	_	_	7	case	_	Lang=spa
+7	vez	vez	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	Lang=spa
+8	de	de	ADP	_	_	10	mark	_	Lang=spa
+9	él	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Lang=spa
+10	aplicarle	aplicarl	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	Lang=spa
 11	esto	este	PRON	_	Number=Sing|PronType=Dem	10	obj	_	Lang=spa
 12	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	Lang=spa
-13	lieutenant	lieutenant	X	_	Gender=Masc|Number=Sing	10	nsubj	_	Lang=eng
-14	took	took	X	_	_	13	flat	_	Lang=eng
-15	it	it	PRON	_	_	13	flat	_	Lang=eng
-16	upon	upon	X	_	_	13	flat	_	Lang=eng
-17	himself	himself	X	_	_	13	nmod	_	Lang=eng
-18	.	.	PUNCT	_	_	3	punct	_	_
+13	lieutenant	lieutenant	NOUN	_	Gender=Masc|Number=Sing	14	nsubj	_	Lang=eng
+14	took	took	VERB	_	_	3	parataxis	_	Lang=eng
+15	it	it	PRON	_	_	14	obj	_	Lang=eng
+16	upon	upon	ADP	_	_	17	case	_	Lang=eng
+17	himself	himself	PRON	_	_	14	obl	_	Lang=eng
+18	.	.	PUNCT	_	_	14	punct	_	_
 
 # sent_id = sastre3:467
 # text = ay es verdad que it was noticeable .
@@ -1146,10 +1131,10 @@
 1	ay	ay	ADV	_	_	3	advmod	_	Lang=spa
 2	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=spa
 3	verdad	verdad	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Lang=spa
-4	que	que	SCONJ	_	_	5	mark	_	Lang=spa
-5	it	it	PRON	_	_	3	nsubj	_	Lang=eng
-6	was	was	X	_	Number=Sing|Person=3	5	flat	_	Lang=eng
-7	noticeable	noticeable	X	_	Number=Sing	5	flat	_	Lang=eng
+4	que	que	SCONJ	_	_	7	mark	_	Lang=spa
+5	it	it	PRON	_	_	7	nsubj	_	Lang=eng
+6	was	was	AUX	_	Number=Sing|Person=3	7	cop	_	Lang=eng
+7	noticeable	noticeable	ADJ	_	Number=Sing	3	csubj	_	Lang=eng
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre3:476
@@ -1159,8 +1144,8 @@
 # speaker = MAS
 # labels =
 1	the	the	DET	_	Definite=Def|PronType=Art	3	det	_	Lang=eng
-2	lieutenant	lieutenant	NOUN	_	Number=Sing	3	compound	_	Lang=eng
-3	dice	dic	NOUN	_	Number=Plur	0	root	_	Lang=spa
+2	lieutenant	lieutenant	NOUN	_	Number=Sing	3	nsubj	_	Lang=eng
+3	dice	decir	NOUN	_	Number=Plur	0	root	_	Lang=spa
 
 # sent_id = sastre3:479
 # text = but he takes advice todos los meetings .
@@ -1172,8 +1157,8 @@
 2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
 3	takes	take	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
 4	advice	advice	NOUN	_	Number=Sing	3	obj	_	Lang=eng
-5	todos	todos	PROPN	_	_	7	compound	_	Lang=spa
-6	los	los	PROPN	_	Number=Sing	7	compound	_	Lang=spa
+5	todos	todos	PROPN	_	_	7	det	_	Lang=spa
+6	los	los	PROPN	_	Number=Sing	7	det	_	Lang=spa
 7	meetings	meeting	NOUN	_	Number=Plur	3	obl	_	Lang=eng
 8	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1184,12 +1169,14 @@
 # speaker = MAS
 # labels =
 1	o	o	INTJ	_	_	2	discourse	_	Lang=spa
-2	sea	sea	NOUN	_	Number=Sing	6	discourse	_	Lang=spa
-3	they're	they're	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
-4	never	never	ADV	_	_	6	advmod	_	Lang=eng
-5	gonna	gonna	AUX	_	Tense=Past|VerbForm=Part	6	aux	_	Lang=eng
-6	know	know	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
-7	.	.	PUNCT	_	_	6	punct	_	_
+2	sea	sea	NOUN	_	Number=Sing	7	discourse	_	Lang=spa
+3-4	they're	_	_	_	_	_	_	_	_
+3	they	they're	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	_	Lang=eng
+4	're	_	AUX	_	_	7	aux	_	_
+5	never	never	ADV	_	_	7	advmod	_	Lang=eng
+6	gonna	gonna	AUX	_	Tense=Past|VerbForm=Part	7	aux	_	Lang=eng
+7	know	know	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = sastre3:493
 # text = sí porque te acuerdas de the county the county um emplea y hay una posición para secretary right .
@@ -1197,24 +1184,24 @@
 # gloss[orig] = yes.ADV because.CONJ you.PRON.OBL.MF.2S remind.V.2S.PRES of.PREP the.DET.DEF county.N.SG the.DET.DEF county.N.SG um.IM employ.V.2S.IMPER.[or].employ.V.3S.PRES and.CONJ there_is.V.3S.PRES a.DET.INDEF.F.SG stand.N.F.SG for.PREP secretary.N.SG right.ADJ
 # speaker = MAS
 # labels =
-1	sí	sí	ADV	_	_	4	advmod	_	Lang=spa
+1	sí	sí	INTJ	_	_	4	discourse	_	Lang=spa
 2	porque	porque	SCONJ	_	_	4	mark	_	Lang=spa
 3	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	4	iobj	_	Lang=spa
 4	acuerdas	acuerdar	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 5	de	de	ADP	_	_	7	case	_	Lang=spa
-6	the	the	DET	_	PronType=Ind	4	obl	_	Lang=eng
-7	county	county	X	_	Gender=Masc|Number=Sing	4	obl	_	Lang=eng
+6	the	the	DET	_	PronType=Ind	_	_	_	Lang=eng
+7	county	county	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	Lang=eng
 8	the	the	DET	_	Number=Sing	9	det	_	Lang=eng
-9	county	county	PROPN	_	Gender=Masc|Number=Sing	6	flat	_	Lang=eng
-10	um	um	PRON	_	_	11	det	_	Lang=eng
+9	county	county	PROPN	_	Gender=Masc|Number=Sing	_	_	_	Lang=eng
+10	um	um	INTJ	_	_	11	discourse	_	Lang=eng
 11	emplea	emplea	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	parataxis	_	Lang=spa
 12	y	y	CCONJ	_	_	13	cc	_	Lang=spa
-13	hay	haber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Lang=spa
+13	hay	haber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	Lang=spa
 14	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	15	det	_	Lang=spa
-15	posición	posición	NOUN	_	Gender=Fem|Number=Sing	13	obj	_	Lang=spa
+15	posición	posición	NOUN	_	Gender=Fem|Number=Sing	13	nsubj	_	Lang=spa
 16	para	para	ADP	_	_	17	case	_	Lang=spa
-17	secretary	secretary	X	_	_	15	nmod	_	Lang=eng
-18	right	right	X	_	Number=Sing	17	flat	_	Lang=eng
+17	secretary	secretary	NOUN	_	_	15	nmod	_	Lang=eng
+18	right	right	INTJ	_	Number=Sing	17	discourse	_	Lang=eng
 19	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre3:494
@@ -1225,7 +1212,7 @@
 # labels =
 1	no	no	ADV	_	Polarity=Neg	5	advmod	_	Lang=spa
 2	tiene	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	Lang=spa
-3	que	que	CCONJ	_	_	2	fixed	_	Lang=spa
+3	que	que	CCONJ	_	_	5	mark	_	Lang=spa
 4	estar	estar	AUX	_	VerbForm=Inf	5	aux	_	Lang=spa
 5	tracking	trackr	VERB	_	VerbForm=Ger	0	root	_	Lang=eng
 6	cosas	cosa	NOUN	_	Gender=Fem|Number=Plur	5	obj	_	Lang=spa
@@ -1239,7 +1226,7 @@
 # labels =
 1	no	no	ADV	_	Polarity=Neg	3	advmod	_	Lang=eng&spa
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Lang=spa
-3	assessment	assessment	X	_	_	0	root	_	Lang=eng
+3	assessment	assessment	NOUN	_	_	0	root	_	Lang=eng
 4	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre3:573
@@ -1247,9 +1234,9 @@
 # text[orig] = después@s:spa me@s:spa dio@s:spa hiccup . 1507512_1508778
 # gloss[orig] = afterwards.ADV me.PRON.OBL.MF.1S give.V.3S.PAST hiccup.N.SG
 # speaker = LAN
-# labels =
+# labels = re-check
 1	después	después	ADV	_	_	3	advmod	_	Lang=spa
-2	me	yo	PRON	_	Number=Sing|Person=1|PronType=Prs	3	obj	_	Lang=spa
+2	me	yo	PRON	_	Number=Sing|Person=1|PronType=Prs	3	iobj	_	Lang=spa
 3	dio	dar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
 4	hiccup	hiccup	NOUN	_	_	3	obj	_	Lang=eng
 5	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
@@ -1262,7 +1249,7 @@
 # labels =
 1	well	well	INTJ	_	_	2	discourse	_	Lang=eng
 2	cangrejo	cangrejo	PROPN	_	_	0	root	_	Lang=spa
-3	whatever	whatever	X	_	PronType=Int	2	obj	_	Lang=eng
+3	whatever	whatever	PRON	_	PronType=Int	2	nmod	_	Lang=eng
 4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = sastre3:591
@@ -1276,21 +1263,11 @@
 3	then	then	ADV	_	PronType=Dem	5	advmod	_	Lang=eng
 4	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
 5	know	know	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
-6	what	what	PRON	_	PronType=Int	8	obl	_	Lang=eng
+6	what	what	PRON	_	PronType=Int	5	obj	_	Lang=eng
 7	you're	you're	PRON	_	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	Lang=eng
-8	talking	talk	VERB	_	Tense=Pres|VerbForm=Part	5	ccomp	_	Lang=eng
+8	talking	talk	VERB	_	Tense=Pres|VerbForm=Part	6	acl:relcl	_	Lang=eng
 9	about	about	ADP	_	_	6	case	_	Lang=eng
 10	.	.	PUNCT	_	_	5	punct	_	_
-
-# sent_id = sastre3:598
-# text = otro más .
-# text[orig] = otro@s:spa más &=laughs . 1554907_1556266
-# gloss[orig] = other.PRON.M.SG unk
-# speaker = MAS
-# labels =
-1	otro	otro	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	Lang=spa
-2	más	más	ADV	_	_	1	advmod	_	Lang=eng
-3	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = sastre3:599
 # text = anyhow y entonces pues cogí un montón .
@@ -1313,16 +1290,16 @@
 # gloss[orig] = afterwards.ADV of.PREP afterwards.ADV tell.V.3P.PRES that.PRON.DEM.NT.SG and.CONJ want.V.3P.PRES more.ADV no.ADV way.N.SG
 # speaker = MAS
 # labels =
-1	después	después	ADV	_	_	4	advmod	_	Lang=spa
+1	después	después	ADV	_	_	3	reparandum	_	Lang=spa
 2	de	de	ADP	_	_	1	fixed	_	Lang=spa
-3	después	después	ADV	_	_	1	advmod	_	Lang=spa
+3	después	después	ADV	_	_	4	advmod	_	Lang=spa
 4	dicen	decir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 5	eso	ese	PRON	_	Number=Sing|PronType=Dem	4	obj	_	Lang=spa
 6	y	y	CCONJ	_	_	7	cc	_	Lang=spa
 7	quieren	querer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	Lang=spa
 8	más	más	ADV	_	_	7	advmod	_	Lang=spa
-9	no	no	ADV	_	Polarity=Neg	10	advmod	_	Lang=eng
-10	way	way	X	_	_	7	obj	_	Lang=eng
+9	no	no	ADV	_	Polarity=Neg	7	discourse	_	Lang=eng
+10	way	way	NOUN	_	_	9	fixed	_	Lang=eng
 11	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = sastre3:645
@@ -1330,8 +1307,8 @@
 # text[orig] = so él@s:spa está@s:spa como@s:spa [/] (.) como@s:spa +... 1688720_1692617
 # gloss[orig] = so.ADV he.PRON.SUB.M.3S be.V.3S.PRES like.CONJ eat.V.1S.PRES
 # speaker = OLI
-# labels =
-1	so	so	X	_	_	2	case	_	Lang=eng
+# labels = needs-recheck
+1	so	so	ADV	_	_	2	advmod	_	Lang=eng
 2	él	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=spa
 3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	Lang=spa
 4	como	como	ADP	_	_	5	case	_	Lang=spa
@@ -1343,15 +1320,17 @@
 # gloss[orig] = but.CONJ he.PRON.SUB.M.3S does.V.3S.PRES+NEG know.SV.INFIN his.ADJ.POSS.M.3S way.N.SG around.ADV downtown.N.SG
 # speaker = OLI
 # labels =
-1	pero	pero	CCONJ	_	_	4	cc	_	Lang=spa
-2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
-3	doesn't	doesn't	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	Lang=eng
-4	know	know	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
-5	his	he	PRON	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	Lang=eng
-6	way	way	NOUN	_	Number=Sing	4	obj	_	Lang=eng
-7	around	around	ADP	_	_	8	case	_	Lang=eng
-8	downtown	downtown	NOUN	_	Number=Sing	6	nmod	_	Lang=eng
-9	.	.	PUNCT	_	_	4	punct	_	_
+1	pero	pero	CCONJ	_	_	5	cc	_	Lang=spa
+2	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+3-4	doesn't	_	_	_	_	_	_	_	_
+3	does	doesn't	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	Lang=eng
+4	n't	_	ADV	_	_	5	advmod	_	_
+5	know	know	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+6	his	he	PRON	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	Lang=eng
+7	way	way	NOUN	_	Number=Sing	5	obj	_	Lang=eng
+8	around	around	ADP	_	_	9	case	_	Lang=eng
+9	downtown	downtown	NOUN	_	Number=Sing	7	nmod	_	Lang=eng
+10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = sastre3:664
 # text = entonces después tiene que park .
@@ -1362,8 +1341,8 @@
 1	entonces	entonces	ADV	_	_	5	advmod	_	Lang=spa
 2	después	después	ADV	_	_	5	advmod	_	Lang=spa
 3	tiene	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	Lang=spa
-4	que	que	CCONJ	_	_	3	fixed	_	Lang=spa
-5	park	park	NOUN	_	_	0	root	_	Lang=eng
+4	que	que	CCONJ	_	_	5	mark	_	Lang=spa
+5	park	park	VERB	_	_	0	root	_	Lang=eng
 6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = sastre3:669
@@ -1375,12 +1354,12 @@
 1	dejó	dejar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Lang=spa
 3	carro	carro	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	Lang=spa
-4	three	three	NUM	_	NumType=Card	1	obj	_	Lang=eng
-5	feet	feet	X	_	_	4	flat	_	Lang=eng
-6	away	away	X	_	_	4	flat	_	Lang=eng
-7	from	from	X	_	_	4	flat	_	Lang=eng
-8	the	the	DET	_	Number=Sing	4	flat	_	Lang=eng
-9	curb	curb	X	_	Number=Sing	4	flat	_	Lang=eng
+4	three	three	NUM	_	NumType=Card	5	nummod	_	Lang=eng
+5	feet	feet	NOUN	_	_	6	obl	_	Lang=eng
+6	away	away	ADV	_	_	1	advmod	_	Lang=eng
+7	from	from	ADP	_	_	9	case	_	Lang=eng
+8	the	the	DET	_	Number=Sing	9	det	_	Lang=eng
+9	curb	curb	NOUN	_	Number=Sing	6	obl	_	Lang=eng
 10	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = sastre3:671
@@ -1391,9 +1370,9 @@
 # labels =
 1	estaba	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Lang=spa
 2	aquí	aquí	ADV	_	_	1	advmod	_	Lang=spa
-3	three	three	NUM	_	_	1	nsubj	_	Lang=eng
-4	feet	feet	PROPN	_	_	3	compound	_	Lang=eng
-5	away	away	PROPN	_	_	3	compound	_	Lang=eng
+3	three	three	NUM	_	_	4	nummod	_	Lang=eng
+4	feet	feet	PROPN	_	_	5	obl	_	Lang=eng
+5	away	away	PROPN	_	_	1	advmod	_	Lang=eng
 6	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
 # sent_id = sastre3:677
@@ -1403,8 +1382,8 @@
 # speaker = MAS
 # labels =
 1	que	que	SCONJ	_	_	4	mark	_	Lang=spa
-2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Lang=spa
-3	el	el	X	_	Gender=Masc|Number=Sing	4	det	_	Lang=spa
+2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	reparandum	_	Lang=spa
+3	el	el	DET	_	Gender=Masc|Number=Sing	4	det	_	Lang=spa
 4	graphic	graphic	NOUN	_	_	0	root	_	Lang=eng
 5	que	que	PRON	_	PronType=Rel	7	obj	_	Lang=spa
 6	él	él	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Lang=spa
@@ -1421,16 +1400,16 @@
 # gloss[orig] = is.V.3S.PRES it.PRON.SUB.3S good.ADJ enough.ADJ like.CONJ.[or].like.SV.INFIN this.DEM.NEAR.SG or.CONJ something.PRON.M.SG thus.ADV
 # speaker = MAS
 # labels =
-1	is	is	X	_	_	0	root	_	Lang=eng
-2	it	it	PRON	_	Number=Sing	1	compound	_	Lang=eng
-3	good	good	X	_	Number=Sing	1	flat	_	Lang=eng
-4	enough	enough	X	_	Number=Sing	1	flat	_	Lang=eng
-5	like	like	X	_	Gender=Masc|Number=Sing	1	flat	_	Lang=eng
-6	this	this	X	_	Number=Sing	1	flat	_	Lang=eng
+1	is	is	AUX	_	_	3	cop	_	Lang=eng
+2	it	it	PRON	_	Number=Sing	3	nsubj	_	Lang=eng
+3	good	good	ADJ	_	Number=Sing	0	root	_	Lang=eng
+4	enough	enough	ADV	_	Number=Sing	3	advmod	_	Lang=eng
+5	like	like	ADP	_	Gender=Masc|Number=Sing	6	case	_	Lang=eng
+6	this	this	PRON	_	Number=Sing	3	obl	_	Lang=eng
 7	o	o	CCONJ	_	_	8	cc	_	Lang=spa
-8	algo	algo	PRON	_	Number=Sing|PronType=Ind	1	conj	_	Lang=spa
+8	algo	algo	PRON	_	Number=Sing|PronType=Ind	6	conj	_	Lang=spa
 9	así	así	ADV	_	_	8	advmod	_	Lang=spa
-10	?	?	PUNCT	_	_	1	punct	_	_
+10	?	?	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre3:683
 # text = yo que leí que el teniente de verdad que él le había hecho de verdad un graph de eso a él .
@@ -1466,10 +1445,10 @@
 # text[orig] = entiendes@s:spa we say he did it with crayons . 1807148_1809865
 # gloss[orig] = understand.V.2S.PRES we.PRON.SUB.1P say.V.1P.PRES he.PRON.SUB.M.3S did.V.PAST it.PRON.OBJ.3S with.PREP crayon.N.PL
 # speaker = MAS
-# labels =
-1	entiendes	entiendes	NOUN	_	Number=Plur	3	advmod	_	Lang=spa
+# labels = needs-rechecking
+1	entiendes	entiendes	VERB	_	Number=Plur	0	root	_	Lang=spa
 2	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
-3	say	say	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+3	say	say	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	1	ccomp	_	Lang=eng
 4	he	he	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
 5	did	do	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	3	ccomp	_	Lang=eng
 6	it	it	PRON	_	_	5	obj	_	Lang=eng
@@ -1550,10 +1529,10 @@
 2	no	no	ADV	_	Polarity=Neg	3	advmod	_	Lang=spa
 3	tiene	tener	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 4	ningún	ninguno	DET	_	Gender=Masc|Number=Sing|PronType=Neg	5	det	_	Lang=spa
-5	background	background	X	_	Gender=Masc|Number=Sing	3	obj	_	Lang=eng
-6	in	in	ADP	_	Number=Sing	5	compound	_	Lang=eng
-7	administration	administration	X	_	Foreign=Yes	5	nmod	_	Lang=eng
-8	no	no	ADV	_	Polarity=Neg	3	advmod	_	Lang=eng
+5	background	background	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Lang=eng
+6	in	in	ADP	_	Number=Sing	7	case	_	Lang=eng
+7	administration	administration	NOUN	_	Foreign=Yes	5	nmod	_	Lang=eng
+8	no	no	ADV	_	Polarity=Neg	3	discourse	_	Lang=eng
 9	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre3:712
@@ -1580,7 +1559,7 @@
 1	yeah	yeah	INTJ	_	_	6	discourse	_	Lang=eng
 2	entonces	entonces	ADV	_	_	6	advmod	_	Lang=spa
 3	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	Lang=spa
-4	verdad	verdad	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	Lang=spa
+4	verdad	verdad	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	Lang=spa
 5	le	él	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	6	iobj	_	Lang=spa
 6	dije	decir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
 7	.	.	PUNCT	_	_	6	punct	_	_
@@ -1600,9 +1579,9 @@
 7	de	de	ADP	_	_	12	case	_	Lang=spa
 8	que	que	SCONJ	_	_	12	mark	_	Lang=spa
 9	tú	tú	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	Lang=spa
-10	no	no	ADV	_	Polarity=Neg	11	advmod	_	Lang=spa
-11	estás	estar	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	cop	_	Lang=spa
-12	familiar	familiar	ADJ	_	Number=Sing	6	nmod	_	Lang=eng
+10	no	no	ADV	_	Polarity=Neg	12	advmod	_	Lang=spa
+11	estás	estar	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	cop	_	Lang=spa
+12	familiar	familiar	ADJ	_	Number=Sing	5	advcl	_	Lang=eng
 13	con	con	ADP	_	_	14	case	_	Lang=spa
 14	ninguna	ninguno	PRON	_	Gender=Fem|Number=Sing|PronType=Neg	12	nmod	_	Lang=spa
 15	de	de	ADP	_	_	17	case	_	Lang=spa
@@ -1619,12 +1598,14 @@
 1	y	y	CCONJ	_	_	4	cc	_	Lang=spa
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	Lang=spa
 3	otro	otro	DET	_	Gender=Masc|Number=Sing|PronType=Ind	4	det	_	Lang=spa
-4	sargento	sargento	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	Lang=spa
-5	eh	eh	INTJ	_	_	6	discourse	_	Lang=eng&spa
-6	what's	what's	X	_	Foreign=Yes	0	root	_	Lang=eng
-7	his	his	X	_	_	6	flat	_	Lang=eng
-8	role	role	X	_	_	6	flat	_	Lang=eng
-9	?	?	PUNCT	_	_	6	punct	_	_
+4	sargento	sargento	NOUN	_	Gender=Masc|Number=Sing	9	dislocated	_	Lang=spa
+5	eh	eh	INTJ	_	_	9	discourse	_	Lang=eng&spa
+6-7	what's	_	_	_	_	_	_	_	_
+6	what	what's	PRON	_	Foreign=Yes	9	nsubj	_	Lang=eng
+7	's	_	AUX	_	_	9	cop	_	_
+8	his	his	PRON	_	_	9	nmod	_	Lang=eng
+9	role	role	NOUN	_	_	0	root	_	Lang=eng
+10	?	?	PUNCT	_	_	9	punct	_	_
 
 # sent_id = sastre3:764
 # text = él trabaja más en background eh como investigador approving the files .
@@ -1636,13 +1617,13 @@
 2	trabaja	trabajar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 3	más	más	ADV	_	Degree=Cmp	2	advmod	_	Lang=spa
 4	en	en	ADP	_	_	5	case	_	Lang=spa
-5	background	background	X	_	Gender=Masc|Number=Sing	2	obl	_	Lang=eng
-6	eh	eh	X	_	_	5	dep	_	Lang=eng&spa
+5	background	background	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	Lang=eng
+6	eh	eh	INTJ	_	_	2	discourse	_	Lang=eng&spa
 7	como	como	ADP	_	_	8	case	_	Lang=spa
 8	investigador	investigador	NOUN	_	Gender=Masc|Number=Sing	2	obl	_	Lang=spa
-9	approving	approving	X	_	_	8	appos	_	Lang=eng
+9	approving	approving	VERB	_	_	2	advcl	_	Lang=eng
 10	the	the	DET	_	Number=Sing	11	det	_	Lang=eng
-11	files	file	X	_	Number=Plur	9	flat	_	Lang=eng
+11	files	file	NOUN	_	Number=Plur	9	obj	_	Lang=eng
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = sastre3:784
@@ -1651,36 +1632,40 @@
 # gloss[orig] = look.V.2S.IMPER you.PRON.SUB.2SP+BE.V.PRES do.V.PRESPART a.DET.INDEF wonderful.ADJ job.N.SG
 # speaker = OLI
 # labels =
-1	mira	mira	INTJ	_	_	3	discourse	_	Lang=spa
-2	you're	you're	PRON	_	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	Lang=eng
-3	doing	do	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	Lang=eng
-4	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	Lang=eng
-5	wonderful	wonderful	ADJ	_	Degree=Pos	6	amod	_	Lang=eng
-6	job	job	NOUN	_	Number=Sing	3	obj	_	Lang=eng
-7	.	.	PUNCT	_	_	3	punct	_	_
+1	mira	mira	INTJ	_	_	4	discourse	_	Lang=spa
+2-3	you're	_	_	_	_	_	_	_	_
+2	you	you're	PRON	_	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	Lang=eng
+3	're	_	AUX	_	_	4	aux	_	_
+4	doing	do	VERB	_	Tense=Pres|VerbForm=Part	0	root	_	Lang=eng
+5	a	a	DET	_	Definite=Ind|PronType=Art	7	det	_	Lang=eng
+6	wonderful	wonderful	ADJ	_	Degree=Pos	7	amod	_	Lang=eng
+7	job	job	NOUN	_	Number=Sing	4	obj	_	Lang=eng
+8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre3:786
 # text = pero yo me doy cuenta que you're doing beautifully whatever it is that you're doing .
 # text[orig] = pero@s:spa yo@s:spa me@s:spa doy@s:spa cuenta@s:spa que@s:spa you're doing beautifully whatever it is that you're doing . 2052589_2057222
 # gloss[orig] = but.CONJ I.PRON.SUB.MF.1S me.PRON.OBL.MF.1S give.V.1S.PRES tally.N.F.SG that.PRON.REL you.PRON.SUB.2SP+BE.V.PRES do.V.PRESPART beautiful.ADJ+ADV.[or].beautifully.ADV whatever.REL it.PRON.SUB.3S is.V.3S.PRES that.CONJ you.PRON.SUB.2SP+BE.V.PRES do.V.PRESPART
 # speaker = OLI
-# labels =
+# labels = needs-recheck
 1	pero	pero	CCONJ	_	_	4	cc	_	Lang=spa
 2	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=spa
 3	me	yo	PRON	_	Case=Acc,Dat|Number=Sing|Person=1|PrepCase=Npr|PronType=Prs	4	iobj	_	Lang=spa
 4	doy	dar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 5	cuenta	contar	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	Lang=spa
-6	que	que	SCONJ	_	_	7	mark	_	Lang=spa
-7	you're	you're	X	_	_	4	obj	_	Lang=eng
-8	doing	doing	X	_	_	7	flat	_	Lang=eng
-9	beautifully	beautifully	X	_	Number=Sing	7	flat	_	Lang=eng
-10	whatever	whatever	X	_	_	7	flat	_	Lang=eng
-11	it	it	PRON	_	_	7	flat	_	Lang=eng
-12	is	is	X	_	_	7	flat	_	Lang=eng
-13	that	that	PROPN	_	Gender=Masc|Number=Sing	7	flat	_	Lang=eng
-14	you're	you're	X	_	_	7	flat	_	Lang=eng
-15	doing	doing	X	_	_	7	flat	_	Lang=eng
-16	.	.	PUNCT	_	_	4	punct	_	_
+6	que	que	SCONJ	_	_	9	mark	_	Lang=spa
+7	you	you're	PRON	_	_	9	nsubj	_	Lang=eng
+8	're	_	AUX	_	_	9	cop	_	_
+9	doing	doing	VERB	_	_	4	ccomp	_	Lang=eng
+10	beautifully	beautifully	ADV	_	Number=Sing	9	advmod	_	Lang=eng
+11	whatever	whatever	PRON	_	_	9	ccomp	_	Lang=eng
+12	it	it	PRON	_	_	11	nsubj	_	Lang=eng
+13	is	is	AUX	_	_	11	cop	_	Lang=eng
+14	that	that	SCONJ	_	Gender=Masc|Number=Sing	17	mark	_	Lang=eng
+15	you	you're	PRON	_	_	17	nsubj	_	Lang=eng
+16	're	_	AUX	_	_	17	aux	_	_
+17	doing	doing	VERB	_	_	11	csubj	_	Lang=eng
+18	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre3:790
 # text = no te preocupes que tú luces bien so
@@ -1695,25 +1680,7 @@
 5	tú	tú	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	Lang=spa
 6	luces	luz	NOUN	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	Lang=spa
 7	bien	bien	ADV	_	_	6	advmod	_	Lang=spa
-8	so	er	VERB	_	VerbForm=Fin	6	cop	_	Lang=eng
-
-# sent_id = sastre3:792
-# text = él te don't kiss don't kiss no butt not more .
-# text[orig] = él@s:spa te@s:spa xxx <don't kiss> [/] don't kiss no butt not more . 2074043_2077811
-# gloss[orig] = he.PRON.SUB.M.3S you.PRON.OBL.MF.2S do.V.12S13P.PRES+NEG kiss.V.INFIN do.V.12S13P.PRES+NEG kiss.V.INFIN no.ADV butt.N.SG not.ADV more.ADV
-# speaker = MAS
-# labels =
-1	él	él	X	_	Foreign=Yes	0	root	_	Lang=spa
-2	te	te	X	_	Foreign=Yes	1	flat:foreign	_	Lang=spa
-3	don't	don't	X	_	Foreign=Yes	1	flat:foreign	_	Lang=eng
-4	kiss	kiss	X	_	Foreign=Yes	1	flat:foreign	_	Lang=eng
-5	don't	don't	X	_	Foreign=Yes	1	flat:foreign	_	Lang=eng
-6	kiss	kiss	X	_	Foreign=Yes	2	flat:foreign	_	Lang=eng
-7	no	no	X	_	Foreign=Yes	1	flat:foreign	_	Lang=eng
-8	butt	butt	X	_	Foreign=Yes	7	flat:foreign	_	Lang=eng
-9	not	not	X	_	Foreign=Yes	7	flat:foreign	_	Lang=eng
-10	more	more	X	_	Foreign=Yes	7	flat:foreign	_	Lang=eng
-11	.	.	PUNCT	_	_	1	punct	_	_
+8	so	er	INTJ	_	VerbForm=Fin	6	discourse	_	Lang=eng
 
 # sent_id = sastre3:803
 # text = yo nunca había estado claro un police car eso .
@@ -1721,16 +1688,16 @@
 # gloss[orig] = I.PRON.SUB.MF.1S never.ADV have.V.13S.IMPERF be.V.PASTPART of_course.E one.DET.INDEF.M.SG police.N.SG car.N.SG that.PRON.DEM.NT.SG
 # speaker = OLI
 # labels =
-1	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=spa
-2	nunca	nunca	ADV	_	_	5	advmod	_	Lang=spa
-3	había	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	Lang=spa
-4	estado	estar	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	cop	_	Lang=spa
-5	claro	claro	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
+1	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=spa
+2	nunca	nunca	ADV	_	_	4	advmod	_	Lang=spa
+3	había	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	Lang=spa
+4	estado	estar	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Lang=spa
+5	claro	claro	ADJ	_	Gender=Masc|Number=Sing	4	advmod	_	Lang=spa
 6	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Lang=spa
-7	police	police	X	_	Gender=Masc|Number=Sing	5	nsubj	_	Lang=eng
-8	car	car	X	_	_	7	compound	_	Lang=eng
-9	eso	ese	PRON	_	Number=Sing|PronType=Dem	7	appos	_	Lang=spa
-10	.	.	PUNCT	_	_	5	punct	_	_
+7	police	police	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	Lang=eng
+8	car	car	NOUN	_	_	4	obl	_	Lang=eng
+9	eso	ese	PRON	_	Number=Sing|PronType=Dem	8	conj	_	Lang=spa
+10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre3:808
 # text = una patrulla o o una van .
@@ -1740,10 +1707,10 @@
 # labels =
 1	una	uno	DET	_	Gender=Fem|Number=Sing|PronType=Ind	2	det	_	Lang=spa
 2	patrulla	patrulla	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Lang=spa
-3	o	o	CCONJ	_	_	5	cc	_	Lang=spa
+3	o	o	CCONJ	_	_	4	reparandum	_	Lang=spa
 4	o	o	CCONJ	_	_	5	cc	_	Lang=spa
-5	una	uno	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	2	conj	_	Lang=spa
-6	van	ir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Lang=eng
+5	una	uno	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	6	det	_	Lang=spa
+6	van	van	NOUN	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Lang=eng
 7	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
 
 # sent_id = sastre3:854
@@ -1800,12 +1767,12 @@
 2	ayer	ayer	ADV	_	_	3	advmod	_	Lang=spa
 3	hubo	haber	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
 4	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Lang=spa
-5	association	association	NOUN	_	_	3	obj	_	Lang=eng
+5	association	association	NOUN	_	_	3	nsubj	_	Lang=eng
 6	meeting	meeting	NOUN	_	_	5	compound	_	Lang=eng
 7	allá	allá	ADV	_	_	3	advmod	_	Lang=spa
-8	donde	donde	PRON	_	PronType=Rel	10	obl	_	Lang=spa
+8	donde	donde	ADV	_	PronType=Rel	10	advmod	_	Lang=spa
 9	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Lang=spa
-10	vivo	viver	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	Lang=spa
+10	vivo	vivir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	advcl	_	Lang=spa
 11	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = sastre3:868
@@ -1814,7 +1781,7 @@
 # gloss[orig] = well.E I.PRON.SUB.MF.1S go.V.1S.PRES to.PREP use.V.INFIN equal.ADJ.M.SG.[or].equal.ADV do.V.INFIN one.DET.INDEF.M.PL.[or].one.PRON.M.PL flyer.N.PL like.CONJ be.V.1S.PRES rent.V.PRESPART my.ADJ.POSS.MF.1S.SG apartment.N.M.SG
 # speaker = OLI
 # labels =
-1	bueno	bueno	ADJ	_	Gender=Masc|Number=Sing	5	parataxis	_	Lang=spa
+1	bueno	bueno	ADJ	_	Gender=Masc|Number=Sing	5	discourse	_	Lang=spa
 2	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=spa
 3	voy	ir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	Lang=spa
 4	a	a	ADP	_	_	3	fixed	_	Lang=spa
@@ -1836,14 +1803,16 @@
 # gloss[orig] = and.CONJ I.PRON.SUB.1S+BE.V.PRES go.V.PRESPART+TO.PREP pass.V.INFIN out.ADV the.DET.DEF flyer.N.PL
 # speaker = OLI
 # labels =
-1	y	y	CCONJ	_	_	4	cc	_	Lang=spa
-2	I'm	I'M	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=eng
-3	gonna	gonna	VERB	_	VerbForm=Fin	4	aux	_	Lang=eng
-4	pass	pass	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
-5	out	out	ADP	_	_	4	compound:prt	_	Lang=eng
-6	the	the	DET	_	Definite=Def|PronType=Art	7	det	_	Lang=eng
-7	flyers	flyer	NOUN	_	Number=Plur	4	obj	_	Lang=eng
-8	.	.	PUNCT	_	_	4	punct	_	_
+1	y	y	CCONJ	_	_	5	cc	_	Lang=spa
+2-3	I'm	_	_	_	_	_	_	_	_
+2	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=eng
+3	'm	be	AUX	_	_	5	aux	_	_
+4	gonna	gonna	VERB	_	VerbForm=Fin	5	aux	_	Lang=eng
+5	pass	pass	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+6	out	out	ADP	_	_	5	compound:prt	_	Lang=eng
+7	the	the	DET	_	Definite=Def|PronType=Art	8	det	_	Lang=eng
+8	flyers	flyer	NOUN	_	Number=Plur	5	obj	_	Lang=eng
+9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = sastre3:871
 # text = so yo me pongo al final del meeting afuera .
@@ -1855,30 +1824,37 @@
 2	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=spa
 3	me	yo	PRON	_	Number=Sing|Person=1|PronType=Prs	4	obj	_	Lang=spa
 4	pongo	pongar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
-5	al	al	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	6	case	_	Lang=spa
-6	final	final	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	Lang=spa
-7	del	del	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	Lang=spa
-8	meeting	meeting	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Lang=eng
-9	afuera	afuera	ADV	_	_	4	advmod	_	Lang=spa
-10	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
+5-6	al	_	_	_	_	_	_	_	_
+5	a	al	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	7	case	_	Lang=spa
+6	l	_	DET	_	_	7	det	_	_
+7	final	final	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	Lang=spa
+8-9	del	_	_	_	_	_	_	_	_
+8	de	del	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	10	case	_	Lang=spa
+9	l	_	DET	_	_	10	det	_	_
+10	meeting	meeting	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	Lang=eng
+11	afuera	afuera	ADV	_	_	4	advmod	_	Lang=spa
+12	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = sastre3:900
 # text = everything's la abrí la sombría de de de del patio .
 # text[orig] = everything's [///] la@s:spa abrí@s:spa la@s:spa sombría@s:spa de@s:spa [/] de@s:spa [/] de [//] del@s:spa patio@s:eng&spa . 2336609_2339391
 # gloss[orig] = everything.PRON+GB her.PRON.OBJ.F.3S open.V.1S.PAST the.DET.DEF.F.SG shady.ADJ.F.SG of.PREP of.PREP de.N.SG of_the.PREP+DET.DEF.M.SG patio.N.SG
 # speaker = MAS
-# labels =
-1	everything's	everything's	X	_	_	3	nsubj	_	Lang=eng
-2	la	él	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	Lang=spa
-3	abrí	abrar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
-4	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Lang=spa
-5	sombría	sombría	ADJ	_	Gender=Fem|Number=Sing	3	nsubj	_	Lang=spa
-6	de	de	ADP	_	AdpType=Prep	7	case	_	Lang=spa
-7	de	de	ADP	_	AdpType=Prep	10	case	_	Lang=spa
-8	de	de	ADP	_	AdpType=Prep	10	case	_	Lang=eng
-9	del	del	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	10	case	_	Lang=spa
-10	patio	patio	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	Lang=eng&spa
-11	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
+# labels = clitic-doubling
+1	everything	everything's	NOUN	_	_	4	dislocated	_	Lang=eng
+2	's	_	AUX	_	_	1	cop	_	_
+3	la	él	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	dislocated:obj	_	Lang=spa
+4	abrí	abrar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
+5	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Lang=spa
+6	sombría	sombría	ADJ	_	Gender=Fem|Number=Sing	4	nsubj	_	Lang=spa
+7	de	de	ADP	_	AdpType=Prep	10	reparandum	_	Lang=spa
+8	de	de	ADP	_	AdpType=Prep	10	reparandum	_	Lang=spa
+9	de	de	ADP	_	AdpType=Prep	10	reparandum	_	Lang=eng
+10-11	del	_	_	_	_	_	_	_	_
+10	de	del	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	12	case	_	Lang=spa
+11	l	_	DET	_	_	12	det	_	_
+12	patio	patio	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Lang=eng&spa
+13	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
 
 # sent_id = sastre3:923
 # text = in the morning over there cada vez que yo decía algo él me decía algo .
@@ -1886,16 +1862,16 @@
 # gloss[orig] = in.PREP the.DET.DEF morning.N.SG over.ADV there.ADV every.ADJ.MF.SG time.N.F.SG that.PRON.REL I.PRON.SUB.MF.1S tell.V.13S.IMPERF something.PRON.M.SG he.PRON.SUB.M.3S me.PRON.OBL.MF.1S tell.V.13S.IMPERF something.PRON.M.SG
 # speaker = OLI
 # labels =
-1	in	in	PROPN	_	_	14	nsubj	_	Lang=eng
-2	the	the	PROPN	_	_	1	flat	_	Lang=eng
-3	morning	morning	PROPN	_	_	1	flat	_	Lang=eng
-4	over	over	PROPN	_	_	1	flat	_	Lang=eng
-5	there	there	PROPN	_	_	1	flat	_	Lang=eng
+1	in	in	ADP	_	_	3	case	_	Lang=eng
+2	the	the	DET	_	_	3	det	_	Lang=eng
+3	morning	morning	NOUN	_	_	14	obl	_	Lang=eng
+4	over	over	ADP	_	_	5	advmod	_	Lang=eng
+5	there	there	ADV	_	_	14	obl	_	Lang=eng
 6	cada	cada	DET	_	Number=Sing|PronType=Ind	7	det	_	Lang=spa
-7	vez	vez	NOUN	_	Gender=Fem|Number=Sing	14	obl	_	Lang=spa
-8	que	que	PRON	_	_	10	obl	_	Lang=spa
+7	vez	vez	NOUN	_	Gender=Fem|Number=Sing	10	obl	_	Lang=spa
+8	que	que	PRON	_	_	10	mark	_	Lang=spa
 9	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Lang=spa
-10	decía	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	acl	_	Lang=spa
+10	decía	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	advcl	_	Lang=spa
 11	algo	algo	PRON	_	Number=Sing|PronType=Ind	10	obj	_	Lang=spa
 12	él	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Lang=spa
 13	me	yo	PRON	_	Number=Sing|Person=1|PronType=Prs	14	iobj	_	Lang=spa
@@ -1908,18 +1884,18 @@
 # text[orig] = the best thing about her ella@s:spa no@s:spa complain you know . 2395358_2398226
 # gloss[orig] = the.DET.DEF best.ADJ thing.N.SG about.PREP her.ADJ.POSS.F.3S.[or].her.PRON.OBJ.F.3S she.PRON.SUB.F.3S not.ADV complain.SV.INFIN you.PRON.SUB.2SP know.V.2SP.PRES
 # speaker = MAS
-# labels =
-1	the	the	DET	_	Foreign=Yes	0	root	_	Lang=eng
-2	best	best	X	_	Degree=Sup	1	flat:foreign	_	Lang=eng
-3	thing	thing	X	_	_	1	flat:foreign	_	Lang=eng
-4	about	about	X	_	Foreign=Yes	1	flat:foreign	_	Lang=eng
-5	her	her	X	_	_	1	flat:foreign	_	Lang=eng
-6	ella	ella	X	_	_	1	flat:foreign	_	Lang=spa
-7	no	no	X	_	_	1	flat:foreign	_	Lang=spa
-8	complain	complain	X	_	_	1	flat:foreign	_	Lang=eng
-9	you	you	PRON	_	_	1	flat:foreign	_	Lang=eng
-10	know	know	X	_	_	1	flat:foreign	_	Lang=eng
-11	.	.	PUNCT	_	_	1	punct	_	_
+# labels = check-you-know
+1	the	the	DET	_	Foreign=Yes	3	det	_	Lang=eng
+2	best	best	ADJ	_	Degree=Sup	3	amod	_	Lang=eng
+3	thing	thing	NOUN	_	_	0	root	_	Lang=eng
+4	about	about	ADP	_	Foreign=Yes	5	case	_	Lang=eng
+5	her	her	PRON	_	_	3	nmod	_	Lang=eng
+6	ella	ella	PRON	_	_	8	nsubj	_	Lang=spa
+7	no	no	ADV	_	_	8	advmod	_	Lang=spa
+8	complain	complain	VERB	_	_	3	csubj	_	Lang=eng
+9	you	you	PRON	_	_	10	nsubj	_	Lang=eng
+10	know	know	VERB	_	_	8	discourse	_	Lang=eng
+11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = sastre3:935
 # text = tiene she has a great personality .
@@ -1927,7 +1903,7 @@
 # gloss[orig] = have.V.3S.PRES she.PRON.SUB.F.3S ha.IM+V.3S.PRES.[or].has.V.3S.PRES a.DET.INDEF great.ADJ personality.N.SG
 # speaker = OLI
 # labels =
-1	tiene	tiene	VERB	_	_	3	discourse	_	Lang=spa
+1	tiene	tiene	VERB	_	_	3	reparandum	_	Lang=spa
 2	she	she	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	Lang=eng
 3	has	have	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
 4	a	a	DET	_	Definite=Ind|PronType=Art	6	det	_	Lang=eng
@@ -1941,21 +1917,21 @@
 # gloss[orig] = until.PREP that.CONJ you.PRON.SUB.MF.2S push.SV.INFIN+AV the.DET.DEF wrong.ADJ button.N.SG
 # speaker = MAS
 # labels =
-1	hasta	hasta	NOUN	_	_	0	root	_	Lang=spa
-2	que	que	SCONJ	_	_	1	fixed	_	Lang=spa
-3	tú	tú	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Lang=spa
-4	pushed	pushed	X	_	_	1	dep	_	Lang=eng
-5	the	the	DET	_	Gender=Masc|Number=Sing	4	compound	_	Lang=eng
-6	wrong	wrong	X	_	Number=Sing	7	compound	_	Lang=eng
-7	button	button	X	_	Gender=Masc|Number=Sing	4	compound	_	Lang=eng
-8	.	.	PUNCT	_	_	1	punct	_	_
+1	hasta	hasta	NOUN	_	_	4	mark	_	Lang=spa
+2	que	que	SCONJ	_	_	4	mark	_	Lang=spa
+3	tú	tú	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	Lang=spa
+4	pushed	pushed	VERB	_	_	0	root	_	Lang=eng
+5	the	the	DET	_	Gender=Masc|Number=Sing	7	det	_	Lang=eng
+6	wrong	wrong	ADJ	_	Number=Sing	7	amod	_	Lang=eng
+7	button	button	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	Lang=eng
+8	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre3:945
 # text = Linda López la testing .
 # text[orig] = &eh (.) Linda@s:eng&spa López@s:eng&spa la@s:spa testing . 2430364_2431560
 # gloss[orig] = name name the.DET.DEF.F.SG test.N.SG.GER
 # speaker = MAS
-# labels =
+# labels = check
 1	Linda	linda	PROPN	_	Gender=Fem|Number=Sing	4	nsubj	_	Lang=eng&spa
 2	López	lópez	PROPN	_	_	1	flat	_	Lang=eng&spa
 3	la	él	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	_	Lang=spa
@@ -1968,11 +1944,12 @@
 # gloss[orig] = oh.IM but.CONJ she.PRON.SUB.F.3S+BE.V.3S.PRES cool.SV.INFIN
 # speaker = OLI
 # labels =
-1	ay	ay	INTJ	_	_	4	discourse	_	Lang=spa
-2	but	but	CCONJ	_	_	4	cc	_	Lang=eng
-3	she's	she's	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=eng
-4	cool	cool	ADJ	_	Degree=Pos	0	root	_	Lang=eng
-5	.	.	PUNCT	_	_	4	punct	_	_
+1	ay	ay	INTJ	_	_	5	discourse	_	Lang=spa
+2	but	but	CCONJ	_	_	5	cc	_	Lang=eng
+3	she	she's	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
+4	's	_	AUX	_	_	5	cop	_	_
+5	cool	cool	ADJ	_	Degree=Pos	0	root	_	Lang=eng
+6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = sastre3:967
 # text = el teniente y ella han tenido tú sabes conflicts .
@@ -1986,8 +1963,8 @@
 4	ella	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	conj	_	Lang=spa
 5	han	haber	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	Lang=spa
 6	tenido	tener	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Lang=spa
-7	tú	tú	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	Lang=spa
-8	sabes	sabe	VERB	_	Number=Plur	6	advcl	_	Lang=spa
+7	tú	tú	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	Lang=spa
+8	sabes	sabe	VERB	_	Number=Plur	6	discourse	_	Lang=spa
 9	conflicts	conflict	NOUN	_	Number=Plur	6	obj	_	Lang=eng
 10	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -2001,8 +1978,8 @@
 2	Tina	tina	PROPN	_	_	6	nsubj	_	Lang=eng&spa
 3	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	Lang=spa
 4	the	the	DET	_	Foreign=Yes	6	det	_	Lang=eng
-5	computer	computer	X	_	Number=Sing	6	compound	_	Lang=eng
-6	person	person	X	_	Number=Sing	0	root	_	Lang=eng
+5	computer	computer	NOUN	_	Number=Sing	6	nmod	_	Lang=eng
+6	person	person	NOUN	_	Number=Sing	0	root	_	Lang=eng
 7	?	?	PUNCT	_	_	6	punct	_	_
 
 # sent_id = sastre3:980
@@ -2011,8 +1988,8 @@
 # gloss[orig] = so.ADV she.PRON.SUB.F.3S she.PRON.SUB.F.3S be.V.3S.PRES the.DET.DEF.F.SG chief.N.F.SG of.PREP name
 # speaker = OLI
 # labels =
-1	so	so	VERB	_	_	2	case	_	Lang=eng
-2	ella	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Lang=spa
+1	so	so	ADV	_	_	6	advmod	_	Lang=eng
+2	ella	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	reparandum	_	Lang=spa
 3	ella	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Lang=spa
 4	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	Lang=spa
 5	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Lang=spa
