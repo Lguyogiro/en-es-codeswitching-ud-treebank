@@ -2,6 +2,8 @@ make issue about annotating "tener que"...in AnCora there is at least one case w
 
 inconsistencies in spanish AnCora wrt the annotation of "Mira, ". I think it should be discourse...
 related to above: annotation of confirmational "you know"
+also "tu sabes"
 
 inconsistent annotation of "cada vez que" in AnCora
 
+check xcomps....especially secondary predication (quedó __, nos hicimos miembros, etc.)
