@@ -3540,18 +3540,20 @@
 # gloss[orig] = that.CONJ yeah.ADV there.PRON+BE.V.3S.PRES people.N.SG that.CONJ do.V.12S13P.PRES+NEG want.V.INFIN to.PREP pay.V.INFIN their.ADJ.POSS.3P membership.N.SG
 # speaker = AAR
 # labels =
-1	que	que	CCONJ	_	_	4	discourse	_	Lang=spa
+1	que	que	CCONJ	_	_	4	mark	_	Lang=spa
 2	yeah	yeah	INTJ	_	_	4	discourse	_	Lang=eng
-3	there's	there's	PRON	_	_	4	expl	_	Lang=eng
-4	people	people	NOUN	_	Number=Plur	0	root	_	Lang=eng
-5	that	that	PRON	_	PronType=Rel	7	nsubj	_	Lang=eng
-6	don't	don't	PART	_	_	7	aux	_	Lang=eng
-7	want	want	VERB	_	VerbForm=Inf	4	acl:relcl	_	Lang=eng
-8	to	to	PART	_	_	9	mark	_	Lang=eng
-9	pay	pay	VERB	_	VerbForm=Inf	7	xcomp	_	Lang=eng
-10	their	they	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	_	Lang=eng
-11	membership	membership	NOUN	_	Number=Sing	9	obj	_	Lang=eng
-12	.	.	PUNCT	_	_	4	punct	_	_
+3-4	there's	_	_	_	_	_	_	_	_
+3	there	there's	PRON	_	_	4	expl	_	Lang=eng
+4	's	_	VERB	_	_	0	root	_	_
+5	people	people	NOUN	_	Number=Plur	4	nsubj	_	Lang=eng
+6	that	that	PRON	_	PronType=Rel	8	nsubj	_	Lang=eng
+7	don't	don't	PART	_	_	8	aux	_	Lang=eng
+8	want	want	VERB	_	VerbForm=Inf	5	acl:relcl	_	Lang=eng
+9	to	to	PART	_	_	10	mark	_	Lang=eng
+10	pay	pay	VERB	_	VerbForm=Inf	8	xcomp	_	Lang=eng
+11	their	they	PRON	_	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	Lang=eng
+12	membership	membership	NOUN	_	Number=Sing	10	obj	_	Lang=eng
+13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = sastre6:629
 # text = everybody you can take bocaditos pastelitos .
@@ -3694,16 +3696,17 @@
 # gloss[orig] = and.CONJ then.ADV he.PRON.SUB.M.3S was.V.3S.PAST talk.V.PRESPART all.ADJ unk ah.IM junk.N.SG
 # speaker = AAR
 # labels =
-1	y	y	CCONJ	_	_	3	cc	_	Lang=spa
-2	entonces	entonces	ADV	_	_	3	advmod	_	Lang=spa
-3	he	he	PRON	_	Foreign=Yes	0	root	_	Lang=eng
-4	was	be	X	_	Foreign=Yes	3	flat:foreign	_	Lang=eng
-5	talking	talking	X	_	Foreign=Yes	3	flat:foreign	_	Lang=eng
-6	all	all	X	_	Foreign=Yes	3	flat:foreign	_	Lang=eng
-7	kinda	kinda	X	_	Foreign=Yes	3	flat:foreign	_	Lang=eng
-8	ah	ah	X	_	_	3	discourse	_	Lang=eng&spa
-9	junk	junk	X	_	Foreign=Yes	3	flat:foreign	_	Lang=eng
-10	.	.	PUNCT	_	_	3	punct	_	_
+1	y	y	CCONJ	_	_	5	cc	_	Lang=spa
+2	entonces	entonces	ADV	_	_	5	advmod	_	Lang=spa
+3	he	he	PRON	_	Foreign=Yes	5	nsubj	_	Lang=eng
+4	was	be	AUX	_	Foreign=Yes	5	aux	_	Lang=eng
+5	talking	talking	VERB	_	Foreign=Yes	0	root	_	Lang=eng
+6	all	all	DET	_	Foreign=Yes	7	det	_	Lang=eng
+7	kind	kinda	NOUN	_	Foreign=Yes	10	nmod	_	Lang=eng
+8	a	_	ADP	_	_	10	case	_	_
+9	ah	ah	INTJ	_	_	10	discourse	_	Lang=eng&spa
+10	junk	junk	NOUN	_	Foreign=Yes	5	obj	_	Lang=eng
+11	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = sastre6:748
 # text = you get your um whatever it is arroz un plato lleno de comida .
@@ -3800,19 +3803,19 @@
 # gloss[orig] = ah.IM well.E but.CONJ end.N.M.SG of.PREP week.N.F.SG so.ADV you.PRON.SUB.2SP can.V.2SP.PRES take.V.INFIN your.ADJ.POSS.2SP time.N.SG
 # speaker = ELE
 # labels =
-1	ah	ah	INTJ	_	_	2	discourse	_	Lang=eng&spa
-2	bueno	bueno	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
+1	ah	ah	INTJ	_	_	4	discourse	_	Lang=eng&spa
+2	bueno	bueno	ADJ	_	Gender=Masc|Number=Sing	4	discourse	_	Lang=spa
 3	pero	pero	CCONJ	_	_	4	cc	_	Lang=spa
-4	fin	fin	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	Lang=spa
+4	fin	fin	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
 5	de	de	ADP	_	_	6	case	_	Lang=spa
 6	semana	semana	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	Lang=spa
-7	so	so	X	_	_	4	dep	_	Lang=eng
-8	you	you	PRON	_	_	7	dep	_	Lang=eng
-9	can	can	X	_	_	7	dep	_	Lang=eng
-10	take	take	X	_	_	7	dep	_	Lang=eng
-11	your	your	X	_	Foreign=Yes	8	compound	_	Lang=eng
-12	time	time	X	_	Number=Sing	8	compound	_	Lang=eng
-13	.	.	PUNCT	_	_	2	punct	_	_
+7	so	so	SCONJ	_	_	10	mark	_	Lang=eng
+8	you	you	PRON	_	_	10	nsubj	_	Lang=eng
+9	can	can	AUX	_	_	10	aux	_	Lang=eng
+10	take	take	VERB	_	_	4	advcl	_	Lang=eng
+11	your	your	PRON	_	Foreign=Yes	12	det	_	Lang=eng
+12	time	time	NOUN	_	Number=Sing	10	obj	_	Lang=eng
+13	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = zeledon3:27
 # text = pero cuando los um contraten me toca entrenarlos .
@@ -3863,15 +3866,15 @@
 11	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = zeledon3:79
-# text = be)cause no te acuerdas ?
+# text = because no te acuerdas ?
 # text[orig] = (be)cause no@s:spa te@s:spa acuerdas@s:spa ? 199375_201076
 # gloss[orig] = because.CONJ not.ADV you.PRON.OBL.MF.2S remind.V.2S.PRES
 # speaker = ELE
 # labels =
-1	be)cause	be)cause	X	_	_	4	dep	_	Lang=eng
+1	because	because	X	_	_	4	dep	_	Lang=eng
 2	no	no	ADV	_	Polarity=Neg	4	advmod	_	Lang=spa
 3	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	4	iobj	_	Lang=spa
-4	acuerdas	acuerdar	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+4	acuerdas	acordar	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 5	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = zeledon3:93
@@ -3927,17 +3930,17 @@
 # gloss[orig] = you.PRON.SUB.2SP just.ADV have.V.2SP.PRES to.PREP tell.V.INFIN me.PRON.OBJ.1S that.CONJ eat.V.1S.PRES you.PRON.OBL.MF.2S go.V.3S.PRES
 # speaker = ELE
 # labels =
-1	you	you	PRON	_	_	0	root	_	Lang=eng
-2	just	just	X	_	_	1	flat	_	Lang=eng
-3	have	have	X	_	_	1	flat	_	Lang=eng
-4	to	to	X	_	_	1	flat	_	Lang=eng
-5	tell	tell	VERB	_	VerbForm=Inf	1	flat:foreign	_	Lang=eng
+1	you	you	PRON	_	_	3	nsubj	_	Lang=eng
+2	just	just	ADV	_	_	3	advmod	_	Lang=eng
+3	have	have	VERB	_	_	0	root	_	Lang=eng
+4	to	to	ADP	_	_	5	mark	_	Lang=eng
+5	tell	tell	VERB	_	VerbForm=Inf	3	xcomp	_	Lang=eng
 6	me	yo	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	iobj	_	Lang=eng
 7	que	que	SCONJ	_	_	10	mark	_	Lang=spa
 8	como	como	ADV	_	_	10	advmod	_	Lang=spa
 9	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	10	iobj	_	Lang=spa
 10	va	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	Lang=spa
-11	.	.	PUNCT	_	_	1	punct	_	_
+11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = zeledon3:307
 # text = so tu colegio it's just a middle school or is it middle school and high school like in the same building ?
@@ -3945,28 +3948,30 @@
 # gloss[orig] = so.ADV your.ADJ.POSS.MF.2S.SG school.N.M.SG it.PRON.SUB.3S+BE.V.3S.PRES just.ADJ.[or].just.ADV a.DET.INDEF middle.ADJ school.N.SG or.CONJ is.V.3S.PRES it.PRON.SUB.3S middle.ADJ school.N.SG and.CONJ high.ADJ school.N.SG like.CONJ.[or].like.N.SG in.PREP the.DET.DEF same.ADJ unk
 # speaker = ELE
 # labels =
-1	so	so	ADV	_	_	8	advmod	_	Lang=eng
-2	tu	tu	X	_	_	8	nsubj	_	Lang=spa
-3	colegio	colegio	X	_	_	2	flat:foreign	_	Lang=spa
-4	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	Lang=eng
-5	just	just	ADV	_	_	8	advmod	_	Lang=eng
-6	a	a	DET	_	Definite=Ind|PronType=Art	8	det	_	Lang=eng
-7	middle	middle	ADJ	_	Degree=Pos	8	amod	_	Lang=eng
-8	school	school	NOUN	_	Number=Sing	0	root	_	Lang=eng
-9	or	or	CCONJ	_	_	13	cc	_	Lang=eng
-10	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	Lang=eng
-11	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	Lang=eng
-12	middle	middle	ADJ	_	Degree=Pos	13	compound	_	Lang=eng
-13	school	school	NOUN	_	Number=Sing	8	conj	_	Lang=eng
-14	and	and	CCONJ	_	_	16	cc	_	Lang=eng
-15	high	high	ADJ	_	Degree=Pos	16	amod	_	Lang=eng
-16	school	school	NOUN	_	Number=Sing	13	conj	_	Lang=eng
-17	like	like	ADP	_	_	21	case	_	Lang=eng
-18	in	in	ADP	_	_	21	case	_	Lang=eng
-19	the	the	DET	_	Definite=Def|PronType=Art	21	det	_	Lang=eng
-20	same	same	ADJ	_	Degree=Pos	21	amod	_	Lang=eng
-21	building	building	NOUN	_	Number=Sing	13	nmod	_	Lang=eng
-22	?	?	PUNCT	_	_	8	punct	_	_
+1	so	so	ADV	_	_	9	advmod	_	Lang=eng
+2	tu	tu	DET	_	_	3	det	_	Lang=spa
+3	colegio	colegio	NOUN	_	_	9	dislocated	_	Lang=spa
+4-5	it's	_	_	_	_	_	_	_	_
+4	it	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	Lang=eng
+5	's	_	AUX	_	_	9	cop	_	_
+6	just	just	ADV	_	_	9	advmod	_	Lang=eng
+7	a	a	DET	_	Definite=Ind|PronType=Art	9	det	_	Lang=eng
+8	middle	middle	ADJ	_	Degree=Pos	9	compound	_	Lang=eng
+9	school	school	NOUN	_	Number=Sing	0	root	_	Lang=eng
+10	or	or	CCONJ	_	_	14	cc	_	Lang=eng
+11	is	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	Lang=eng
+12	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	Lang=eng
+13	middle	middle	ADJ	_	Degree=Pos	14	compound	_	Lang=eng
+14	school	school	NOUN	_	Number=Sing	9	conj	_	Lang=eng
+15	and	and	CCONJ	_	_	17	cc	_	Lang=eng
+16	high	high	ADJ	_	Degree=Pos	17	compound	_	Lang=eng
+17	school	school	NOUN	_	Number=Sing	14	conj	_	Lang=eng
+18	like	like	ADP	_	_	22	case	_	Lang=eng
+19	in	in	ADP	_	_	22	case	_	Lang=eng
+20	the	the	DET	_	Definite=Def|PronType=Art	22	det	_	Lang=eng
+21	same	same	ADJ	_	Degree=Pos	22	amod	_	Lang=eng
+22	building	building	NOUN	_	Number=Sing	14	nmod	_	Lang=eng
+23	?	?	PUNCT	_	_	9	punct	_	_
 
 # sent_id = zeledon3:318
 # text = so tu colegio hasta qué grado va ?
@@ -3974,14 +3979,14 @@
 # gloss[orig] = so.ADV your.ADJ.POSS.MF.2S.SG school.N.M.SG until.PREP what.INT grade.N.M.SG go.V.3S.PRES
 # speaker = ELE
 # labels =
-1	so	so	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
-2	tu	tu	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	det	_	Lang=spa
-3	colegio	colegio	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	Lang=spa
+1	so	so	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	discourse	_	Lang=eng
+2	tu	tu	DET	_	Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	nmod	_	Lang=spa
+3	colegio	colegio	NOUN	_	Gender=Masc|Number=Sing	7	nsubj	_	Lang=spa
 4	hasta	hasta	ADP	_	_	6	case	_	Lang=spa
 5	qué	qué	DET	_	PronType=Int	6	det	_	Lang=spa
 6	grado	grado	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	Lang=spa
-7	va	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	Lang=spa
-8	?	?	PUNCT	_	_	1	punct	_	_
+7	va	ir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+8	?	?	PUNCT	_	_	7	punct	_	_
 
 # sent_id = zeledon3:320
 # text = no pero the building like to what grade does it go to ?
@@ -3989,17 +3994,17 @@
 # gloss[orig] = no.ADV but.CONJ the.DET.DEF unk like.SV.INFIN to.PREP what.REL grade.N.SG does.N.SG it.PRON.SUB.3S go.V.3S.PRES to.PREP
 # speaker = ELE
 # labels =
-1	no	no	INTJ	_	_	5	discourse	_	Lang=eng&spa
-2	pero	pero	CCONJ	_	_	5	cc	_	Lang=spa
+1	no	no	INTJ	_	_	11	discourse	_	Lang=eng&spa
+2	pero	pero	CCONJ	_	_	11	cc	_	Lang=spa
 3	the	the	DET	_	Definite=Def|PronType=Art	4	det	_	Lang=eng
-4	building	building	NOUN	_	Number=Sing	5	nsubj	_	Lang=eng
-5	like	like	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+4	building	building	NOUN	_	Number=Sing	11	dislocated	_	Lang=eng
+5	like	like	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	discourse	_	Lang=eng
 6	to	to	ADP	_	_	8	case	_	Lang=eng
 7	what	what	DET	_	PronType=Int	8	det	_	Lang=eng
 8	grade	grade	NOUN	_	Number=Sing	11	obl	_	Lang=eng
 9	does	do	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	Lang=eng
 10	it	it	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Lang=eng
-11	go	go	VERB	_	VerbForm=Inf	5	parataxis	_	Lang=eng
+11	go	go	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
 12	to	to	ADP	_	_	8	case	_	Lang=eng
 13	?	?	PUNCT	_	_	11	punct	_	_
 
@@ -4009,18 +4014,18 @@
 # gloss[orig] = eighth.ORD grade.N.SG and.CONJ afterwards.ADV you.PRON.OBL.MF.2S go.V.2S.PRES to.PREP pass.V.INFIN there.ADV to.PREP name
 # speaker = ELE
 # labels =
-1	eighth	eighth	PROPN	_	_	0	root	_	Lang=eng
-2	grade	grade	PROPN	_	_	1	flat	_	Lang=eng
+1	eighth	eighth	ADJ	_	_	2	amod	_	Lang=eng
+2	grade	grade	NOUN	_	_	0	root	_	Lang=eng
 3	y	y	CCONJ	_	_	8	cc	_	Lang=spa
 4	después	después	ADV	_	_	8	advmod	_	Lang=spa
 5	te	tú	PRON	_	Case=Acc,Dat|Number=Sing|Person=2|PrepCase=Npr|PronType=Prs	8	iobj	_	Lang=spa
 6	vas	ir	AUX	_	VerbForm=Inf	8	aux	_	Lang=spa
 7	a	a	ADP	_	_	8	mark	_	Lang=spa
-8	pasar	pasar	VERB	_	VerbForm=Inf	1	conj	_	Lang=spa
+8	pasar	pasar	VERB	_	VerbForm=Inf	2	conj	_	Lang=spa
 9	allá	allá	ADV	_	_	8	advmod	_	Lang=spa
 10	a	a	ADP	_	_	11	case	_	Lang=spa
 11	Sheridan	sheridan	PROPN	_	_	8	obl	_	Lang=eng&spa
-12	?	?	PUNCT	_	_	1	punct	_	_
+12	?	?	PUNCT	_	_	8	punct	_	_
 
 # sent_id = zeledon3:593
 # text = you wanna do deporte ?
@@ -4034,39 +4039,14 @@
 4	deporte	deporte	NOUN	_	Number=Sing	3	obj	_	Lang=spa
 5	?	?	PUNCT	_	_	3	punct	_	_
 
-# sent_id = zeledon3:682
-# text = so said en la tarde .
-# text[orig] = so xxx said xxx en@s:spa la@s:spa tarde@s:spa . 1716886_1719887
-# gloss[orig] = so.ADV said.AV.PAST+P in.PREP the.DET.DEF.F.SG afternoon.N.F.SG
-# speaker = ELE
-# labels =
-1	so	so	X	_	_	0	root	_	Lang=eng
-2	said	said	X	_	_	1	flat	_	Lang=eng
-3	en	en	ADP	_	_	5	case	_	Lang=spa
-4	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Lang=spa
-5	tarde	tarde	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	Lang=spa
-6	.	.	PUNCT	_	_	1	punct	_	_
-
-# sent_id = zeledon3:715
-# text = fútbol football fútbol football .
-# text[orig] = fútbol@s:spa football fútbol@s:spa football . 1779101_1782590
-# gloss[orig] = football.N.M.SG football.N.SG football.N.M.SG football.N.SG
-# speaker = FEL
-# labels =
-1	fútbol	fútbol	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
-2	football	football	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	Lang=eng
-3	fútbol	fútbol	NOUN	_	Gender=Masc|Number=Sing	1	appos	_	Lang=spa
-4	football	football	NOUN	_	Gender=Masc|Number=Sing	3	compound	_	Lang=eng
-5	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
-
 # sent_id = zeledon3:721
 # text = football is fútbol americano en español .
 # text[orig] = football is fútbol@s:spa americano@s:spa en@s:spa español@s:spa . 1789157_1792442
 # gloss[orig] = football.N.SG is.V.3S.PRES football.N.M.SG american.ADJ.M.SG in.PREP Spanish.N.M.SG
 # speaker = FEL
 # labels =
-1	football	football	X	_	Gender=Masc|Number=Sing	3	nsubj	_	Lang=eng
-2	is	ser	X	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=eng
+1	football	football	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	Lang=eng
+2	is	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=eng
 3	fútbol	fútbol	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
 4	americano	americano	ADJ	_	Gender=Masc|Number=Sing	3	amod	_	Lang=spa
 5	en	en	ADP	_	AdpType=Prep	6	case	_	Lang=spa
@@ -4079,16 +4059,16 @@
 # gloss[orig] = oh.IM my.ADJ.POSS.1S goodness.N.SG but.CONJ unk that.CONJ be.V.3P.PRES so_much.ADJ.F.PL thing.N.F.PL.[or].sew.V.2S.SUBJ.PRES
 # speaker = CON
 # labels =
-1	oh	oh	INTJ	_	_	2	discourse	_	Lang=eng&spa
-2	my	my	X	_	_	0	root	_	Lang=eng
-3	goodness	goodness	X	_	_	2	flat	_	Lang=eng
+1	oh	oh	INTJ	_	_	3	discourse	_	Lang=eng&spa
+2	my	my	INTJ	_	_	3	nmod	_	Lang=eng
+3	goodness	goodness	INTJ	_	_	5	discourse	_	Lang=eng
 4	pero	pero	CCONJ	_	_	5	cc	_	Lang=spa
-5	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Lang=eng
-6	que	que	SCONJ	_	_	9	mark	_	Lang=spa
-7	son	ser	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	Lang=spa
+5	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
+6	que	que	SCONJ	_	_	7	mark	_	Lang=spa
+7	son	ser	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	Lang=spa
 8	tantas	tanto	DET	_	Gender=Fem|Number=Plur|PronType=Ind	9	det	_	Lang=spa
-9	cosas	cosa	NOUN	_	Gender=Fem|Number=Plur	5	ccomp	_	Lang=spa
-10	.	.	PUNCT	_	PunctType=Peri	2	punct	_	_
+9	cosas	cosa	NOUN	_	Gender=Fem|Number=Plur	7	nsubj	_	Lang=spa
+10	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
 
 # sent_id = herring14:22
 # text = porque no encontré parking .
@@ -4126,31 +4106,13 @@
 16	estudiantes	estudiante	NOUN	_	Number=Plur	13	nmod	_	Lang=spa
 17	.	.	PUNCT	_	_	5	punct	_	_
 
-# sent_id = herring14:63
-# text = people usually hicieron que like when I was eating lunch .
-# text[orig] = +< people@s:eng usually@s:eng <hicieron que> [?] like@s:eng [?] when@s:eng I@s:eng was@s:eng eating@s:eng lunch@s:eng . 127606_129898
-# gloss[orig] = people.N.SG usual.ADJ+ADV.[or].usually.ADV do.V.3P.PAST that.CONJ like.V.INFIN when.CONJ I.PRON.SUB.1S was.V.13S.PAST unk lunch.N.SG
-# speaker = GAB
-# labels =
-1	people	people	NOUN	_	Number=Plur	3	nsubj	_	Lang=eng
-2	usually	usually	ADV	_	_	3	advmod	_	Lang=eng
-3	hicieron	hacer	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
-4	que	que	PRON	_	Number=Sing	3	obj	_	Lang=spa
-5	like	like	ADP	_	_	6	case	_	Lang=eng
-6	when	when	ADV	_	PronType=Int	9	mark	_	Lang=eng
-7	I	I	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	Lang=eng
-8	was	be	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	Lang=eng
-9	eating	eat	VERB	_	VerbForm=Ger	3	advcl	_	Lang=eng
-10	lunch	lunch	NOUN	_	Number=Sing	9	obj	_	Lang=eng
-11	.	.	PUNCT	_	_	3	punct	_	_
-
 # sent_id = herring14:129
 # text = es super cool .
 # text[orig] = es super@s:eng&spa cool@s:eng . 254818_255805
 # gloss[orig] = be.V.3S.PRES super.ADJ cool.SV.INFIN
 # speaker = CON
 # labels =
-1	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=spa
+1	es	ser	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Lang=spa
 2	super	super	ADV	_	_	3	advmod	_	Lang=eng&spa
 3	cool	cool	ADJ	_	Number=Sing	0	root	_	Lang=eng
 4	.	.	PUNCT	_	_	3	punct	_	_
@@ -4232,12 +4194,12 @@
 # speaker = CON
 # labels =
 1	en	en	ADP	_	_	3	case	_	Lang=spa
-2	los	los	PROPN	_	Number=Sing	3	compound	_	Lang=spa
+2	los	los	DET	_	Number=Sing	3	det	_	Lang=spa
 3	dorms	dorm	NOUN	_	Number=Plur	5	obl	_	Lang=eng
 4	they	they	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	Lang=eng
 5	have	have	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Lang=eng
 6	a	a	DET	_	Definite=Ind|PronType=Art	8	det	_	Lang=eng
-7	laundry	laundry	NOUN	_	Number=Sing	8	compound	_	Lang=eng
+7	laundry	laundry	NOUN	_	Number=Sing	8	nmod	_	Lang=eng
 8	room	room	NOUN	_	Number=Sing	5	obj	_	Lang=eng
 9	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -4301,9 +4263,9 @@
 # gloss[orig] = oh.IM my.ADJ.POSS.1S name I.PRON.SUB.MF.1S want.V.1S.PRES see.V.INFIN
 # speaker = CON
 # labels =
-1	oh	oh	INTJ	_	_	5	discourse	_	Lang=eng&spa
-2	my	my	X	_	_	5	dep	_	Lang=eng
-3	God	god	PROPN	_	_	2	flat	_	Lang=eng
+1	oh	oh	INTJ	_	_	3	discourse	_	Lang=eng&spa
+2	my	my	INTJ	_	_	3	nmod	_	Lang=eng
+3	God	god	PROPN	_	_	5	discourse	_	Lang=eng
 4	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Lang=spa
 5	quiero	querer	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 6	ver	ver	VERB	_	VerbForm=Inf	5	xcomp	_	Lang=spa
@@ -4318,8 +4280,8 @@
 1	like	like	ADP	_	_	2	case	_	Lang=eng
 2	Rome	Rome	PROPN	_	Number=Sing	0	root	_	Lang=eng
 3	or	or	CCONJ	_	_	5	cc	_	Lang=eng
-4	no	no	DET	_	_	2	conj	_	Lang=spa
-5	sé	sé	NOUN	_	Number=Sing	2	conj	_	Lang=spa
+4	no	no	ADV	_	_	5	advmod	_	Lang=spa
+5	sé	sé	VERB	_	Number=Sing	2	conj	_	Lang=spa
 6	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = herring14:255
@@ -4414,22 +4376,24 @@
 # gloss[orig] = I.PRON.SUB.1S know.V.1S.PRES all.ADJ of.PREP that.CONJ.[or].that.DEM.FAR because.CONJ in.PREP my.ADJ.POSS.1S history.N.SG class.N.SG we.PRON.SUB.1P+BE.V.PRES be.V.1P.PRES see.V.PRESPART all.ADJ.M.SG that.PRON.DEM.NT.SG
 # speaker = CON
 # labels =
-1	I	I	PRON	_	_	0	root	_	Lang=eng
-2	know	know	X	_	Foreign=Yes	1	flat	_	Lang=eng
-3	all	all	X	_	_	1	flat	_	Lang=eng
-4	of	of	X	_	_	5	case	_	Lang=eng
-5	that	that	X	_	Number=Sing|PronType=Dem	1	nmod	_	Lang=eng
-6	because	because	X	_	_	13	mark	_	Lang=eng
-7	in	in	ADP	_	_	13	advcl	_	Lang=eng
-8	my	my	X	_	Foreign=Yes	7	dep	_	Lang=eng
-9	history	history	X	_	Number=Sing	7	compound	_	Lang=eng
-10	class	class	X	_	Number=Sing	7	dep	_	Lang=eng
-11	we're	we're	X	_	_	13	nsubj	_	Lang=eng
-12	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	Lang=spa
-13	viendo	ver	VERB	_	VerbForm=Ger	1	advcl	_	Lang=spa
-14	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	15	det	_	Lang=spa
-15	eso	ese	PRON	_	Number=Sing|PronType=Dem	13	obj	_	Lang=spa
-16	.	.	PUNCT	_	_	1	punct	_	_
+1	I	I	PRON	_	_	2	nsubj	_	Lang=eng
+2	know	know	VERB	_	Foreign=Yes	0	root	_	Lang=eng
+3	all	all	DET	_	_	2	obj	_	Lang=eng
+4	of	of	ADP	_	_	5	case	_	Lang=eng
+5	that	that	PRON	_	Number=Sing|PronType=Dem	3	nmod	_	Lang=eng
+6	because	because	SCONJ	_	_	14	mark	_	Lang=eng
+7	in	in	ADP	_	_	10	case	_	Lang=eng
+8	my	my	DET	_	Foreign=Yes	10	nmod	_	Lang=eng
+9	history	history	NOUN	_	Number=Sing	10	nmod	_	Lang=eng
+10	class	class	NOUN	_	Number=Sing	14	obl	_	Lang=eng
+11-12	we're	_	_	_	_	_	_	_	_
+11	we	we're	PRON	_	_	14	nsubj	_	Lang=eng
+12	're	_	AUX	_	_	14	aux	_	_
+13	estamos	estar	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	Lang=spa
+14	viendo	ver	VERB	_	VerbForm=Ger	2	advcl	_	Lang=spa
+15	todo	todo	DET	_	Gender=Masc|Number=Sing|PronType=Tot	16	det	_	Lang=spa
+16	eso	ese	PRON	_	Number=Sing|PronType=Dem	14	obj	_	Lang=spa
+17	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = herring14:350
 # text = oh my goodness pero es demasiado .
