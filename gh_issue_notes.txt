@@ -9,3 +9,10 @@ inconsistent annotation of "cada vez que" in AnCora
 check xcomps....especially secondary predication (quedó __, nos hicimos miembros, etc.)
 
 error in pos and dep : 3LB-CAST-t5-7-s4 (AnCora train)...pintas should be VERB
+
+
+annotation of "es que" in AnCora seems wrong...sometimes the complement is marked as ccomp of "es" ??
+
+treatment of "like" needs to be made consistent
+
+in AnCora the annotations of " a little ADJ" might not be consistent...some have obl(little, ADJ) others have advmod
