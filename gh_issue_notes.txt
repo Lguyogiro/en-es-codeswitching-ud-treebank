@@ -10,9 +10,19 @@ check xcomps....especially secondary predication (quedó __, nos hicimos miembro
 
 error in pos and dep : 3LB-CAST-t5-7-s4 (AnCora train)...pintas should be VERB
 
+need a big fat issue about reparanda, because a lot of these trees are looking funky.
+    reparandum when an aux is repeated eg "es, you know, es _"
 
 annotation of "es que" in AnCora seems wrong...sometimes the complement is marked as ccomp of "es" ??
 
 treatment of "like" needs to be made consistent
 
 in AnCora the annotations of " a little ADJ" might not be consistent...some have obl(little, ADJ) others have advmod
+
+"o sea" weirdly annotated in AnCora...with "sea" as a NOUN...also inconsistent in gsd
+
+"oh my god" not annotated as a fixed expression in GUM...this seems like the right analysis, not discourse(oh, V) and discourse(god, V)
+
+AUX vs VERB for cop
+
+"el de N" construction...
