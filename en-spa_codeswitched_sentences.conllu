@@ -8246,8 +8246,8 @@
 # gloss[orig] = the.DET.DEF.M.SG handle.N.SG him.PRON.OBJ.M.3S tell.V.3S.PRES
 # speaker = MAR
 # labels =
-1	el	el	X	_	_	2	det	_	Lang=spa
-2	handle	handle	X	_	_	4	nsubj	_	Lang=eng
+1	el	el	DET	_	_	2	det	_	Lang=spa
+2	handle	handle	NOUN	_	_	4	nsubj	_	Lang=eng
 3	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	4	obj	_	Lang=spa
 4	dice	decir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 
@@ -8294,22 +8294,22 @@
 # gloss[orig] = oh.IM the.DET.DEF.F.SG unk be.V.3S.PRES that.CONJ the.DET.DEF.F.SG company.N.F.SG be.V.13S.IMPERF convert.V.PRESPART.PRECLITIC+SE[PRON.MF.3S] more.ADV good.N.M.SG in.PREP in.PREP unk contractor.N.PL
 # speaker = MAR
 # labels =
-1	ay	ay	X	_	_	4	advmod	_	Lang=spa
-2	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Lang=spa
-3	mmm	mmm	X	_	_	4	nsubj	_	Lang=spa
-4	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+1	ay	ay	INTJ	_	_	9	discourse	_	Lang=spa
+2	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	reparandum	_	Lang=spa
+3	mmm	mmm	INTJ	_	_	9	discourse	_	Lang=spa
+4	es	ser	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	Lang=spa
 5	que	que	SCONJ	_	_	9	mark	_	Lang=spa
 6	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	Lang=spa
 7	compañía	compañía	NOUN	_	Gender=Fem|Number=Sing	9	nsubj	_	Lang=spa
 8	estaba	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	9	aux	_	Lang=spa
-9	convirtiéndose	convirtiéndr	VERB	_	VerbForm=Ger	4	ccomp	_	Lang=spa
+9	convirtiéndose	convirtiéndr	VERB	_	VerbForm=Ger	0	root	_	Lang=spa
 10	más	más	ADV	_	Degree=Cmp	11	advmod	_	Lang=spa
 11	bien	bien	ADV	_	_	9	advmod	_	Lang=spa
-12	en	en	ADP	_	_	15	case	_	Lang=spa
+12	en	en	ADP	_	_	13	reparandum	_	Lang=spa
 13	en	en	ADP	_	_	15	case	_	Lang=spa
-14	plumbing	plumbing	X	_	Gender=Masc|Number=Sing	15	compound	_	Lang=eng
-15	contractors	contractors	X	_	_	9	obl	_	Lang=eng
-16	.	.	PUNCT	_	_	4	punct	_	_
+14	plumbing	plumbing	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	Lang=eng
+15	contractors	contractors	NOUN	_	_	9	obl	_	Lang=eng
+16	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = maria40:289
 # text = you know él quiere hacer un poco más de diseño .
@@ -8317,8 +8317,8 @@
 # gloss[orig] = you.PRON.SUB.2SP know.V.2SP.PRES he.PRON.SUB.M.3S want.V.2S.IMPER.[or].want.V.3S.PRES do.V.INFIN one.DET.INDEF.M.SG little.ADJ.M.SG more.ADV of.PREP design.N.M.SG
 # speaker = MAR
 # labels =
-1	you	you	PRON	_	_	4	nsubj	_	Lang=eng
-2	know	know	X	_	_	1	flat	_	Lang=eng
+1	you	you	PRON	_	_	2	nsubj	_	Lang=eng
+2	know	know	VERB	_	_	4	discourse	_	Lang=eng
 3	él	él	PRON	_	Case=Acc,Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	Lang=spa
 4	quiere	querer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 5	hacer	hacer	VERB	_	VerbForm=Inf	4	xcomp	_	Lang=spa
@@ -8335,13 +8335,15 @@
 # gloss[orig] = yes.ADV it.PRON.SUB.3S+BE.V.3S.PRES just.ADJ.[or].just.ADV for.PREP three.NUM year.N.PL
 # speaker = MAR
 # labels =
-1	sí	sí	INTJ	_	_	6	discourse	_	Lang=spa
-2	it's	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Lang=eng
-3	just	just	ADV	_	_	6	advmod	_	Lang=eng
-4	for	for	ADP	_	_	6	case	_	Lang=eng
-5	three	three	NUM	_	NumType=Card	6	nummod	_	Lang=eng
-6	years	year	NOUN	_	Number=Plur	0	root	_	Lang=eng
-7	.	.	PUNCT	_	_	6	punct	_	_
+1	sí	sí	INTJ	_	_	7	discourse	_	Lang=spa
+2-3	it's	_	_	_	_	_	_	_	_
+2	it	it's	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	Lang=eng
+3	's	_	AUX	_	_	7	cop	_	_
+4	just	just	ADV	_	_	7	advmod	_	Lang=eng
+5	for	for	ADP	_	_	7	case	_	Lang=eng
+6	three	three	NUM	_	NumType=Card	7	nummod	_	Lang=eng
+7	years	year	NOUN	_	Number=Plur	0	root	_	Lang=eng
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = maria40:333
 # text = pero forget it .
@@ -8360,13 +8362,13 @@
 # gloss[orig] = be.V.3P.IMPERF all.ADJ.F.PL.[or].everything.PRON.F.PL like.CONJ.[or].like.SV.INFIN in.PREP little.ADJ cup.N.PL
 # speaker = MAR
 # labels =
-1	estaban	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Lang=spa
-2	todas	todo	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	1	nsubj	_	Lang=spa
-3	like	like	X	_	_	1	obj	_	Lang=eng
-4	in	in	ADP	_	_	1	obl	_	Lang=eng
-5	little	little	X	_	_	3	flat	_	Lang=eng
-6	cups	cups	X	_	_	3	flat	_	Lang=eng
-7	.	.	PUNCT	_	_	1	punct	_	_
+1	estaban	estar	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	6	cop	_	Lang=spa
+2	todas	todo	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	6	nsubj	_	Lang=spa
+3	like	like	INTJ	_	_	6	discourse	_	Lang=eng
+4	in	in	ADP	_	_	6	case	_	Lang=eng
+5	little	little	ADJ	_	_	6	amod	_	Lang=eng
+6	cups	cups	NOUN	_	_	0	root	_	Lang=eng
+7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = maria40:342
 # text = no mama not yet .
@@ -8388,15 +8390,17 @@
 # labels =
 1	pero	pero	CCONJ	_	_	6	cc	_	Lang=spa
 2	la	el	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	Lang=spa
-3	cocacola	cocacola	NOUN	_	Gender=Fem|Number=Sing	6	nsubj	_	Lang=spa
-4	cero	cero	NUM	_	NumType=Card	3	nummod	_	Lang=spa
+3	cocacola	cocacola	X	_	Gender=Fem|Number=Sing	6	nsubj	_	Lang=spa
+4	cero	cero	PROPN	_	NumType=Card	3	flat	_	Lang=spa
 5	prima	primo	NOUN	_	Gender=Fem|Number=Sing	3	amod	_	Lang=spa
 6	hermana	hermana	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Lang=spa
-7	del	del	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	8	case	_	Lang=spa
-8	concepto	concepto	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Lang=spa
-9	del	del	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	10	case	_	Lang=spa
-10	diet	diet	X	_	_	8	nmod	_	Lang=eng
-11	coke	coke	PROPN	_	_	10	flat	_	Lang=eng
+7-8	del	_	_	_	_	_	_	_	_
+7	de	del	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	9	case	_	Lang=spa
+8	l	_	DET	_	_	9	det	_	_
+9	concepto	concepto	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	Lang=spa
+10	del	del	ADP	_	AdpType=Preppron|Gender=Masc|Number=Sing	11	case	_	Lang=spa
+11	diet	diet	X	_	_	9	nmod	_	Lang=eng
+12	coke	coke	PROPN	_	_	11	flat	_	Lang=eng
 
 # sent_id = maria40:353
 # text = ese tiene pero es natural right ?
@@ -8511,7 +8515,7 @@
 # labels =
 1	así	así	ADV	_	_	3	cc	_	Lang=spa
 2	que	que	CCONJ	_	_	1	fixed	_	Lang=spa
-3	forget	forget	X	_	VerbForm=Inf	0	root	_	Lang=eng
+3	forget	forget	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
 4	it	it	PRON	_	Number=Sing|Person=3	3	obj	_	Lang=eng
 5	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -8616,7 +8620,7 @@
 13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = maria40:598
-# text = hay que ponerle un tape ustedes pa(ra lo o los tuyos o a los míos .
+# text = hay que ponerle un tape ustedes para lo o los tuyos o a los míos .
 # text[orig] = hay que ponerle un tape@s:eng ustedes pa(ra) lo o los tuyos o a los míos . 3514048_3517654
 # gloss[orig] = there_is.V.3S.PRES that.CONJ put.V.INFIN+LE[PRON.MF.3S] one.DET.INDEF.M.SG tape.N.SG you.PRON.SUB.MF.3P for.PREP the.DET.DEF.NT.SG or.CONJ the.DET.DEF.M.PL of_yours.ADJ.POSS.MF.2S.M.PL or.CONJ to.PREP the.DET.DEF.M.PL of_mine.ADJ.POSS.MF.1S.M.PL
 # speaker = MAR
@@ -8627,7 +8631,7 @@
 4	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Lang=spa
 5	tape	tape	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	Lang=eng
 6	ustedes	ustedes	PRON	_	Number=Sing|Person=2|Polite=Form|PronType=Prs	3	nsubj	_	Lang=spa
-7	pa(ra	pa(ra	VERB	_	_	3	advcl	_	Lang=spa
+7	para	para	VERB	_	_	3	advcl	_	Lang=spa
 8	lo	él	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs	7	obj	_	Lang=spa
 9	o	o	CCONJ	_	_	10	cc	_	Lang=spa
 10	los	el	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	Lang=spa
@@ -8721,7 +8725,7 @@
 # labels =
 1	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Lang=spa
 2	ice	ice	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	Lang=eng
-3	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=spa
+3	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=spa
 4	ready	ready	ADJ	_	_	0	root	_	Lang=eng
 5	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -8769,14 +8773,14 @@
 # gloss[orig] = make.V.INFIN sure.ADJ than.CONJ not.ADV there_is.V.3S.PRES nothing.PRON in.PREP of.PREP the.DET.DEF.M.SG way.N.M.SG of.PREP your.ADJ.POSS.MF.2S.SG grandmother.N.M.SG
 # speaker = MAR
 # labels =
-1	make	make	X	_	VerbForm=Inf	0	root	_	Lang=eng
-2	sure	sure	X	_	Number=Sing	1	compound	_	Lang=eng
+1	make	make	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
+2	sure	sure	ADJ	_	Number=Sing	1	xcomp	_	Lang=eng
 3	que	que	SCONJ	_	_	5	mark	_	Lang=spa
 4	no	no	ADV	_	Polarity=Neg	5	advmod	_	Lang=spa
-5	hay	haber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	Lang=spa
+5	hay	haber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	Lang=spa
 6	nada	nada	PRON	_	Number=Sing|PronType=Neg	5	obj	_	Lang=spa
 7	en	en	ADP	_	_	10	case	_	Lang=spa
-8	de	de	ADP	_	_	7	fixed	_	Lang=spa
+8	de	de	ADP	_	_	10	reparandum	_	Lang=spa
 9	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	Lang=spa
 10	camino	camino	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	Lang=spa
 11	de	de	ADP	_	_	13	case	_	Lang=spa
@@ -8790,14 +8794,14 @@
 # gloss[orig] = I.PRON.SUB.MF.1S have.V.1S.PRES that.CONJ bring.V.INFIN my.ADJ.POSS.MF.1S.SG dominate.V.3S.PAST too.ADV for.PREP that.CONJ because.CONJ if.CONJ there_is.V.3S.PRES two.NUM guy.N.M.PL of.PREP of.PREP domino.N.SG play.N.SG+COMP.AG
 # speaker = MAR
 # labels =
-1	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Lang=spa
-2	tengo	tener	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	Lang=spa
-3	que	que	CCONJ	_	_	2	fixed	_	Lang=spa
-4	traer	traer	VERB	_	VerbForm=Inf	0	root	_	Lang=spa
+1	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	Lang=spa
+2	tengo	tener	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
+3	que	que	CCONJ	_	_	4	_	_	Lang=spa
+4	traer	traer	VERB	_	VerbForm=Inf	2	_	_	Lang=spa
 5	mi	mi	DET	_	Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	det	_	Lang=spa
 6	dominó	dominó	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	Lang=spa
 7	también	también	ADV	_	_	4	advmod	_	Lang=spa
-8	para	para	ADP	_	_	12	mark	_	Lang=spa
+8	para	para	ADP	_	_	10	reparandum	_	Lang=spa
 9	que	que	SCONJ	_	_	8	fixed	_	Lang=spa
 10	porque	porque	SCONJ	_	_	12	mark	_	Lang=spa
 11	si	si	SCONJ	_	_	12	mark	_	Lang=spa
@@ -8853,7 +8857,7 @@
 # speaker = MAR
 # labels =
 1	no	no	ADV	_	Polarity=Neg	4	advmod	_	Lang=spa
-2	seas	sear	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=spa
+2	seas	ser	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	cop	_	Lang=spa
 3	tan	tanto	ADV	_	_	4	advmod	_	Lang=spa
 4	particular	particular	ADJ	_	Number=Sing	0	root	_	Lang=eng
 5	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
@@ -8864,7 +8868,7 @@
 # gloss[orig] = more.ADJ juice.N.M.SG tell.V.2S.IMPER+LE[PRON.MF.3S] to.PREP name that.CONJ you.PRON.OBL.MF.2S give.V.13S.SUBJ.PRES unk juice.N.M.SG
 # speaker = MAR
 # labels =
-1	more	more	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	Lang=eng
+1	more	more	NOUN	_	Gender=Masc|Number=Sing	3	dislocated	_	Lang=eng
 2	jugo	jugo	VERB	_	Gender=Masc|Number=Sing|VerbForm=Part	1	acl	_	Lang=spa
 3	dile	dile	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 4	a	a	ADP	_	_	5	case	_	Lang=spa
@@ -8906,11 +8910,11 @@
 # speaker = MAR
 # labels =
 1	mira	mira	VERB	_	_	0	root	_	Lang=spa
-2	tu	tu	X	_	Number=Sing	1	obj	_	Lang=spa
-3	blanky	blanky	X	_	_	1	obj	_	Lang=eng
-4	está	estar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	Lang=spa
-5	aquí	aquí	ADV	_	_	4	advmod	_	Lang=spa
-6	papo	papo	NOUN	_	Gender=Masc|Number=Sing	4	nsubj	_	Lang=spa
+2	tu	tu	PRON	_	Number=Sing	3	nmod	_	Lang=spa
+3	blanky	blanky	NOUN	_	_	5	nsubj	_	Lang=eng
+4	está	estar	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	Lang=spa
+5	aquí	aquí	ADV	_	_	1	parataxis	_	Lang=spa
+6	papo	papo	NOUN	_	Gender=Masc|Number=Sing	1	vocative	_	Lang=spa
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = maria40:790

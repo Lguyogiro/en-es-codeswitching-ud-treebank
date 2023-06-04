@@ -26,3 +26,7 @@ in AnCora the annotations of " a little ADJ" might not be consistent...some have
 AUX vs VERB for cop
 
 "el de N" construction...
+
+"like" ...."estaban todas like en little cups"
+
+sometimes the paralinguistic things (imitating sounds etc) are syntactically relevant eg "sometimes I hear the &=imit:game_sounds"...we should probably keep this?
