@@ -9432,11 +9432,13 @@
 # gloss[orig] = give.V.2S.IMPER+LE[PRON.MF.3S] one.DET.INDEF.M.SG little.ADJ banana.N.SG
 # speaker = MAR
 # labels =
-1	dale	dale	ADV	_	_	0	root	_	Lang=spa
-2	un	un	DET	_	Definite=Ind|PronType=Art	4	det	_	Lang=spa
-3	little	little	ADJ	_	Degree=Pos	4	amod	_	Lang=eng
-4	banana	banana	NOUN	_	Number=Sing	1	obj	_	Lang=eng
-5	.	.	PUNCT	_	_	4	punct	_	_
+1-2	dale	_	_	_	_	_	_	_	_
+1	da	dale	ADV	_	_	0	root	_	Lang=spa
+2	le	él	PRON	_	_	1	iobj	_	_
+3	un	un	DET	_	Definite=Ind|PronType=Art	5	det	_	Lang=spa
+4	little	little	ADJ	_	Degree=Pos	5	amod	_	Lang=eng
+5	banana	banana	NOUN	_	Number=Sing	1	obj	_	Lang=eng
+6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = maria40:1320
 # text = eso es only un castigo exacto .
@@ -9449,8 +9451,8 @@
 3	only	only	ADV	_	_	5	advmod	_	Lang=eng
 4	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	Lang=spa
 5	castigo	castigo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Lang=spa
-6	exacto	exacto	ADJ	_	Gender=Masc|Number=Sing	5	amod	_	Lang=spa
-7	.	.	PUNCT	_	PunctType=Peri	5	punct	_	_
+6	exacto	exacto	ADJ	_	Gender=Masc|Number=Sing	5	parataxis	_	Lang=spa
+7	.	.	PUNCT	_	PunctType=Peri	6	punct	_	_
 
 # sent_id = maria40:1336
 # text = ella quiere ver cual es el score .
@@ -9472,17 +9474,17 @@
 # text[orig] = porque yo pensé que sería un poquitito más de brain@s:eng . 8335565_8337736
 # gloss[orig] = because.CONJ I.PRON.SUB.MF.1S think.V.1S.PAST that.CONJ be.V.13S.COND one.DET.INDEF.M.SG small.ADJ.M.SG.DIM.DIM more.ADV of.PREP brain.N.SG
 # speaker = MAR
-# labels =
+# labels = check poquitito mas
 1	porque	porque	SCONJ	_	_	3	mark	_	Lang=spa
 2	yo	yo	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Lang=spa
 3	pensé	pensar	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	Lang=spa
-4	que	que	SCONJ	_	_	7	mark	_	Lang=spa
-5	sería	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	7	cop	_	Lang=spa
+4	que	que	SCONJ	_	_	10	mark	_	Lang=spa
+5	sería	ser	AUX	_	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin	10	cop	_	Lang=spa
 6	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Lang=spa
-7	poquitito	poquitito	NOUN	_	Gender=Masc|Number=Sing	3	ccomp	_	Lang=spa
-8	más	más	ADV	_	_	7	advmod	_	Lang=spa
+7	poquitito	poquitito	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	Lang=spa
+8	más	más	ADV	_	_	10	advmod	_	Lang=spa
 9	de	de	ADP	_	AdpType=Prep	10	case	_	Lang=spa
-10	brain	brain	NOUN	_	_	7	nmod	_	Lang=eng
+10	brain	brain	NOUN	_	_	3	ccomp	_	Lang=eng
 11	.	.	PUNCT	_	PunctType=Peri	3	punct	_	_
 
 # sent_id = herring7:6
@@ -9491,20 +9493,20 @@
 # gloss[orig] = and.CONJ at.PREP the.DET.DEF end.N.SG they.PRON.SUB.3P put.V.3P.PRES they.PRON.SUB.3P put.V.3P.PRES like.CONJ ah.IM like.CONJ a.DET.INDEF.F.SG injection.N.F.SG
 # speaker = SEB
 # labels =
-1	and	and	CCONJ	_	Gender=Masc|Number=Sing	0	root	_	Lang=eng
-2	at	at	X	_	_	1	flat	_	Lang=eng
-3	the	the	DET	_	Gender=Masc|Number=Sing	1	flat	_	Lang=eng
-4	end	end	X	_	Number=Sing	1	flat	_	Lang=eng
-5	they	they	PRON	_	Number=Plur	1	flat	_	Lang=eng
-6	put	put	X	_	Gender=Masc|Number=Sing	1	flat	_	Lang=eng
-7	they	they	PRON	_	Number=Plur	1	flat	_	Lang=eng
-8	put	put	X	_	Number=Sing	1	flat	_	Lang=eng
-9	like	like	X	_	Gender=Masc|Number=Sing	1	flat	_	Lang=eng
-10	ah	ah	INTJ	_	_	1	dep	_	Lang=eng
+1	and	and	CCONJ	_	Gender=Masc|Number=Sing	8	cc	_	Lang=eng
+2	at	at	ADP	_	_	4	case	_	Lang=eng
+3	the	the	DET	_	Gender=Masc|Number=Sing	4	det	_	Lang=eng
+4	end	end	NOUN	_	Number=Sing	8	obl	_	Lang=eng
+5	they	they	PRON	_	Number=Plur	6	nsubj	_	Lang=eng
+6	put	put	VERB	_	Gender=Masc|Number=Sing	8	reparandum	_	Lang=eng
+7	they	they	PRON	_	Number=Plur	8	nsubj	_	Lang=eng
+8	put	put	VERB	_	Number=Sing	0	root	_	Lang=eng
+9	like	like	ADP	_	Gender=Masc|Number=Sing	13	case	_	Lang=eng
+10	ah	ah	INTJ	_	_	13	discourse	_	Lang=eng
 11	como	como	ADP	_	_	13	case	_	Lang=spa
 12	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	13	det	_	Lang=spa
-13	inyección	inyección	NOUN	_	Gender=Fem|Number=Sing	1	nmod	_	Lang=spa
-14	.	.	PUNCT	_	_	1	punct	_	_
+13	inyección	inyección	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	Lang=spa
+14	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = herring7:7
 # text = se la ponen and like
@@ -9519,7 +9521,7 @@
 5	like	_	ADV	_	_	3	advmod	_	Lang=eng
 
 # sent_id = herring7:12
-# text = yeah como un asesino porque ya ellos tenían su comun(idad) comunidad ahí .
+# text = yeah como un asesino porque ya ellos tenían su comunidad comunidad ahí .
 # text[orig] = yeah como@s:spa un@s:spa asesino@s:spa (.) porque@s:spa ya@s:spa ellos@s:spa tenían@s:spa su@s:spa (.) comun(idad)@s:spa [/] comunidad@s:spa ahí@s:spa . 33705_39196
 # gloss[orig] = yeah.ADV like.CONJ one.DET.INDEF.M.SG murderer.N.M.SG because.CONJ already.ADV they.PRON.SUB.M.3P have.V.3P.IMPERF his.ADJ.POSS.MF.3SP.SG community.N.F.SG community.N.F.SG there.ADV
 # speaker = SEB
@@ -9533,7 +9535,7 @@
 7	ellos	él	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	8	nsubj	_	Lang=spa
 8	tenían	tener	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	Lang=spa
 9	su	su	DET	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	det	_	Lang=spa
-10	comun(idad)	comun(idad)	X	_	Gender=Fem|Number=Sing	11	amod	_	Lang=spa
+10	comunidad	comunidad	NOUN	_	Gender=Fem|Number=Sing	11	reparandum	_	Lang=spa
 11	comunidad	comunidad	NOUN	_	Gender=Fem|Number=Sing	8	obj	_	Lang=spa
 12	ahí	ahí	ADV	_	_	8	advmod	_	Lang=spa
 13	.	.	PUNCT	_	PunctType=Peri	4	punct	_	_
@@ -9584,29 +9586,29 @@
 23	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = herring7:44
-# text = but in the book there is a gir(l that betrayed him que se hace pasar por humano .
+# text = but in the book there is a girl that betrayed him que se hace pasar por humano .
 # text[orig] = but in the book there is a gir(l) (.) that betrayed him (.) que@s:spa se@s:spa hace@s:spa pasar@s:spa por@s:spa humano@s:spa . 95536_102317
 # gloss[orig] = but.CONJ in.PREP the.DET.DEF book.N.SG there.ADV is.V.3S.PRES a.DET.INDEF girl.N.SG that.CONJ betray.V.INFIN+AV him.PRON.OBJ.M.3S that.CONJ self.PRON.REFL.MF.3SP do.V.3S.PRES pass.V.INFIN for.PREP human.ADJ.M.SG.[or].human.N.M.SG
 # speaker = SEB
 # labels =
-1	but	but	CCONJ	_	_	6	cc	_	Lang=eng
+1	but	but	CCONJ	_	_	8	cc	_	Lang=eng
 2	in	in	ADP	_	_	4	case	_	Lang=eng
 3	the	the	DET	_	Foreign=Yes	4	det	_	Lang=eng
-4	book	book	X	_	_	1	flat:foreign	_	Lang=eng
-5	there	there	X	_	_	6	expl	_	Lang=eng
-6	is	is	X	_	_	0	root	_	Lang=eng
-7	a	a	X	_	_	8	det	_	Lang=eng
-8	gir(l	gir(l	X	_	_	6	nsubj	_	Lang=eng
-9	that	that	X	_	_	10	nsubj	_	Lang=eng
-10	betrayed	betrayed	X	_	_	8	acl:relcl	_	Lang=eng
-11	him	_	X	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	Lang=eng
+4	book	book	NOUN	_	_	8	obl	_	Lang=eng
+5	there	there	PRON	_	_	6	expl	_	Lang=eng
+6	is	is	AUX	_	_	8	cop	_	Lang=eng
+7	a	a	DET	_	_	8	det	_	Lang=eng
+8	girl	girl	NOUN	_	_	0	root	_	Lang=eng
+9	that	that	PRON	_	_	10	nsubj	_	Lang=eng
+10	betrayed	betrayed	VERB	_	_	8	acl:relcl	_	Lang=eng
+11	him	_	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	obj	_	Lang=eng
 12	que	que	SCONJ	_	_	15	mark	_	Lang=spa
 13	se	se	PRON	_	_	15	obj	_	Lang=spa
 14	hace	hacer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	Lang=spa
-15	pasar	pasar	VERB	_	VerbForm=Inf	10	ccomp	_	Lang=spa
+15	pasar	pasar	VERB	_	VerbForm=Inf	8	acl:relcl	_	Lang=spa
 16	por	por	ADP	_	_	17	case	_	Lang=spa
 17	humano	humano	NOUN	_	_	15	obl	_	Lang=spa
-18	.	.	PUNCT	_	_	6	punct	_	_
+18	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = herring7:56
 # text = so like there's no way que ella se puede pasar como humano si se parece como un zombie .
@@ -9614,25 +9616,27 @@
 # gloss[orig] = so.ADV like.V.INFIN there.PRON+BE.V.3S.PRES no.ADV way.N.SG that.PRON.REL she.PRON.SUB.F.3S self.PRON.REFL.MF.3SP be_able.V.3S.PRES pass.V.INFIN like.CONJ human.ADJ.M.SG.[or].human.N.M.SG if.CONJ self.PRON.REFL.MF.3SP seem.V.3S.PRES like.CONJ one.DET.INDEF.M.SG zombie.N.SG
 # speaker = RIC
 # labels =
-1	so	so	X	_	_	0	root	_	Lang=eng
-2	like	like	X	_	_	1	flat	_	Lang=eng
-3	there's	there's	X	_	_	1	flat	_	Lang=eng
-4	no	no	X	_	Foreign=Yes	1	flat	_	Lang=eng
-5	way	way	X	_	_	1	flat	_	Lang=eng
-6	que	que	SCONJ	_	_	10	mark	_	Lang=spa
-7	ella	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	Lang=spa
-8	se	él	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	10	iobj	_	Lang=spa
-9	puede	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	Lang=spa
-10	pasar	pasar	VERB	_	VerbForm=Inf	1	conj	_	Lang=spa
-11	como	como	ADP	_	_	12	case	_	Lang=spa
-12	humano	humano	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	Lang=spa
-13	si	si	SCONJ	_	_	15	mark	_	Lang=spa
-14	se	él	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	15	iobj	_	Lang=spa
-15	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	Lang=spa
-16	como	como	ADP	_	_	18	case	_	Lang=spa
-17	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	18	det	_	Lang=spa
-18	zombie	zombie	NOUN	_	Gender=Masc|Number=Sing	15	obl	_	Lang=eng
-19	.	.	PUNCT	_	_	10	punct	_	_
+1	so	so	INTJ	_	_	6	discourse	_	Lang=eng
+2	like	like	INTJ	_	_	6	discourse	_	Lang=eng
+3-4	there's	_	_	_	_	_	_	_	_
+3	there	there's	PRON	_	_	6	expl	_	Lang=eng
+4	's	_	AUX	_	_	6	cop	_	_
+5	no	no	ADV	_	Foreign=Yes	6	advmod	_	Lang=eng
+6	way	way	NOUN	_	_	0	root	_	Lang=eng
+7	que	que	SCONJ	_	_	11	mark	_	Lang=spa
+8	ella	él	PRON	_	Case=Acc,Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	Lang=spa
+9	se	él	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	11	iobj	_	Lang=spa
+10	puede	poder	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	Lang=spa
+11	pasar	pasar	VERB	_	VerbForm=Inf	6	acl:relcl	_	Lang=spa
+12	como	como	ADP	_	_	13	case	_	Lang=spa
+13	humano	humano	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	Lang=spa
+14	si	si	SCONJ	_	_	16	mark	_	Lang=spa
+15	se	él	PRON	_	Case=Acc,Dat|Person=3|PrepCase=Npr|PronType=Prs|Reflex=Yes	16	iobj	_	Lang=spa
+16	parece	parecer	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	_	Lang=spa
+17	como	como	ADP	_	_	19	case	_	Lang=spa
+18	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	19	det	_	Lang=spa
+19	zombie	zombie	NOUN	_	Gender=Masc|Number=Sing	16	obl	_	Lang=eng
+20	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = herring7:59
 # text = that one that one se estaba curando .
