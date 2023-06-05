@@ -8925,7 +8925,7 @@
 # labels =
 1	mira	mirar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 2	aquí	aquí	ADV	_	_	1	advmod	_	Lang=spa
-3	tu	tu	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	Lang=spa
+3	tu	tu	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nmod	_	Lang=spa
 4	blanky	blanky	NOUN	_	_	1	obj	_	Lang=eng
 5	.	.	PUNCT	_	PunctType=Peri	1	punct	_	_
 
@@ -8934,24 +8934,24 @@
 # text[orig] = nosotros hemos hecho diez los que sal [/] salimos a jugar como siete piezas or@s:eng something@s:eng like@s:eng that@s:eng . 4635979_4639947
 # gloss[orig] = we.PRON.SUB.M.1P have.V.1P.PRES do.V.PASTPART ten.NUM the.DET.DEF.M.PL that.PRON.REL salt.N.F.SG exit.V.1P.PAST.[or].exit.V.1P.PRES to.PREP play.V.INFIN like.CONJ seven.NUM piece.N.F.PL or.CONJ something.PRON like.CONJ.[or].like.SV.INFIN that.DEM.FAR
 # speaker = MAR
-# labels =
+# labels = questionable
 1	nosotros	yo	PRON	_	Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=spa
 2	hemos	haber	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	Lang=spa
 3	hecho	hacer	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Lang=spa
 4	diez	diez	NUM	_	Number=Plur|NumType=Card	3	obj	_	Lang=spa
-5	los	él	PRON	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	obj	_	Lang=spa
+5	los	él	PRON	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	dislocated	_	Lang=spa
 6	que	que	SCONJ	_	_	8	mark	_	Lang=spa
-7	sal	sal	VERB	_	_	5	acl:relcl	_	Lang=spa
+7	sal	sal	VERB	_	_	8	reparandum	_	Lang=spa
 8	salimos	salir	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	Lang=spa
 9	a	a	ADP	_	_	10	mark	_	Lang=spa
 10	jugar	jugar	VERB	_	VerbForm=Inf	8	advcl	_	Lang=spa
 11	como	como	ADP	_	_	13	case	_	Lang=spa
 12	siete	siete	NUM	_	Number=Plur|NumType=Card	13	nummod	_	Lang=spa
 13	piezas	pieza	NOUN	_	Gender=Fem|Number=Plur	10	obl	_	Lang=spa
-14	or	or	X	_	_	15	cc	_	Lang=eng
-15	something	something	X	_	Number=Sing	13	conj	_	Lang=eng
-16	like	like	X	_	Number=Sing	15	compound	_	Lang=eng
-17	that	that	X	_	Number=Sing	15	compound	_	Lang=eng
+14	or	or	CCONJ	_	_	15	cc	_	Lang=eng
+15	something	something	NOUN	_	Number=Sing	13	conj	_	Lang=eng
+16	like	like	ADP	_	Number=Sing	17	case	_	Lang=eng
+17	that	that	PRON	_	Number=Sing	15	nmod	_	Lang=eng
 18	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = maria40:797
@@ -8972,13 +8972,15 @@
 # gloss[orig] = we.PRON.SUB.1P+HAVE.V.PRES done.V.PASTPART that.CONJ.[or].that.DEM.FAR in.PREP the.DET.DEF.F.SG beach.N.F.SG
 # speaker = MAR
 # labels =
-1	we've	we've	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	Lang=eng
-2	done	do	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=eng
-3	that	that	PRON	_	Number=Sing|PronType=Dem	2	obj	_	Lang=eng
-4	in	in	ADP	_	_	6	case	_	Lang=eng
-5	la	la	DET	_	Definite=Def|PronType=Art	6	det	_	Lang=spa
-6	playa	playa	NOUN	_	Number=Sing	2	obl	_	Lang=spa
-7	.	.	PUNCT	_	_	2	punct	_	_
+1-2	we've	_	_	_	_	_	_	_	_
+1	we	we've	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	Lang=eng
+2	've	_	AUX	_	_	3	aux	_	_
+3	done	do	VERB	_	Tense=Past|VerbForm=Part	0	root	_	Lang=eng
+4	that	that	PRON	_	Number=Sing|PronType=Dem	3	obj	_	Lang=eng
+5	in	in	ADP	_	_	7	case	_	Lang=eng
+6	la	la	DET	_	Definite=Def|PronType=Art	7	det	_	Lang=spa
+7	playa	playa	NOUN	_	Number=Sing	3	obl	_	Lang=spa
+8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = maria40:817
 # text = a ver cuánto queda cuánto queda en el yard .
@@ -9003,7 +9005,7 @@
 # gloss[orig] = not.ADV fix.V.2S.IMPER.PRECLITIC+TE[PRON.MF.2S] how_much.ADJ.INT.M.SG.[or].how_much.PRON.INT.M.SG stay.V.2S.IMPER.[or].stay.V.3S.PRES in.PREP the.DET.DEF.M.SG yard.N.SG
 # speaker = MAR
 # labels =
-1	no	no	ADV	_	Polarity=Neg	2	advmod	_	Lang=spa
+1	no	no	INTJ	_	Polarity=Neg	2	discourse	_	Lang=spa
 2	fíjate	fíjate	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 3	cuánto	cuánto	PRON	_	Gender=Masc|Number=Sing|PronType=Int	4	nsubj	_	Lang=spa
 4	queda	quedar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	Lang=spa
@@ -9018,10 +9020,10 @@
 # gloss[orig] = name be.V.3S.PRES down.PREP
 # speaker = MAR
 # labels =
-1	Carla	_	PROPN	_	_	2	nsubj	_	Lang=eng&spa
-2	está	estar	VERB	_	_	0	root	_	Lang=spa
-3	down	down	ADJ	_	_	2	advmod	_	Lang=eng
-4	.	_	PUNCT	_	_	2	punct	_	_
+1	Carla	_	PROPN	_	_	3	nsubj	_	Lang=eng&spa
+2	está	estar	AUX	_	_	3	cop	_	Lang=spa
+3	down	down	ADJ	_	_	0	root	_	Lang=eng
+4	.	_	PUNCT	_	_	3	punct	_	_
 
 # sent_id = maria40:879
 # text = ok can we take your garbage de la mesa ?
@@ -9029,16 +9031,16 @@
 # gloss[orig] = OK.IM can.V.123SP.PRES we.PRON.SUB.1P take.V.1P.PRES your.ADJ.POSS.2SP garbage.N.SG of.PREP the.DET.DEF.F.SG table.N.F.SG
 # speaker = MAR
 # labels =
-1	ok	ok	ADJ	_	Degree=Pos	0	root	_	Lang=eng&spa
+1	ok	ok	INTJ	_	Degree=Pos	4	discourse	_	Lang=eng&spa
 2	can	can	AUX	_	VerbForm=Fin	4	aux	_	Lang=eng
 3	we	we	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	Lang=eng
-4	take	take	VERB	_	VerbForm=Inf	1	parataxis	_	Lang=eng
+4	take	take	VERB	_	VerbForm=Inf	0	root	_	Lang=eng
 5	your	you	PRON	_	Person=2|Poss=Yes|PronType=Prs	6	nmod:poss	_	Lang=eng
 6	garbage	garbage	NOUN	_	Number=Sing	4	obj	_	Lang=eng
 7	de	de	ADP	_	_	9	case	_	Lang=spa
 8	la	la	DET	_	Definite=Def|PronType=Art	9	det	_	Lang=spa
 9	mesa	mesa	NOUN	_	Number=Sing	4	obl	_	Lang=spa
-10	?	?	PUNCT	_	_	1	punct	_	_
+10	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = maria40:895
 # text = oye el timer tuyo no funciona ?
@@ -9049,7 +9051,7 @@
 1	oye	oye	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Lang=spa
 2	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	Lang=spa
 3	timer	timer	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	Lang=eng
-4	tuyo	tuyo	DET	_	Gender=Masc|Number=Sing	3	det	_	Lang=spa
+4	tuyo	tuyo	PRON	_	Gender=Masc|Number=Sing	3	nmod	_	Lang=spa
 5	no	no	ADV	_	Polarity=Neg	6	advmod	_	Lang=spa
 6	funciona	funcionar	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	Lang=spa
 7	?	?	PUNCT	_	_	1	punct	_	_
@@ -9060,11 +9062,11 @@
 # gloss[orig] = wait.V.2S.IMPER few.ADJ more.ADJ minute.N.PL OK.IM
 # speaker = MAR
 # labels =
-1	espera	espera	X	_	_	4	det	_	Lang=spa
-2	few	few	X	_	_	4	amod	_	Lang=eng
-3	more	more	X	_	_	4	amod	_	Lang=eng
-4	minutes	minute	NOUN	_	Number=Plur	0	root	_	Lang=eng
-5	ok	ok	X	_	_	4	discourse	_	Lang=eng&spa
+1	espera	espera	VERB	_	_	0	root	_	Lang=spa
+2	few	few	ADJ	_	_	4	amod	_	Lang=eng
+3	more	more	ADV	_	_	4	amod	_	Lang=eng
+4	minutes	minute	NOUN	_	Number=Plur	1	obl	_	Lang=eng
+5	ok	ok	INTJ	_	_	4	discourse	_	Lang=eng&spa
 6	?	?	PUNCT	_	_	4	punct	_	_
 
 # sent_id = maria40:908
@@ -9087,11 +9089,13 @@
 # gloss[orig] = but.CONJ I.PRON.SUB.1S do.V.1S.PRES+NEG know.V.INFIN
 # speaker = MAR
 # labels =
-1	pero	pero	CCONJ	_	_	2	cc	_	Lang=spa
-2	I	I	PRON	_	Foreign=Yes	0	root	_	Lang=eng
-3	don't	don't	X	_	Foreign=Yes	2	flat:foreign	_	Lang=eng
-4	know	know	X	_	Foreign=Yes	2	flat:foreign	_	Lang=eng
-5	.	.	PUNCT	_	_	2	punct	_	_
+1	pero	pero	CCONJ	_	_	5	cc	_	Lang=spa
+2	I	I	PRON	_	Foreign=Yes	5	nsubj	_	Lang=eng
+3-4	don't	_	_	_	_	_	_	_	_
+3	do	don't	AUX	_	Foreign=Yes	5	aux	_	Lang=eng
+4	n't	_	ADV	_	_	5	advmod	_	_
+5	know	know	VERB	_	Foreign=Yes	0	root	_	Lang=eng
+6	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = maria40:910
 # text = quién está down ?
@@ -9378,7 +9382,7 @@
 6	hay	haber	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	csubj	_	Lang=spa
 7	el	el	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	Lang=spa
 8	mismo	mismo	ADJ	_	Gender=Masc|Number=Sing	9	amod	_	Lang=spa
-9	delay	delay	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	Lang=eng
+9	delay	delay	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	Lang=eng
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = maria40:1241
